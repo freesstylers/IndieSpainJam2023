@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+ProjectSettings/PS5Settings.json
+ProjectSettings/XboxOneGame.config
+ProjectSettings/GameCoreXboxOneSettings.asset
+ProjectSettings/GameCoreScarlettSettings.asset
