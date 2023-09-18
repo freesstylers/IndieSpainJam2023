@@ -5,12 +5,11 @@ using UnityEngine;
 public class InteractableObject : MonoBehaviour
 {
     public bool canInteract;
-    public GlowObjectCmd glowControl;
 
     // Start is called before the first frame update
     void Start()
     {
-        glowControl = gameObject.GetComponent<GlowObjectCmd>();
+        //glowControl = gameObject.GetComponent<GlowObjectCmd>();
     }
 
     // Update is called once per frame
@@ -26,13 +25,13 @@ public class InteractableObject : MonoBehaviour
 
     public void TurnOff()
     {
-        glowControl.TurnOff();
+        //glowControl.TurnOff();
         canInteract = false;
     }
 
     public void TurnOn()
     {
-        glowControl.TurnOn();
+        //glowControl.TurnOn();
         canInteract = true;
     }
 }
