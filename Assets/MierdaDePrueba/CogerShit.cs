@@ -8,6 +8,8 @@ public class CogerShit : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         PickUpItem pickedItem = other.gameObject.GetComponent<PickUpItem>();
+        if (pickedItem == null)
+            return;
         this.gameObject.GetComponent<Inventory>().AddItem(pickedItem.itemID, pickedItem.quantity);
     }
 }
