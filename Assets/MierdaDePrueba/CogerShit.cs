@@ -5,9 +5,9 @@ using UnityEngine;
 //script de prueba para ver que funcione el inventario, los objetos se recogerían a través de un diálogo tras clickar en un punto concreto del escenario.
 public class CogerShit : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider item)
+    private void OnTriggerEnter(Collider other)
     {
-        this.gameObject.GetComponent<Inventory>().AddItem(item.gameObject.GetComponent<PickUpItem>().item);
-        item.gameObject.GetComponent<PickUpItem>().PickUp();
+        PickUpItem pickedItem = other.gameObject.GetComponent<PickUpItem>();
+        this.gameObject.GetComponent<Inventory>().AddItem(pickedItem.itemID, pickedItem.quantity);
     }
 }

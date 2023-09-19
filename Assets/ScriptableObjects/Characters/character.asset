@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIdentifier: a
   dialogues:
-  - rid: 8042401332495122432
-  - rid: 8042401332495122433
-  - rid: 8042401332495122434
-  - rid: 8042401332495122435
-  - rid: 8042401332495122436
-  - rid: 8042401332495122437
-  - rid: 8042401332495122438
-  - rid: 8042401332495122439
-  - rid: 8042401332495122440
+  - rid: 5371462191482929152
+  - rid: 5371462191482929153
+  - rid: 5371462191482929154
+  - rid: 5371462191482929155
+  - rid: 5371462191482929156
+  - rid: 5371462191482929157
+  - rid: 5371462191482929158
+  - rid: 5371462191482929159
+  - rid: 5371462191482929160
   references:
     version: 2
     RefIds:
-    - rid: 8042401332495122432
+    - rid: 5371462191482929152
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:
@@ -35,7 +35,7 @@ MonoBehaviour:
         - 20
         - 400
         - 8000
-    - rid: 8042401332495122433
+    - rid: 5371462191482929153
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:
@@ -44,7 +44,7 @@ MonoBehaviour:
         - 40
         - 800
         - 16000
-    - rid: 8042401332495122434
+    - rid: 5371462191482929154
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:
@@ -53,7 +53,7 @@ MonoBehaviour:
         - 60
         - 1200
         - 24000
-    - rid: 8042401332495122435
+    - rid: 5371462191482929155
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:
@@ -62,7 +62,7 @@ MonoBehaviour:
         - 80
         - 1600
         - 32000
-    - rid: 8042401332495122436
+    - rid: 5371462191482929156
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:
@@ -71,7 +71,7 @@ MonoBehaviour:
         - 100
         - 2000
         - 40000
-    - rid: 8042401332495122437
+    - rid: 5371462191482929157
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:
@@ -80,7 +80,7 @@ MonoBehaviour:
         - 120
         - 2400
         - 48000
-    - rid: 8042401332495122438
+    - rid: 5371462191482929158
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:
@@ -89,7 +89,7 @@ MonoBehaviour:
         - 140
         - 2800
         - 56000
-    - rid: 8042401332495122439
+    - rid: 5371462191482929159
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:
@@ -98,7 +98,7 @@ MonoBehaviour:
         - 160
         - 3200
         - 64000
-    - rid: 8042401332495122440
+    - rid: 5371462191482929160
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:

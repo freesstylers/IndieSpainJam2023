@@ -4,30 +4,38 @@ using UnityEngine;
 
 public class Inventory: MonoBehaviour
 {
+ 
     public int maxitems = 6;
-    private List<Item> items;
+    private Dictionary<string, int> items;
 
     private void Start()
     {
-        items = new List<Item>();
+        items = new Dictionary<string, int>();
     }
-    public void AddItem(Item _newItem)
+    public void AddItem(string _newItemID, int _quantity)
     {
-        if(items.Count<maxitems)
-            items.Add(_newItem);
+        if (items.ContainsKey(_newItemID)){
+            items[_newItemID] += _quantity;
+            Debug.Log("Added " + _newItemID);
+        }
+        else if (items.Count < maxitems)
+        {
+            items.Add(_newItemID, _quantity);
+            Debug.Log("Added " + _newItemID);
+        }
         //en else disparar opción de intercambiar un objeto por otro con algún manager que permite disparar eventos de diálogo
         //else
         //EventManager.NewDialogue(ReplaceItemEvent(_item)) //o algo así
     }
 
-    public void ReplaceItem(Item _newItem, Item _replacedItem)
+    public void ReplaceItem(string _newItemID, int _newItemQuantity, string _replacedItemID)
     {
-        items.Remove(_replacedItem);
-        items.Add(_newItem);
+        items.Remove(_replacedItemID);
+        items[_newItemID] = _newItemQuantity;
     }
 
-    public void RemoveItem(Item _item)
+    public void RemoveItem(string _itemID)
     {
-        items.Remove(_item);
+        items.Remove(_itemID);
     }
 }
