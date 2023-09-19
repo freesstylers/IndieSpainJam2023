@@ -19,15 +19,6 @@ namespace Player
         playerAnim = GetComponent<Animator>();
         player.updateRotation = false;
     }
-    
-    void Update()
-    {
-        if (Input.GetMouseButton(0))
-        {
-            cam = Camera.main;
-            player = GetComponent<NavMeshAgent>();
-            playerAnim = GetComponent<Animator>();
-        }
 
         void Update()
         {
@@ -41,7 +32,6 @@ namespace Player
             }
 
             Animation();
-
         }
 
         private void Animation()
