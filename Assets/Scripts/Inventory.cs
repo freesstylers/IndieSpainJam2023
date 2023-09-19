@@ -38,4 +38,9 @@ public class Inventory: MonoBehaviour
     {
         items.Remove(_itemID);
     }
+
+    public bool CheckItem(string _itemID)
+    {
+        return items.ContainsKey(_itemID);
+    }
 }
