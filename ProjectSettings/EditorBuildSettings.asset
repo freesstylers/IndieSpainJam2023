@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/preload.unity
+    guid: b69d3902229d2964b83e6d2b650b37bc
+  - enabled: 1
+    path: Assets/Scenes/brisorcosas.unity
+    guid: 2eecf36f882a1e448b663aa71305a2f1
+  - enabled: 1
+    path: Assets/Scenes/eventos.unity
+    guid: 172fb0efb3894604593effd2fb7a5d1a
+  - enabled: 1
+    path: Assets/Scenes/New Scene.unity
+    guid: 65074d0d9188f7d458c8fea5c35358fb
   m_configObjects: {}
