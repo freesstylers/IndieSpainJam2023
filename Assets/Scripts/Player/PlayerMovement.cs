@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 namespace Player
 {
-    [RequireComponent(typeof(NavMesh))]
+    [RequireComponent(typeof(NavMeshAgent))]
     public class PlayerMovement : MonoBehaviour
     {
         private Camera cam;

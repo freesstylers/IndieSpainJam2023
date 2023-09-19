@@ -10,7 +10,7 @@ public class EventTrigger : MonoBehaviour
     //evento success
 
     [HideInInspector]
-    public int timeTriggered = 0;
+    public int timesTriggered = 0;
 
     [SerializeField]
     private bool canTrigger = false;
@@ -28,7 +28,7 @@ public class EventTrigger : MonoBehaviour
             if (canTrigger)
             {
                 //Salte evento
-                timeTriggered++;
+                timesTriggered++;
                 Debug.Log("Trigger event");
             }
             else
