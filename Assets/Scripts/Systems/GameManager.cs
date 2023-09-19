@@ -34,6 +34,8 @@ public class GameManager : MonoBehaviour
         //provisional esto no va a leerse de la misma manera
         Dictionary<string, List<string>> dic = CSVReader.ReadCSV("/Editor/CSVs/Files/Test.csv");
         itemsData = ItemsData.CreateInstance<ItemsData>();
+        itemsData.itemsList = new Dictionary<string, Item>();
+        itemsData.combinationTable = new Dictionary<string, Dictionary<string, string>>();
 
         foreach(string itemID in dic.Keys)
         {
@@ -41,6 +43,8 @@ public class GameManager : MonoBehaviour
             it.id = itemID;
             it.name = dic[itemID][0];
             it.description = dic[itemID][1];
+            it.combinable = true;
+            /*
             if (dic[itemID][2] == "true") it.combinable = true;
             else it.combinable = false;
             if(dic[itemID][3] != "")
@@ -48,6 +52,7 @@ public class GameManager : MonoBehaviour
                 itemsData.combinationTable[dic[itemID][3]][dic[itemID][4]] = itemID;
                 itemsData.combinationTable[dic[itemID][4]][dic[itemID][3]] = itemID;
             }
+            */
             itemsData.itemsList.Add(itemID, it);
         }
 
