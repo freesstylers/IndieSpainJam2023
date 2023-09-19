@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
         cam = Camera.main;
         player = GetComponent<NavMeshAgent>();
         playerAnim = GetComponent<Animator>();
+        player.updateRotation = false;
     }
     
     void Update()
