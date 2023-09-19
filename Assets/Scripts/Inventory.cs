@@ -11,15 +11,18 @@ public class Inventory: MonoBehaviour
     private void Start()
     {
         items = new Dictionary<string, int>();
+        
+        itemsData = GameManager.Instance.itemsData;
+
         //Todo esto por probar, la itemsdata se deberia de generar en otro sitio leyendo del csv
-        itemsData = ItemsData.CreateInstance<ItemsData>();
-        itemsData.itemsList = new Dictionary<string, Item>();
-        itemsData.combinationTable = new Dictionary<string, Dictionary<string, string>>();
-        Item it = new Item();
-        it.name = "Cock";
-        it.id = "Poronga";
-        it.description = "Very nice cock";
-        itemsData.itemsList.Add("Poronga", it);
+        //itemsData = ItemsData.CreateInstance<ItemsData>();
+        //itemsData.itemsList = new Dictionary<string, Item>();
+        //itemsData.combinationTable = new Dictionary<string, Dictionary<string, string>>();
+        //Item it = new Item();
+        //it.name = "Cock";
+        //it.id = "Poronga";
+        //it.description = "Very nice cock";
+        //itemsData.itemsList.Add("Poronga", it);
     }
     public void AddItem(string _newItemID, int _quantity)
     {
