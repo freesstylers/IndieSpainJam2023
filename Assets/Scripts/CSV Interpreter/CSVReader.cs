@@ -21,7 +21,7 @@ public static class CSVReader
 
             for (int j = 1; j < splitData.Length - 1; j++)
             {
-                ret[splitData[0]][j] = splitData[j];
+                ret[splitData[0]].Add(splitData[j]);
             }
         }
 

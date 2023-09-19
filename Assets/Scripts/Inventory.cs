@@ -8,11 +8,12 @@ public class Inventory: MonoBehaviour
     public int maxitems = 6;
     private Dictionary<string, int> items;
     public ItemsData itemsData;
+    private GameManager gm;
     private void Start()
     {
         items = new Dictionary<string, int>();
-        
-        itemsData = GameManager.Instance.itemsData;
+        gm = GameManager.Instance;
+        itemsData = gm.itemsData;
 
         //Todo esto por probar, la itemsdata se deberia de generar en otro sitio leyendo del csv
         //itemsData = ItemsData.CreateInstance<ItemsData>();
