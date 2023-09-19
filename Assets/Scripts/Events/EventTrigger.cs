@@ -12,6 +12,7 @@ public class EventTrigger : MonoBehaviour
     [HideInInspector]
     public int timeTriggered = 0;
 
+    [SerializeField]
     private bool canTrigger = false;
 
     void Start()

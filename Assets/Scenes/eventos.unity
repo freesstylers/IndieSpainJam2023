@@ -297,6 +297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxitems: 6
+  itemsData: {fileID: 0}
 --- !u!1 &196466547
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,6 +335,7 @@ MonoBehaviour:
   - Mierdon
   inputDown: 32
   timeTriggered: 0
+  canTrigger: 1
 --- !u!135 &196466549
 SphereCollider:
   m_ObjectHideFlags: 0
