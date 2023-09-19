@@ -64,15 +64,15 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - b7716510a1f36934c87976f3a81dbf3d
-  - 2c5177b11d81d824dbb064f9ac8527da
   - c88d16e5272a4e241b0ef0ac2e53b73d
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - 2c5177b11d81d824dbb064f9ac8527da
   - e7a046c753c3c3d4aacc91f6597f310d
-  - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - 52eb9df5db46521439908db3a29a1bbb
+  - b7716510a1f36934c87976f3a81dbf3d
   - 0f8eb3f400726694eb47beb1a9f94ce8
   - 46fbfdf3fc43db0458918377fd40293e
-  - 52eb9df5db46521439908db3a29a1bbb
-  - fd7c55dab0fce234b8c25f6ffca523c1
+  - 2fea114e74ecf3c4f920e1d5cc1c4c40
 --- !u!114 &-5527285865711989637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,7 +304,7 @@ MonoBehaviour:
   RealChannelSettings: []
   Plugins: []
   MasterBanks:
-  - Master
+  - Music
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
@@ -320,17 +320,17 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 0
   Platforms:
-  - {fileID: -6698373487062907389}
-  - {fileID: -5527285865711989637}
-  - {fileID: -2367603311385129944}
   - {fileID: -1733383975991249091}
+  - {fileID: -6698373487062907389}
   - {fileID: 1475443763250478927}
+  - {fileID: 8429948472576909039}
+  - {fileID: -2367603311385129944}
   - {fileID: 4597832863087533225}
-  - {fileID: 5137303574448633045}
+  - {fileID: 7938352337963845411}
+  - {fileID: -5527285865711989637}
   - {fileID: 6157633635474056409}
   - {fileID: 6572282149052087440}
-  - {fileID: 7938352337963845411}
-  - {fileID: 8429948472576909039}
+  - {fileID: 5137303574448633045}
   MigratedPlatforms: 0c000000150000000b0000000a00000009000000120000000800000005000000060000000200000001000000
 --- !u!114 &1475443763250478927
 MonoBehaviour:
