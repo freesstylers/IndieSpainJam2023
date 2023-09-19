@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -14,19 +15,25 @@ public class CSVEditor
     {
         string[] allLines = File.ReadAllLines(Application.dataPath + DialogueCSVPath);
 
-        foreach (string s in allLines)
+        CharacterScriptableObject character = ScriptableObject.CreateInstance<CharacterScriptableObject>();
+
+        character.characterIdentifier = "a";
+        character.dialogues = new List<Dialogue>();
+
+        for (int i = 0; i < allLines.Length-1; i++)
         {
-            string[] splitData = s.Split(';');
+            character.dialogues.Add(new Dialogue());
+            character.dialogues[i].fragments = new List<string>();
 
-            CharacterScriptableObject character = ScriptableObject.CreateInstance<CharacterScriptableObject>();
-            character.characterIdentifier = splitData[0];
-            character.Dialogue1 = splitData[1];
-            character.Dialogue2 = splitData[2];
-            character.Dialogue3 = splitData[3];
-            character.Dialogue4 = splitData[4];
+            string[] splitData = allLines[i].Split(',');
 
-            AssetDatabase.CreateAsset(character, $"Assets/ScriptableObjects/Characters/{character.characterIdentifier}.asset");
+            foreach (string s in splitData)
+            {
+                character.dialogues[i].fragments.Add(s);
+            }
         }
+
+        AssetDatabase.CreateAsset(character, $"Assets/ScriptableObjects/Characters/{"character"}.asset");
 
         AssetDatabase.SaveAssets();
     }

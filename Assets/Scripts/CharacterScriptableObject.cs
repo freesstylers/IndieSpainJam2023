@@ -6,9 +6,8 @@ using UnityEngine;
 
 public class CharacterScriptableObject : ScriptableObject
 {
+    [SerializeReference]
     public string characterIdentifier;
-    public string Dialogue1;
-    public string Dialogue2;
-    public string Dialogue3;
-    public string Dialogue4;
+    [SerializeReference]
+    public List<Dialogue> dialogues;
 }
