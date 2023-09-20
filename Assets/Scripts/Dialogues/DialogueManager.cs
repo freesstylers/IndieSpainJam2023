@@ -11,11 +11,13 @@ public class DialogueManager : MonoBehaviour
     Button nextDialogueButton;
     [SerializeField]
     Queue<string> sentences;
+
+    private GameObject player;
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
-
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     public void StartDialogue(Dialogue d_)
@@ -28,6 +30,7 @@ public class DialogueManager : MonoBehaviour
         text.text = sentences.Dequeue();
         text.gameObject.SetActive(true);
         nextDialogueButton.gameObject.SetActive(true);
+        player.GetComponent<Player.PlayerMovement>().SetInteracting(true);
         //Activate UI
     }
 
@@ -51,5 +54,6 @@ public class DialogueManager : MonoBehaviour
         //Deactivate UI
         text.gameObject.SetActive(false);
         nextDialogueButton.gameObject.SetActive(false);
+        player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
     }
 }

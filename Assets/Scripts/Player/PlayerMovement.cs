@@ -12,6 +12,9 @@ namespace Player
         private NavMeshAgent player;
         private Animator playerAnim;
 
+        private bool canMove = true;
+        private bool isInteracting = false;
+
         void Start()
         {
             cam = Camera.main;
@@ -22,13 +25,16 @@ namespace Player
 
         void Update()
         {
-            if (Input.GetMouseButton(0))
+            if (!isInteracting && canMove)
             {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hitPoint;
+                if (Input.GetMouseButton(0))
+                {
+                    Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+                    RaycastHit hitPoint;
 
-                if (Physics.Raycast(ray, out hitPoint))
-                    player.SetDestination(hitPoint.point);
+                    if (Physics.Raycast(ray, out hitPoint))
+                        player.SetDestination(hitPoint.point);
+                }
             }
 
             Animation();
@@ -49,5 +55,19 @@ namespace Player
             }
 
         }
+
+        public void SetMove(bool set)
+        {
+            canMove = set;
+        }
+
+        public bool GetCanMove() { return canMove; }
+
+        public void SetInteracting(bool set)
+        {
+            isInteracting = set;
+        }
+
+        public bool GetInteracting() { return isInteracting; }
     }
 }

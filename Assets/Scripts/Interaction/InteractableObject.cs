@@ -34,12 +34,16 @@ public class InteractableObject : MonoBehaviour
         else
             outline.OutlineWidth = MouseHighlightOutline;
 
-        if(Vector3.Distance(this.gameObject.transform.position, player.transform.position) < interactDistance)
+        player.GetComponent<Player.PlayerMovement>().SetMove(false);
+
+        if (Vector3.Distance(this.gameObject.transform.position, player.transform.position) < interactDistance)
             canInteract = true;
     }
 
     private void OnMouseExit()
     {
+        player.GetComponent<Player.PlayerMovement>().SetMove(true);
+
         if (!HighlightKeyOn)
             TurnOff();
         else
