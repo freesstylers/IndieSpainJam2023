@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e724a01572743f479ebac8aae552c64, type: 3}
+  m_Name: PruebaEvento
+  m_EditorClassIdentifier: 
+  characterIdentifier: b
+  dialogues:
+  - rid: 5371462191482929152
+  - rid: 5371462191482929153
+  - rid: 5371462191482929154
+  - rid: 5371462191482929155
+  - rid: 5371462191482929156
+  - rid: 5371462191482929157
+  - rid: 5371462191482929158
+  - rid: 5371462191482929159
+  - rid: 5371462191482929160
+  references:
+    version: 2
+    RefIds:
+    - rid: 5371462191482929152
+      type: {class: Dialogue, ns: , asm: Assembly-CSharp}
+      data:
+        fragments:
+        - Esto es una prueba
+        - Que cojones te esperabas, paleto
+        - Que todo funcionase a la primera?
+        - "Bueno pues te esperas imb\xE9cil"
+        - Juega Pokemon Bizarre
+    - rid: 5371462191482929153
+      type: {class: Dialogue, ns: , asm: Assembly-CSharp}
+      data:
+        fragments:
+        - Putita date otra vuelta
+        - Que no tienes los objetos
+        - Paleto de los cojones
+    - rid: 5371462191482929154
+      type: {class: Dialogue, ns: , asm: Assembly-CSharp}
+      data:
+        fragments:
+        - 3
+        - 3
+        - 60
+        - 1200
+        - 24000
+    - rid: 5371462191482929155
+      type: {class: Dialogue, ns: , asm: Assembly-CSharp}
+      data:
+        fragments:
+        - 4
+        - 4
+        - 80
+        - 1600
+        - 32000
+    - rid: 5371462191482929156
+      type: {class: Dialogue, ns: , asm: Assembly-CSharp}
+      data:
+        fragments:
+        - 5
+        - 5
+        - 100
+        - 2000
+        - 40000
+    - rid: 5371462191482929157
+      type: {class: Dialogue, ns: , asm: Assembly-CSharp}
+      data:
+        fragments:
+        - 6
+        - 6
+        - 120
+        - 2400
+        - 48000
+    - rid: 5371462191482929158
+      type: {class: Dialogue, ns: , asm: Assembly-CSharp}
+      data:
+        fragments:
+        - 7
+        - 7
+        - 140
+        - 2800
+        - 56000
+    - rid: 5371462191482929159
+      type: {class: Dialogue, ns: , asm: Assembly-CSharp}
+      data:
+        fragments:
+        - 8
+        - 8
+        - 160
+        - 3200
+        - 64000
+    - rid: 5371462191482929160
+      type: {class: Dialogue, ns: , asm: Assembly-CSharp}
+      data:
+        fragments:
+        - 9
+        - 9
+        - 180
+        - 3600
+        - 72000

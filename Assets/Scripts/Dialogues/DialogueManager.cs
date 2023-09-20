@@ -12,12 +12,16 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     Queue<string> sentences;
 
+    public static DialogueManager instance_ = null;
+
     private GameObject player;
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
         player = GameObject.FindGameObjectWithTag("Player");
+        if (instance_ == null)
+            instance_ = this;
     }
 
     public void StartDialogue(Dialogue d_)
