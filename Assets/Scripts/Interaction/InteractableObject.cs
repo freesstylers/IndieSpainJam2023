@@ -14,9 +14,14 @@ public class InteractableObject : MonoBehaviour
 
     public bool HighlightKeyOn = false;
 
+    private GameObject player;
+
+    public float interactDistance = 2.0f;
+
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
         outline = gameObject.GetComponent<Outline>();
         outline.enabled = false;
     }
@@ -28,7 +33,9 @@ public class InteractableObject : MonoBehaviour
             TurnOn();
         else
             outline.OutlineWidth = MouseHighlightOutline;
-        canInteract = true;
+
+        if(Vector3.Distance(this.gameObject.transform.position, player.transform.position) < interactDistance)
+            canInteract = true;
     }
 
     private void OnMouseExit()
@@ -64,5 +71,16 @@ public class InteractableObject : MonoBehaviour
             outline.OutlineWidth = MouseHighlightOutline;
             TurnOff();
         }
+    }
+
+    public void OnMouseUp()
+    {
+        if(canInteract)
+            InteractCallback();
+    }
+
+    public virtual void InteractCallback()
+    {
+        //Este es el padre, no deberia hacer nada, los hijos heredaran
     }
 }

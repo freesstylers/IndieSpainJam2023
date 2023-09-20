@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField]
-    TMPro.TextMeshProUGUI text;
+    TMPro.TextMeshProUGUI text;    
+    [SerializeField]
+    Button nextDialogueButton;
     [SerializeField]
     Queue<string> sentences;
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
-        StartDialogue(GetComponent<DialogueTrigger>().test.dialogues[0]);
+
     }
 
     public void StartDialogue(Dialogue d_)
@@ -22,7 +25,9 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(s);
         }
 
+        text.text = sentences.Dequeue();
         text.gameObject.SetActive(true);
+        nextDialogueButton.gameObject.SetActive(true);
         //Activate UI
     }
 
@@ -45,5 +50,6 @@ public class DialogueManager : MonoBehaviour
     {
         //Deactivate UI
         text.gameObject.SetActive(false);
+        nextDialogueButton.gameObject.SetActive(false);
     }
 }

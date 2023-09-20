@@ -30,11 +30,11 @@ MonoBehaviour:
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
         fragments:
-        - 1
-        - 1
-        - 20
-        - 400
-        - 8000
+        - Esto es una prueba
+        - Que cojones te esperabas, paleto
+        - Que todo funcionase a la primera?
+        - "Bueno pues te esperas imb\xE9cil"
+        - Juega Pokemon Bizarre
     - rid: 5371462191482929153
       type: {class: Dialogue, ns: , asm: Assembly-CSharp}
       data:
