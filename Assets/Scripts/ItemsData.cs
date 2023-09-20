@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [Serializable]
 public struct Item
@@ -14,6 +15,7 @@ public struct Item
     public string description;
     [SerializeField]
     public bool combinable;
+    public Sprite sprite;
 }
 public class ItemsData
 {
