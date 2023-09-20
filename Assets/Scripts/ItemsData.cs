@@ -15,10 +15,15 @@ public struct Item
     [SerializeField]
     public bool combinable;
 }
-[CreateAssetMenu]
-public class ItemsData : ScriptableObject
+public class ItemsData
 {
     public Dictionary<string, Item> itemsList;
     public Dictionary<string, Dictionary<string, string>> combinationTable;
+
+    public ItemsData()
+    {
+        itemsList = new Dictionary<string, Item>();
+        combinationTable = new Dictionary<string, Dictionary<string, string>>();
+    }
 
 }

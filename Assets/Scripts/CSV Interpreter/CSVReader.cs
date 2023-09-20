@@ -13,13 +13,13 @@ public static class CSVReader
 
         string[] allLines = File.ReadAllLines(Application.dataPath + path);
 
-        for (int i = 1; i < allLines.Length - 1; i++)
+        for (int i = 1; i < allLines.Length; i++)
         {
             string[] splitData = allLines[i].Split(',');
 
             ret[splitData[0]] = new List<string>();
 
-            for (int j = 1; j < splitData.Length - 1; j++)
+            for (int j = 1; j < splitData.Length; j++)
             {
                 ret[splitData[0]].Add(splitData[j]);
             }
