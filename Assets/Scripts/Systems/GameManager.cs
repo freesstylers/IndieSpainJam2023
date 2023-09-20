@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
 
         foreach(string itemID in itemsInfodic.Keys)
         {
-            Item it;
+            Item it = new Item();
             it.id = itemID;
 
             List<string> currentItemEntry = itemsInfodic[itemID];
