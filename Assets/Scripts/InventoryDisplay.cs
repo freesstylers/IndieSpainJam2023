@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class InventoryDisplay : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Inventory inventory;
+
+
+    public void ReadyInventory()
     {
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         
