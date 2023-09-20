@@ -349,7 +349,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 05d116d9cd87cea498a896eabdc3dc94, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1045,6 +1045,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   test: {fileID: 11400000, guid: 34f213ad616dbfb4bad56810c22b3139, type: 2}
+--- !u!1 &2134721430 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3872151124060948749, guid: c0330d26ca1a85f4993ef6e98ee3e940,
+    type: 3}
+  m_PrefabInstance: {fileID: 3872151125199934406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2134721437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134721430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8f380667e436e43bcd3488376c5ebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nItems:
+  - Poronga
+  - Patito
+  inputDown: 32
+  timesTriggered: 0
+  itemDialog: {fileID: 11400000, guid: 402a1256e19da8c4d92df3d24c316644, type: 2}
 --- !u!1001 &3872151125199934406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1111,6 +1135,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872151124060948756, guid: c0330d26ca1a85f4993ef6e98ee3e940,
+        type: 3}
+      propertyPath: ev
+      value: 
+      objectReference: {fileID: 2134721437}
+    - target: {fileID: 3872151124060948756, guid: c0330d26ca1a85f4993ef6e98ee3e940,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3872151124060948756, guid: c0330d26ca1a85f4993ef6e98ee3e940,
         type: 3}
