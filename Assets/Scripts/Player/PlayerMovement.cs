@@ -12,17 +12,17 @@ namespace Player
         private NavMeshAgent player;
         private Animator playerAnim;
 
-    void Start()
-    {
-        cam = Camera.main;
-        player = GetComponent<NavMeshAgent>();
-        playerAnim = GetComponent<Animator>();
-        player.updateRotation = false;
-    }
+        void Start()
+        {
+            cam = Camera.main;
+            player = GetComponent<NavMeshAgent>();
+            playerAnim = GetComponent<Animator>();
+            player.updateRotation = false;
+        }
 
         void Update()
         {
-            if (Input.GetMouseButton(1))
+            if (Input.GetMouseButton(0))
             {
                 Ray ray = cam.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hitPoint;
