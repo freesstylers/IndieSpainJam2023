@@ -9,12 +9,13 @@ public class DialogueManager : MonoBehaviour
     TMPro.TextMeshProUGUI text;    
     [SerializeField]
     Button nextDialogueButton;
-    [SerializeField]
-    Queue<string> sentences;
+
     [SerializeField]
     public float dialogSpeed = 20;
     [SerializeField]
     public AudioClip[] typingSounds;
+
+    public List<string> sentences; //Para poder comprobarlo desde el inspector
 
     public static DialogueManager instance_ = null;
 
@@ -26,7 +27,7 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sentences = new Queue<string>();
+        sentences = new List<string>();
         player = GameObject.FindGameObjectWithTag("Player");
 
         aSourceCharacterEffect = GetComponents<AudioSource>()[0];
@@ -40,13 +41,14 @@ public class DialogueManager : MonoBehaviour
     {
         foreach (string s in d_.fragments)
         {
-            sentences.Enqueue(s);
+            sentences.Add(s);
         }
         if(startDialogEffect != null)
         {
             aSourceCharacterEffect.PlayOneShot(startDialogEffect);
         }
         DisplayNextSentence();
+
         text.gameObject.SetActive(true);
         nextDialogueButton.gameObject.SetActive(true);
         player.GetComponent<Player.PlayerMovement>().SetInteracting(true);
@@ -61,8 +63,10 @@ public class DialogueManager : MonoBehaviour
             {
                 StopCoroutine(displayLineCoroutine);
             }
-            string s = sentences.Dequeue();
-            
+
+            string s = sentences[0];
+            sentences.RemoveAt(0);
+
             displayLineCoroutine = StartCoroutine(progressiveSentenceDisplay(s));
             //UI to show s;
             //text.text = s;

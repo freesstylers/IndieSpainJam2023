@@ -33,7 +33,11 @@ namespace Player
                     RaycastHit hitPoint;
 
                     if (Physics.Raycast(ray, out hitPoint))
+                    {
                         player.SetDestination(hitPoint.point);
+                        timeCount = 0.0f;
+                        StartCoroutine(movementAnimation());
+                    }
                 }
             }
 
@@ -69,5 +73,28 @@ namespace Player
         }
 
         public bool GetInteracting() { return isInteracting; }
+
+        bool rotateLeft = true;
+        
+        [SerializeField]
+        float timeCount = 0.0f;
+
+        [SerializeField]
+        float MaxAngleDeflection = 10.0f;
+        [SerializeField]
+        float SpeedOfPendulum = 0.5f;
+
+        IEnumerator movementAnimation()
+        {
+            while (player.remainingDistance > player.stoppingDistance)
+            {
+                float angle = MaxAngleDeflection * Mathf.Sin(timeCount * SpeedOfPendulum);
+                transform.localRotation = Quaternion.Euler(0, 0, angle);
+
+                timeCount += Time.deltaTime;
+
+                yield return null;
+            }
+        }
     }
 }
