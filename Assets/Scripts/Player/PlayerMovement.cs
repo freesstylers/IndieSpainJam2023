@@ -29,13 +29,13 @@ namespace Player
             {
                 if (Input.GetMouseButton(0))
                 {
+                    timeCount = 0.0f;
                     Ray ray = cam.ScreenPointToRay(Input.mousePosition);
                     RaycastHit hitPoint;
 
                     if (Physics.Raycast(ray, out hitPoint))
                     {
                         player.SetDestination(hitPoint.point);
-                        timeCount = 0.0f;
                         StartCoroutine(movementAnimation());
                     }
                 }
