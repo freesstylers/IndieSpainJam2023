@@ -23,6 +23,8 @@ MonoBehaviour:
   - rid: 5371462191482929158
   - rid: 5371462191482929159
   - rid: 5371462191482929160
+  characterSoundEffect:
+  - {fileID: 8300000, guid: 5e3f618d37d18d84a98dbdfca9666f68, type: 3}
   references:
     version: 2
     RefIds:

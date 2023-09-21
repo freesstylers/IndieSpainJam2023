@@ -15,17 +15,21 @@ public class EventTrigger : MonoBehaviour
 
     public void TriggerEvent(bool hasItems)
     {
+        AudioClip soundEffect=null;
+        if (itemDialog.characterSoundEffect != null)
+            soundEffect = itemDialog.characterSoundEffect[UnityEngine.Random.Range(0, itemDialog.characterSoundEffect.Length)];
+
         if (hasItems)
         {
             //Salte evento
-            DialogueManager.instance_.StartDialogue(itemDialog.dialogues[0]);
+            DialogueManager.instance_.StartDialogue(itemDialog.dialogues[0], soundEffect);
             timesTriggered++;
             Debug.Log("Trigger event");
         }
         else
         {
             //evento de que no puede
-            DialogueManager.instance_.StartDialogue(itemDialog.dialogues[1]);
+            DialogueManager.instance_.StartDialogue(itemDialog.dialogues[1], itemDialog.characterSoundEffect[UnityEngine.Random.Range(0, itemDialog.characterSoundEffect.Length)]);
         }
     }
 
