@@ -13,6 +13,7 @@ namespace Player
         private Animator playerAnim;
 
         private bool canMove = true;
+        private bool isMoving = false;
         private bool isInteracting = false;
 
         void Start()
@@ -25,7 +26,7 @@ namespace Player
 
         void Update()
         {
-            if (!isInteracting && canMove)
+            if (!isInteracting && canMove && !isMoving)
             {
                 if (Input.GetMouseButton(0))
                 {
@@ -36,6 +37,7 @@ namespace Player
                     {
                         player.SetDestination(hitPoint.point);
                         timeCount = 0.0f;
+                        isMoving = true;
                         StartCoroutine(movementAnimation());
                     }
                 }
@@ -82,7 +84,7 @@ namespace Player
         [SerializeField]
         float MaxAngleDeflection = 10.0f;
         [SerializeField]
-        float SpeedOfPendulum = 0.5f;
+        float SpeedOfPendulum = 50.0f;
 
         IEnumerator movementAnimation()
         {
@@ -95,6 +97,7 @@ namespace Player
 
                 yield return null;
             }
+            isMoving = false;
         }
     }
 }
