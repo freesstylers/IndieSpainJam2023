@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [Serializable]
 public struct Item
@@ -14,11 +15,17 @@ public struct Item
     public string description;
     [SerializeField]
     public bool combinable;
+    public Sprite sprite;
 }
-[CreateAssetMenu]
-public class ItemsData : ScriptableObject
+public class ItemsData
 {
     public Dictionary<string, Item> itemsList;
     public Dictionary<string, Dictionary<string, string>> combinationTable;
+
+    public ItemsData()
+    {
+        itemsList = new Dictionary<string, Item>();
+        combinationTable = new Dictionary<string, Dictionary<string, string>>();
+    }
 
 }

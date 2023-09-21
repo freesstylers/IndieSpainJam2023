@@ -46,6 +46,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.log
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -74,3 +75,6 @@ ProjectSettings/PS5Settings.json
 ProjectSettings/XboxOneGame.config
 ProjectSettings/GameCoreXboxOneSettings.asset
 ProjectSettings/GameCoreScarlettSettings.asset
+
+fmod_editor.log
+/[Aa]ssets/[Pp]lugins/FMOD/Cache/*

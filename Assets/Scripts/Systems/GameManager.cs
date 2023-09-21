@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public string itemInfoCSVPath = "/Editor/CSVs/Files/ItemsInfoTest.csv";
+    public string itemDescriptionCSVPath = "/Editor/CSVs/Files/ItemsDescriptionTest.csv";
     public static GameManager Instance { get; private set; }
 
     public DialogueManager dialogueManager;
 
     public ItemsData itemsData;
+
+    public enum ItemsInfoColumns {KEYNAME, KEYDESCRIPTION, COMBINABLE, ELEMENT1, ELEMENT2 }
+    public enum Language {ES, EN, CAT, EUS, GAL, VAL};
+
+    public Language currentLanguage;
 
     void Awake()
     {
@@ -31,28 +38,43 @@ public class GameManager : MonoBehaviour
     }
 
     void GenerateItemData(){
-        //provisional esto no va a leerse de la misma manera
-        Dictionary<string, List<string>> dic = CSVReader.ReadCSV("/Editor/CSVs/Files/Test.csv");
-        itemsData = ItemsData.CreateInstance<ItemsData>();
-        itemsData.itemsList = new Dictionary<string, Item>();
-        itemsData.combinationTable = new Dictionary<string, Dictionary<string, string>>();
+        Dictionary<string, List<string>> itemsInfodic = CSVReader.ReadCSV(itemInfoCSVPath);
+        Dictionary<string, List<string>> itemsDescdic = CSVReader.ReadCSV(itemDescriptionCSVPath);
 
-        foreach(string itemID in dic.Keys)
+        itemsData = new ItemsData();
+
+        foreach(string itemID in itemsInfodic.Keys)
         {
-            Item it;
+            Item it = new Item();
             it.id = itemID;
-            it.name = dic[itemID][0];
-            it.description = dic[itemID][1];
-            it.combinable = true;
-            /*
-            if (dic[itemID][2] == "true") it.combinable = true;
+
+            List<string> currentItemEntry = itemsInfodic[itemID];
+
+            string keyName;
+            string keyDesc;
+
+            keyName = currentItemEntry[(int)ItemsInfoColumns.KEYNAME];
+            keyDesc = currentItemEntry[(int)ItemsInfoColumns.KEYDESCRIPTION];
+
+            it.name = itemsDescdic[keyName][(int)currentLanguage];
+            it.description = itemsDescdic[keyDesc][(int)currentLanguage];
+
+            if (currentItemEntry[(int)ItemsInfoColumns.COMBINABLE] == "si") it.combinable = true;
             else it.combinable = false;
-            if(dic[itemID][3] != "")
+
+            if (itemsInfodic.ContainsKey(currentItemEntry[(int)ItemsInfoColumns.ELEMENT1]) && itemsInfodic.ContainsKey(currentItemEntry[(int)ItemsInfoColumns.ELEMENT2]))
             {
-                itemsData.combinationTable[dic[itemID][3]][dic[itemID][4]] = itemID;
-                itemsData.combinationTable[dic[itemID][4]][dic[itemID][3]] = itemID;
+                string element1 = currentItemEntry[(int)ItemsInfoColumns.ELEMENT1], element2 = currentItemEntry[(int)ItemsInfoColumns.ELEMENT2];
+
+                if (!itemsData.combinationTable.ContainsKey(element1))
+                    itemsData.combinationTable.Add(element1, new Dictionary<string, string>());
+
+                if (!itemsData.combinationTable.ContainsKey(element2))
+                    itemsData.combinationTable.Add(element2, new Dictionary<string, string>());
+
+                itemsData.combinationTable[element1].Add(element2, itemID);
+                itemsData.combinationTable[element2].Add(element1, itemID);
             }
-            */
             itemsData.itemsList.Add(itemID, it);
         }
 

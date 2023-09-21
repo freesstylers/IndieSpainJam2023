@@ -214,7 +214,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 00aa7f1a8e5c59a4d84fc524db718ffb, type: 2}
+  - {fileID: 2100000, guid: 3274a1e889976ec468a6906919a76c8d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -251,14 +251,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105384357}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.99998385, z: -0, w: -0.005685654}
   m_LocalPosition: {x: -3.53, y: 1.26, z: -3.63}
-  m_LocalScale: {x: 0.76, y: 1.69, z: 0.7}
+  m_LocalScale: {x: 1.102608, y: 1.0189581, z: 1.0155599}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180.652, z: 0}
 --- !u!114 &105384364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,7 +297,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxitems: 6
-  itemsData: {fileID: 0}
 --- !u!1 &241403254
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,6 +395,118 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &865030012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865030017}
+  - component: {fileID: 865030016}
+  - component: {fileID: 865030015}
+  - component: {fileID: 865030014}
+  - component: {fileID: 865030013}
+  m_Layer: 0
+  m_Name: Vegeta(recogible)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &865030013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865030012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60393c024d817c94096d010361dac3c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: vegeta
+  quantity: 1
+--- !u!135 &865030014
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865030012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &865030015
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865030012}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a08fc2092ba1fc544b768db87b1ba4c0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &865030016
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865030012}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &865030017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865030012}
+  m_LocalRotation: {x: 0.4552314, y: 0.5831933, z: 0.37267512, w: 0.5601458}
+  m_LocalPosition: {x: -2.35, y: 1.41, z: 3.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 4.319, y: 95.45, z: 72.023}
 --- !u!1 &903757397
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +521,7 @@ GameObject:
   - component: {fileID: 903757398}
   - component: {fileID: 903757402}
   m_Layer: 0
-  m_Name: Poronga(recogible)
+  m_Name: Goku(recogible)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -449,7 +560,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f4eeb01e0578b9f4490298161b0bf12f, type: 2}
+  - {fileID: 2100000, guid: f0b6f1454a827904d854ac2f90638149, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -486,14 +597,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903757397}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.38158345, y: 0.627605, z: 0.54374117, w: 0.4060192}
   m_LocalPosition: {x: 3.64, y: 1.41, z: 3.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -21.879, y: 94.883, z: 82.727}
 --- !u!114 &903757402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,7 +617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60393c024d817c94096d010361dac3c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemID: Poronga
+  itemID: goku
   quantity: 1
 --- !u!1 &1411283544
 GameObject:
@@ -655,8 +766,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7cbde135eeff6b4fae1370b309ca445, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemInfoCSVPath: /Editor/CSVs/Files/ItemsInfoTest.csv
+  itemDescriptionCSVPath: /Editor/CSVs/Files/ItemsDescriptionTest.csv
   dialogueManager: {fileID: 0}
-  itemsData: {fileID: 0}
+  currentLanguage: 4
 --- !u!4 &1747247946
 Transform:
   m_ObjectHideFlags: 0

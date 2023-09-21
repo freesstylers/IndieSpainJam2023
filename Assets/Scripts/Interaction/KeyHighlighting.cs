@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEditor.SearchService;
+#endif
 using UnityEngine;
 
 public class KeyHighlighting : MonoBehaviour
