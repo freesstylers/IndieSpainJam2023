@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public string itemInfoCSVPath = "/CSVs/Files/ItemsInfoTest.csv";
-    public string itemDescriptionCSVPath = "/CSVs/Files/ItemsDescriptionTest.csv";
+    public TextAsset itemInfoCSVAsset;
+    public TextAsset itemDescriptionCSVAsset;
     public static GameManager Instance { get; private set; }
 
     public DialogueManager dialogueManager;
@@ -40,13 +40,14 @@ public class GameManager : MonoBehaviour
     void GenerateItemData()
     {
 
-        Debug.Log("FALTA EL GENERAR OBJETOS!");
+        //PLAY AUDIO SI NO ES NULL!!!!!!!!!!!
+        Debug.Log("FALTA EL PLAY DEL AUDIO DE TYPING!");
 
         return;
 
 
-        Dictionary<string, List<string>> itemsInfodic = CSVReader.ReadCSV(itemInfoCSVPath);
-        Dictionary<string, List<string>> itemsDescdic = CSVReader.ReadCSV(itemDescriptionCSVPath);
+        Dictionary<string, List<string>> itemsInfodic = CSVReader.ReadCSV(itemInfoCSVAsset);
+        Dictionary<string, List<string>> itemsDescdic = CSVReader.ReadCSV(itemDescriptionCSVAsset);
 
         itemsData = new ItemsData();
 

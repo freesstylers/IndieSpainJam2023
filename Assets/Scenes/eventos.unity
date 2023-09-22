@@ -907,6 +907,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3127998613150831983, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: dialogueCSVPath
+      value: CSVs/Files/dialogos
+      objectReference: {fileID: 0}
     - target: {fileID: 3469424220416964365, guid: 9fb42a51ad97741499fbf73b6085e445,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

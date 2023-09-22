@@ -17,7 +17,7 @@ public class DialogueKeyHandler : MonoBehaviour
         }
     }
 
-    public string dialogueCSVPath;
+    public TextAsset dialogueCSVAsset;
 
     Dictionary<string, List<string>> keyData;
 
@@ -27,7 +27,7 @@ public class DialogueKeyHandler : MonoBehaviour
 
     void Load()
     {
-        keyData = new Dictionary<string, List<string>>(CSVReader.ReadCSV(dialogueCSVPath));
+        keyData = new Dictionary<string, List<string>>(CSVReader.ReadCSV(dialogueCSVAsset));
     }
 
     public string GetText(string key)

@@ -47,8 +47,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7cbde135eeff6b4fae1370b309ca445, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemInfoCSVPath: /CSVs/Files/ItemsInfoTest.csv
-  itemDescriptionCSVPath: /CSVs/Files/ItemsDescriptionTest.csv
+  itemInfoCSVAsset: {fileID: 4900000, guid: 3455455f99d677c45bc2368f85d8f79a, type: 3}
+  itemDescriptionCSVAsset: {fileID: 4900000, guid: b9183bdb9329e8a4888dcc62e01a4085,
+    type: 3}
   dialogueManager: {fileID: 248288928325549768}
   currentLanguage: 0
 --- !u!114 &1390873487854510411
@@ -78,7 +79,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6584ebe4dcc52594d9aa4e00c1e0d3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueCSVPath: /CSVs/Files/IndieSpainJamCSV - Dialogos.tsv
+  dialogueCSVAsset: {fileID: 2811297602134710623, guid: f1e5c9ee4bfaf4945a7a47f4c7e2bbc6,
+    type: 3}
   language: 0
   DEBUG_NO_KEYS: 0
 --- !u!1001 &7558142051929400941
