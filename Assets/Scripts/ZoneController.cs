@@ -5,7 +5,11 @@ using UnityEngine;
 
 public class ZoneController : MonoBehaviour
 {
+    public static ZoneController Instance { get; private set; }
+
     public Zone[] ZoneList;
+
+    public int startingZoneIndx = 0;
 
     [SerializeField]
     Zone currentZone;
@@ -13,47 +17,127 @@ public class ZoneController : MonoBehaviour
     [Serializable]
     public struct Zone
     {
-        public GameObject gameObject;
-        public GameObject[] ObjectsToEnableDay;
-        public GameObject[] ObjectsToEnableNight;
-        public GameObject[] ObjectsToDisableDay;
-        public GameObject[] ObjectsToDisableNight;
+        public GameObject zoneMorning;
+        public GameObject zoneAfternoon;
+        public GameObject zoneNight;
+
+        public GameObject[] EnabledItemsMorning;
+        public GameObject[] EnabledItemsAfternoon;
+        public GameObject[] EnabledItemsNight;
+
+        public GameObject[] EnabledNPCsMorning;
+        public GameObject[] EnabledNPCsAfternoon;
+        public GameObject[] EnabledNPCsNight;
     }
-
-    public void ChangeZone(Zone z)
+    private void Awake()
     {
-        //Current zone
-        currentZone.gameObject.SetActive(false);
-
-        currentZone = z;
-
-        if (true)
+        if (Instance != null)
         {
-            for (int x = 0; x < currentZone.ObjectsToEnableDay.Length; ++x)
-            {
-                if (currentZone.ObjectsToEnableDay[x] != null)
-                    currentZone.ObjectsToEnableDay[x].SetActive(false);
-            }
-
-            for (int x = 0; x < currentZone.ObjectsToDisableDay.Length; ++x)
-            {
-                if (currentZone.ObjectsToDisableDay[x] != null)
-                    currentZone.ObjectsToDisableDay[x].SetActive(true);
-            }
+            DestroyImmediate(this.gameObject);
         }
         else
         {
-            for (int x = 0; x < currentZone.ObjectsToEnableNight.Length; ++x)
-            {
-                if (currentZone.ObjectsToEnableNight[x] != null)
-                    currentZone.ObjectsToEnableNight[x].SetActive(false);
-            }
+            //Singleton
+            Instance = this;
 
-            for (int x = 0; x < currentZone.ObjectsToDisableNight.Length; ++x)
-            {
-                if (currentZone.ObjectsToDisableNight[x] != null)
-                    currentZone.ObjectsToDisableNight[x].SetActive(true);
-            }
+            //Esto no se si hará falta borrarlo
+            DontDestroyOnLoad(this.gameObject);
         }
+    }
+    public void ChangeZone(Zone z)
+    {
+        //Current zone
+        if (currentZone.zoneMorning != null)
+            currentZone.zoneMorning.SetActive(false);
+        if (currentZone.zoneAfternoon != null)
+            currentZone.zoneAfternoon.SetActive(false);
+        if (currentZone.zoneNight != null)
+            currentZone.zoneNight.SetActive(false);
+
+        DayTime currentDayTime = TimeManager.Instance.getCurrentDayTime();
+
+        switch (currentDayTime)
+        {
+            case DayTime.MORNING:
+                foreach (GameObject item in currentZone.EnabledItemsMorning)
+                {
+                    if (item != null)
+                        item.SetActive(false);
+                }
+                foreach (GameObject item in z.EnabledItemsMorning)
+                {
+                    if (item != null)
+                        item.SetActive(true);
+                }
+                foreach (GameObject npc in currentZone.EnabledNPCsMorning)
+                {
+                    if (npc != null)
+                        npc.SetActive(false);
+                }
+                foreach (GameObject npc in z.EnabledNPCsMorning)
+                {
+                    if (npc != null)
+                        npc.SetActive(true);
+                }
+                if (z.zoneMorning != null)
+                    z.zoneMorning.SetActive(true);
+                break;
+            case DayTime.AFTERNOON:
+                foreach (GameObject item in currentZone.EnabledItemsAfternoon)
+                {
+                    if (item != null)
+                        item.SetActive(false);
+                }
+                foreach (GameObject item in z.EnabledItemsAfternoon)
+                {
+                    if (item != null)
+                        item.SetActive(true);
+                }
+                foreach (GameObject npc in currentZone.EnabledNPCsAfternoon)
+                {
+                    if (npc != null)
+                        npc.SetActive(false);
+                }
+                foreach (GameObject npc in z.EnabledNPCsAfternoon)
+                {
+                    if (npc != null)
+                        npc.SetActive(true);
+                }
+                if (z.zoneAfternoon != null)
+                    z.zoneAfternoon.SetActive(true);
+                break;
+            case DayTime.NIGHT:
+                foreach (GameObject item in currentZone.EnabledItemsNight)
+                {
+                    if (item != null)
+                        item.SetActive(false);
+                }
+                foreach (GameObject item in z.EnabledItemsNight)
+                {
+                    if (item != null)
+                        item.SetActive(true);
+                }
+                foreach (GameObject npc in currentZone.EnabledNPCsNight)
+                {
+                    if (npc != null)
+                        npc.SetActive(false);
+                }
+                foreach (GameObject npc in z.EnabledNPCsNight)
+                {
+                    if (npc != null)
+                        npc.SetActive(true);
+                }
+                if (z.zoneNight != null)
+                    z.zoneNight.SetActive(true);
+                break;
+            default:
+                break;
+        }
+        currentZone = z;
+    }
+    public void LoadStartingZone()
+    {
+        if(startingZoneIndx >=0 && startingZoneIndx < ZoneList.Length)
+            ChangeZone(ZoneList[startingZoneIndx]);
     }
 }
