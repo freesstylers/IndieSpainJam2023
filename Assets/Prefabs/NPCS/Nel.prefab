@@ -216,10 +216,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7981826783115399769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b8f380667e436e43bcd3488376c5ebc, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d9de5df2a71e3047884cd595d670d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nItems: []
-  inputDown: 32
   timesTriggered: -1
-  dialogue: {fileID: 11400000, guid: 70334bcbfa66b0940b20eda77ed5dd60, type: 2}
+  data: {fileID: 11400000, guid: 5c209997cc6052b4f8b5e925f67c2a75, type: 2}

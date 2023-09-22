@@ -13,9 +13,11 @@ public class GameEventHandler : MonoBehaviour
 
     public void TriggerEvent()
     {
+        if (DialogueManager.instance_.container.activeInHierarchy)
+            return;
+
         DialogueManager.instance_.StartDialogue(data);
         timesTriggered++;
-        Debug.Log("Trigger event");
     }
 
     /// <summary>

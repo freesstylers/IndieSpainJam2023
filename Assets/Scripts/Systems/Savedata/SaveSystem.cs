@@ -37,6 +37,8 @@ public class SaveSystem : MonoBehaviour
 
     void Awake()
     {
+        return;
+
         if (SaveSystemInstance == null) //Singleton system
         {
             DontDestroyOnLoad(this);
