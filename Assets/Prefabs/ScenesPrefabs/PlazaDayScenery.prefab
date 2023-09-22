@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3467009989728444418}
   - component: {fileID: 8650935833451337166}
   - component: {fileID: 1553227268165462011}
-  - component: {fileID: 2023705333408493038}
+  - component: {fileID: 4845664163015812631}
   m_Layer: 0
   m_Name: Salida4
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &2023705333408493038
+--- !u!114 &4845664163015812631
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 500331036906111560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4a299274b188a459b76346c6f998a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cfc50b40981d8444b26d7356623bccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canInteract: 0
@@ -143,6 +143,7 @@ MonoBehaviour:
   KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
+  toZone: 
 --- !u!1 &705083510453807279
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +237,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160483263704490528}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -574,7 +575,7 @@ GameObject:
   - component: {fileID: 3999832607346564978}
   - component: {fileID: 5612636830526786484}
   - component: {fileID: 9070677343724213565}
-  - component: {fileID: 4426897614405799070}
+  - component: {fileID: 2244047809017109207}
   m_Layer: 0
   m_Name: Salida2
   m_TagString: Untagged
@@ -687,7 +688,7 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &4426897614405799070
+--- !u!114 &2244047809017109207
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -696,7 +697,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2590904199199462140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4a299274b188a459b76346c6f998a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cfc50b40981d8444b26d7356623bccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canInteract: 0
@@ -705,6 +706,7 @@ MonoBehaviour:
   KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
+  toZone: 
 --- !u!1 &3277054390493526337
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,7 +825,7 @@ GameObject:
   - component: {fileID: 8153320773926446733}
   - component: {fileID: 323425007171177559}
   - component: {fileID: 6187623267100706859}
-  - component: {fileID: 1990951923564082990}
+  - component: {fileID: 5501264375439679852}
   m_Layer: 0
   m_Name: Salida5
   m_TagString: Untagged
@@ -935,7 +937,7 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &1990951923564082990
+--- !u!114 &5501264375439679852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -944,7 +946,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3587685746741210994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4a299274b188a459b76346c6f998a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cfc50b40981d8444b26d7356623bccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canInteract: 0
@@ -953,6 +955,7 @@ MonoBehaviour:
   KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
+  toZone: 
 --- !u!1 &3758065247990594598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,7 +1062,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5625692296218673329}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1177,7 +1180,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5802318815594822833}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1258,7 +1261,7 @@ GameObject:
   - component: {fileID: 256422665271348649}
   - component: {fileID: 3421521175352013991}
   - component: {fileID: 8959801696789131466}
-  - component: {fileID: 7024583446549751209}
+  - component: {fileID: 7823927424285192394}
   m_Layer: 0
   m_Name: Salida3
   m_TagString: Untagged
@@ -1370,7 +1373,7 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &7024583446549751209
+--- !u!114 &7823927424285192394
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1379,7 +1382,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6137674185217545780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4a299274b188a459b76346c6f998a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cfc50b40981d8444b26d7356623bccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canInteract: 0
@@ -1388,6 +1391,7 @@ MonoBehaviour:
   KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
+  toZone: iglesia
 --- !u!1 &7748816667893128890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,7 +1443,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7748816667893128890}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1524,7 +1528,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: ba4086a52e4337f468e23ecd4079fd45, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 5dbc137c77061584a89263a4f8750bef, type: 2}
   m_BuildHeightMesh: 0
 --- !u!114 &5465801469669652643
 MonoBehaviour:
@@ -1695,7 +1699,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8228262882687452984}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

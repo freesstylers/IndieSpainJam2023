@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3097094677073270401}
   - component: {fileID: 4561280078538764335}
   - component: {fileID: 7037676096712371064}
-  - component: {fileID: 6034060309233805420}
+  - component: {fileID: 4404219147754829782}
   m_Layer: 0
   m_Name: Salida
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &6034060309233805420
+--- !u!114 &4404219147754829782
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,15 +134,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 858557160031933755}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4a299274b188a459b76346c6f998a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cfc50b40981d8444b26d7356623bccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canInteract: 0
+  canInteract: 1
   outline: {fileID: 7037676096712371064}
   MouseHighlightOutline: 0
   KeyHighlightOutline: 0
   HighlightKeyOn: 0
-  interactDistance: 2
+  interactDistance: 4
+  toZone: 
 --- !u!1 &1821189863494193621
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +194,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821189863494193621}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -311,7 +312,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982024297563028951}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -728,7 +729,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2808638313798945580}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -813,7 +814,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: f2a085d9d0e840646bdf6b6764d2c5c8, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: c4686216847634c41ab26cd49cfa8bc4, type: 2}
   m_BuildHeightMesh: 0
 --- !u!114 &7891632108245156877
 MonoBehaviour:
@@ -1041,7 +1042,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3134548523708440392}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1159,7 +1160,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3458926140669894318}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1277,7 +1278,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5044189215547643487}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1395,7 +1396,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7634886924505051134}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1513,7 +1514,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8880474091328149045}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

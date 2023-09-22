@@ -1333,7 +1333,7 @@ GameObject:
   - component: {fileID: 447693533924330070}
   - component: {fileID: 3229759807228360636}
   - component: {fileID: 8150812199603808973}
-  - component: {fileID: 281683004278532389}
+  - component: {fileID: 8720723769245578763}
   m_Layer: 0
   m_Name: Salida
   m_TagString: Untagged
@@ -1445,7 +1445,7 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!114 &281683004278532389
+--- !u!114 &8720723769245578763
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8688273440765154916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff4a299274b188a459b76346c6f998a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cfc50b40981d8444b26d7356623bccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canInteract: 0
@@ -1462,7 +1462,8 @@ MonoBehaviour:
   MouseHighlightOutline: 0
   KeyHighlightOutline: 0
   HighlightKeyOn: 0
-  interactDistance: 2
+  interactDistance: 4
+  toZone: plaza
 --- !u!1 &8880474091328149045
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,25 +9,29 @@ public class ZoneController : MonoBehaviour
 
     public Zone[] ZoneList;
 
-    public int startingZoneIndx = 0;
+    private Dictionary<string, Zone> zoneDic;
+
+    public string startingZone;
 
     [SerializeField]
-    Zone currentZone;
+    public string currentZone;
+
+    [Serializable]
+    public struct EnabledObjects
+    {
+        public GameObject[] Morning;
+        public GameObject[] Afternoon;
+        public GameObject[] Night;
+    }
 
     [Serializable]
     public struct Zone
     {
-        public GameObject zoneMorning;
-        public GameObject zoneAfternoon;
+        public string zoneName;
+        public GameObject zoneDay;
         public GameObject zoneNight;
 
-        public GameObject[] EnabledItemsMorning;
-        public GameObject[] EnabledItemsAfternoon;
-        public GameObject[] EnabledItemsNight;
-
-        public GameObject[] EnabledNPCsMorning;
-        public GameObject[] EnabledNPCsAfternoon;
-        public GameObject[] EnabledNPCsNight;
+        public EnabledObjects[] EnabledObjectsByDay;
     }
     private void Awake()
     {
@@ -44,100 +48,60 @@ public class ZoneController : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
         }
     }
-    public void ChangeZone(Zone z)
+
+    private void Start()
     {
-        //Current zone
-        if (currentZone.zoneMorning != null)
-            currentZone.zoneMorning.SetActive(false);
-        if (currentZone.zoneAfternoon != null)
-            currentZone.zoneAfternoon.SetActive(false);
-        if (currentZone.zoneNight != null)
-            currentZone.zoneNight.SetActive(false);
+        currentZone = startingZone;
+        zoneDic = new Dictionary<string, Zone>();
+        foreach(Zone z in ZoneList)
+        {
+            zoneDic.Add(z.zoneName, z);
+        }
+    }
 
-        DayTime currentDayTime = TimeManager.Instance.getCurrentDayTime();
-
-        switch (currentDayTime)
+    public void SetActiveZone(string zone, int day, DayTime dayTime, bool active)
+    {
+        if (!zoneDic.ContainsKey(zone)) return;
+        Zone z = zoneDic[zone];
+        switch (dayTime)
         {
             case DayTime.MORNING:
-                foreach (GameObject item in currentZone.EnabledItemsMorning)
+                z.zoneDay.SetActive(active);
+                foreach (GameObject o in z.EnabledObjectsByDay[day].Morning)
                 {
-                    if (item != null)
-                        item.SetActive(false);
+                    o.SetActive(active);
                 }
-                foreach (GameObject item in z.EnabledItemsMorning)
-                {
-                    if (item != null)
-                        item.SetActive(true);
-                }
-                foreach (GameObject npc in currentZone.EnabledNPCsMorning)
-                {
-                    if (npc != null)
-                        npc.SetActive(false);
-                }
-                foreach (GameObject npc in z.EnabledNPCsMorning)
-                {
-                    if (npc != null)
-                        npc.SetActive(true);
-                }
-                if (z.zoneMorning != null)
-                    z.zoneMorning.SetActive(true);
                 break;
             case DayTime.AFTERNOON:
-                foreach (GameObject item in currentZone.EnabledItemsAfternoon)
+                z.zoneDay.SetActive(active);
+                foreach (GameObject o in z.EnabledObjectsByDay[day].Afternoon)
                 {
-                    if (item != null)
-                        item.SetActive(false);
+                    o.SetActive(active);
                 }
-                foreach (GameObject item in z.EnabledItemsAfternoon)
-                {
-                    if (item != null)
-                        item.SetActive(true);
-                }
-                foreach (GameObject npc in currentZone.EnabledNPCsAfternoon)
-                {
-                    if (npc != null)
-                        npc.SetActive(false);
-                }
-                foreach (GameObject npc in z.EnabledNPCsAfternoon)
-                {
-                    if (npc != null)
-                        npc.SetActive(true);
-                }
-                if (z.zoneAfternoon != null)
-                    z.zoneAfternoon.SetActive(true);
                 break;
             case DayTime.NIGHT:
-                foreach (GameObject item in currentZone.EnabledItemsNight)
+                z.zoneNight.SetActive(active);
+                foreach (GameObject o in z.EnabledObjectsByDay[day].Night)
                 {
-                    if (item != null)
-                        item.SetActive(false);
+                    o.SetActive(active);
                 }
-                foreach (GameObject item in z.EnabledItemsNight)
-                {
-                    if (item != null)
-                        item.SetActive(true);
-                }
-                foreach (GameObject npc in currentZone.EnabledNPCsNight)
-                {
-                    if (npc != null)
-                        npc.SetActive(false);
-                }
-                foreach (GameObject npc in z.EnabledNPCsNight)
-                {
-                    if (npc != null)
-                        npc.SetActive(true);
-                }
-                if (z.zoneNight != null)
-                    z.zoneNight.SetActive(true);
-                break;
-            default:
                 break;
         }
-        currentZone = z;
+        if (active) currentZone = zone;
     }
-    public void LoadStartingZone()
+    public void LoadStartingZone(int day, DayTime dayTime)
     {
-        if(startingZoneIndx >=0 && startingZoneIndx < ZoneList.Length)
-            ChangeZone(ZoneList[startingZoneIndx]);
+        if (zoneDic.ContainsKey(startingZone))
+        {
+            SetActiveZone(currentZone, day, dayTime, false);
+            SetActiveZone(startingZone, day, dayTime, true);
+        }
+            
+    }
+
+    public void ChangeZone(string newZone)
+    {
+        SetActiveZone(currentZone, TimeManager.Instance.currentGameDay, TimeManager.Instance.currentDayTime, false);
+        SetActiveZone(newZone, TimeManager.Instance.currentGameDay, TimeManager.Instance.currentDayTime, true);
     }
 }
