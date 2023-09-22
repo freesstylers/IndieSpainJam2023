@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.Video.VideoPlayer;
 
 public class InteractableNPC : InteractableObject
 {
@@ -8,7 +9,7 @@ public class InteractableNPC : InteractableObject
     private CharacterScriptableObject characterInfo;    
     [SerializeField]
     private DialogueManager dialogueManager;
-    public EventHandler ev;
+    public GameEventHandler ev;
 
     public override void InteractCallback()
     {
