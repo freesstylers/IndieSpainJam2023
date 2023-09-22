@@ -24,6 +24,7 @@ public class DialogueData : ScriptableObject
     public struct DialogueText
     {
         public string key;
+        public AudioClip audioToPlay;
     }
     [Serializable]
     public struct DialogueOption
@@ -35,6 +36,7 @@ public class DialogueData : ScriptableObject
         public UnityEvent eventsToTrigger;
     }
 
+    public string dialogueTreeStart;
     [SerializeField]
     private List<DialogueTreeListObject> dialogueTreeList;
 

@@ -23,7 +23,7 @@ public class Movemento : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            inventory.TryCombineItems("goku", "vegeta");
+            //inventory.TryCombineItems("goku", "vegeta");
         }
     }
 }

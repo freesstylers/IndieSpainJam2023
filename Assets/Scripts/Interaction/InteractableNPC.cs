@@ -8,11 +8,11 @@ public class InteractableNPC : InteractableObject
     private CharacterScriptableObject characterInfo;    
     [SerializeField]
     private DialogueManager dialogueManager;
-    public EventTrigger ev;
+    public EventHandler ev;
 
     public override void InteractCallback()
     {
         //DialogueManager.instance_.StartDialogue(characterInfo.dialogues[0]);
-        ev.CanTriggerEvent(new List<string>());
+        ev.TriggerEvent();
     }
 }

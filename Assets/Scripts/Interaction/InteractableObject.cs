@@ -22,7 +22,6 @@ public class InteractableObject : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
-        outline = gameObject.GetComponent<Outline>();
         outline.enabled = false;
     }
 
