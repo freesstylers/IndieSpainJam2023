@@ -17,8 +17,24 @@ MonoBehaviour:
   - branchName: start
     dialogueTree:
       dialogue:
-      - key: DIALOGO1
+      - key: DIALOGO7
         audioToPlay: {fileID: 0}
+        focusOnSide: 2
+      - key: DIALOGO7
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: DIALOGO7
+        audioToPlay: {fileID: 0}
+        focusOnSide: 4
+      - key: DIALOGO7
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: DIALOGO7
+        audioToPlay: {fileID: 0}
+        focusOnSide: 3
+      leftSprite: {fileID: 21300000, guid: 4c6b13a2ebe708f4a82236bc8d372c62, type: 3}
+      centerSprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+      rightSprite: {fileID: 21300000, guid: 9eea4bd90c702b54d904f8c925c02fd0, type: 3}
       options:
       - key: DIALOGO2
         endDialogue: 0
@@ -39,10 +55,16 @@ MonoBehaviour:
       dialogue:
       - key: DIALOGO3
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
       - key: DIALOGO4
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
       - key: DIALOGO5
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
       options:
       - key: DIALOGO6
         endDialogue: 0
@@ -63,4 +85,8 @@ MonoBehaviour:
       dialogue:
       - key: DIALOGO7
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
       options: []

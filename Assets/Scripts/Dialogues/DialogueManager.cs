@@ -31,6 +31,12 @@ public class DialogueManager : MonoBehaviour
     public GameObject optionContainer;
     public GameObject optionPrefab;
 
+    public Image leftSprite;
+    public Image rightSprite;
+    public Image centerSprite;
+
+    public Color unfocusedTint = new Color(0.5f, 0.5f, 0.5f, 0.2f);
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -70,6 +76,20 @@ public class DialogueManager : MonoBehaviour
         //Activate UI
         text.text = "";
 
+        leftSprite.sprite = currentBranch.leftSprite;
+        leftSprite.color = unfocusedTint;
+
+        centerSprite.sprite = currentBranch.centerSprite;
+        centerSprite.color = unfocusedTint;
+
+        rightSprite.sprite = currentBranch.rightSprite;
+        rightSprite.color = unfocusedTint;
+
+        leftSprite.gameObject.SetActive(currentBranch.leftSprite != null);
+        centerSprite.gameObject.SetActive(currentBranch.centerSprite != null);
+        rightSprite.gameObject.SetActive(currentBranch.rightSprite != null);
+
+
         DisplayNextSentence();
     }
 
@@ -94,6 +114,37 @@ public class DialogueManager : MonoBehaviour
 
         if (currentBranch.dialogue.Count > index)
         {
+
+            switch (currentBranch.dialogue[index].focusOnSide)
+            {
+                case Side.None:
+                    leftSprite.color = unfocusedTint;
+                    centerSprite.color = unfocusedTint;
+                    rightSprite.color = unfocusedTint;
+                    break;
+                case Side.Left:
+                    leftSprite.color = Color.white;
+                    leftSprite.transform.SetAsLastSibling();
+                    centerSprite.color = unfocusedTint;
+                    rightSprite.color = unfocusedTint;
+                    break;
+                case Side.Center:
+                    leftSprite.color = unfocusedTint;
+                    centerSprite.color = Color.white;
+                    centerSprite.transform.SetAsLastSibling();
+                    rightSprite.color = unfocusedTint;
+                    break;
+                case Side.Right:
+                    leftSprite.color = unfocusedTint;
+                    centerSprite.color = unfocusedTint;
+                    rightSprite.color = Color.white;
+                    rightSprite.transform.SetAsLastSibling();
+                    break;
+                case Side.Keep:
+                default:
+                    break;
+            }
+
             if (displayLineCoroutine != null)
             {
                 StopCoroutine(displayLineCoroutine);
