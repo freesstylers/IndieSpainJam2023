@@ -9,7 +9,5 @@ public class CharacterScriptableObject : ScriptableObject
     [SerializeReference]
     public string characterIdentifier;
     [SerializeReference]
-    public List<Dialogue> dialogues;
-    [SerializeReference]
-    public AudioClip[] characterSoundEffect;
+    public DialogueData dialogue;
 }

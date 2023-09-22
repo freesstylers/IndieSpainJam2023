@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public string itemInfoCSVPath = "/Editor/CSVs/Files/ItemsInfoTest.csv";
-    public string itemDescriptionCSVPath = "/Editor/CSVs/Files/ItemsDescriptionTest.csv";
+    public string itemInfoCSVPath = "/CSVs/Files/ItemsInfoTest.csv";
+    public string itemDescriptionCSVPath = "/CSVs/Files/ItemsDescriptionTest.csv";
     public static GameManager Instance { get; private set; }
 
     public DialogueManager dialogueManager;
@@ -37,7 +37,14 @@ public class GameManager : MonoBehaviour
         GenerateItemData();
     }
 
-    void GenerateItemData(){
+    void GenerateItemData()
+    {
+
+        Debug.Log("FALTA EL GENERAR OBJETOS!");
+
+        return;
+
+
         Dictionary<string, List<string>> itemsInfodic = CSVReader.ReadCSV(itemInfoCSVPath);
         Dictionary<string, List<string>> itemsDescdic = CSVReader.ReadCSV(itemDescriptionCSVPath);
 

@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3872151124060948746}
   - component: {fileID: 3872151124060948745}
-  - component: {fileID: 3872151124060948747}
-  - component: {fileID: 3872151124060948756}
   m_Layer: 0
   m_Name: Nel
   m_TagString: Untagged
@@ -47,45 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b7b77425f3a6074a92762f2b6218091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3872151124060948747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3872151124060948749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
-  outlineWidth: 2
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
---- !u!114 &3872151124060948756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3872151124060948749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa856d27ffce4014cb8662c1f44a7ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canInteract: 0
-  outline: {fileID: 3872151124060948747}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
-  HighlightKeyOn: 0
-  interactDistance: 2
-  characterInfo: {fileID: 11400000, guid: 34f213ad616dbfb4bad56810c22b3139, type: 2}
-  dialogueManager: {fileID: 0}
-  ev: {fileID: 0}
 --- !u!1 &7981826783115399769
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,6 +57,10 @@ GameObject:
   - component: {fileID: 6770725138381581150}
   - component: {fileID: 8959695576576453660}
   - component: {fileID: 7455538736454656785}
+  - component: {fileID: 674685777578821182}
+  - component: {fileID: 7997727611639697839}
+  - component: {fileID: 2556639581143177778}
+  - component: {fileID: 647870595406447611}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -192,3 +155,69 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &674685777578821182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981826783115399769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &7997727611639697839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981826783115399769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
+--- !u!114 &2556639581143177778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981826783115399769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa856d27ffce4014cb8662c1f44a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canInteract: 0
+  outline: {fileID: 674685777578821182}
+  MouseHighlightOutline: 0
+  KeyHighlightOutline: 0
+  HighlightKeyOn: 0
+  interactDistance: 2
+  characterInfo: {fileID: 11400000, guid: 34f213ad616dbfb4bad56810c22b3139, type: 2}
+  dialogueManager: {fileID: 0}
+  ev: {fileID: 647870595406447611}
+--- !u!114 &647870595406447611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981826783115399769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9de5df2a71e3047884cd595d670d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timesTriggered: -1
+  data: {fileID: 11400000, guid: 5c209997cc6052b4f8b5e925f67c2a75, type: 2}

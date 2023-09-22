@@ -15,7 +15,7 @@ public static class CSVReader
 
         for (int i = 1; i < allLines.Length; i++)
         {
-            string[] splitData = allLines[i].Split(',');
+            string[] splitData = allLines[i].Split('\t');
 
             ret[splitData[0]] = new List<string>();
 

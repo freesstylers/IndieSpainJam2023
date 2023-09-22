@@ -12,29 +12,36 @@ public class DialogueData : ScriptableObject
     public struct DialogueTreeListObject
     {
         public string branchName;
+        [Header("")]
         public DialogueTree dialogueTree;
     }
     [Serializable]
     public struct DialogueTree
     {
         public List<DialogueText> dialogue;
+        [Header("")]
         public List<DialogueOption> options;
     }
     [Serializable]
     public struct DialogueText
     {
         public string key;
+        public AudioClip audioToPlay;
     }
     [Serializable]
     public struct DialogueOption
     {
         public string key;
-        public List<string> itemNeeded;
-        public List<string> flagNeeded;
+        [Header("")]
+        public bool endDialogue;
+
+        [Header("")]
         public string branchToJumpTo;
+        public List<string> itemNeeded;
         public UnityEvent eventsToTrigger;
     }
 
+    public string dialogueTreeStart;
     [SerializeField]
     private List<DialogueTreeListObject> dialogueTreeList;
 

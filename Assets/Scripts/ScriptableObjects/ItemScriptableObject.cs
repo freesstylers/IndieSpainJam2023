@@ -13,5 +13,5 @@ public class ItemScriptableObject : ScriptableObject
     [SerializeReference]
     public string itemID;
     [SerializeReference]
-    public List<Dialogue> dialogues;
+    public DialogueData dialogue;
 }

@@ -816,7 +816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1058301162}
-  nextDialogueButton: {fileID: 1959877426}
+  container: {fileID: 0}
   dialogSpeed: 12
   typingSounds:
   - {fileID: 8300000, guid: 8b86451b682f32e429a239e39ab4e24c, type: 3}
@@ -832,7 +832,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cf31ec11fe798e64db398086ffee9741, type: 3}
   - {fileID: 8300000, guid: 2d6342fa42cc2fe48a5e61caeef8a2c5, type: 3}
   - {fileID: 8300000, guid: 71ea716c0984d784eb300e0d1bfa73f0, type: 3}
-  sentences: []
+  dialogueOver: 1
+  currentBranch:
+    dialogue: []
+    options: []
 --- !u!4 &2057408716
 Transform:
   m_ObjectHideFlags: 0
