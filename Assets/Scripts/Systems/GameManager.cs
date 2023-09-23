@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
             Instance = this;
 
             DontDestroyOnLoad(this.gameObject);
+            dialogueHistory = new Queue<string>();
         }
     }
 
@@ -50,9 +51,7 @@ public class GameManager : MonoBehaviour
 
     void GenerateItemData()
     {
-
-        //PLAY AUDIO SI NO ES NULL!!!!!!!!!!!
-        Debug.Log("FALTA EL PLAY DEL AUDIO DE TYPING!");
+        Debug.Log("FALTA CARGAR INVENTARIO DEL CSV!");
 
         return;
 

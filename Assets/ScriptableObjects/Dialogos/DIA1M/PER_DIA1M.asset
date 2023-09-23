@@ -10,82 +10,59 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b537a1f13ae4bbc45b4b2964a5d9b83c, type: 3}
-  m_Name: testCSV
+  m_Name: PER_DIA1M
   m_EditorClassIdentifier: 
   dialogueTreeStart: start
   dialogueTreeList:
   - branchName: start
     dialogueTree:
       dialogue:
-      - key: DIALOGO7
+      - key: PER_DIA1M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 1
-      - key: DIALOGO7
-        audioToPlay: {fileID: 0}
-        focusOnSide: 1
-      - key: DIALOGO7
-        audioToPlay: {fileID: 0}
-        focusOnSide: 1
-      - key: DIALOGO7
-        audioToPlay: {fileID: 0}
-        focusOnSide: 1
-      - key: DIALOGO7
-        audioToPlay: {fileID: 0}
-        focusOnSide: 1
+        focusOnSide: 4
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 0}
       rightSprite: {fileID: 0}
       options:
-      - key: DIALOGO2
+      - key: PER_DIA1M_2
         endDialogue: 0
-        branchToJumpTo: canta
+        branchToJumpTo: 1
         itemNeeded: []
         eventsToTrigger:
           m_PersistentCalls:
             m_Calls: []
-      - key: FIN
-        endDialogue: 1
-        branchToJumpTo: 
-        itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
-  - branchName: canta
+  - branchName: 1
     dialogueTree:
       dialogue:
-      - key: DIALOGO3
+      - key: PER_DIA1M_3
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
-      - key: DIALOGO4
+        focusOnSide: 4
+      - key: PER_DIA1M_4
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
-      - key: DIALOGO5
-        audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 4
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 0}
       rightSprite: {fileID: 0}
       options:
-      - key: DIALOGO6
+      - key: PER_DIA1M_5
         endDialogue: 0
-        branchToJumpTo: gracias
+        branchToJumpTo: 2
         itemNeeded: []
         eventsToTrigger:
           m_PersistentCalls:
             m_Calls: []
-      - key: FIN
-        endDialogue: 1
-        branchToJumpTo: 
-        itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
-  - branchName: gracias
+  - branchName: 2
     dialogueTree:
       dialogue:
-      - key: DIALOGO7
+      - key: PER_DIA1M_6
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 4
+      - key: PER_DIA1M_7
+        audioToPlay: {fileID: 0}
+        focusOnSide: 4
+      - key: PER_DIA1M_38
+        audioToPlay: {fileID: 0}
+        focusOnSide: 4
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 0}
       rightSprite: {fileID: 0}

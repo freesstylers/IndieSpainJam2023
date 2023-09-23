@@ -458,17 +458,17 @@ PrefabInstance:
     - target: {fileID: 2591492581615290692, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.1056166
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2591492581615290692, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0418725
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2591492581615290692, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.0929794
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2591492581615290692, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}
@@ -543,17 +543,17 @@ PrefabInstance:
     - target: {fileID: 6975593616704172010, guid: 1ae70e7899830334c90c236cea2a6089,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.687281
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6975593616704172010, guid: 1ae70e7899830334c90c236cea2a6089,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.41773605
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6975593616704172010, guid: 1ae70e7899830334c90c236cea2a6089,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.477333
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6975593616704172010, guid: 1ae70e7899830334c90c236cea2a6089,
         type: 3}
@@ -755,7 +755,7 @@ PrefabInstance:
     - target: {fileID: 8577765158504102604, guid: 9fb42a51ad97741499fbf73b6085e445,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -783,17 +783,17 @@ PrefabInstance:
     - target: {fileID: 6975593616704172010, guid: 211602bbbda7f0941b27bd97398aff5f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.687281
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6975593616704172010, guid: 211602bbbda7f0941b27bd97398aff5f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.41773605
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6975593616704172010, guid: 211602bbbda7f0941b27bd97398aff5f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.477333
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6975593616704172010, guid: 211602bbbda7f0941b27bd97398aff5f,
         type: 3}
@@ -1330,6 +1330,7 @@ MonoBehaviour:
   dialogueOver: 1
   optionContainer: {fileID: 0}
   optionPrefab: {fileID: 0}
+  charNameContainer: {fileID: 0}
   leftSprite: {fileID: 0}
   rightSprite: {fileID: 0}
   centerSprite: {fileID: 0}

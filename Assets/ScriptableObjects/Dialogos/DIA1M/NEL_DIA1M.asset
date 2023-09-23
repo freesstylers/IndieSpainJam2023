@@ -10,80 +10,98 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b537a1f13ae4bbc45b4b2964a5d9b83c, type: 3}
-  m_Name: testCSV
+  m_Name: NEL_DIA1M
   m_EditorClassIdentifier: 
   dialogueTreeStart: start
   dialogueTreeList:
   - branchName: start
     dialogueTree:
       dialogue:
-      - key: DIALOGO7
+      - key: NEL_DIA1M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 1
-      - key: DIALOGO7
-        audioToPlay: {fileID: 0}
-        focusOnSide: 1
-      - key: DIALOGO7
-        audioToPlay: {fileID: 0}
-        focusOnSide: 1
-      - key: DIALOGO7
-        audioToPlay: {fileID: 0}
-        focusOnSide: 1
-      - key: DIALOGO7
-        audioToPlay: {fileID: 0}
-        focusOnSide: 1
-      leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
-      rightSprite: {fileID: 0}
-      options:
-      - key: DIALOGO2
-        endDialogue: 0
-        branchToJumpTo: canta
-        itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
-      - key: FIN
-        endDialogue: 1
-        branchToJumpTo: 
-        itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
-  - branchName: canta
-    dialogueTree:
-      dialogue:
-      - key: DIALOGO3
-        audioToPlay: {fileID: 0}
-        focusOnSide: 0
-      - key: DIALOGO4
-        audioToPlay: {fileID: 0}
-        focusOnSide: 0
-      - key: DIALOGO5
+        focusOnSide: 4
+      - key: NEL_DIA1M_2
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 0}
       rightSprite: {fileID: 0}
       options:
-      - key: DIALOGO6
+      - key: NEL_DIA1M_3
         endDialogue: 0
-        branchToJumpTo: gracias
+        branchToJumpTo: 1
         itemNeeded: []
         eventsToTrigger:
           m_PersistentCalls:
             m_Calls: []
-      - key: FIN
-        endDialogue: 1
-        branchToJumpTo: 
-        itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
-  - branchName: gracias
+  - branchName: 1
     dialogueTree:
       dialogue:
-      - key: DIALOGO7
+      - key: NEL_DIA1M_4
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_5
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_6
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
+      options:
+      - key: NEL_DIA1M_7
+        endDialogue: 0
+        branchToJumpTo: 2
+        itemNeeded: []
+        eventsToTrigger:
+          m_PersistentCalls:
+            m_Calls: []
+  - branchName: 2
+    dialogueTree:
+      dialogue:
+      - key: NEL_DIA1M_8
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_9
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_10
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_11
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_12
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
+      options:
+      - key: NEL_DIA1M_13
+        endDialogue: 0
+        branchToJumpTo: 3
+        itemNeeded: []
+        eventsToTrigger:
+          m_PersistentCalls:
+            m_Calls: []
+  - branchName: 3
+    dialogueTree:
+      dialogue:
+      - key: NEL_DIA1M_14
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_15
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_16
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_17
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: NEL_DIA1M_18
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
