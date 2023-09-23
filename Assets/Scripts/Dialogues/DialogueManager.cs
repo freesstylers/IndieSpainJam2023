@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -30,6 +31,8 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject optionContainer;
     public GameObject optionPrefab;
+
+    public GameObject charNameContainer;
 
     public Image leftSprite;
     public Image rightSprite;
@@ -76,18 +79,20 @@ public class DialogueManager : MonoBehaviour
         //Activate UI
         text.text = "";
 
-        leftSprite.sprite = currentBranch.leftSprite;
+        leftSprite.sprite = currentBranch.leftSprite.sprite;
         leftSprite.color = unfocusedTint;
 
-        centerSprite.sprite = currentBranch.centerSprite;
+        centerSprite.sprite = currentBranch.centerSprite.sprite;
         centerSprite.color = unfocusedTint;
 
-        rightSprite.sprite = currentBranch.rightSprite;
+        rightSprite.sprite = currentBranch.rightSprite.sprite;
         rightSprite.color = unfocusedTint;
 
         leftSprite.gameObject.SetActive(currentBranch.leftSprite != null);
         centerSprite.gameObject.SetActive(currentBranch.centerSprite != null);
         rightSprite.gameObject.SetActive(currentBranch.rightSprite != null);
+
+        charNameContainer.SetActive(false);
 
 
         DisplayNextSentence();
@@ -121,24 +126,31 @@ public class DialogueManager : MonoBehaviour
                     leftSprite.color = unfocusedTint;
                     centerSprite.color = unfocusedTint;
                     rightSprite.color = unfocusedTint;
+                    charNameContainer.SetActive(false);
                     break;
                 case Side.Left:
                     leftSprite.color = Color.white;
                     leftSprite.transform.SetAsLastSibling();
                     centerSprite.color = unfocusedTint;
                     rightSprite.color = unfocusedTint;
+                    charNameContainer.SetActive(true);
+                    charNameContainer.GetComponentInChildren<TextMeshProUGUI>().text = currentBranch.leftSprite.charName;
                     break;
                 case Side.Center:
                     leftSprite.color = unfocusedTint;
                     centerSprite.color = Color.white;
                     centerSprite.transform.SetAsLastSibling();
                     rightSprite.color = unfocusedTint;
+                    charNameContainer.SetActive(true);
+                    charNameContainer.GetComponentInChildren<TextMeshProUGUI>().text = currentBranch.centerSprite.charName;
                     break;
                 case Side.Right:
                     leftSprite.color = unfocusedTint;
                     centerSprite.color = unfocusedTint;
                     rightSprite.color = Color.white;
                     rightSprite.transform.SetAsLastSibling();
+                    charNameContainer.SetActive(true);
+                    charNameContainer.GetComponentInChildren<TextMeshProUGUI>().text = currentBranch.rightSprite.charName;
                     break;
                 case Side.Keep:
                 default:

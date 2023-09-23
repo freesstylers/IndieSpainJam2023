@@ -7,7 +7,7 @@ using UnityEngine;
 public class CharacterScriptableObject : ScriptableObject
 {
     [SerializeReference]
-    public string characterIdentifier;
+    public string charName;
     [SerializeReference]
-    public DialogueData dialogue;
+    public Sprite sprite;
 }
