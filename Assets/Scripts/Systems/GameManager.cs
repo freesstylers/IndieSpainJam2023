@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public DialogueManager dialogueManager;
 
     public ItemsData itemsData;
+    public ItemScriptableObject itemSprites;
 
     public enum ItemsInfoColumns {KEYNAME, KEYDESCRIPTION, COMBINABLE, ELEMENT1, ELEMENT2 }
     public enum Language {ES, EN, CAT, EUS, GAL, VAL};
@@ -51,12 +52,8 @@ public class GameManager : MonoBehaviour
 
     void GenerateItemData()
     {
-        Debug.Log("FALTA CARGAR INVENTARIO DEL CSV!");
-
-        return;
-
-
         Dictionary<string, List<string>> itemsInfodic = CSVReader.ReadCSV(itemInfoCSVAsset);
+
         Dictionary<string, List<string>> itemsDescdic = CSVReader.ReadCSV(itemDescriptionCSVAsset);
 
         itemsData = new ItemsData();
@@ -76,8 +73,9 @@ public class GameManager : MonoBehaviour
 
             it.name = itemsDescdic[keyName][(int)currentLanguage];
             it.description = itemsDescdic[keyDesc][(int)currentLanguage];
+            it.sprite = itemSprites.GetDictionary()[itemID];
 
-            if (currentItemEntry[(int)ItemsInfoColumns.COMBINABLE] == "si") it.combinable = true;
+            if (currentItemEntry[(int)ItemsInfoColumns.COMBINABLE] == "1") it.combinable = true;
             else it.combinable = false;
 
             if (itemsInfodic.ContainsKey(currentItemEntry[(int)ItemsInfoColumns.ELEMENT1]) && itemsInfodic.ContainsKey(currentItemEntry[(int)ItemsInfoColumns.ELEMENT2]))

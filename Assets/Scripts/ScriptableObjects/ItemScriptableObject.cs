@@ -4,14 +4,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
-
-public enum DialogType{ Pass, Fail, Loop }
+using static DialogueData;
 
 [CreateAssetMenu(fileName = "New Item", menuName = "FreeStylers/Spain Indie Game Jam 23/Create Item")]
 public class ItemScriptableObject : ScriptableObject
 {
-    [SerializeReference]
-    public string itemID;
-    [SerializeReference]
-    public DialogueData dialogue;
+    [Serializable]
+    public struct Item
+    {
+        [SerializeReference]
+        public string key;
+        [SerializeReference]
+        public Sprite sprite;
+    }
+
+    [SerializeField]
+    private List<Item> items;
+
+    private Dictionary<string, Sprite> itemsDictionary = null;
+
+    public Dictionary<string, Sprite> GetDictionary()
+    {
+        if (itemsDictionary == null)
+        {
+            itemsDictionary = new Dictionary<string, Sprite>();
+
+            foreach (var d in items)
+            {
+                itemsDictionary[d.key] = d.sprite;
+            }
+        }
+
+        return itemsDictionary;
+    }
+
+
 }
