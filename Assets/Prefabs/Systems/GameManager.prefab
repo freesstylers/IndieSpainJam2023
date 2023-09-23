@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6584ebe4dcc52594d9aa4e00c1e0d3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueCSVAsset: {fileID: 2811297602134710623, guid: f1e5c9ee4bfaf4945a7a47f4c7e2bbc6,
+  dialogueCSVAsset: {fileID: 2811297602134710623, guid: b34766e4838759541943bf1324eac258,
     type: 3}
   language: 0
   DEBUG_NO_KEYS: 0
