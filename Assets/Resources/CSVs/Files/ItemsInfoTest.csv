@@ -1,4 +1,4 @@
-KEY,KEY NOMBRE,KEY DESCRIPCIÓN,COMBINABLE,ELEMENTO1,ELEMENTO2
-goku,goku_n,goku_d,si,-,-
-vegeta,vegeta_n,vegeta_d,si,-,-
-gogeta,gogeta_n,gogeta_d,no,goku,vegeta
+KEY	KEY NOMBRE	KEY DESCRIPCIÓN	COMBINABLE	ELEMENTO1	ELEMENTO2
+goku	goku_n	goku_d	1	-	-
+vegeta	vegeta_n	vegeta_d	1	-	-
+gogeta	gogeta_n	gogeta_d	0	goku	vegeta

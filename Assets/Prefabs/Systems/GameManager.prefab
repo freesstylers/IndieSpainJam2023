@@ -51,6 +51,7 @@ MonoBehaviour:
   itemDescriptionCSVAsset: {fileID: 4900000, guid: b9183bdb9329e8a4888dcc62e01a4085,
     type: 3}
   dialogueManager: {fileID: 248288928325549768}
+  itemSprites: {fileID: 11400000, guid: eea3f2a6e7ecf714dafbd8981f265862, type: 2}
   currentLanguage: 0
   dialogueHistoryMax: 20
 --- !u!114 &1390873487854510411
