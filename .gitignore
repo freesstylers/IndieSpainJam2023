@@ -79,3 +79,4 @@ ProjectSettings/GameCoreScarlettSettings.asset
 fmod_editor.log
 /[Aa]ssets/[Pp]lugins/FMOD/Cache/*
 fmod_editor.log
+Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
