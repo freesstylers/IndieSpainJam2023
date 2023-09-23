@@ -10,6 +10,7 @@ public class DialogueData : ScriptableObject
 {
     public enum Side { Keep, None, Left, Center, Right };
 
+
     [Serializable]
     public struct DialogueTreeListObject
     {
@@ -21,9 +22,9 @@ public class DialogueData : ScriptableObject
     public struct DialogueTree
     {
         public List<DialogueText> dialogue;
-        public Sprite leftSprite;
-        public Sprite centerSprite;
-        public Sprite rightSprite;
+        public CharacterScriptableObject leftSprite;
+        public CharacterScriptableObject centerSprite;
+        public CharacterScriptableObject rightSprite;
         [Header("")]
         public List<DialogueOption> options;
     }

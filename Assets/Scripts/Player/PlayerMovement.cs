@@ -99,5 +99,15 @@ namespace Player
             }
             isMoving = false;
         }
+
+        private void OnMouseEnter()
+        {
+            canMove = false;
+        }
+
+        private void OnMouseExit()
+        {
+            canMove = true;
+        }
     }
 }

@@ -19,6 +19,10 @@ MonoBehaviour:
       dialogue:
       - key: Ven que te canto algo guapo.
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 11400000, guid: 66fb1d5224c208942a11c1fa86ab40e6, type: 2}
+      centerSprite: {fileID: 11400000, guid: 66fb1d5224c208942a11c1fa86ab40e6, type: 2}
+      rightSprite: {fileID: 11400000, guid: 66fb1d5224c208942a11c1fa86ab40e6, type: 2}
       options:
       - key: DALE DALE DALE
         endDialogue: 0
@@ -39,20 +43,29 @@ MonoBehaviour:
       dialogue:
       - key: AJEM AJEM AJEM
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
       - key: "Tan de b\xF3 els meus somnis ara es fessin en realitat, ara es fessin
           en realitat perqu\xF2 tinc un bon munt."
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
       - key: "\\nEn Doraemon ho pot fer, de recursos en t\xE9 molts. \\nA la butxaca
           m\xE0gica trobar\xE0 invents per tots."
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
       - key: "Voldria poder volar pel cel blau. \\n\u2014Aix\xF2 \xE9s el casquet
           volador!"
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
       - key: Ah ah ah , tu sempre guanyes Doraemon. \nAh ah ah , tu sempre guanyes
           Doraemon.
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
       - key: "Bueno, \xBFte ha molao?"
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
       options:
       - key: "Eres un put\xEDsimo crack"
         endDialogue: 0
@@ -73,4 +86,8 @@ MonoBehaviour:
       dialogue:
       - key: joder macho que voy a llorar, muchas gracias....
         audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
       options: []
