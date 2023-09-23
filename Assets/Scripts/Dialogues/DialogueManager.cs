@@ -184,6 +184,7 @@ public class DialogueManager : MonoBehaviour
             }
 
             string s = DialogueKeyHandler.Instance.GetText(currentBranch.dialogue[index].key);
+            GameManager.Instance.AddToHistory(currentBranch.dialogue[index].key);
             AudioClip audioToPlay = currentBranch.dialogue[index].audioToPlay;
             index++;
 

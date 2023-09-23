@@ -55,11 +55,11 @@ MonoBehaviour:
       - key: "Voldria poder volar pel cel blau. \\n\u2014Aix\xF2 \xE9s el casquet
           volador!"
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 2
       - key: Ah ah ah , tu sempre guanyes Doraemon. \nAh ah ah , tu sempre guanyes
           Doraemon.
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 2
       - key: "Bueno, \xBFte ha molao?"
         audioToPlay: {fileID: 0}
         focusOnSide: 0
