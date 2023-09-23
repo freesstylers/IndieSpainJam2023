@@ -1,0 +1,8 @@
+Las claves de formato de diálogos son las siguientes:
+
+XXX_DIAYZ_V
+
+XXX tres primeras letras del personaje
+Y numero del dia
+Z puede ser M T o N, Mañana Tarde o Noche
+V es la línea de diálogo
