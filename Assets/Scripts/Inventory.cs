@@ -7,6 +7,7 @@ public class Inventory: MonoBehaviour
  
     public int maxitems = 6;
     private Dictionary<string, int> items;
+    private List<string> selectedItems;
     private GameManager gm;
     public ItemsData itemsData;
     private void Start()
@@ -113,5 +114,43 @@ public class Inventory: MonoBehaviour
     public bool CheckItem(string _itemID)
     {
         return items.ContainsKey(_itemID);
+    }
+
+    public bool CheckSelectedItems(List<string> needed)
+    {
+
+        bool isOk = true;
+
+        if (needed.Count <= 0 && selectedItems.Count > 0)
+            return isOk;
+
+        if (needed == null || selectedItems == null || selectedItems.Count != needed.Count)
+            return false;
+        
+
+        foreach (string item in needed)
+        {
+            isOk &= selectedItems.Contains(item);
+
+            if (!isOk)
+                break;
+        }
+
+        return isOk;
+    }
+
+    public bool SelectItem(string item)
+    {
+        if (!items.ContainsKey(item))
+            return false;
+
+        selectedItems.Add(item);
+
+        return true;
+    }
+
+    public bool UnselectItem(string item)
+    {
+        return selectedItems.Remove(item);
     }
 }

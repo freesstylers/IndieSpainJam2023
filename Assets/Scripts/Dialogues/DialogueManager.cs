@@ -180,7 +180,7 @@ public class DialogueManager : MonoBehaviour
             {
                 GameObject g = Instantiate(optionPrefab, optionContainer.transform);
 
-                bool active = true;
+                bool active = true; //player.GetComponent<Inventory>().CheckSelectedItems(o.itemNeeded);
 
                 foreach (string i in o.itemNeeded)
                 {
