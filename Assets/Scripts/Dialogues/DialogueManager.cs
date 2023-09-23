@@ -103,6 +103,7 @@ public class DialogueManager : MonoBehaviour
         centerSprite.gameObject.SetActive(currentBranch.centerSprite != null);
         rightSprite.gameObject.SetActive(currentBranch.rightSprite != null);
 
+        charNameContainer.GetComponentInChildren<TextMeshProUGUI>().text = "";
         charNameContainer.SetActive(false);
 
 
@@ -184,7 +185,13 @@ public class DialogueManager : MonoBehaviour
             }
 
             string s = DialogueKeyHandler.Instance.GetText(currentBranch.dialogue[index].key);
-            GameManager.Instance.AddToHistory(currentBranch.dialogue[index].key);
+
+            string history = s;
+
+            if (currentBranch.dialogue[index].focusOnSide != Side.None && charNameContainer.GetComponentInChildren<TextMeshProUGUI>().text != "")
+                history = charNameContainer.GetComponentInChildren<TextMeshProUGUI>().text + ": " + s;
+
+            GameManager.Instance.AddToHistory(history);
             AudioClip audioToPlay = currentBranch.dialogue[index].audioToPlay;
             index++;
 
