@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b96f1e55-bb1c-4101-9749-10fb5939348f}">
+		<property name="assetPath">
+			<value>writting-78042-12.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.55112499999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f10affdf-8f93-439e-be14-8c7d6603b201}</destination>
+		</relationship>
+	</object>
+</objects>

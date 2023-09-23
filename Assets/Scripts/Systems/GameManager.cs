@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
 
     public Language currentLanguage;
 
+    public Queue<string> dialogueHistory;
+    public int dialogueHistoryMax;
+
     void Awake()
     {
         if (Instance != null)
@@ -29,6 +32,7 @@ public class GameManager : MonoBehaviour
             Instance = this;
 
             DontDestroyOnLoad(this.gameObject);
+            dialogueHistory = new Queue<string>();
         }
     }
 
@@ -37,11 +41,17 @@ public class GameManager : MonoBehaviour
         GenerateItemData();
     }
 
+    public void AddToHistory(string key)
+    {
+        dialogueHistory.Enqueue(key);
+
+        if(dialogueHistory.Count > dialogueHistoryMax)
+            dialogueHistory.Dequeue();
+    }
+
     void GenerateItemData()
     {
-
-        //PLAY AUDIO SI NO ES NULL!!!!!!!!!!!
-        Debug.Log("FALTA EL PLAY DEL AUDIO DE TYPING!");
+        Debug.Log("FALTA CARGAR INVENTARIO DEL CSV!");
 
         return;
 

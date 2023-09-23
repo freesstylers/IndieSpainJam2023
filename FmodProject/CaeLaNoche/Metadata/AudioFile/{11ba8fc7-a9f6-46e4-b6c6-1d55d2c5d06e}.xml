@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{11ba8fc7-a9f6-46e4-b6c6-1d55d2c5d06e}">
+		<property name="assetPath">
+			<value>DiaBosque.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>87.562448979591835</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f10affdf-8f93-439e-be14-8c7d6603b201}</destination>
+		</relationship>
+	</object>
+</objects>
