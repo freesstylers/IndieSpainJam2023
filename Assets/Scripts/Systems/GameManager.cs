@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
 
     public Language currentLanguage;
 
+    public Queue<string> dialogueHistory;
+    public int dialogueHistoryMax;
+
     void Awake()
     {
         if (Instance != null)
@@ -35,6 +38,14 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         GenerateItemData();
+    }
+
+    public void AddToHistory(string key)
+    {
+        dialogueHistory.Enqueue(key);
+
+        if(dialogueHistory.Count > dialogueHistoryMax)
+            dialogueHistory.Dequeue();
     }
 
     void GenerateItemData()
