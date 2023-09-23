@@ -36,7 +36,6 @@ public class TimeManager : MonoBehaviour
 
     public void AdvanceTime()
     {
-        ZoneController.Instance.SetActiveZone(ZoneController.Instance.currentZone, currentGameDay, currentDayTime, false);
         if (currentDayTime != DayTime.NIGHT)
             currentDayTime++;
 
@@ -47,8 +46,8 @@ public class TimeManager : MonoBehaviour
         }
         //recargar zona con el tiempo actualizado
         Debug.Log("Día: " + currentGameDay + " " + currentDayTime.ToString());
-        //ZoneController.Instance.LoadStartingZone(currentGameDay, currentDayTime);
-        ZoneController.Instance.SetActiveZone(ZoneController.Instance.startingZone, currentGameDay, currentDayTime, true);
+
+        ZoneController.Instance.ChangeZone(ZoneController.Instance.startingZone);
 
     }
 }

@@ -16,6 +16,16 @@ public class ZoneController : MonoBehaviour
     [SerializeField]
     public string currentZone;
 
+    [SerializeField]
+    public float fadeInTime;
+    [SerializeField]
+    public float fadeOutTime;
+
+    private string nextZone;
+
+    private int currentZoneDay;
+    private DayTime currentZoneDayTime;
+
     [Serializable]
     public struct EnabledObjects
     {
@@ -87,21 +97,26 @@ public class ZoneController : MonoBehaviour
                 }
                 break;
         }
-        if (active) currentZone = zone;
-    }
-    public void LoadStartingZone(int day, DayTime dayTime)
-    {
-        if (zoneDic.ContainsKey(startingZone))
+        if (active)
         {
-            SetActiveZone(currentZone, day, dayTime, false);
-            SetActiveZone(startingZone, day, dayTime, true);
+            currentZone = zone;
+            currentZoneDay = day;
+            currentZoneDayTime = dayTime;
         }
-            
     }
-
     public void ChangeZone(string newZone)
     {
-        SetActiveZone(currentZone, TimeManager.Instance.currentGameDay, TimeManager.Instance.currentDayTime, false);
-        SetActiveZone(newZone, TimeManager.Instance.currentGameDay, TimeManager.Instance.currentDayTime, true);
+        nextZone = newZone;
+        Camera.main.GetComponent<CameraEffects>().FadeToBlack(fadeOutTime, ChangeZoneCallback);
     }
+
+    public void ChangeZoneCallback()
+    {
+        SetActiveZone(currentZone, currentZoneDay, currentZoneDayTime, false);
+        
+        SetActiveZone(nextZone, TimeManager.Instance.currentGameDay, TimeManager.Instance.currentDayTime, true);
+
+        Camera.main.GetComponent<CameraEffects>().FadeFromBlack(fadeInTime, null);
+    }
+
 }

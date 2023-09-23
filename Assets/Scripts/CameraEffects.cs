@@ -22,6 +22,10 @@ public class CameraEffects : MonoBehaviour
     // Amplitude of the shake. A larger value shakes the camera harder.
     public float shakeAmount = 3.7f;
 
+    private Coroutine fadeEffectCoroutine;
+
+    public delegate void Callback();
+
     void Start()
     {
         cam = GetComponent<Camera>();
@@ -30,48 +34,59 @@ public class CameraEffects : MonoBehaviour
         timer = timeToFade;
     }
 
-    public void FadeToBlack(float t)
+    public void FadeToBlack(float t, Callback callback)
     {
-        StartCoroutine(FadeToBlackC(t));
+        if(fadeEffectCoroutine != null)
+        {
+            StopCoroutine(fadeEffectCoroutine);
+            fadeEffectCoroutine = null;
+        }
+        fadeEffectCoroutine = StartCoroutine(FadeToBlackC(t, callback));
     }
 
-    public void FadeFromBlack(float t)
+    public void FadeFromBlack(float t, Callback callback)
     {
-        StartCoroutine(FadeFromBlackC(t));
+        if (fadeEffectCoroutine != null)
+        {
+            StopCoroutine(fadeEffectCoroutine);
+            fadeEffectCoroutine = null;
+        }
+        fadeEffectCoroutine = StartCoroutine(FadeFromBlackC(t, callback));
     }
 
-    public IEnumerator FadeToBlackC(float t)
+    public IEnumerator FadeToBlackC(float t, Callback callback)
     {
         timeToFade = t;
+        timer = t;
 
         while (timeToFade > 0.0f)
         {
             timeToFade -= Time.deltaTime;
             Color c = black_.color;
-            c.a = 1 - (timeToFade/timer);
+            c.a = 1f - (timeToFade/timer);
             black_.color = c;
             yield return null;
         }
-
+        if (callback != null) callback();
         yield return null;
     }
 
-    public IEnumerator FadeFromBlackC(float t)
+    public IEnumerator FadeFromBlackC(float t, Callback callback)
     {
         timeToFade = t;
-
+        timer = t;
         while (timeToFade > 0.0f)
         {
             timeToFade -= Time.deltaTime;
             Color c = black_.color;
-            c.a = timeToFade / (255.0f * timer);
+            c.a = timeToFade / timer;
             black_.color = c;
             yield return null;
         }
-
+        if(callback!=null) callback();
         yield return null;
     }
-
+    
     public void CameraShake(float shakeDuration_)
     {
         StartCoroutine(ScreenShakeC(shakeDuration_));
