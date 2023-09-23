@@ -49,7 +49,7 @@ MonoBehaviour:
   - {fileID: 1388369722222458782}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: -4926372553657781056}
   MinDistance: 1
@@ -65,9 +65,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Noche/Localizaci\xF3n"
+  m_Name: parameter:/Noche/Localizacion
   m_EditorClassIdentifier: 
-  Name: "Localizaci\xF3n"
+  Name: Localizacion
   StudioPath: 
   Min: 0
   Max: 5
@@ -190,7 +190,7 @@ MonoBehaviour:
   - {fileID: 1388369722222458782}
   StringsBanks:
   - {fileID: 4892707854260731489}
-  cacheTime: 638310916713518407
+  cacheTime: 638311061383261747
   cacheVersion: 10
 --- !u!114 &1115966311193545797
 MonoBehaviour:
@@ -202,10 +202,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Localizaci\xF3n"
+  m_Name: parameter:/Localizacion
   m_EditorClassIdentifier: 
-  Name: "Localizaci\xF3n"
-  StudioPath: "parameter:/Localizaci\xF3n"
+  Name: Localizacion
+  StudioPath: parameter:/Localizacion
   Min: 0
   Max: 5
   Default: 0
@@ -255,10 +255,10 @@ MonoBehaviour:
   Path: FmodProject/CaeLaNoche/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638310916713518407
+  lastModified: 638311061383221850
   FileSizes:
   - Name: Desktop
-    Value: 14715552
+    Value: 14715680
   Exists: 1
 --- !u!114 &4892707854260731489
 MonoBehaviour:
@@ -275,10 +275,10 @@ MonoBehaviour:
   Path: FmodProject/CaeLaNoche/Build/Desktop/Music.strings.bank
   Name: Music.strings
   StudioPath: bank:/Music.strings
-  lastModified: 638310916713518407
+  lastModified: 638311061383261747
   FileSizes:
   - Name: Desktop
-    Value: 1156
+    Value: 1154
   Exists: 1
 --- !u!114 &4967876120868128056
 MonoBehaviour:
@@ -317,9 +317,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/Dia/Localizaci\xF3n"
+  m_Name: parameter:/Dia/Localizacion
   m_EditorClassIdentifier: 
-  Name: "Localizaci\xF3n"
+  Name: Localizacion
   StudioPath: 
   Min: 0
   Max: 5
