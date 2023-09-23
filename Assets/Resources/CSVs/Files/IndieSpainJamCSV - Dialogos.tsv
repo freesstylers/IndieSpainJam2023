@@ -1,9 +1,301 @@
 KEY	ES	EN	CAT	EUS	GAL	VAL
-DIALOGO1	A ignacio le dan miedo los espacios	(leer en inglés) A ignacio le dan miedo los espacios				
-DIALOGO2	horrible la verdad, pobrecito	(leer en inglés) horrible la verdad, pobrecito				
-DIALOGO3	soy un rebelde asi que se los pondría	(leer en inglés) soy un rebelde asi que se los pondría				
-DIALOGO4	pero me da pereza soberana que se rompa y tener que arreglarlo en 2 días	(leer en inglés) pero me da pereza soberana que se rompa y tener que arreglarlo en 2 días				
-DIALOGO5	asi que pos no	(leer en inglés) asi que pos no				
-DIALOGO6	y eso, queso	(leer en inglés) y eso, queso				
-DIALOGO7	mikumikumikumikumiku	(leer en inglés) mikumikumikumikumiku				
-FIN	FIN DIALOGO!	(leer en inglés) FIN DIALOGO!				
+PLAY	Escucha con atención...	(leer en inglés) Escucha con atención...				
+CREDITOS	Créditos	(leer en inglés) Creditos				
+CREDITOS_TIT	LAS CULPAS A:	(leer en inglés) LAS CULPAS A:				
+PROG	PROGRAMACIÓN					
+ARTE	ARTE					
+NARRATIVA	NARRATIVA					
+MUSICA	SONIDO					
+AGRADECIMIENTOS	AGRADECIMIENTOS					
+BACK	Volver					
+DEDICACION	Este juego queda dedicado a \n <b><i><size=150%>John Riccitiello</size> \n <size=80%>CEO Unity Technologies (24/10/14 - ¿25/09/23?)</size></i></b> \n por conseguir lo que nunca antes nadie logró... \n  \n Que nos planteemos usar Godot \n  \n - FreeStylers Studio	We dedicate this game to \n <b><i><size=150%>John Riccitiello</size> \n <size=80%>CEO Unity Technologies (24/10/14 - 25/09/23?)</size></i></b> \n for achieveing what we thought impossible... \n  \n Make us consider using Godot \n  \n - FreeStylers Studio				
+PER_DIA1M_1	(Perrico, un buen perrete, aunque huele a cadáver húmedo… Parece famélico como siempre, aunque eso no hace que deje de mover la cola).					
+PER_DIA1M_2	Acariciar al perrete					
+PER_DIA1M_3	(Acaricias al perrete con miedo a que una pulga descomunal te arranque un dedo).					
+PER_DIA1M_4	(Se le ve feliz, parece ir a por algo…).					
+PER_DIA1M_5	Se acerca con algo...					
+PER_DIA1M_6	(Parece que Perrico quiere ofrecerte alguna especie de objeto… Casi no puede cargar con ello).					
+PER_DIA1M_7	(Es una especie de hueso, muy grande, parece de vaca, carcomido por hasta el más infecto de los insectos).					
+PER_DIA1M_8	(Bueno, no me gustaría hacerle el feo a una criatura tan feliz. Me da tanta pena que lo único que puedo hacer es apiadarme de él).					
+MES_DIA1M_1	(Una mujer fornida junto a unas cajas nauseabundas vocifera por toda la plaza.)					
+MES_DIA1M_2	(Al acercarte, ves como sostiene una criatura acuática que por poco podría llamarse pez.)					
+MES_DIA1M_3	Preguntar por la mercancía					
+MES_DIA1M_4	Mi gente, tengo peces de todo tipo para todos, mi gente, tengo de toda clase, desde tremendas truchas a poderosos tibolones.					
+MES_DIA1M_5	Truchas y salmones pa´ hacerse unos marmitakos nítidos que embuchar entre pecho y espalda.					
+MES_DIA1M_6	Lo mejor de todo el río, pescado con mis cinco anzuelos de oro, los únicos capaces de soportar estos peces con fuerza de elefante.					
+MES_DIA1M_7	¿Cinco anzuelos de oro?					
+MES_DIA1M_8	Claro, mi gente, para hacerse con un género de esta calidad es necesario utilizar herramientas de calidad.					
+MES_DIA1M_9	Estos cinco anzuelos de oro los he ganado durante toda mi carrera como pescadora con unas técnicas milenarias que puedan dominar tremendas bestias.					
+MES_DIA1M_10	También es necesario buenos sedales, ¿eh?. Este es mi sedal especial, con este solo tienes que llegá y pescá.					
+MES_DIA1M_11	Puedo dejarte un poco, pero ten cuidado de que el sedal no se te enganche en el cuello.					
+MES_DIA1M_12	Mi prima, la Yomala, murió ahogada por un pequeño percance como ese. 					
+VIS_DIA1M_1	(Una especie de mujer decrépita y encorvada para refugiarse de la luz solar, como si se tratase de una criatura ermitaña que lleva años sin ver el sol.)					
+VIS_DIA1M_2	Pedir algo para beber					
+VIS_DIA1M_3	Esto… Lo siento… Eh, je, je… Ahora mismo solo nos queda agua para gente tan jóven… ¿Eres jóven, no? Esta luz quema mis retinas…					
+VIS_DIA1M_4	Si tan solo los turnos de noche no fueran tan duros… No se los dejaría a mi hermano… Eh, je, je…					
+VIS_DIA1M_5	Prefiero refugiarme en lugares húmedos y oscuros… Son mejores para mi piel… Je, je, je…					
+VIS_DIA1M_6	Para los niños ofreceremos un concierto en la plaza en un par de días… Je, je… No te lo pierdas…					
+VIS_DIA1M_7	El concierto					
+VIS_DIA1M_8	¿Te gusta la idea del concierto…? Mi hermano y yo llevamos preparándolo un tiempo, eh, je, je…					
+VIS_DIA1M_9	Esto de la taberna… eh… No es lo nuestro, fue lo que nos dejó padre antes de perecer… Eh, je, je… Qué hombre más triste.					
+VIS_DIA1M_10	Yo quiero… dedicarme a la música, tocar la bandurria, ¿me entiendes? Eh… je, je… 					
+VIS_DIA1M_11	Por desgracia el concierto no será nocturno… No sé si podré darle a las cuerdas correctas con tanta luz…					
+LEP_DIA1M_1	(Un hombre siniestro sacude su pluma de un lado, escribiendo sobre un cuaderno cochambroso).					
+LEP_DIA1M_2	(Una tenebrosa sonrisa se le dibuja en la cara con cada sacudida que da sobre el papel…)					
+LEP_DIA1M_3	Preguntar por el cuaderno					
+LEP_DIA1M_4	¿Me preguntáis por mi libro? Creía que en este pestilente pueblo no había nadie que se interesara por la escritura.					
+LEP_DIA1M_5	Veo que al menos las nuevas criaturas que lo habitan empiezan a tener un mínimo interés por el arte.					
+LEP_DIA1M_6	Por desgracia, Su Pequeñez, me temo que no puedo contaros nada acerca de mi cuento, je, je, je…					
+LEP_DIA1M_7	No todos los cuentos son para niños…					
+LEP_DIA1M_8	En mi opinión, deberíais salir de Cancedo cuanto antes… Es mejor que las mentes como las vuestras vuelen de este lugar cuanto antes…					
+LEP_DIA1M_9	Cancedo					
+LEP_DIA1M_10	Oh, Su Pequeñez, este pueblo está abocado al fracaso.					
+LEP_DIA1M_11	Todos sus habitantes se pudren día sí y día también en este ambiente desesperanzador y oscuro.					
+LEP_DIA1M_12	Los habitantes más sensatos huyen a la gran ciudad en busca de la purificación de sus almas, pero no saben que del inefable destino de Cancedo nunca se escapa.					
+LEP_DIA1M_13	Seguid lo que os dicte la mente… Y a lo mejor tendréis una oportunidad.					
+LEP_DIA1M_14	Pero… ¿Quién sabe? Quizás lo mejor para todas estas personas sea sumergirse en un profundo letargo.					
+LEP_DIA1M_15	A lo mejor la esperanza de todos ellos es al final la más absoluta de las desesperaciones… Je, je, je…					
+LEP_DIA1M_16	No escuchéis a este viejo cascarrabias…					
+VIT_DIA1M_1	(Una anciana con postura de acróbata se ajusta las gafas para seguir con su partida de dominó mientras no deja de hacer punto de cruz con la mano que tiene libre y… un pie.)					
+VIT_DIA1M_2	Preguntar cómo va la partida					
+VIT_DIA1M_3	Todo bajo control… Todo bajo control…					
+VIT_DIA1M_4	De todos modos, nadie se atreve a ganarme al dominó…					
+VIT_DIA1M_5	Ya sabes, una anciana tiene ciertos recursos que nadie quería que usasen en su contra.					
+VIT_DIA1M_6	Yo lo sé todo de cada uno de los habitantes de Cancedo… Y estoy segura de que Molino no querría que la gente sepa su gran oscuro secreto.					
+VIT_DIA1M_7	Cuando me rechinan los dientes, puedo sentir la perturbación de un chismorreo en el aire…					
+VIT_DIA1M_8	La información es oro, la información es oro…					
+VIT_DIA1M_9	También es oro, ganar al dominó… Tu turno, Molino…					
+VIT_DIA1M_10	Preguntar qué está tejiendo					
+VIT_DIA1M_11	Son un par de calcetines para mi nieto…					
+VIT_DIA1M_12	Es un poco raro y va caminando a gatas a pesar de ser ya muy mayor…					
+VIT_DIA1M_13	Y lo babea todo…					
+VIT_DIA1M_14	Y le rechinan los dientes… Como a mí…					
+VIT_DIA1M_15	Por suerte le puedo buscar recambio cada poco tiempo en el emporio de Suspinicius… Ese hombre tiene de todo, incluso unos dientes para esta anciana.					
+VIT_DIA1M_16	¡Mira como brilla la que tengo ahora… Cof… Cof…!					
+VIT_DIA1M_17	De hecho, ya no necesito la anterior, puedes quedártela, seguro que le encuentras algún uso.					
+MOL_DIA1M_1	(Un hombre completamente normal, de estatura media y disposición atlética. Se le ve pensativo, planteándose qué ficha de dominó va a colocar esta vez).					
+MOL_DIA1M_2	Preguntar por su relación con la anciana					
+MOL_DIA1M_3	¿Con Doña Vita? Bueno, nos conocimos hace un tiempo.					
+MOL_DIA1M_4	Cachis, debería haber colocado la pareja de tres…					
+MOL_DIA1M_5	Un día estábamos tomando algo en la taberna, aquí cerquita. Mencionó algo sobre el dominó, y claro…					
+MOL_DIA1M_6	¿Por qué habré hecho eso? Estaba claro que iba a tener alguna ficha con un seis.					
+MOL_DIA1M_7	El caso es que ahora me paso por aquí prácticamente todos los días. Es una casa muy cómoda para alguien como yo.					
+MOL_DIA1M_8	Mi casa… Bueno, en general la casa de un mago suele estar desordenada.					
+MOL_DIA1M_9	Y el dinero que pierdo apostando al dominó es dinero que no puedo invertir en un sirviente decente…					
+MOL_DIA1M_10	Ah… La dura vida del mago… No doy a basto con esta señora.					
+MOL_DIA1M_11	Preguntar por el tiempo					
+MOL_DIA1M_12	Algo me dice que estos días va a hacer viento…					
+MOL_DIA1M_13	No sé, es como si pudiera notarlo.					
+MOL_DIA1M_14	Será que soy del norte.					
+MOL_DIA1M_15	Ah, quién pudiera estar en lo alto de una colina para disfrutarlo…					
+MOL_DIA1M_16	Es verdad, si vivo en lo alto de la colina.					
+MOL_DIA1M_17	Debería pasarme por casa algún día, pero es que el café de Doña Vita está tan bueno…					
+SUS_DIA1M_1	(Escondida tras una capucha y parte de lo que parece una nariz, una sonrisa se ensanchece al ver entrar a un nuevo cliente.)					
+SUS_DIA1M_2	(La figura tras el mostrador intenta erguir su pronunciada joroba trasera, pero la codicia que de sus manos rebosa le obliga a agachar su cabeza aún más.)					
+SUS_DIA1M_3	Saludar al tendero					
+SUS_DIA1M_4	Mi cliente más joven, ¿cómo estás hoy? ¿Has venido a comprar o a vender? Espero que esta vez sí que hayas traído moneda, je, je, je…					
+SUS_DIA1M_5	La última vez te saliste con la tuya, pequeño ratón de campo, pero como te ponga las manos encima…					
+SUS_DIA1M_6	Tendré una ristra de chorizos más que colgar en la pared.					
+SUS_DIA1M_7	Preguntar por mercancía nueva					
+SUS_DIA1M_8	Oooh, mis proveedores sólo me traen lo mejor de lo mejor. Los mejores productos a los mejores precios.					
+SUS_DIA1M_9	¿Que de dónde los sacan? Tampoco tiene tanta intriga, langosta pendenciera. Yo sabré de dónde vienen y si son de calidad o no.					
+SUS_DIA1M_10	Tanto preguntar, tanto preguntar, y poco comprar. ¿Qué te crees, que mi economía se basa en las compras de un renacuajo?					
+SUS_DIA1M_11	Mira, no te quiero ver más por aquí, que me espantas a los ingenuos clientes.					
+SUS_DIA1M_12	Si quieres algo de lo que tengo, intercámbialo por cualquier otra cosa y déjame en paz.					
+NEL_DIA1M_1	(El sacerdote del pueblo se postra firme ante la puerta de la iglesia)					
+NEL_DIA1M_2	(Casualmente también es el sepulturero, por lo que cada vez que muere alguien, cobra doble).					
+NEL_DIA1M_3	Santiguarse					
+NEL_DIA1M_4	Ni te molestes. Todavía no estoy de servicio. De ninguno de los dos.					
+NEL_DIA1M_5	La misa será un poco más tarde, y mis labores funerarias… Bueno, digamos que son puntuales.					
+NEL_DIA1M_6	De todas maneras, para hablar con el Señor no necesitas de mi presencia.					
+NEL_DIA1M_7	Preguntar por la muerte					
+NEL_DIA1M_8	Infante insolente, la muerte es sólo un camino.					
+NEL_DIA1M_9	Un camino al que todos llegamos, por vías distintas y en diferentes espacios de tiempo.					
+NEL_DIA1M_10	Al igual que en vida todo ser deja rastro, en muerte, todos dejamos este plano mortal en pos de lo perenne.					
+NEL_DIA1M_11	Dos mundos unidos por una fina capa de alma y hueso. De carne y verso.					
+NEL_DIA1M_12	Todo se consume y se traslada más allá.					
+NEL_DIA1M_13	No lo entiendes					
+NEL_DIA1M_14	No tienes que entenderlo aún, y no deberías. Reza mientras puedas, el Señor está mirándote desde arriba.					
+NEL_DIA1M_15	Te queda mucho por vivir, pero no te duermas en los laureles, que ninguno de nosotros tenemos el cielo asegurado.					
+NEL_DIA1M_16	¿Por qué no te das una vuelta por el pueblo y ayudas a quien lo necesite? Interrumpes mi diálogo con los muertos.					
+NEL_DIA1M_17	Eso sí, te aviso, ni se te ocurra acercarte al cementerio.					
+NEL_DIA1M_18	No me gustaría que la paz de las almas de este santuario se viese afectada por un gato curioso.					
+QUE_DIA1T_1	(El hermano de Visara, aclarándose la voz. Suele cantar cuando camina por la calle, y su marcado acento inunda la acústica de la plaza.)					
+QUE_DIA1T_2	Sus cantares					
+QUE_DIA1T_3	Y ELLA ME ARROPÓ CON SUS CANTARES…					
+QUE_DIA1T_4	UNA DULCE VOZ QUE INUNDA MIS PENSAMIENTOS…					
+QUE_DIA1T_5	OH, BELLA DAMA DE LOS TELARES…					
+QUE_DIA1T_6	QUÉ TIENES TÚ QUE ME ABRUMAN LOS SENTIMIENTOS…					
+QUE_DIA1T_7	...					
+QUE_DIA1T_8	Oh, disculpa, estaba ensimismado. Cuando canto la mente me deja totalmente pasmado.					
+QUE_DIA1T_9	Estaba disfrutando de las últimas horas de luz, cuando cae la noche me toca correr hacia la taberna a servir licor de orozuz.					
+QUE_DIA1T_10	Visara					
+QUE_DIA1T_11	¿Oh, te has cruzado con ella? Alguien tan pequeño como tú no debería estar rondando la taberna.					
+QUE_DIA1T_12	Últimamente anda con bastantes problemas de vista y estos dificultan su trabajo como barista.					
+QUE_DIA1T_13	También, se oculta en las altas horas de la noche a practicar con su bandurria.					
+QUE_DIA1T_14	Una pena que su talento para la música se opaque con tantas horas de modurria.					
+QUE_DIA1T_15	En lugar de atender a los clientes se dedica a fabricar curiosos artilugios.					
+QUE_DIA1T_16	Instrumentos musicales lejanos al occidente que suenan como alambres oxidados que emiten un sonido sucio.					
+QUE_DIA1T_17	Tan solo espero que eso pueda sacarnos algo de dinero…					
+QUE_DIA1T_18	Nuestros proyectos musicales no se pueden financiar a base del salario de tabernero…					
+MOL_DIA1T_1	(Qué apuesto es Molino. Es un placer verle sonriendo. Molino comparte una cerveza con Venancio, aunque este último lleve más de una.)					
+MOL_DIA1T_2	Venancio, te veo flojo hoy, ya voy por la mitad de mi cerveza y tú solo llevas cuatro.					
+MOL_DIA1T_3	¡Una más y llego a mis siete jarras de calentamiento! *HIP*					
+MOL_DIA1T_4	Señalar la velocidad de Venancio					
+MOL_DIA1T_5	Siempre ha sido así, empezó bebiendo a los dos añitos. La vieja Vita siempre le regañaba por vomitar la puerta de casa.					
+MOL_DIA1T_6	¿Y qué quieres que le haga? *HIP* ¡Que coloquen una palangana en la plaza! *HIP*					
+MOL_DIA1T_7	Nunca he sido capaz de cogerle el ritmo. También es verdad que ýo tengo menos cuerpo que él, pero que me aspen si no le pongo empeño.					
+MOL_DIA1T_8	¡QUEBEC! ¡OTRA RONDA!					
+MOL_DIA1T_9	En realidad no está ninguno de los dos hermanos. Cuando dice eso se levanta y se rellena la jarra. Los dueños ya saben lo que bebe de media y le cobran mensualmente.					
+MOL_DIA1T_10	Les pago en dientes, Suspicius los necesita para hacer dentaduras. Solo tienen que venderlos y a forrarse.					
+MOL_DIA1T_11	Además tengo la sensación de que cuanto más alcohol beba, más rápido me volverán a crecer.					
+MOL_DIA1T_12	Ojalá me volviesen a crecer los ojos que me arranqué…					
+VIT_DIA1T_1	(Doña Vita mira con alegría a Perrico, que está sentado delante de su sillón, observando con cautela las huesudas extremidades de la anciana.)					
+VIT_DIA1T_2	Observar la escena					
+VIT_DIA1T_3	Pero bueno, Eullín, levántate del suelo, que te vas a poner bonito. Ya hueles un poco a zorromono como para que encima te ensucies así. ¿Qué pensarían tus padres?					
+VIT_DIA1T_4	(Se levanta y pone las patas encima de los reposabrazos del sillón de Vita.)					
+VIT_DIA1T_5	Uy, qué alto eres. No sé por qué te ha dado por estar todo el día a gatas, con lo apuesto que eres de pie.					
+VIT_DIA1T_6	(Gruñe ligeramente. Parece que algo que ha dicho la anciana no le ha gustado.)					
+VIT_DIA1T_7	Preguntar por la familia					
+VIT_DIA1T_8	La familia es lo más importante. Además, ser cabeza de familia es un trabajo duro… No puedo dejar que se me olviden los nombres de todos…					
+VIT_DIA1T_9	Fíjate que justo no me acuerdo de dónde sale Eullín, pero sé que es mi nieto favorito, aunque sea un poco raro.					
+VIT_DIA1T_10	(Perrico sonríe de oreja a oreja, sabiendo que tiene la vida solucionada gracias a la demencia de una persona vulnerable. Es un sueño hecho realidad.)					
+SUS_DIA1T_1	(Mercader y proveedora charlan amablemente en el Emporio. Es curioso ver la diferencia corporal entre los socios, aunque está claro que pelear contra tiburones alimenta los músculos.)					
+SUS_DIA1T_2	Mi gente, la tienda hoy está cerrada. Siempre puedes venir mañana si vienes a hacer algún recado de última hora.					
+SUS_DIA1T_3	No te preocupes, mi fornida amiga, este escarabajo pelotero siempre viene a tocar… La mercancía.					
+SUS_DIA1T_4	Preguntar por negocios					
+SUS_DIA1T_5	Afortunadamente, hoy ha ido bien la recaudación. Únicamente con el té que compra Doña Vita y las ingentes cantidades de trigo que compra Molino, me abastezco toda la semana.					
+SUS_DIA1T_6	No sé si lo saben, mi gente, pero Molino tiene como afición hacé pan. Creo que su abuelo era panadero, pero su padre no quiso seguí con el negocio familiá.					
+SUS_DIA1T_7	No le tenía yo por panadero a ese hombre. Creía que con ese físico se dedicaría a la construcción o algo por el estilo.					
+SUS_DIA1T_8	Él dice sé mago, pero yo creo que un mago no tiene esas apariencias.					
+SUS_DIA1T_9	Es un hombre misterioso… dicen que tiene una especie de instinto sobrenatural…					
+SUS_DIA1T_10	No me gusta esa gente… No les interesa lo material… Si no aportan al negocio, que se aparten de mi vista.					
+BAS_DIA1T_1	(Una criatura sobrenatural se posa frente a tus ojos. Dicen que el Basajaún cuida del pueblo en las noches, pero la gente prefiere no interponerse en su camino.)					
+BAS_DIA1T_2	Hola, Basajaun					
+BAS_DIA1T_3	El trabajo está hecho.					
+BAS_DIA1T_4	La tarde empieza a oscurecerse.					
+BAS_DIA1T_5	Hoy hará frío.					
+BAS_DIA1N_1	(Es Basajaun.)					
+BAS_DIA1N_2	...					
+BAS_DIA1N_3	Las ovejas están dormidas.					
+BAS_DIA1N_4	El lobo acecha.					
+BAS_DIA1N_5	No conviene despistarse.					
+BAS_DIA1N_6	De noche, todos los gatos son pardos.					
+BAS_DIA1N_7	Los caminos se complican.					
+BAS_DIA1N_8	Las rocas se retuercen y se esconden.					
+BAS_DIA1N_9	Apóyate, criatura.					
+BAS_DIA1N_10	Vigila por donde pisas.					
+BAS_DIA1N_11	(Basajaun te da un Palo de pastoreo)					
+QUE_DIA1N_1	(Hoy le toca el turno de noche al hermano dueño del bar. Se le ve bastante cansado, pero hasta que Venancio no deje de pedir, no puede cerrar el local.)					
+QUE_DIA1N_2	Pedir algo					
+QUE_DIA1N_3	Me encantaría servirte, colega, pero aquí sólo vendemos alcoholes y no estoy seguro de que te adaptes a esos trotes.					
+QUE_DIA1N_4	También es verdad que por estas tierras la mayoría de edad se alcanza con prontitud.					
+QUE_DIA1N_5	Aunque bueno, algunos aspectos no se toman con rectitud.					
+QUE_DIA1N_6	Cuando seas un poco más mayor, hacemos una fiesta en la taberna.					
+QUE_DIA1N_7	Bailaremos y cantaremos hasta que nos tiemblen las piernas.					
+VEN_DIA1N_1	(Venancio, de alguna manera, sigue en pie.)					
+VEN_DIA1N_2	Comprobar cómo se encuentra					
+VEN_DIA1N_3	(Balbucea de manera ininteligible)					
+VEN_DIA1N_4	Estoy borracho mamá, déjame en paz,					
+VEN_DIA1N_5	Dejame acariciar la almohada, no puedo más,					
+VEN_DIA1N_6	Mucho pollo bravo y demasiado ballantines,					
+VEN_DIA1N_7	Pollo bravo que ves en el suelo, junto a mis lágrimas.					
+VEN_DIA1N_8	(Venancio, con cara triste pero con la conciencia limpia, agarra su botella de Patxarán, y te hace entrega de ella)					
+MES_DIA1N_1	(La pescadora pescadera, frente a la barra, bebe de una jarra llena de lo que parece ron. No parece afectar a su cuerpo en absoluto.)					
+MES_DIA1N_2	Cómo va la noche					
+MES_DIA1N_3	¡Glub… Glub… Glub… Aaaaaah!					
+MES_DIA1N_4	No hay nada mejó que refrescarse las entrañas después de un duro día de laburo.					
+MES_DIA1N_5	Aunque prefiero cuando está la otra tabernera. Esa me sirve más alcohol en la jarra.					
+MES_DIA1N_6	Según me dijeron, la pezqueña anda con problemas de visión.					
+MES_DIA1N_7	Está poco aparecía desde que perdió sus gafas especiales.					
+NEL_DIA1N_1	(Nel parece reposar. Hoy afortunadamente no hay trabajo que hacer bajo tierra.)					
+NEL_DIA1N_2	Cómo va la noche					
+NEL_DIA1N_3	Ser enterrador en este pueblo es un lujo.					
+NEL_DIA1N_4	Los ancianos parecen eternos y no tengo casi trabajo.					
+NEL_DIA1N_5	Así puedo dedicarme por completo al negocio del incienso.					
+NEL_DIA1N_6	Aunque últimamente me están saliendo todos con olor a cadáver y no se venden mucho.					
+NEL_DIA1N_7	Toma, una prueba, espero que te ayude en tus sesiones de oración y, si te producen arcadas, seguro que la puedes usar para otros asuntos.					
+PER_DIA1N_1	(El bravo can se confunde con el paisaje de bosque nocturno. Sin embargo, sus ligeros gemidos y tiemble de piernas hacen averiguar fácilmente su posición.)					
+PER_DIA1N_2	¿Está bien?					
+PER_DIA1N_3	(Ladra agitadamente girando sobre sí mismo, como si algo le atormentase desde todas direcciones)					
+PER_DIA1N_4	(En un acto de locura, te golpea y se abalanza sobre un ave muerta en el suelo y comienza a devorarla)					
+PER_DIA1N_5	(Parece estar más enfermo de lo normal, quizás es peligroso aproximarse)					
+LEP_DIA1N_1	(Lepanto parece estar escribiendo, ocultando una tenebrosa sonrisa).					
+LEP_DIA1N_2	Su Novela					
+LEP_DIA1N_3	Alguien como tú no debería caminar por estos lares a tan altas horas de la noche…					
+LEP_DIA1N_4	Enturbias el silencio de las ramas. Pocos ambientes me resultan más propicios que este para inspirarme.					
+LEP_DIA1N_5	Agradecería que respetases mi soledad, estoy llegando al capítulo final de mi obra y no quiero que nada me interrumpa.					
+LEP_DIA1N_6	Solo unos pegotes de tinta más para que mi obra cale en las mentes del resto de pueblerinos… Je, je, je, je…					
+MES_DIA2M_1	(Un cadáver parece haber sido mordisqueado por alguna especie de criatura).					
+MES_DIA2M_2	(Mirando más de cerca… Parece ser Messié…)					
+MES_DIA2M_3	(Algo la habrá atacado por la noche… Quizás uno de sus peces abominables se habrá tomado la venganza…)					
+MES_DIA2M_4	(Parece que los gusanos que usaba como cebo han comenzado a devorar sus restos).					
+MES_DIA2M_5	(Quizás puedan ser reutilizados como cebo más adelante).					
+PER_DIA2M_1	(Perrico parece estar tranquilo y contento como siempre… Aunque parece estar entero manchado de sangre)					
+PER_DIA2M_2	Acercarse a Perrico					
+PER_DIA2M_3	(Perrico mueve la cola al ver que te acercas, muy contento, sin embargo un olor a sangre te mantiene alerta).					
+PER_DIA2M_4	(Parece que Perrico ha cometido algún acto atroz esta noche… Pero no es consciente de ello).					
+PER_DIA2M_5	(Sea lo que sea… ayer su comportamiento por la noche no era normal… Quizás escuchó algo extraño…)					
+VEN_DIA2M_1	(Venancio yace sobre la mesa inconsciente… O muerto).					
+VEN_DIA2M_2	(Parece haberse ahogado intentando ingerir cantidades absurdas de alcohol, como si una sed insaciable lo hubiese consumido).					
+VEN_DIA2M_3	(Es extraño, pero no parece haber nadie en la taberna echando de menos su pérdida).					
+VIS_DIA2M_1	(Visara parece estar desorientada, la luz de la mañana no le deja ver bien)					
+VIS_DIA2M_2	La muerte de Venancio					
+VIS_DIA2M_3	Venancio se ha vuelto a quedar dormido en la taberna…					
+VIS_DIA2M_4	Deberíamos empezar a cobrarle más…					
+VIS_DIA2M_5	Eh… Je… ¿Qué dices?					
+VIS_DIA2M_6	¿Está muerto?					
+VIS_DIA2M_7	Q-Qué… No podía verlo bien… Pensaba que estaba como siempre…					
+VIS_DIA2M_8	…					
+VIS_DIA2M_9	¿No nos demandarán, no?					
+VIS_DIA2M_10	Ahora que estaba empezando a fabricar instrumentos para venderlos…					
+VIS_DIA2M_11	No puedo permitirme gastar mis ahorros en Venancio…					
+VIS_DIA2M_12	Pero… Es Venancio… ¿Nadie se preocupará por él, verdad…? Eh, je, je…					
+VIS_DIA2M_13	Fabricar instrumentos					
+VIS_DIA2M_14	Ah… Sí, je… je… En mis ratos libres estaba probando a crear un par de cosillas.					
+VIS_DIA2M_15	Con algún tipo de vara larga y un alambre he conseguido hacer algún sonido interesante…					
+VIS_DIA2M_16	Le he enganchado una calabaza para que haga de caja de resonancia…					
+VIS_DIA2M_17	¿Chulo, no?					
+VIS_DIA2M_18	Aún estoy trabajando en el prototipo… Eh… je, je… Lo que pasa es que nunca sé dónde lo he puesto y luego no lo encuentro…					
+VIS_DIA2M_19	Lo he decidido llamar “Birimbao”, espero que no me copies la idea…					
+LEP_DIA2M_1	(Lepanto parece observar a Venancio de reojo con una especie de mueca extraña en su cara que parece expresar tanto satisfacción como asco).					
+LEP_DIA2M_2	La muerte de Venancio					
+LEP_DIA2M_3	Valiente imbécil… Ahogado por sus propios vicios… Con esa actitud solo estaba destinado al peor de los finales.					
+LEP_DIA2M_4	Quién sabe, quizás la muerte sea lo mejor para un desgraciado como él, en este lugar solo le esperaba la amargura y un hígado putrefacto.					
+LEP_DIA2M_5	Pude observar otro cadáver en la plaza, parece que nadie es lo suficientemente hábil como para huir de los engaños de este pueblo.					
+LEP_DIA2M_6	¿Qué decís, Su Pequeñez? ¿Seréis capaz de no ser engatusado por los renglones dictados de este pueblo? Je, je, je…					
+VIT_DIA2M_1	(Doña Vita parece estar angustiada, hay algo que le perturba y le hace tejer a mayor velocidad. Sus dedos se entrelazan y retuercen de forma antinatural).					
+VIT_DIA2M_2	Qué le perturba					
+VIT_DIA2M_3	Ay… Dios mío… Mi querido Eullín… ¿Por qué tan enfadado?					
+VIT_DIA2M_4	Sabía que tenías problemas con el alcohol, pero nunca pensé que podrías llegar a atacarme… Se nota que te haces mayor…					
+VIT_DIA2M_5	Tuve que echarlo ayer de casa, ¿sabes?					
+VIT_DIA2M_6	Cada día los jóvenes se vuelven más salvajes…					
+VIT_DIA2M_7	En mis tiempos me habrían metido en un saco y me hubiesen molido a patadas.					
+VIT_DIA2M_8	Por desgracia… No puedo ser malo con mi pequeño Eullín… Las voces no me dejaban ser mala con él…					
+MOL_DIA2M_1	(Molino parece estar relajado a pesar del pesado ambiente, como si la cosa no fuese con él…)					
+MOL_DIA2M_2	Preguntar qué tal está					
+MOL_DIA2M_3	Slurp…					
+MOL_DIA2M_4	Los vientos de esta noche eran más sonoros y temibles de lo normal…					
+MOL_DIA2M_5	Además, es extraño, ¿creo que le he ganado una partida al dominó a doña Vita?					
+MOL_DIA2M_6	No parece estar tan centrada como siempre…					
+MOL_DIA2M_7	Supongo que fueron los ruidos de anoche, malditos perros callejeros, por eso suelo irme a dormir a mi colina.					
+MOL_DIA2M_8	No solo porque un mago tiene que vivir apartado del mundo por contrato social, sino por el ruido.					
+MOL_DIA2M_9	No me deja pensar tranquilamente.					
+MOL_DIA2M_10	Al menos Doña Vita tiene una cama para dejarme, se duerme bien en una cama…					
+MOL_DIA2M_11	Parece que Molino no es consciente de ninguna muerte que haya ocurrido esta noche…)					
+MOL_DIA2M_12	¿Te enteraste?					
+MOL_DIA2M_13	¿Enterarme de qué?					
+MOL_DIA2M_14	Hay veces en las que este viejo molino ya no quiere enterarse de las cosas…					
+MOL_DIA2M_15	Vivo más feliz desde que me arranqué los ojos, ¿sabes?					
+MOL_DIA2M_16	Cachis, otra vez debería haber colocado la pareja de tres…					
+MOL_DIA2M_17	Un auténtico mago puede verlo todo, menos las parejas de tres...					
+MOL_DIA2M_18	Es desagradable, he llegado a ver a Venancio desnudo.					
+MOL_DIA2M_19	Así es que un día metí mis ojos en una botella de licor de guindas para no ver ningún horror más en mi vida.					
+MOL_DIA2M_20	Ay, otra vez que he puesto la pieza al revés…					
+MOL_DIA2M_21	El alcohol es un buen inhibidor de poderes mágicos, por eso soy tan mal mago, el patxarán es mi debilidad…					
+MOL_DIA2M_22	Aún así… mis instintos de hechicero me siguen susurrando por las noches.					
+MOL_DIA2M_23	Tengo la sensación de que una lechuza me espía a través de la ventana.					
+MOL_DIA2M_24	Antiguamente usaba un Urogallo para espiar a la gente.					
+MOL_DIA2M_25	Es una antigua técnica milenaria de hechicería en la que un mago incrusta sus ojos sobre otro animal.					
+MOL_DIA2M_26	Si mis instintos no me fallan… Hay alguien haciendo lo mismo…					
+MOL_DIA2M_27	Córcholis… Se me ha vuelto a caer otra pieza…					
