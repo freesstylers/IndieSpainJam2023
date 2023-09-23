@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using static DialogueData;
 
@@ -57,12 +58,16 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     DialogueTree currentBranch;
 
+    UnityEvent endEvent;
+
     int index = 0;
 
     public void StartDialogue(DialogueData data)
     {
         dialogueOver = false;
         currentTree = data.GetDialogueTree();
+        endEvent.RemoveAllListeners();
+        endEvent = data.eventsAfterDialogueOver;
 
         StartBranch(data.dialogueTreeStart);
     }
@@ -240,6 +245,7 @@ public class DialogueManager : MonoBehaviour
         CleanOptions();
         container.SetActive(false);
         player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
+        endEvent.Invoke();
     }
 
     public void CleanOptions()

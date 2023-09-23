@@ -69,4 +69,6 @@ public class DialogueData : ScriptableObject
         
         return dialogueTree;
     }
+
+    public UnityEvent eventsAfterDialogueOver;
 }
