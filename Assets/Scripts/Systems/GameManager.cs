@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
             Instance = this;
 
             DontDestroyOnLoad(this.gameObject);
+            dialogueHistory = new Queue<string>();
         }
     }
 
