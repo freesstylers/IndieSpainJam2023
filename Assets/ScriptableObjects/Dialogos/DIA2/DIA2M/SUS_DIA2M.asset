@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b537a1f13ae4bbc45b4b2964a5d9b83c, type: 3}
+  m_Name: SUS_DIA2M
+  m_EditorClassIdentifier: 
+  dialogueTreeStart: start
+  dialogueTreeList:
+  - branchName: start
+    dialogueTree:
+      dialogue:
+      - key: SUS_DIA2M_1
+        audioToPlay: {fileID: 0}
+        focusOnSide: 1
+      - key: SUS_DIA2M_2
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
+      options:
+      - key: SUS_DIA2M_3
+        endDialogue: 0
+        branchToJumpTo: 1
+        itemNeeded: []
+        eventsToTrigger:
+          m_PersistentCalls:
+            m_Calls: []
+      - key: SUS_DIA2M_11
+        endDialogue: 0
+        branchToJumpTo: 2
+        itemNeeded:
+        - 
+        eventsToTrigger:
+          m_PersistentCalls:
+            m_Calls: []
+  - branchName: 1
+    dialogueTree:
+      dialogue:
+      - key: SUS_DIA2M_4
+        audioToPlay: {fileID: 0}
+        focusOnSide: 3
+      - key: SUS_DIA2M_5
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_6
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_7
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_8
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_9
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_10
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
+      options: []
+  - branchName: 2
+    dialogueTree:
+      dialogue:
+      - key: SUS_DIA2M_12
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_13
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_14
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_15
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_16
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_17
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_18
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_19
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_20
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_21
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      - key: SUS_DIA2M_22
+        audioToPlay: {fileID: 0}
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
+      options: []
