@@ -32,7 +32,10 @@ public class DialogueData : ScriptableObject
     public struct DialogueText
     {
         public string key;
-        public AudioClip audioToPlay;
+
+        //public AudioClip audioToPlay;
+
+        public FMODUnity.EventReference eventReference;
         [Header("")]
         public Side focusOnSide;
     }
