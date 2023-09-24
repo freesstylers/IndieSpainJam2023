@@ -19,3 +19,43 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 61d7519c38ec4774aa68f6ea668e96d5, type: 3}
   - key: gogeta
     sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: DENTADURA
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: PATXARAN
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: PATXARAN_OJOS
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: RATON
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: OJOS
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: HILO
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: FEMUR
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: ALAMBRE
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: "CA\xD1A_SIN"
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: "CA\xD1A_ANZUELO"
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: "CA\xD1A_CEBO"
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: LENTES
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: CALABAZA
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: BIRIMBAO
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: VELA
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: LICOR_PEDOS
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: GAITA
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: GAITA_PEDOS
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: GAITA_LICOR
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: LANZALLAMAS
+    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
