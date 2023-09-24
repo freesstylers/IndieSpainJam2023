@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 715030460382916697}
   - component: {fileID: 6288274345407950876}
   - component: {fileID: 4276917082841837991}
+  - component: {fileID: 4305466145183543973}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -304,6 +305,22 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &4305466145183543973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319902747264149473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56dbf9ac6bc0d8e449fa81f10b5f2806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToFade: 5
+  black_: {fileID: 0}
+  shakeDuration: 0
+  shakeAmount: 3.7
 --- !u!1 &1541958813778332925
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +335,7 @@ GameObject:
   - component: {fileID: 2096354800300766198}
   - component: {fileID: 4681973972098632510}
   - component: {fileID: 4338841859466172041}
+  - component: {fileID: 4021189358951017026}
   m_Layer: 0
   m_Name: Salida4
   m_TagString: Untagged
@@ -448,6 +466,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
+--- !u!114 &4021189358951017026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541958813778332925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &1646890249803867759
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,6 +718,7 @@ GameObject:
   - component: {fileID: 3716721517293203915}
   - component: {fileID: 5610716452954976799}
   - component: {fileID: 1378300251233457604}
+  - component: {fileID: 6671772620626781775}
   m_Layer: 0
   m_Name: Salida2
   m_TagString: Untagged
@@ -818,6 +850,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
+--- !u!114 &6671772620626781775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2439852873752010240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &2448973142144090252
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +877,7 @@ GameObject:
   - component: {fileID: 373892234036108840}
   - component: {fileID: 2136685626836682003}
   - component: {fileID: 8413946959881475505}
+  - component: {fileID: 6734122640629148685}
   m_Layer: 0
   m_Name: Salida3
   m_TagString: Untagged
@@ -962,6 +1008,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: iglesia
+--- !u!114 &6734122640629148685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2448973142144090252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &3277054390493526337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1196,7 @@ GameObject:
   - component: {fileID: 8041772327196941637}
   - component: {fileID: 36633600072974635}
   - component: {fileID: 918911130309076985}
+  - component: {fileID: 5519027537887077910}
   m_Layer: 0
   m_Name: Salida5
   m_TagString: Untagged
@@ -1267,6 +1327,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
+--- !u!114 &5519027537887077910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5586425357427508086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &5625692296218673329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,6 +1740,7 @@ GameObject:
   - component: {fileID: 5845869120166059251}
   - component: {fileID: 363501327375519211}
   - component: {fileID: 3636303967645804049}
+  - component: {fileID: 8590358739655227208}
   m_Layer: 0
   m_Name: Salida1
   m_TagString: Untagged
@@ -1798,6 +1872,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: bosque
+--- !u!114 &8590358739655227208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8221657763485099008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &8228262882687452984
 GameObject:
   m_ObjectHideFlags: 0
@@ -2128,17 +2215,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 87a05be374f7e4344ad4cc90d97f6b29,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 20.19
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 87a05be374f7e4344ad4cc90d97f6b29,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.54
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 87a05be374f7e4344ad4cc90d97f6b29,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -42.46
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 87a05be374f7e4344ad4cc90d97f6b29,
         type: 3}
@@ -2180,6 +2267,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasajaunNoche2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 87a05be374f7e4344ad4cc90d97f6b29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2202,17 +2294,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 8cf5dac6f908d3148a5df5a1091fae4c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 11.32
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 8cf5dac6f908d3148a5df5a1091fae4c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.91
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 8cf5dac6f908d3148a5df5a1091fae4c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -42.12
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 8cf5dac6f908d3148a5df5a1091fae4c,
         type: 3}
@@ -2254,6 +2346,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PerricoNoche2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 8cf5dac6f908d3148a5df5a1091fae4c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2276,17 +2373,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 2bab40d05defcaa42bd2bd748e1e19ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 20.19
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 2bab40d05defcaa42bd2bd748e1e19ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.54
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 2bab40d05defcaa42bd2bd748e1e19ca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -42.46
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 2bab40d05defcaa42bd2bd748e1e19ca,
         type: 3}
@@ -2327,6 +2424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BasajaunNoche1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 2bab40d05defcaa42bd2bd748e1e19ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -95,4 +95,9 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+    public Inventory GetInventory()
+    {
+        return GetComponent<Inventory>();
+    }
 }

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4561280078538764335}
   - component: {fileID: 7037676096712371064}
   - component: {fileID: 4404219147754829782}
+  - component: {fileID: 731902026595883120}
   m_Layer: 0
   m_Name: Salida
   m_TagString: Untagged
@@ -143,7 +144,20 @@ MonoBehaviour:
   KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 4
-  toZone: 
+  toZone: plaza
+--- !u!114 &731902026595883120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858557160031933755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &1821189863494193621
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,6 +567,7 @@ GameObject:
   - component: {fileID: 2808638313396667758}
   - component: {fileID: 2808638313396667757}
   - component: {fileID: 2808638313396667756}
+  - component: {fileID: 5314216139072054213}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -678,6 +693,22 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &5314216139072054213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2808638313396667731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56dbf9ac6bc0d8e449fa81f10b5f2806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToFade: 5
+  black_: {fileID: 0}
+  shakeDuration: 0
+  shakeAmount: 3.7
 --- !u!1 &2808638313798945580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,17 +1721,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: c1048024511c0a146adc3a9af0d73bdb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.54
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c1048024511c0a146adc3a9af0d73bdb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.77
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c1048024511c0a146adc3a9af0d73bdb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -20.1
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c1048024511c0a146adc3a9af0d73bdb,
         type: 3}
@@ -1742,6 +1773,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NelManana1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: c1048024511c0a146adc3a9af0d73bdb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1764,17 +1800,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 96168c2183e6ee345a0ebd3ce80d15e5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -5.13
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 96168c2183e6ee345a0ebd3ce80d15e5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 3.13
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 96168c2183e6ee345a0ebd3ce80d15e5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -17.8
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 96168c2183e6ee345a0ebd3ce80d15e5,
         type: 3}
@@ -1816,6 +1852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasajaunManana2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 96168c2183e6ee345a0ebd3ce80d15e5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1838,17 +1879,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: f8de49f0eb54966449614c77b6c02aba,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.26
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: f8de49f0eb54966449614c77b6c02aba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 5.168
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: f8de49f0eb54966449614c77b6c02aba,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -23.3
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: f8de49f0eb54966449614c77b6c02aba,
         type: 3}
@@ -1890,6 +1931,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Calabaza
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1912,17 +1958,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 7f5adc2eeb610ef4a840dfdb230689ab,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.54
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7f5adc2eeb610ef4a840dfdb230689ab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.77
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7f5adc2eeb610ef4a840dfdb230689ab,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -20.1
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7f5adc2eeb610ef4a840dfdb230689ab,
         type: 3}
@@ -1963,6 +2009,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NelManana2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 7f5adc2eeb610ef4a840dfdb230689ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
