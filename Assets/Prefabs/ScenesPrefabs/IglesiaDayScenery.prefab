@@ -140,8 +140,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 1
   outline: {fileID: 7037676096712371064}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 4
   toZone: plaza
@@ -1721,17 +1719,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: c1048024511c0a146adc3a9af0d73bdb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.94
+      value: 9.52
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c1048024511c0a146adc3a9af0d73bdb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.7
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c1048024511c0a146adc3a9af0d73bdb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.74
+      value: -17.33
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c1048024511c0a146adc3a9af0d73bdb,
         type: 3}
@@ -1958,17 +1956,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 7f5adc2eeb610ef4a840dfdb230689ab,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.94
+      value: 9.52
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7f5adc2eeb610ef4a840dfdb230689ab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.7
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7f5adc2eeb610ef4a840dfdb230689ab,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.74
+      value: -17.33
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7f5adc2eeb610ef4a840dfdb230689ab,
         type: 3}
