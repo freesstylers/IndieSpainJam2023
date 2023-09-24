@@ -39,6 +39,7 @@ public class ZoneController : MonoBehaviour
     {
         public string zoneName;
         public GameObject zoneDay;
+        public GameObject zoneTarde;
         public GameObject zoneNight;
 
         public EnabledObjects[] EnabledObjectsByDay;
