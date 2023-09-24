@@ -150,7 +150,6 @@ namespace FMODUnity
 
             switch (nextEscenario)
             {
-
                 case Escenario.BAR:
                     initNew = 0;
                     destNew = 1;

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44651437, g: 0.496435, b: 0.57483196, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1179,7 +1179,7 @@ PrefabInstance:
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
@@ -2395,25 +2395,35 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
       value: 
-      objectReference: {fileID: 1006080940}
+      objectReference: {fileID: 544553095}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[1]
       value: 
-      objectReference: {fileID: 1006080939}
+      objectReference: {fileID: 544553094}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[2]
       value: 
-      objectReference: {fileID: 1006080943}
+      objectReference: {fileID: 1006080940}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[3]
       value: 
-      objectReference: {fileID: 1006080942}
+      objectReference: {fileID: 1006080939}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 1006080943}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 1006080942}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[6]
       value: 
       objectReference: {fileID: 1006080941}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,

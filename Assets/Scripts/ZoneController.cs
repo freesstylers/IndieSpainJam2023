@@ -107,7 +107,7 @@ public class ZoneController : MonoBehaviour
                         o.SetActive(false);
                     }
                 }
-                z.zoneDay.SetActive(active);
+                z.zoneTarde.SetActive(active);
                 break;
             case DayTime.NIGHT:
                 if (active)
@@ -254,5 +254,4 @@ public class ZoneController : MonoBehaviour
         CameraEffects cm = Camera.main.GetComponent<CameraEffects>();
         cm.FadeFromBlack(fadeInTime, null);
     }
-
 }
