@@ -3543,7 +3543,6 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   characterInfo: {fileID: 0}
-  dialogueManager: {fileID: 0}
   ev: {fileID: 0}
 --- !u!114 &547097474
 MonoBehaviour:
@@ -5682,7 +5681,6 @@ MonoBehaviour:
   rightSprite: {fileID: 0}
   centerSprite: {fileID: 0}
   unfocusedTint: {r: 0.5, g: 0.5, b: 0.5, a: 0.2}
-  audioScript: {fileID: 0}
   currentBranch:
     dialogue: []
     leftSprite: {fileID: 0}
@@ -5982,7 +5980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
