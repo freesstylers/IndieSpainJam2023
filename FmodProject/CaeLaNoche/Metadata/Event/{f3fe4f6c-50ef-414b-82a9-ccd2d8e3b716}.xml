@@ -31,9 +31,6 @@
 		<relationship name="timeline">
 			<destination>{ea770ac5-4d93-426f-b56b-581a050eab8f}</destination>
 		</relationship>
-		<relationship name="parameters">
-			<destination>{2ea6f89c-51bf-4040-a94e-29c28fc088bc}</destination>
-		</relationship>
 		<relationship name="banks">
 			<destination>{e3fe6162-be4d-4289-b3f1-3369ace36986}</destination>
 		</relationship>
@@ -75,11 +72,6 @@
 	<object class="Timeline" id="{ea770ac5-4d93-426f-b56b-581a050eab8f}">
 		<relationship name="modules">
 			<destination>{941c9dfe-af10-411f-be42-fa80e33412e0}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProxy" id="{2ea6f89c-51bf-4040-a94e-29c28fc088bc}">
-		<relationship name="preset">
-			<destination>{b18c2ab4-5151-4867-93ef-612bc08919f7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{65343851-93b0-4869-ba97-34029701a625}">
@@ -155,34 +147,6 @@
 	<object class="Automator" id="{782eff5b-c8ea-465d-8d2f-7ab57239b76e}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>rate</value>
-		</property>
-		<relationship name="automationCurves">
-			<destination>{82073464-5a4e-4a14-b2e6-a78337e689d5}</destination>
-		</relationship>
-	</object>
-	<object class="AutomationCurve" id="{82073464-5a4e-4a14-b2e6-a78337e689d5}">
-		<relationship name="parameter">
-			<destination>{b18c2ab4-5151-4867-93ef-612bc08919f7}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{7273c429-555b-4e2c-b8df-47ebacb9260a}</destination>
-			<destination>{033fd83d-5cca-46f9-834e-8f32a4b6a4a7}</destination>
-		</relationship>
-	</object>
-	<object class="AutomationPoint" id="{7273c429-555b-4e2c-b8df-47ebacb9260a}">
-		<property name="position">
-			<value>0.0090311986863710995</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{033fd83d-5cca-46f9-834e-8f32a4b6a4a7}">
-		<property name="position">
-			<value>1</value>
-		</property>
-		<property name="value">
-			<value>0.0299999956</value>
 		</property>
 	</object>
 </objects>

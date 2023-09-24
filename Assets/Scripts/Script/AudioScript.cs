@@ -24,6 +24,9 @@ namespace FMODUnity
         public HORARIO horarioActual = HORARIO.DIA;
 
         private float fmodParam = 0;
+        private bool fading = false;
+
+        private float volumeMusic = 1f;
 
         public enum Escenario
         {
@@ -48,24 +51,36 @@ namespace FMODUnity
 
         private void Start()
         {
-            MusicaDia = RuntimeManager.CreateInstance(MusicaDia_Ref);
-            MusicaNoche = RuntimeManager.CreateInstance(MusicaNoche_Ref);
+            MusicaDia = RuntimeManager.CreateInstance("event:/Musica/Dia");
+            MusicaNoche = RuntimeManager.CreateInstance("event:/Musica/Noche");
+            MusicaDia.start();
+            MusicaNoche.start();
+            if (horarioActual == HORARIO.DIA)
+                MusicaNoche.setVolume(0.0f);
+            else MusicaDia.setVolume(0.0f);
+
         }
         #endregion
 
         #region Public Methods
+        public void setVolumeMusic(float vol)
+        {
+            volumeMusic = vol;
+            if (horarioActual == HORARIO.DIA)
+                MusicaDia.setVolume(vol);
+            else MusicaNoche.setVolume(vol);
+        }
         //Llamar a esto cada vez que se transicione de noche a dia o de dia a noche
         public void PlayMusic(HORARIO hora)
         {
-            FMODUnity.RuntimeManager.PauseAllEvents(true);
             if (horarioActual == HORARIO.DIA)
             {
-                Crossfade(2, MusicaNoche, MusicaDia);
+                Crossfade(3, MusicaNoche, MusicaDia);
             }
-                
+
             else
             {
-                Crossfade(2, MusicaDia, MusicaNoche);
+                Crossfade(3, MusicaDia, MusicaNoche);
             }
 
             horarioActual = hora;
@@ -151,11 +166,11 @@ namespace FMODUnity
                     break;
 
                 default:
-             
+
                     break;
             }
 
-            CambiarVariableLocalización(initNew, destNew, initOld, destOld);
+            StartCoroutine(CambiarVariableLocalización(initNew, destNew, initOld, destOld));
         }
 
         #endregion
@@ -164,29 +179,43 @@ namespace FMODUnity
 
         private IEnumerator CambiarVariableLocalización(float initNew, float destNew, float initOld, float destOld)
         {
-            fmodParam = initOld;
-            while (fmodParam > destOld) {
-                fmodParam -= 0.1f;
-
-                if(horarioActual == HORARIO.DIA) MusicaDia.setParameterByName("Localizacion", fmodParam);
-
-                else MusicaNoche.setParameterByName("Localizacion", fmodParam);
-
-                yield return null;
-            }
-
-            fmodParam = initNew + 0.05f;
-
-            while (fmodParam <= initNew)
+            if (!fading)
             {
-                fmodParam += 0.1f;
+                fading = true;
+                RESULT res;
+                fmodParam = initOld;
+                while (fmodParam > (destOld + 0.1))
+                {
+                    fmodParam -= 0.01f;
 
-                if (horarioActual == HORARIO.DIA) MusicaDia.setParameterByName("Localizacion", fmodParam);
+                    if (horarioActual == HORARIO.DIA) res = MusicaDia.setParameterByName("Loc", fmodParam);
 
-                else MusicaNoche.setParameterByName("Localizacion", fmodParam);
+                    else res = MusicaNoche.setParameterByName("Loc", fmodParam);
 
-                yield return null;
+                    yield return null;
+                }
+
+                fmodParam = initNew + 0.05f;
+
+                while (fmodParam < destNew)
+                {
+                    fmodParam += 0.01f;
+
+                    if (horarioActual == HORARIO.DIA) res = MusicaDia.setParameterByName("Loc", fmodParam);
+
+                    else res = MusicaNoche.setParameterByName("Loc", fmodParam);
+
+                    yield return null;
+
+                }
+
+                fmodParam = destNew;
+                if (horarioActual == HORARIO.DIA) res = MusicaDia.setParameterByName("Loc", fmodParam);
+
+                else res = MusicaNoche.setParameterByName("Loc", fmodParam);
+                fading = false;
             }
+            else yield return null;
         }
 
 
@@ -205,7 +234,7 @@ namespace FMODUnity
 
             float startTime = Time.time;
             float endTime = startTime + fadeDuration;
-
+            // _in.start();
             while (Time.time < endTime)
             {
                 float elapsed = Time.time - startTime;
@@ -220,16 +249,18 @@ namespace FMODUnity
 
             // Ensure the volumes are at the final state.
             _out.setVolume(0f);
-            _in.setVolume(1f);
+            _in.setVolume(volumeMusic);
 
             // Stop the fading out instance (optional).
-            _out.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-            _in.start();
+            // _out.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
         }
         #endregion
         #region Test
         bool dia = true;
         bool bar = false;
+        private float vol;
+
         public void testPlaySound()
         {
             PlaySound(Escribir);
@@ -237,7 +268,7 @@ namespace FMODUnity
         }
         public void testPlayMusic()
         {
-            if (dia)
+            if (!dia)
                 PlayMusic(HORARIO.DIA);
             else
                 PlayMusic(HORARIO.NOCHE);
@@ -246,10 +277,10 @@ namespace FMODUnity
         }
         public void testCambiarEscenario()
         {
-            if (bar)
-                CambiarEscenario(Escenario.PLAZA, Escenario.BAR);
+            if (!bar)
+                CambiarEscenario(Escenario.TIENDA, Escenario.BAR);
             else
-                CambiarEscenario(Escenario.BAR, Escenario.PLAZA);
+                CambiarEscenario(Escenario.BAR, Escenario.TIENDA);
 
             bar = !bar;
 

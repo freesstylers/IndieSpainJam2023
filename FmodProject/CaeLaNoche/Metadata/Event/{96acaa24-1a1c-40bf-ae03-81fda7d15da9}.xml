@@ -5,7 +5,7 @@
 			<value>Dia</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{20f1d5d4-b907-4b19-9fa2-373776057636}</destination>
@@ -492,7 +492,6 @@
 	<object class="MixerBusEffectChain" id="{2ae9cd0f-1c0e-44f3-aab9-fb3c5a4c2168}">
 		<relationship name="effects">
 			<destination>{916389d5-b699-4efc-a808-f2501c566ece}</destination>
-			<destination>{ee9fbb2c-41f7-4a6c-9349-7ec377138f95}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{afa2bec1-d376-4d0c-bed2-c7937acda463}" />
@@ -736,7 +735,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{916389d5-b699-4efc-a808-f2501c566ece}" />
-	<object class="SpatialiserEffect" id="{ee9fbb2c-41f7-4a6c-9349-7ec377138f95}" />
 	<object class="AutomationPoint" id="{5bdcd173-6a21-4f19-b6fb-71dfe0f1d5ee}">
 		<property name="position">
 			<value>0</value>
