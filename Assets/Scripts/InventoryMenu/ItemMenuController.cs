@@ -27,7 +27,7 @@ public class ItemMenuController : MonoBehaviour
     {
         //AddItems();
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        player.GetComponent<Player.PlayerMovement>().SetMove(false);
+        player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
         RebuildItems();
 
     }
@@ -53,8 +53,7 @@ public class ItemMenuController : MonoBehaviour
         if (GameManager.Instance == null)
             return;
 
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        canvasInventory = player.GetComponent<Inventory>(); //Pillar el inventario del gameManager???
+        canvasInventory = GameManager.Instance.GetInventory(); //Pillar el inventario del gameManager???
 
         if (canvasInventory.items == null)
             return;
@@ -70,8 +69,7 @@ public class ItemMenuController : MonoBehaviour
     }
 
     public void AddItems(){
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        canvasInventory = player.GetComponent<Inventory>(); //Pillar el inventario del gameManager???
+        canvasInventory = GameManager.Instance.GetInventory();
         canvasInventory.AddItem("vegeta");
         canvasInventory.AddItem("goku");
     }
@@ -80,6 +78,7 @@ public class ItemMenuController : MonoBehaviour
     public void CombineItems(string item1, string item2)
     {
         canvasInventory.TryCombineItems(item1, item2);
+        FillFullItem("", "", null); //Limpiar si ha objeto mostrando
         RebuildItems();
     }
 }

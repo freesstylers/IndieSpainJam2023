@@ -10,6 +10,6 @@ public class CogerShit : MonoBehaviour
         PickUpItem pickedItem = other.gameObject.GetComponent<PickUpItem>();
         if (pickedItem == null)
             return;
-        this.gameObject.GetComponent<Inventory>().AddItem(pickedItem.itemID, pickedItem.quantity);
+        GameManager.Instance.GetInventory().AddItem(pickedItem.itemID, pickedItem.quantity);
     }
 }

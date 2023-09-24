@@ -11,7 +11,7 @@ public class Movemento : MonoBehaviour
     void Start()
     {
         cc = GetComponent<CharacterController>();
-        inventory = GetComponent<Inventory>();
+        inventory = GameManager.Instance.GetInventory();
     }
 
     void Update()

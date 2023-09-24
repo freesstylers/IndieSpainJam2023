@@ -236,7 +236,7 @@ public class DialogueManager : MonoBehaviour
 
                 foreach (string i in o.itemNeeded)
                 {
-                    active &= player.GetComponent<Inventory>().CheckItem(i);
+                    active &= GameManager.Instance.GetInventory().CheckItem(i);
 
                     if (!active)
                         break;
