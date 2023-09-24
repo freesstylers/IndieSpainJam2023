@@ -148,8 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 0, g: 1, b: 0.9308512, a: 1}
-  outlineWidth: 15
+  outlineColor: {r: 1, g: 0.58431375, b: 0, a: 1}
+  outlineWidth: 20
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -180,11 +180,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 0
   outline: {fileID: 4663557567077552662}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
+  MouseHighlightOutline: 20
+  KeyHighlightOutline: 15
   HighlightKeyOn: 0
   interactDistance: 2
-  characterInfo: {fileID: 11400000, guid: 34f213ad616dbfb4bad56810c22b3139, type: 2}
+  characterInfo: {fileID: 0}
   dialogueManager: {fileID: 0}
   ev: {fileID: 7542895095357589035}
 --- !u!114 &7542895095357589035
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timesTriggered: -1
   eventList: []
-  data: {fileID: 11400000, guid: 5c209997cc6052b4f8b5e925f67c2a75, type: 2}
+  data: {fileID: 0}
 --- !u!60 &3070929336867866965
 PolygonCollider2D:
   m_ObjectHideFlags: 0
