@@ -1121,6 +1121,11 @@ PrefabInstance:
       propertyPath: toZone
       value: plaza
       objectReference: {fileID: 0}
+    - target: {fileID: 7334202025292026164, guid: b3087ab44d8db9e4bb9c5e6370b3dbfc,
+        type: 3}
+      propertyPath: eventList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
