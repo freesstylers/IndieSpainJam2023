@@ -553,7 +553,7 @@ PrefabInstance:
     - target: {fileID: 705083510453807279, guid: 211602bbbda7f0941b27bd97398aff5f,
         type: 3}
       propertyPath: m_Name
-      value: PlazaDayScenery (1)
+      value: PlazaDayScenery
       objectReference: {fileID: 0}
     - target: {fileID: 705083510453807279, guid: 211602bbbda7f0941b27bd97398aff5f,
         type: 3}
@@ -969,7 +969,7 @@ PrefabInstance:
     - target: {fileID: 705083510453807279, guid: 211602bbbda7f0941b27bd97398aff5f,
         type: 3}
       propertyPath: m_Name
-      value: PlazaDayScenery
+      value: PlazaTardeScenery
       objectReference: {fileID: 0}
     - target: {fileID: 705083510453807279, guid: 211602bbbda7f0941b27bd97398aff5f,
         type: 3}
@@ -1369,6 +1369,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1735227841
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388782101419272767, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017807178355015650, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_Name
+      value: TabernaScenery
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017807178355015650, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 461ac2d2aab89e84e8bd1441da13f7d2, type: 3}
 --- !u!1 &1856784248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2808638313396667731, guid: b3087ab44d8db9e4bb9c5e6370b3dbfc,
@@ -1545,6 +1618,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959877424}
   m_CullTransparentMesh: 1
+--- !u!1001 &1964603542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2808638313937913498, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_Name
+      value: IglesiaTardeScenery
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913498, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808638313937913499, guid: ee8497c0784886943b800832a7d22ac9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee8497c0784886943b800832a7d22ac9, type: 3}
 --- !u!1 &2057408714
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,3 +2255,5 @@ SceneRoots:
   - {fileID: 281979320867885976}
   - {fileID: 3985133471929092434}
   - {fileID: 544553089}
+  - {fileID: 1735227841}
+  - {fileID: 1964603542}
