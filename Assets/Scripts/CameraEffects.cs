@@ -49,6 +49,16 @@ public class CameraEffects : MonoBehaviour
         fadeEffectCoroutine = StartCoroutine(FadeToBlackC(t, callback));
     }
 
+    public void FadeToBlackMenu(float t)
+    {
+        StartCoroutine(FadeToBlackC(t, null));
+    }
+    
+    public void FadeFromBlackMenu(float t)
+    {
+        StartCoroutine(FadeFromBlackC(t, null));
+    }
+
     public void FadeFromBlack(float t, Callback callback)
     {
         if (black_ == null)
