@@ -21,7 +21,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 3
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 3af8892f5c847e54c8e137ebc17feb46, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: LEP_DIA3N_2
@@ -34,7 +34,8 @@ MonoBehaviour:
       - key: LEP_DIA3N_6
         endDialogue: 0
         branchToJumpTo: 
-        itemNeeded: []
+        itemNeeded:
+        - CUCHILLO
         eventsToTrigger:
           m_PersistentCalls:
             m_Calls: []
@@ -51,7 +52,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 3af8892f5c847e54c8e137ebc17feb46, type: 2}
       rightSprite: {fileID: 0}
       options: []
   - branchName: 2
@@ -100,7 +101,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 3af8892f5c847e54c8e137ebc17feb46, type: 2}
       rightSprite: {fileID: 0}
       options: []
   eventsAfterDialogueOver:

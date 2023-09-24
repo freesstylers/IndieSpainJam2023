@@ -19,9 +19,9 @@ MonoBehaviour:
       dialogue:
       - key: LEP_DIA2M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 1
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 3af8892f5c847e54c8e137ebc17feb46, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: LEP_DIA2M_2
@@ -36,7 +36,7 @@ MonoBehaviour:
       dialogue:
       - key: LEP_DIA2M_3
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: LEP_DIA2M_4
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -47,6 +47,9 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 3af8892f5c847e54c8e137ebc17feb46, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

@@ -24,14 +24,14 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: aea3289abf0598b4e979f72eb1086c76, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: NEL_DIA2N_3
         endDialogue: 0
         branchToJumpTo: 1
         itemNeeded:
-        - 
+        - "CA\xD1A_ANZUELO"
         eventsToTrigger:
           m_PersistentCalls:
             m_Calls: []
@@ -70,7 +70,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: aea3289abf0598b4e979f72eb1086c76, type: 2}
       rightSprite: {fileID: 0}
       options: []
   - branchName: 2
@@ -80,7 +80,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: aea3289abf0598b4e979f72eb1086c76, type: 2}
       rightSprite: {fileID: 0}
       options: []
   eventsAfterDialogueOver:

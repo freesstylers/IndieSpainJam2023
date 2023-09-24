@@ -19,9 +19,9 @@ MonoBehaviour:
       dialogue:
       - key: PER_DIA1M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 3
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: fd329fa42171e674b9c8688a2a9fd538, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: PER_DIA1M_2
@@ -36,12 +36,12 @@ MonoBehaviour:
       dialogue:
       - key: PER_DIA1M_3
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 3
       - key: PER_DIA1M_4
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: fd329fa42171e674b9c8688a2a9fd538, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: PER_DIA1M_5
@@ -56,14 +56,17 @@ MonoBehaviour:
       dialogue:
       - key: PER_DIA1M_6
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 3
       - key: PER_DIA1M_7
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       - key: PER_DIA1M_38
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: fd329fa42171e674b9c8688a2a9fd538, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

@@ -21,7 +21,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 3
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 1ec5d89e886110e4bb52afb81762e11b, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: BAS_DIA3M_2
@@ -35,7 +35,7 @@ MonoBehaviour:
         endDialogue: 0
         branchToJumpTo: 2
         itemNeeded:
-        - 
+        - CUCHILLO
         eventsToTrigger:
           m_PersistentCalls:
             m_Calls: []
@@ -52,7 +52,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 1ec5d89e886110e4bb52afb81762e11b, type: 2}
       rightSprite: {fileID: 0}
       options: []
   - branchName: 2
@@ -68,7 +68,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 1ec5d89e886110e4bb52afb81762e11b, type: 2}
       rightSprite: {fileID: 0}
       options: []
   eventsAfterDialogueOver:

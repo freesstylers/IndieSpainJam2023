@@ -19,12 +19,12 @@ MonoBehaviour:
       dialogue:
       - key: MES_DIA1M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 1
       - key: MES_DIA1M_2
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 4a3980c8174d0444289c26bc2b2cf79f, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: MES_DIA1M_3
@@ -39,15 +39,15 @@ MonoBehaviour:
       dialogue:
       - key: MES_DIA1M_4
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 3
       - key: MES_DIA1M_5
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       - key: MES_DIA1M_6
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 4a3980c8174d0444289c26bc2b2cf79f, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: MES_DIA1M_7
@@ -62,20 +62,23 @@ MonoBehaviour:
       dialogue:
       - key: MES_DIA1M_8
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 3
       - key: MES_DIA1M_9
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       - key: MES_DIA1M_10
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       - key: MES_DIA1M_11
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       - key: MES_DIA1M_12
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 4a3980c8174d0444289c26bc2b2cf79f, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

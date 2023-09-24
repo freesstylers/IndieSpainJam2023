@@ -19,7 +19,7 @@ MonoBehaviour:
       dialogue:
       - key: MES_DIA2M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 1
+        focusOnSide: 3
       - key: MES_DIA2M_2
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -33,6 +33,9 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 4a3980c8174d0444289c26bc2b2cf79f, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

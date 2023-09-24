@@ -26,9 +26,9 @@ MonoBehaviour:
       - key: MOL_DIA1T_3
         audioToPlay: {fileID: 0}
         focusOnSide: 2
-      leftSprite: {fileID: 0}
+      leftSprite: {fileID: 11400000, guid: c7f28ef2fcddad9468d96b189a5ad66e, type: 2}
       centerSprite: {fileID: 0}
-      rightSprite: {fileID: 0}
+      rightSprite: {fileID: 11400000, guid: d4cabd408a413f540807032038241de0, type: 2}
       options:
       - key: MOL_DIA1T_4
         endDialogue: 0
@@ -64,7 +64,10 @@ MonoBehaviour:
       - key: MOL_DIA1T_12
         audioToPlay: {fileID: 0}
         focusOnSide: 4
-      leftSprite: {fileID: 0}
+      leftSprite: {fileID: 11400000, guid: c7f28ef2fcddad9468d96b189a5ad66e, type: 2}
       centerSprite: {fileID: 0}
-      rightSprite: {fileID: 0}
+      rightSprite: {fileID: 11400000, guid: d4cabd408a413f540807032038241de0, type: 2}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

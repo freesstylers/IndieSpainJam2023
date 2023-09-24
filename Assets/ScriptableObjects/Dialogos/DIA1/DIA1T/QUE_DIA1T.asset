@@ -19,9 +19,9 @@ MonoBehaviour:
       dialogue:
       - key: QUE_DIA1T_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 3
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: QUE_DIA1T_2
@@ -43,7 +43,7 @@ MonoBehaviour:
       dialogue:
       - key: QUE_DIA1T_3
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: QUE_DIA1T_4
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
       rightSprite: {fileID: 0}
       options: []
   - branchName: 2
@@ -94,6 +94,9 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

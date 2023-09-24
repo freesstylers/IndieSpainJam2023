@@ -19,9 +19,9 @@ MonoBehaviour:
       dialogue:
       - key: MOL_DIA1M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 1
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: d4cabd408a413f540807032038241de0, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: MOL_DIA1M_2
@@ -43,7 +43,7 @@ MonoBehaviour:
       dialogue:
       - key: MOL_DIA1M_3
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: MOL_DIA1M_4
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: d4cabd408a413f540807032038241de0, type: 2}
       rightSprite: {fileID: 0}
       options: []
   - branchName: 2
@@ -74,7 +74,7 @@ MonoBehaviour:
       dialogue:
       - key: MOL_DIA1M_12
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: MOL_DIA1M_13
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -91,6 +91,9 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: d4cabd408a413f540807032038241de0, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

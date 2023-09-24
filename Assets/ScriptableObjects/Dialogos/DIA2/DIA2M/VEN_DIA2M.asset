@@ -19,7 +19,7 @@ MonoBehaviour:
       dialogue:
       - key: VEN_DIA2M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: VEN_DIA2M_2
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -27,6 +27,9 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: c7f28ef2fcddad9468d96b189a5ad66e, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

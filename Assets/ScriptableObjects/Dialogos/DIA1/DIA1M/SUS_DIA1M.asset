@@ -19,12 +19,12 @@ MonoBehaviour:
       dialogue:
       - key: SUS_DIA1M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 1
       - key: SUS_DIA1M_2
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 885a46ad911e061418b29e7563928e81, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: SUS_DIA1M_3
@@ -39,7 +39,7 @@ MonoBehaviour:
       dialogue:
       - key: SUS_DIA1M_4
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: SUS_DIA1M_5
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 885a46ad911e061418b29e7563928e81, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: SUS_DIA1M_7
@@ -62,7 +62,7 @@ MonoBehaviour:
       dialogue:
       - key: SUS_DIA1M_8
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: SUS_DIA1M_9
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -76,6 +76,9 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 885a46ad911e061418b29e7563928e81, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

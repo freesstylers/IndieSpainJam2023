@@ -24,7 +24,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 885a46ad911e061418b29e7563928e81, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: SUS_DIA2T_3
@@ -38,7 +38,7 @@ MonoBehaviour:
         endDialogue: 0
         branchToJumpTo: 2
         itemNeeded:
-        - 
+        - BIRIMBAO
         eventsToTrigger:
           m_PersistentCalls:
             m_Calls: []
@@ -64,7 +64,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 885a46ad911e061418b29e7563928e81, type: 2}
       rightSprite: {fileID: 0}
       options: []
   - branchName: 2
@@ -104,7 +104,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 885a46ad911e061418b29e7563928e81, type: 2}
       rightSprite: {fileID: 0}
       options: []
   eventsAfterDialogueOver:

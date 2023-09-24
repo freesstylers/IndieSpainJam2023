@@ -19,7 +19,7 @@ MonoBehaviour:
       dialogue:
       - key: VIT_DIA1T_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 2
+        focusOnSide: 1
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 0}
       rightSprite: {fileID: 0}
@@ -46,9 +46,9 @@ MonoBehaviour:
       - key: VIT_DIA1T_6
         audioToPlay: {fileID: 0}
         focusOnSide: 4
-      leftSprite: {fileID: 0}
+      leftSprite: {fileID: 11400000, guid: 66fb1d5224c208942a11c1fa86ab40e6, type: 2}
       centerSprite: {fileID: 0}
-      rightSprite: {fileID: 0}
+      rightSprite: {fileID: 11400000, guid: fd329fa42171e674b9c8688a2a9fd538, type: 2}
       options:
       - key: VIT_DIA1T_7
         endDialogue: 0
@@ -69,7 +69,10 @@ MonoBehaviour:
       - key: VIT_DIA1T_10
         audioToPlay: {fileID: 0}
         focusOnSide: 4
-      leftSprite: {fileID: 0}
+      leftSprite: {fileID: 11400000, guid: 66fb1d5224c208942a11c1fa86ab40e6, type: 2}
       centerSprite: {fileID: 0}
-      rightSprite: {fileID: 0}
+      rightSprite: {fileID: 11400000, guid: fd329fa42171e674b9c8688a2a9fd538, type: 2}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

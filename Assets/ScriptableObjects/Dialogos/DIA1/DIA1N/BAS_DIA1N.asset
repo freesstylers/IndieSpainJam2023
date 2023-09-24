@@ -19,7 +19,7 @@ MonoBehaviour:
       dialogue:
       - key: BAS_DIA1N_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 1
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 0}
       rightSprite: {fileID: 0}
@@ -36,7 +36,7 @@ MonoBehaviour:
       dialogue:
       - key: BAS_DIA1N_3
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: BAS_DIA1N_4
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -62,6 +62,9 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 1ec5d89e886110e4bb52afb81762e11b, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

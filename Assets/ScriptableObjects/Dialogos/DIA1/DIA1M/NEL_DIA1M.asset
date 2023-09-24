@@ -19,12 +19,12 @@ MonoBehaviour:
       dialogue:
       - key: NEL_DIA1M_1
         audioToPlay: {fileID: 0}
-        focusOnSide: 4
+        focusOnSide: 1
       - key: NEL_DIA1M_2
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: f50240232c09e3c4f919789b24c3f3d2, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: NEL_DIA1M_3
@@ -39,7 +39,7 @@ MonoBehaviour:
       dialogue:
       - key: NEL_DIA1M_4
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: NEL_DIA1M_5
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: f50240232c09e3c4f919789b24c3f3d2, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: NEL_DIA1M_7
@@ -62,7 +62,7 @@ MonoBehaviour:
       dialogue:
       - key: NEL_DIA1M_8
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: NEL_DIA1M_9
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: f50240232c09e3c4f919789b24c3f3d2, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: NEL_DIA1M_13
@@ -91,7 +91,7 @@ MonoBehaviour:
       dialogue:
       - key: NEL_DIA1M_14
         audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        focusOnSide: 3
       - key: NEL_DIA1M_15
         audioToPlay: {fileID: 0}
         focusOnSide: 0
@@ -105,6 +105,9 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: f50240232c09e3c4f919789b24c3f3d2, type: 2}
       rightSprite: {fileID: 0}
       options: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

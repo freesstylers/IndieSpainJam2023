@@ -24,7 +24,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: QUE_DIA2N_3
@@ -62,7 +62,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
       rightSprite: {fileID: 0}
       options: []
   eventsAfterDialogueOver:

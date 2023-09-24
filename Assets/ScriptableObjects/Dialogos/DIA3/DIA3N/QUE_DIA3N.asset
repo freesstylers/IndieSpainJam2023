@@ -21,7 +21,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 1
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
       rightSprite: {fileID: 0}
       options:
       - key: QUE_DIA3N_2
@@ -35,7 +35,7 @@ MonoBehaviour:
         endDialogue: 0
         branchToJumpTo: 2
         itemNeeded:
-        - 
+        - CUCHILLO
         eventsToTrigger:
           m_PersistentCalls:
             m_Calls: []
@@ -55,7 +55,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 1
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
       rightSprite: {fileID: 0}
       options: []
   - branchName: 2
@@ -71,7 +71,7 @@ MonoBehaviour:
         audioToPlay: {fileID: 0}
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
       rightSprite: {fileID: 0}
       options: []
   eventsAfterDialogueOver:
