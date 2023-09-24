@@ -156,9 +156,6 @@ MonoBehaviour:
     endDialogue: 0
     branchToJumpTo: 
     itemNeeded: []
-    eventsToTrigger:
-      m_PersistentCalls:
-        m_Calls: []
 --- !u!1 &8068491989241427805
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +191,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -26.8694, y: -8.7592}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3759933213460159658
 CanvasRenderer:
@@ -252,10 +249,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
+  m_fontSize: 39.2
   m_fontSizeBase: 35
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -268,7 +265,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
