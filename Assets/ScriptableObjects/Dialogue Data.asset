@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueTreeStart: 
   dialogueTreeList: []
+  eventsAfterDialogueOver:
+    m_PersistentCalls:
+      m_Calls: []

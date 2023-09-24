@@ -46,7 +46,6 @@ public class DialogueData : ScriptableObject
         [Header("")]
         public string branchToJumpTo;
         public List<string> itemNeeded;
-        public UnityEvent eventsToTrigger;
     }
 
     public string dialogueTreeStart;
@@ -69,6 +68,4 @@ public class DialogueData : ScriptableObject
         
         return dialogueTree;
     }
-
-    public UnityEvent eventsAfterDialogueOver;
 }

@@ -27,8 +27,6 @@ public class DialogueOptionButton : MonoBehaviour
 
     public void Trigger()
     {
-        option.eventsToTrigger.Invoke();
-
         if (option.endDialogue)
             DialogueManager.instance_.EndDialogue();
         else
