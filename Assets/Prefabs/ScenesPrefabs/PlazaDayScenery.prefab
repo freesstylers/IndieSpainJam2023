@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8650935833451337166}
   - component: {fileID: 1553227268165462011}
   - component: {fileID: 4845664163015812631}
+  - component: {fileID: 9177266974086346081}
   m_Layer: 0
   m_Name: Salida4
   m_TagString: Untagged
@@ -144,6 +145,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
+--- !u!114 &9177266974086346081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500331036906111560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &705083510453807279
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +595,7 @@ GameObject:
   - component: {fileID: 5612636830526786484}
   - component: {fileID: 9070677343724213565}
   - component: {fileID: 2244047809017109207}
+  - component: {fileID: 8928953459968418392}
   m_Layer: 0
   m_Name: Salida2
   m_TagString: Untagged
@@ -712,6 +727,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
+--- !u!114 &8928953459968418392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2590904199199462140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &3277054390493526337
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,6 +859,7 @@ GameObject:
   - component: {fileID: 323425007171177559}
   - component: {fileID: 6187623267100706859}
   - component: {fileID: 5501264375439679852}
+  - component: {fileID: 8987918623398275801}
   m_Layer: 0
   m_Name: Salida5
   m_TagString: Untagged
@@ -961,6 +990,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
+--- !u!114 &8987918623398275801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3587685746741210994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &3758065247990594598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,6 +1309,7 @@ GameObject:
   - component: {fileID: 3421521175352013991}
   - component: {fileID: 8959801696789131466}
   - component: {fileID: 7823927424285192394}
+  - component: {fileID: 6144259466356532742}
   m_Layer: 0
   m_Name: Salida3
   m_TagString: Untagged
@@ -1397,6 +1440,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: iglesia
+--- !u!114 &6144259466356532742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137674185217545780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &7748816667893128890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1877,17 +1933,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: d72e21537a36c1d42aec994ac67d50d3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 16.79
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: d72e21537a36c1d42aec994ac67d50d3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: d72e21537a36c1d42aec994ac67d50d3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -42.26
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: d72e21537a36c1d42aec994ac67d50d3,
         type: 3}
@@ -1929,6 +1985,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasajaunManana3
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: d72e21537a36c1d42aec994ac67d50d3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1951,17 +2012,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 908223b4eaf7a194fadd74a5107100b6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 20.67
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 908223b4eaf7a194fadd74a5107100b6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.12
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 908223b4eaf7a194fadd74a5107100b6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -41.5
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 908223b4eaf7a194fadd74a5107100b6,
         type: 3}
@@ -2003,6 +2064,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PerricoManana1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 908223b4eaf7a194fadd74a5107100b6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2025,17 +2091,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 44ca7b260657d7947bebf5933fc2da1c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 11.42
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 44ca7b260657d7947bebf5933fc2da1c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.48
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 44ca7b260657d7947bebf5933fc2da1c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -41.91
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 44ca7b260657d7947bebf5933fc2da1c,
         type: 3}
@@ -2077,6 +2143,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MesieManana1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 44ca7b260657d7947bebf5933fc2da1c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2099,17 +2170,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: f552b4acf2245914687a8c80134051d9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 11.42
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: f552b4acf2245914687a8c80134051d9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.48
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: f552b4acf2245914687a8c80134051d9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -41.91
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: f552b4acf2245914687a8c80134051d9,
         type: 3}
@@ -2151,6 +2222,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MesieManana2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: f552b4acf2245914687a8c80134051d9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2173,17 +2249,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 30f9ee86cb6df974285cfc5593f22e70,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 20.67
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 30f9ee86cb6df974285cfc5593f22e70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.12
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 30f9ee86cb6df974285cfc5593f22e70,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -41.5
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 30f9ee86cb6df974285cfc5593f22e70,
         type: 3}
@@ -2224,6 +2300,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PerricoManana2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 30f9ee86cb6df974285cfc5593f22e70,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
