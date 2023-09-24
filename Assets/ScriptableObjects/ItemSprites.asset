@@ -19,28 +19,30 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 61d7519c38ec4774aa68f6ea668e96d5, type: 3}
   - key: gogeta
     sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: PALO
+    sprite: {fileID: 21300000, guid: 28cc70033fa69cc488f643b35d4cea24, type: 3}
   - key: DENTADURA
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 36601f7d0d2a17349b63aea9de975d0a, type: 3}
   - key: PATXARAN
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 8e8971a89b4a916469f3c04f28517460, type: 3}
   - key: PATXARAN_OJOS
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 7709df91a256c934184714a59b5dabdf, type: 3}
   - key: RATON
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: f8d8ec54149d89943bf531957a6e7fa3, type: 3}
   - key: OJOS
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 8c3b5c29def27f748a5089c2255a8307, type: 3}
   - key: HILO
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 5b8436e0047e5b24eafef09208bf7f72, type: 3}
   - key: FEMUR
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: c545aeaadef0f7d4ba860835fae0a9d5, type: 3}
   - key: ALAMBRE
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 78ec50b74d28c934e8d11fbaa0488831, type: 3}
   - key: "CA\xD1A_SIN"
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 5c1fc81d33dc824418d76d8db9d8e534, type: 3}
   - key: "CA\xD1A_ANZUELO"
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: cf1ae71bd5af4f94ba23040984537e80, type: 3}
   - key: "CA\xD1A_CEBO"
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: bd7fca845ae37cb4485dc28d30145cb5, type: 3}
   - key: LENTES
     sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
   - key: CALABAZA
@@ -58,6 +60,4 @@ MonoBehaviour:
   - key: GAITA_LICOR
     sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
   - key: LANZALLAMAS
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
-  - key: PALO
     sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
