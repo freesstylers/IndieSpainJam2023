@@ -58,24 +58,26 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     DialogueTree currentBranch;
 
-    UnityEvent endEvent;
+    Dictionary<string, UnityEvent> events;
 
     int index = 0;
 
-    public void StartDialogue(DialogueData data)
+    public void StartDialogue(DialogueData data, Dictionary<string, UnityEvent> eventDict)
     {
         dialogueOver = false;
         currentTree = data.GetDialogueTree();
-        endEvent.RemoveAllListeners();
-        endEvent = data.eventsAfterDialogueOver;
+        events = new Dictionary<string, UnityEvent>(eventDict);
 
         StartBranch(data.dialogueTreeStart);
     }
+
+    string currentBranchName;
 
     public void StartBranch(string branch)
     {
         CleanOptions();
         currentBranch = currentTree[branch];
+        currentBranchName = branch;
         dialogueOver = false;
         index = 0;
 
@@ -245,7 +247,7 @@ public class DialogueManager : MonoBehaviour
         CleanOptions();
         container.SetActive(false);
         player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
-        endEvent.Invoke();
+        events[currentBranchName].Invoke();
     }
 
     public void CleanOptions()
