@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ccb36fa658628a42bf6f828c49d1ea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: eventos
+  sceneName: MainMenu
   t: 10
 --- !u!114 &270647646
 MonoBehaviour:
