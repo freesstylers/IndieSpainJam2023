@@ -27,6 +27,10 @@ public class TimeManager : MonoBehaviour
             Instance = this;
 
             DontDestroyOnLoad(this.gameObject);
+
+            dayNumber.text = (currentGameDay + 1).ToString();
+
+            GetComponent<Animator>().SetTrigger("Play");
         }
     }
     public int getCurrentDay()
@@ -49,7 +53,7 @@ public class TimeManager : MonoBehaviour
             currentGameDay++;
             currentDayTime = DayTime.MORNING;
 
-            dayNumber.text = currentGameDay.ToString();
+            dayNumber.text = (currentGameDay + 1).ToString();
 
             GetComponent<Animator>().SetTrigger("Play");
         }
