@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: "Messi\xE9"
   m_EditorClassIdentifier: 
   charName: "Messi\xE9"
-  sprite: {fileID: 0}
+  sprite1: {fileID: 21300000, guid: df7aa970980825743a8ad746b0300d14, type: 3}
+  sprite2: {fileID: 21300000, guid: f07f9f179bbe95b41ae10ace9b5f903d, type: 3}

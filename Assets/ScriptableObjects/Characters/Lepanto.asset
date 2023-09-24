@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Lepanto
   m_EditorClassIdentifier: 
   charName: Lepanto
-  sprite: {fileID: 21300000, guid: c1f00d046b3e87348894ea88cb41da77, type: 3}
+  sprite1: {fileID: 21300000, guid: 8af6a2aa5e7ebb34e83534d435c6b628, type: 3}
+  sprite2: {fileID: 21300000, guid: 4499661967da06a439472dbf4a8c7bcb, type: 3}

@@ -9,5 +9,7 @@ public class CharacterScriptableObject : ScriptableObject
     [SerializeReference]
     public string charName;
     [SerializeReference]
-    public Sprite sprite;
+    public Sprite sprite1;
+    [SerializeReference]
+    public Sprite sprite2;
 }

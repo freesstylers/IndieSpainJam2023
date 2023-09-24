@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Molino
   m_EditorClassIdentifier: 
   charName: Molino
-  sprite: {fileID: 0}
+  sprite1: {fileID: 21300000, guid: 3829d429ac14bb842a38c04da7b4998b, type: 3}
+  sprite2: {fileID: 21300000, guid: 164a35753cee266429baf0d982432bfa, type: 3}
