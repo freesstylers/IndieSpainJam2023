@@ -47,7 +47,9 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        container.SetActive(false);
+        
+        if (container != null)
+            container.SetActive(false);
 
         //aSourceCharacterEffect = GetComponents<AudioSource>()[0];
         //aSourceTypingEffect = GetComponents<AudioSource>()[1];

@@ -454,6 +454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9057105409578271438}
   - component: {fileID: 8439544841772785711}
+  - component: {fileID: 7759298109008505288}
   m_Layer: 0
   m_Name: TimeManager
   m_TagString: Untagged
@@ -494,7 +495,19 @@ MonoBehaviour:
   currentDayTime: 0
   clockAnim: {fileID: 7063155729183771293}
   newDayCanvas: {fileID: 3660778533637194657}
-  dayNumber: {fileID: 0}
+  dayNumber: {fileID: 8426195772615109855}
+--- !u!114 &7759298109008505288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773867208868289279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e4ec794f7562442a15ac5120a7c3a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6861384174537849223
 GameObject:
   m_ObjectHideFlags: 0

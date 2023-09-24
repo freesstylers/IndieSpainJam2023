@@ -533,7 +533,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &169678935
 RectTransform:
   m_ObjectHideFlags: 0
@@ -603,91 +603,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169678934}
   m_CullTransparentMesh: 1
---- !u!1001 &375559208
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 391849654859360615, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_Name
-      value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.8161316
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.8627176
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.073142
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8586028489404423564, guid: 9fb42a51ad97741499fbf73b6085e445,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9fb42a51ad97741499fbf73b6085e445, type: 3}
---- !u!114 &375559209 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1390873487854510411, guid: 9fb42a51ad97741499fbf73b6085e445,
-    type: 3}
-  m_PrefabInstance: {fileID: 375559208}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c097853683e8c749aeea952e80a1547, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &389978565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,7 +1410,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 123.95
+  m_fontSize: 123.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1709,6 +1624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: PlayScene
   t: 5
+  onStart: 0
 --- !u!1 &661002259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3612,10 +3528,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 375559209}
-        m_TargetAssemblyTypeName: SaveSystem, Assembly-CSharp
-        m_MethodName: WriteInternal
-        m_Mode: 1
+      - m_Target: {fileID: 598103108}
+        m_TargetAssemblyTypeName: sceneTransition, Assembly-CSharp
+        m_MethodName: changeScene
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4176,8 +4092,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "CON QUESO - Gonzalo Cidoncha\nGENERADOR DE CAOS - Ignacio Ory\nCORPO RIXIDO
     - Brais Morgade\nFAN DE YUUMI TV - Jose Mart\xEDn Serrano\nFABRICANTE DE PALOS
-    2D - Francisco Jos\xE9 Pinilla\nSPIDOPS ENJOYER - Pablo Grossi Garc\xEDa\nMIKUMIKUMIKUMIKU
-    - Javier Arias\n - Alberto \n - Emilio Garc\xEDa Abad\nGUILLE - GUILLE"
+    2D - Francisco Jos\xE9 Pinilla\nEL ACARTONAO - Pablo Grossi Garc\xEDa\nMIKUMIKUMIKUMIKU
+    - Javier Arias\nGODRAYS ENJOYER - Alberto Romero Abarca\n - Emilio Garc\xEDa
+    Abad\nGUILLE - GUILLE"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fffe680aaae9a364fb52a2ed10b861fc, type: 2}
   m_sharedMaterial: {fileID: -2390271871651955219, guid: fffe680aaae9a364fb52a2ed10b861fc,
@@ -4487,4 +4404,3 @@ SceneRoots:
   - {fileID: 102337009}
   - {fileID: 88411591}
   - {fileID: 1102949344}
-  - {fileID: 375559208}

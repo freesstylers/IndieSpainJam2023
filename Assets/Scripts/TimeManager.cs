@@ -28,9 +28,10 @@ public class TimeManager : MonoBehaviour
 
             DontDestroyOnLoad(this.gameObject);
 
-            dayNumber.text = (currentGameDay + 1).ToString();
+            if (dayNumber != null)
+                dayNumber.text = (currentGameDay + 1).ToString();
 
-            GetComponent<Animator>().SetTrigger("Play");
+            GetComponentInChildren<Animator>().SetTrigger("Play");
         }
     }
     public int getCurrentDay()
