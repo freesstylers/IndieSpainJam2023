@@ -45,14 +45,163 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ZoneList:
-  - gameObject: {fileID: 0}
-    ObjectsToEnableDay: []
-    ObjectsToEnableNight: []
-    ObjectsToDisableDay: []
-    ObjectsToDisableNight: []
-  currentZone:
-    gameObject: {fileID: 0}
-    ObjectsToEnableDay: []
-    ObjectsToEnableNight: []
-    ObjectsToDisableDay: []
-    ObjectsToDisableNight: []
+  - zoneName: iglesia
+    zoneDay: {fileID: 0}
+    zoneTarde: {fileID: 0}
+    zoneNight: {fileID: 0}
+    EnabledObjectsByDay:
+    - Morning:
+      - {fileID: 0}
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      - {fileID: 0}
+      Night:
+      - {fileID: 0}
+      - {fileID: 0}
+    - Morning:
+      - {fileID: 0}
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      - {fileID: 0}
+      Night:
+      - {fileID: 0}
+      - {fileID: 0}
+    - Morning:
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      - {fileID: 0}
+      Night:
+      - {fileID: 0}
+  - zoneName: plaza
+    zoneDay: {fileID: 0}
+    zoneTarde: {fileID: 0}
+    zoneNight: {fileID: 0}
+    EnabledObjectsByDay:
+    - Morning:
+      - {fileID: 0}
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      Night:
+      - {fileID: 0}
+    - Morning:
+      - {fileID: 0}
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      - {fileID: 0}
+      Night:
+      - {fileID: 0}
+      - {fileID: 0}
+    - Morning:
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      Night: []
+  - zoneName: bosque
+    zoneDay: {fileID: 0}
+    zoneTarde: {fileID: 0}
+    zoneNight: {fileID: 0}
+    EnabledObjectsByDay:
+    - Morning: []
+      Afternoon: []
+      Night:
+      - {fileID: 0}
+      - {fileID: 0}
+    - Morning: []
+      Afternoon: []
+      Night:
+      - {fileID: 0}
+    - Morning: []
+      Afternoon: []
+      Night:
+      - {fileID: 0}
+      - {fileID: 0}
+  - zoneName: emporio
+    zoneDay: {fileID: 0}
+    zoneTarde: {fileID: 0}
+    zoneNight: {fileID: 0}
+    EnabledObjectsByDay:
+    - Morning:
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      - {fileID: 0}
+      Night: []
+    - Morning:
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      Night: []
+    - Morning:
+      - {fileID: 0}
+      Afternoon: []
+      Night: []
+  - zoneName: casa
+    zoneDay: {fileID: 0}
+    zoneTarde: {fileID: 0}
+    zoneNight: {fileID: 0}
+    EnabledObjectsByDay:
+    - Morning:
+      - {fileID: 0}
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      - {fileID: 0}
+      Night: []
+    - Morning:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      Night:
+      - {fileID: 0}
+    - Morning:
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      Night: []
+  - zoneName: taberna
+    zoneDay: {fileID: 0}
+    zoneTarde: {fileID: 0}
+    zoneNight: {fileID: 0}
+    EnabledObjectsByDay:
+    - Morning:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      - {fileID: 0}
+      Night:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - Morning:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      Afternoon:
+      - {fileID: 0}
+      - {fileID: 0}
+      Night:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - Morning: []
+      Afternoon: []
+      Night:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  startingZone: plaza
+  currentZone: plaza
+  fadeInTime: 1
+  fadeOutTime: 0.5
