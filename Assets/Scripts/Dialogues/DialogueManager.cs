@@ -41,6 +41,9 @@ public class DialogueManager : MonoBehaviour
 
     public Color unfocusedTint = new Color(0.5f, 0.5f, 0.5f, 0.2f);
 
+    [SerializeField]
+    FMODUnity.AudioScript audioScript;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -199,7 +202,11 @@ public class DialogueManager : MonoBehaviour
                 history = charNameContainer.GetComponentInChildren<TextMeshProUGUI>().text + ": " + s;
 
             GameManager.Instance.AddToHistory(history);
-            AudioClip audioToPlay = currentBranch.dialogue[index].audioToPlay;
+            //AudioClip audioToPlay = currentBranch.dialogue[index].audioToPlay;
+
+            audioScript.PlaySound(currentBranch.dialogue[index].eventReference); //PlaySound
+
+
             index++;
 
             //PLAY AUDIO SI NO ES NULL!!!!!!!!!!!
