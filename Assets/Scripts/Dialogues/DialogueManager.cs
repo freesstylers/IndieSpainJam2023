@@ -204,13 +204,11 @@ public class DialogueManager : MonoBehaviour
             GameManager.Instance.AddToHistory(history);
             //AudioClip audioToPlay = currentBranch.dialogue[index].audioToPlay;
 
-            audioScript.PlaySound(currentBranch.dialogue[index].eventReference); //PlaySound
+            if(!currentBranch.dialogue[index].eventReference.IsNull)
+                audioScript.PlaySound(currentBranch.dialogue[index].eventReference); //PlaySound
 
 
             index++;
-
-            //PLAY AUDIO SI NO ES NULL!!!!!!!!!!!
-            Debug.Log("FALTA EL PLAY DEL AUDIO DE DIÁLOGO!");
 
             displayLineCoroutine = StartCoroutine(progressiveSentenceDisplay(s));
         }
@@ -267,22 +265,24 @@ public class DialogueManager : MonoBehaviour
     {
         text.text = "";
         char[] letters = sentence.ToCharArray();
-        //aSourceTypingEffect.clip = typingSounds[UnityEngine.Random.Range(0, typingSounds.Length)];
-        //aSourceTypingEffect.Play();
 
-        //PLAY AUDIO SI NO ES NULL!!!!!!!!!!!
-        Debug.Log("FALTA EL PLAY DEL AUDIO DE TYPING!");
+        bool wordPlayed = false;
 
         foreach (char letter in letters)
         {
+            if(!wordPlayed)
+            {
+                audioScript.PlaySound(audioScript.Escribir);
+                wordPlayed = true;
+            }
+
             if (letter == ' ')
             {
-                //aSourceTypingEffect.clip = typingSounds[UnityEngine.Random.Range(0, typingSounds.Length)];
-                //aSourceTypingEffect.Play();
+                wordPlayed = false;
             }
+
             text.text += letter;
-            //aSourceTypingEffect.clip = typingSounds[UnityEngine.Random.Range(0, typingSounds.Length)];
-            //aSourceTypingEffect.Play();
+
             yield return new WaitForSeconds(1/dialogSpeed);
         }
 
