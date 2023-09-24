@@ -716,7 +716,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2808638313937913499
 Transform:
   m_ObjectHideFlags: 0
@@ -1353,6 +1353,7 @@ GameObject:
   - component: {fileID: 3229759807228360636}
   - component: {fileID: 8150812199603808973}
   - component: {fileID: 8720723769245578763}
+  - component: {fileID: 750197463072676396}
   m_Layer: 0
   m_Name: Salida
   m_TagString: Untagged
@@ -1483,6 +1484,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 4
   toZone: plaza
+--- !u!114 &750197463072676396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8688273440765154916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &8880474091328149045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,17 +1626,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: fd304d4daeca012429a3bd738717cd19,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.95
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fd304d4daeca012429a3bd738717cd19,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.16
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fd304d4daeca012429a3bd738717cd19,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -19.16
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fd304d4daeca012429a3bd738717cd19,
         type: 3}
@@ -1663,6 +1677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NelNoche2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: fd304d4daeca012429a3bd738717cd19,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1832,6 +1851,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Calabaza
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1854,17 +1878,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 2bbe999b53f0de5459fb6b613e8778be,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.95
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 2bbe999b53f0de5459fb6b613e8778be,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.16
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 2bbe999b53f0de5459fb6b613e8778be,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -19.16
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 2bbe999b53f0de5459fb6b613e8778be,
         type: 3}
@@ -1905,6 +1929,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NelNoche1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 2bbe999b53f0de5459fb6b613e8778be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

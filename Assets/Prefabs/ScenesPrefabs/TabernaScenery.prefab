@@ -156,7 +156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &673170598107164186
 Transform:
   m_ObjectHideFlags: 0
@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1982443968685363442
 Transform:
   m_ObjectHideFlags: 0
@@ -392,7 +392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7109629632193033441
 Transform:
   m_ObjectHideFlags: 0
@@ -511,7 +511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1103089771016897609
 Transform:
   m_ObjectHideFlags: 0
@@ -725,7 +725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4947379011431532710
 Transform:
   m_ObjectHideFlags: 0
@@ -1066,7 +1066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &417940086665285857
 Transform:
   m_ObjectHideFlags: 0
@@ -1240,7 +1240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6693574691212252582
 Transform:
   m_ObjectHideFlags: 0
@@ -1358,7 +1358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3081171857382069914
 Transform:
   m_ObjectHideFlags: 0
@@ -1476,7 +1476,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &183564564119984372
 Transform:
   m_ObjectHideFlags: 0
@@ -1586,17 +1586,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: e0ee60bab9e287745b859faded41a959,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.84
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: e0ee60bab9e287745b859faded41a959,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.22
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: e0ee60bab9e287745b859faded41a959,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.9
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: e0ee60bab9e287745b859faded41a959,
         type: 3}
@@ -1638,6 +1638,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MolinoTarde1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: e0ee60bab9e287745b859faded41a959,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1660,17 +1665,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: fe406b78eef1f9f4a81d9ccd7d6fb13d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.998
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fe406b78eef1f9f4a81d9ccd7d6fb13d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.49
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fe406b78eef1f9f4a81d9ccd7d6fb13d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.99
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fe406b78eef1f9f4a81d9ccd7d6fb13d,
         type: 3}
@@ -1712,6 +1717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VisaraTarde2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: fe406b78eef1f9f4a81d9ccd7d6fb13d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1734,17 +1744,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 38f14f81af462ab4cb0e0721c63e9b85,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 4.59
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 38f14f81af462ab4cb0e0721c63e9b85,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.83
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 38f14f81af462ab4cb0e0721c63e9b85,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.97
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 38f14f81af462ab4cb0e0721c63e9b85,
         type: 3}
@@ -1786,6 +1796,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuebecNoche2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 38f14f81af462ab4cb0e0721c63e9b85,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1808,17 +1823,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: c7adf1557da42304685eaa1e622b2ed0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.232
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c7adf1557da42304685eaa1e622b2ed0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.208
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c7adf1557da42304685eaa1e622b2ed0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -15.61
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c7adf1557da42304685eaa1e622b2ed0,
         type: 3}
@@ -1860,6 +1875,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LepantoManana1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: c7adf1557da42304685eaa1e622b2ed0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1882,17 +1902,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 799471e5e40c0c64c87fe8a969853efc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.375
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 799471e5e40c0c64c87fe8a969853efc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.93
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 799471e5e40c0c64c87fe8a969853efc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.65
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 799471e5e40c0c64c87fe8a969853efc,
         type: 3}
@@ -1934,6 +1954,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VenancioTarde1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 799471e5e40c0c64c87fe8a969853efc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1956,17 +1981,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 64a18aeaac7d79e48a0199dcb33fdcf5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.998
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 64a18aeaac7d79e48a0199dcb33fdcf5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.49
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 64a18aeaac7d79e48a0199dcb33fdcf5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.99
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 64a18aeaac7d79e48a0199dcb33fdcf5,
         type: 3}
@@ -2008,6 +2033,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VisaraManana2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 64a18aeaac7d79e48a0199dcb33fdcf5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2030,17 +2060,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 313d9f944328621479d7606b0654b026,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 4.59
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 313d9f944328621479d7606b0654b026,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.83
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 313d9f944328621479d7606b0654b026,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.97
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 313d9f944328621479d7606b0654b026,
         type: 3}
@@ -2082,6 +2112,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuebecNoche3
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 313d9f944328621479d7606b0654b026,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2104,17 +2139,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 7475dbe7c29921b44931c5b875d7c931,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.232
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7475dbe7c29921b44931c5b875d7c931,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.208
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7475dbe7c29921b44931c5b875d7c931,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -15.61
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7475dbe7c29921b44931c5b875d7c931,
         type: 3}
@@ -2156,6 +2191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LepantoManana2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 7475dbe7c29921b44931c5b875d7c931,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2178,17 +2218,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: c12633ad7e2f2124e8c354ecabde4c86,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.375
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c12633ad7e2f2124e8c354ecabde4c86,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.93
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c12633ad7e2f2124e8c354ecabde4c86,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.65
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c12633ad7e2f2124e8c354ecabde4c86,
         type: 3}
@@ -2230,6 +2270,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VenancioNoche1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: c12633ad7e2f2124e8c354ecabde4c86,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2252,17 +2297,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 22617e78762d87349b5b788f322064cd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.23
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 22617e78762d87349b5b788f322064cd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 22617e78762d87349b5b788f322064cd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.23
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 22617e78762d87349b5b788f322064cd,
         type: 3}
@@ -2304,6 +2349,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SuspiniciusNoche3
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 22617e78762d87349b5b788f322064cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2326,17 +2376,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: a76aad8633997de4b83b611587c1e70d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.84
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: a76aad8633997de4b83b611587c1e70d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.22
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: a76aad8633997de4b83b611587c1e70d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.9
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: a76aad8633997de4b83b611587c1e70d,
         type: 3}
@@ -2378,6 +2428,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MolinoTarde2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: a76aad8633997de4b83b611587c1e70d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2400,17 +2455,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 01314046dde3bdc408b745c3e74a9af8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.909
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 01314046dde3bdc408b745c3e74a9af8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.94
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 01314046dde3bdc408b745c3e74a9af8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -16.047
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 01314046dde3bdc408b745c3e74a9af8,
         type: 3}
@@ -2452,6 +2507,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MesieNoche1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 01314046dde3bdc408b745c3e74a9af8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2474,17 +2534,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 28d0b8c4a5ae8814ab74d86750a996f6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 4.59
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 28d0b8c4a5ae8814ab74d86750a996f6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.83
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 28d0b8c4a5ae8814ab74d86750a996f6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.97
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 28d0b8c4a5ae8814ab74d86750a996f6,
         type: 3}
@@ -2526,6 +2586,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuebecNoche1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 28d0b8c4a5ae8814ab74d86750a996f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2548,17 +2613,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: a71431904281348448cd43ae1c8897d1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.84
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: a71431904281348448cd43ae1c8897d1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.22
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: a71431904281348448cd43ae1c8897d1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.9
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: a71431904281348448cd43ae1c8897d1,
         type: 3}
@@ -2600,6 +2665,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MolinoNoche3
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: a71431904281348448cd43ae1c8897d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2622,17 +2692,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: fdb081a25c2b2264d9062e3c201cd09a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.998
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fdb081a25c2b2264d9062e3c201cd09a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.49
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fdb081a25c2b2264d9062e3c201cd09a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.99
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fdb081a25c2b2264d9062e3c201cd09a,
         type: 3}
@@ -2674,6 +2744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VisaraNoche3
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: fdb081a25c2b2264d9062e3c201cd09a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2696,17 +2771,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: cf25b8b72d39c454c8acb6eb1b00da8a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.998
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: cf25b8b72d39c454c8acb6eb1b00da8a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.49
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: cf25b8b72d39c454c8acb6eb1b00da8a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.99
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: cf25b8b72d39c454c8acb6eb1b00da8a,
         type: 3}
@@ -2748,6 +2823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VisaraManana1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: cf25b8b72d39c454c8acb6eb1b00da8a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2770,17 +2850,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 944a91b971c7eda42851ad621e6832b8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.23
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 944a91b971c7eda42851ad621e6832b8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 944a91b971c7eda42851ad621e6832b8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.23
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 944a91b971c7eda42851ad621e6832b8,
         type: 3}
@@ -2821,6 +2901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SuspiniciusNoche2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 944a91b971c7eda42851ad621e6832b8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2928,17 +3013,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: b4075da019df34640b43d7c4638dd4a6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.375
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: b4075da019df34640b43d7c4638dd4a6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.93
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: b4075da019df34640b43d7c4638dd4a6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.65
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: b4075da019df34640b43d7c4638dd4a6,
         type: 3}
@@ -2980,6 +3065,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VenancioManana2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: b4075da019df34640b43d7c4638dd4a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3002,17 +3092,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: a8e5901570af0744bb981b9d8143e416,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.84
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: a8e5901570af0744bb981b9d8143e416,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.22
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: a8e5901570af0744bb981b9d8143e416,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.9
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: a8e5901570af0744bb981b9d8143e416,
         type: 3}
@@ -3054,6 +3144,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MolinoNoche2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: a8e5901570af0744bb981b9d8143e416,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3076,17 +3171,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 7dae44fa830bc1c4ab0f4c3245ea9bca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.375
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7dae44fa830bc1c4ab0f4c3245ea9bca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.93
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7dae44fa830bc1c4ab0f4c3245ea9bca,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -14.65
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7dae44fa830bc1c4ab0f4c3245ea9bca,
         type: 3}
@@ -3127,6 +3222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VenancioManana1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 7dae44fa830bc1c4ab0f4c3245ea9bca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

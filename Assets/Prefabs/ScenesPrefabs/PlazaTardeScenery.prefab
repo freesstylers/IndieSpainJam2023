@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8650935833451337166}
   - component: {fileID: 1553227268165462011}
   - component: {fileID: 4845664163015812631}
+  - component: {fileID: 5373019962242999726}
   m_Layer: 0
   m_Name: Salida4
   m_TagString: Untagged
@@ -144,6 +145,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
+--- !u!114 &5373019962242999726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500331036906111560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &705083510453807279
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,6 +337,7 @@ GameObject:
   - component: {fileID: 715030460382916697}
   - component: {fileID: 6288274345407950876}
   - component: {fileID: 4276917082841837991}
+  - component: {fileID: 4505043785126158669}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -450,6 +465,22 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &4505043785126158669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319902747264149473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56dbf9ac6bc0d8e449fa81f10b5f2806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToFade: 5
+  black_: {fileID: 0}
+  shakeDuration: 0
+  shakeAmount: 3.7
 --- !u!1 &1646890249803867759
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +613,7 @@ GameObject:
   - component: {fileID: 5612636830526786484}
   - component: {fileID: 9070677343724213565}
   - component: {fileID: 2244047809017109207}
+  - component: {fileID: 4378854517861995608}
   m_Layer: 0
   m_Name: Salida2
   m_TagString: Untagged
@@ -713,6 +745,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
+--- !u!114 &4378854517861995608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2590904199199462140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &3277054390493526337
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +877,7 @@ GameObject:
   - component: {fileID: 323425007171177559}
   - component: {fileID: 6187623267100706859}
   - component: {fileID: 5501264375439679852}
+  - component: {fileID: 1546167823481861705}
   m_Layer: 0
   m_Name: Salida5
   m_TagString: Untagged
@@ -962,6 +1008,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
+--- !u!114 &1546167823481861705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3587685746741210994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &3758065247990594598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,6 +1327,7 @@ GameObject:
   - component: {fileID: 3421521175352013991}
   - component: {fileID: 8959801696789131466}
   - component: {fileID: 7823927424285192394}
+  - component: {fileID: 5466877528835202266}
   m_Layer: 0
   m_Name: Salida3
   m_TagString: Untagged
@@ -1398,6 +1458,19 @@ MonoBehaviour:
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: iglesia
+--- !u!114 &5466877528835202266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137674185217545780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 308
 --- !u!1 &7748816667893128890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,17 +1857,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: d06080cfdff90e449bb354b74dd5d270,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 16.2
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: d06080cfdff90e449bb354b74dd5d270,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: d06080cfdff90e449bb354b74dd5d270,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -43.95
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: d06080cfdff90e449bb354b74dd5d270,
         type: 3}
@@ -1835,6 +1908,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: QuebecTarde2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: d06080cfdff90e449bb354b74dd5d270,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1952,17 +2030,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: da7ca2cabe264684abae032be1bdeefd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 16.2
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: da7ca2cabe264684abae032be1bdeefd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: da7ca2cabe264684abae032be1bdeefd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -43.95
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: da7ca2cabe264684abae032be1bdeefd,
         type: 3}
@@ -2004,6 +2082,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuebecTarde1
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: da7ca2cabe264684abae032be1bdeefd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2026,7 +2109,7 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: f81e10f18618fc54fa35d6cfaad9c5e8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 11.43
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: f81e10f18618fc54fa35d6cfaad9c5e8,
         type: 3}
@@ -2036,7 +2119,7 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: f81e10f18618fc54fa35d6cfaad9c5e8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -43.58
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: f81e10f18618fc54fa35d6cfaad9c5e8,
         type: 3}
@@ -2078,6 +2161,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VisaraTarde3
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: f81e10f18618fc54fa35d6cfaad9c5e8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2100,17 +2188,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 91b2e25840924e94e8a83d27d40ef198,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 20.82
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 91b2e25840924e94e8a83d27d40ef198,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.66
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 91b2e25840924e94e8a83d27d40ef198,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -41.909
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 91b2e25840924e94e8a83d27d40ef198,
         type: 3}
@@ -2152,6 +2240,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PerricoTarde2
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 91b2e25840924e94e8a83d27d40ef198,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2174,17 +2267,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: fcb64d90fab1ce142b7503e689bed920,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.37
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fcb64d90fab1ce142b7503e689bed920,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.99
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fcb64d90fab1ce142b7503e689bed920,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -42.65
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: fcb64d90fab1ce142b7503e689bed920,
         type: 3}
@@ -2226,6 +2319,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SuspiniciusTarde3
       objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: fcb64d90fab1ce142b7503e689bed920,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2248,17 +2346,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 92634d01da619144bb47a1cfae125396,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 16.2
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 92634d01da619144bb47a1cfae125396,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 92634d01da619144bb47a1cfae125396,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -43.95
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 92634d01da619144bb47a1cfae125396,
         type: 3}
@@ -2299,6 +2397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: QuebecTarde3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385651634113060007, guid: 92634d01da619144bb47a1cfae125396,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
