@@ -494,7 +494,7 @@ MonoBehaviour:
   currentDayTime: 0
   clockAnim: {fileID: 7063155729183771293}
   newDayCanvas: {fileID: 3660778533637194657}
-  dayNumber: {fileID: 8426195772615109855}
+  dayNumber: {fileID: 6355259123028401661}
 --- !u!1 &6861384174537849223
 GameObject:
   m_ObjectHideFlags: 0
