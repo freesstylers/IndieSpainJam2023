@@ -41,7 +41,6 @@ public class DialogueManager : MonoBehaviour
 
     public Color unfocusedTint = new Color(0.5f, 0.5f, 0.5f, 0.2f);
 
-    [SerializeField]
     FMODUnity.AudioScript audioScript;
 
     void Awake()
@@ -50,6 +49,8 @@ public class DialogueManager : MonoBehaviour
         
         if (container != null)
             container.SetActive(false);
+
+        audioScript = GameManager.Instance.GetComponent<FMODUnity.AudioScript>();
 
         //aSourceCharacterEffect = GetComponents<AudioSource>()[0];
         //aSourceTypingEffect = GetComponents<AudioSource>()[1];
