@@ -6,14 +6,10 @@ using static UnityEngine.Video.VideoPlayer;
 public class InteractableNPC : InteractableObject
 {
     [SerializeField]
-    private CharacterScriptableObject characterInfo;    
-    [SerializeField]
-    private DialogueManager dialogueManager;
+    private CharacterScriptableObject characterInfo;
     public GameEventHandler ev;
-
     public override void InteractCallback()
     {
-        //DialogueManager.instance_.StartDialogue(characterInfo.dialogues[0]);
         ev.TriggerEvent();
     }
 }
