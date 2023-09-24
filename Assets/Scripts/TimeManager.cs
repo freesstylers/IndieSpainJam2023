@@ -61,7 +61,7 @@ public class TimeManager : MonoBehaviour
 
             dayNumber.text = (currentGameDay + 1).ToString();
 
-            GetComponent<Animator>().SetTrigger("Play");
+            GetComponentInChildren<Animator>().SetTrigger("Play");
         }
         //recargar zona con el tiempo actualizado
         Debug.Log("Día: " + currentGameDay+1 + " " + currentDayTime.ToString());
