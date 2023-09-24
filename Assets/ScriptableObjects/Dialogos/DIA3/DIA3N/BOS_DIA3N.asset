@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b537a1f13ae4bbc45b4b2964a5d9b83c, type: 3}
+  m_Name: BOS_DIA3N
+  m_EditorClassIdentifier: 
+  dialogueTreeStart: start
+  dialogueTreeList:
+  - branchName: start
+    dialogueTree:
+      dialogue: []
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
+      options:
+      - key: BOS_DIA3N_22
+        endDialogue: 0
+        branchToJumpTo: Seguir Voz
+        itemNeeded: []
+      - key: BOS_DIA3N_23
+        endDialogue: 0
+        branchToJumpTo: Ignorar Voz
+        itemNeeded:
+        - PATXARAN_OJOS
+  - branchName: Seguir Voz
+    dialogueTree:
+      dialogue: []
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
+      options: []
+  - branchName: Ignorar Voz
+    dialogueTree:
+      dialogue: []
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
+      options: []

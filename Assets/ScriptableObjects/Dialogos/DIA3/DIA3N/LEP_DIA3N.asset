@@ -18,7 +18,13 @@ MonoBehaviour:
     dialogueTree:
       dialogue:
       - key: LEP_DIA3N_1
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: 3af8892f5c847e54c8e137ebc17feb46, type: 2}
@@ -26,84 +32,316 @@ MonoBehaviour:
       options:
       - key: LEP_DIA3N_2
         endDialogue: 0
-        branchToJumpTo: 1
+        branchToJumpTo: "Est\xE1 ah\xED"
         itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
       - key: LEP_DIA3N_6
         endDialogue: 0
-        branchToJumpTo: 
+        branchToJumpTo: Genocida
         itemNeeded:
         - CUCHILLO
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
-  - branchName: 1
+        - GENOCIDIO
+      - key: LEP_DIA3N_21
+        endDialogue: 0
+        branchToJumpTo: Lanzallamas
+        itemNeeded:
+        - LANZALLAMAS
+  - branchName: "Est\xE1 ah\xED"
     dialogueTree:
       dialogue:
       - key: LEP_DIA3N_3
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
       - key: LEP_DIA3N_4
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_5
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: 3af8892f5c847e54c8e137ebc17feb46, type: 2}
       rightSprite: {fileID: 0}
       options: []
-  - branchName: 2
+  - branchName: Genocida
     dialogueTree:
       dialogue:
       - key: LEP_DIA3N_7
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
       - key: LEP_DIA3N_8
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_9
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_10
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_11
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_12
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_13
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_14
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_15
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_16
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_17
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_18
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_19
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: LEP_DIA3N_20
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: 3af8892f5c847e54c8e137ebc17feb46, type: 2}
       rightSprite: {fileID: 0}
       options: []
-  eventsAfterDialogueOver:
-    m_PersistentCalls:
-      m_Calls: []
+  - branchName: Lanzallamas
+    dialogueTree:
+      dialogue:
+      - key: LEP_DIA3N_7
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 3
+      - key: LEP_DIA3N_8
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_9
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_10
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_11
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_12
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_13
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_14
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_15
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_16
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_17
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_18
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_19
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: LEP_DIA3N_20
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 11400000, guid: 3af8892f5c847e54c8e137ebc17feb46, type: 2}
+      rightSprite: {fileID: 0}
+      options: []
