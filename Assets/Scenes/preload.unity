@@ -277,6 +277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: MainMenu
   t: 4
+  onStart: 1
 --- !u!114 &270647646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -605,7 +606,7 @@ PrefabInstance:
     - target: {fileID: 8577765158504102604, guid: 9fb42a51ad97741499fbf73b6085e445,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8586028489404423564, guid: 9fb42a51ad97741499fbf73b6085e445,
         type: 3}
