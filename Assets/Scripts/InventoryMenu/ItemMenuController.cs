@@ -9,13 +9,13 @@ public class ItemMenuController : MonoBehaviour
     public TMPro.TextMeshProUGUI itemDesc;
     public TMPro.TextMeshProUGUI itemName;
     public UnityEngine.UI.Image itemSprite;
+    public Sprite basicSprite;
     
 
     [SerializeField]
     private GameObject itemMenuPref;
     [SerializeField]
     private Inventory canvasInventory;
-
     private List<GameObject> itemMenus;
 
     private void Start()
@@ -25,7 +25,7 @@ public class ItemMenuController : MonoBehaviour
 
     private void OnEnable()
     {
-        //AddItems();
+        AddItems();
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
         RebuildItems();
@@ -43,6 +43,9 @@ public class ItemMenuController : MonoBehaviour
         itemDesc.text = desc;
         itemName.text = name;
         itemSprite.sprite = sprite;
+
+        if (sprite == null)
+            itemSprite.sprite = basicSprite;
     }
 
     public void RebuildItems()
@@ -80,5 +83,10 @@ public class ItemMenuController : MonoBehaviour
         canvasInventory.TryCombineItems(item1, item2);
         FillFullItem("", "", null); //Limpiar si ha objeto mostrando
         RebuildItems();
+    }
+
+    public void ClearSelection()
+    {
+        FillFullItem("", "", null);
     }
 }
