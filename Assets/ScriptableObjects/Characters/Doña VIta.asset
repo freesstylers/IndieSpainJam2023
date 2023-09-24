@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: "Do\xF1a VIta"
   m_EditorClassIdentifier: 
   charName: "Do\xF1a Vita"
-  sprite: {fileID: 21300000, guid: 4c6b13a2ebe708f4a82236bc8d372c62, type: 3}
+  sprite1: {fileID: 21300000, guid: 328b09de1e592bb4bbf031a2bef37044, type: 3}
+  sprite2: {fileID: 21300000, guid: 0c090d2a80cd9c448a240f23a79044de, type: 3}

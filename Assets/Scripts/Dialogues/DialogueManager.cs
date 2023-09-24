@@ -44,7 +44,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     FMODUnity.AudioScript audioScript;
 
-    void Start()
+    void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         
@@ -93,22 +93,31 @@ public class DialogueManager : MonoBehaviour
 
         if(currentBranch.leftSprite != null)
         {
-            leftSprite.sprite = currentBranch.leftSprite.sprite;
+            leftSprite.sprite = currentBranch.leftSprite.sprite1;
             leftSprite.color = unfocusedTint;
+
+            leftSprite.GetComponent<DialogueSpriteManager>().sprite1 = currentBranch.leftSprite.sprite1;
+            leftSprite.GetComponent<DialogueSpriteManager>().sprite2 = currentBranch.leftSprite.sprite2;
         }
 
 
         if (currentBranch.centerSprite != null)
         {
-            centerSprite.sprite = currentBranch.centerSprite.sprite;
+            centerSprite.sprite = currentBranch.centerSprite.sprite1;
             centerSprite.color = unfocusedTint;
+
+            centerSprite.GetComponent<DialogueSpriteManager>().sprite1 = currentBranch.centerSprite.sprite1;
+            centerSprite.GetComponent<DialogueSpriteManager>().sprite2 = currentBranch.centerSprite.sprite2;
         }
 
 
         if (currentBranch.rightSprite != null)
         {
-            rightSprite.sprite = currentBranch.rightSprite.sprite;
+            rightSprite.sprite = currentBranch.rightSprite.sprite1;
             rightSprite.color = unfocusedTint;
+
+            rightSprite.GetComponent<DialogueSpriteManager>().sprite1 = currentBranch.rightSprite.sprite1;
+            rightSprite.GetComponent<DialogueSpriteManager>().sprite2 = currentBranch.rightSprite.sprite2;
         }
 
         leftSprite.gameObject.SetActive(currentBranch.leftSprite != null);

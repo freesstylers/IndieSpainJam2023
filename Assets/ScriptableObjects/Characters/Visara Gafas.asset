@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e724a01572743f479ebac8aae552c64, type: 3}
-  m_Name: Basajaun
+  m_Name: Visara Gafas
   m_EditorClassIdentifier: 
-  charName: Basajaun
-  sprite1: {fileID: 21300000, guid: c5f0068f9862cf248ab072515d2775e4, type: 3}
-  sprite2: {fileID: 21300000, guid: df0ba06c4d020114d907d921b1bac403, type: 3}
+  charName: Visara
+  sprite1: {fileID: 21300000, guid: 104b786f61beffa4a8d8ce32a33ab966, type: 3}
+  sprite2: {fileID: 21300000, guid: ccc55722c0f6ddd4bb84c2017f23de58, type: 3}

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Venancio
   m_EditorClassIdentifier: 
   charName: Venancio
-  sprite: {fileID: 0}
+  sprite1: {fileID: 21300000, guid: 05c970e705636b346b76a77cd6b24665, type: 3}
+  sprite2: {fileID: 21300000, guid: 52affa5e1c055d8478a24740dcef54ea, type: 3}
