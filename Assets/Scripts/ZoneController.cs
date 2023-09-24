@@ -136,6 +136,9 @@ public class ZoneController : MonoBehaviour
         if (zoneDic.ContainsKey(newZone))
         {
             GameManager.Instance.GetComponent<FMODUnity.AudioScript>().CambiarEscenario(newZone, newZone);
+
+            PlayNarradorSoundChangeZone(newZone);
+
             nextZone = newZone;
             if (Camera.main != null && Camera.main.GetComponent<CameraEffects>() != null)
             {
@@ -143,6 +146,103 @@ public class ZoneController : MonoBehaviour
             }
         }
         else Debug.Log("Zona no válida, asignar ToZone");
+    }
+
+    //Mirad lo que me me habeis obligado a hacer
+    private void PlayNarradorSoundChangeZone(string newZone)
+    {
+        FMODUnity.AudioScript audio = GameManager.Instance.GetComponent<FMODUnity.AudioScript>();
+        switch (currentZoneDay){
+            case 0:
+                if (currentZoneDayTime == DayTime.NIGHT)
+                {
+                    switch (newZone)
+                    {
+                        case "bosque":
+                            audio.PlayNarradorSound(0);
+                            break;
+                        case "iglesia":
+                            audio.PlayNarradorSound(1);
+                            break;
+                        case "plaza":
+                            audio.PlayNarradorSound(2);
+                            break;
+                        case "taberna":
+                            audio.PlayNarradorSound(3);
+                            break;
+                    }
+                }
+                break;
+                    
+            case 1:
+                if (currentZoneDayTime == DayTime.NIGHT)
+                {
+                    switch (newZone)
+                    {
+                        case "bosque":
+                            audio.PlayNarradorSound(4);
+                            break;
+                        case "casa":
+                            audio.PlayNarradorSound(5);
+                            break;
+                        case "iglesia":
+                            audio.PlayNarradorSound(6);
+                            break;
+                        case "plaza":
+                            audio.PlayNarradorSound(7);
+                            break;
+                        case "taberna":
+                            audio.PlayNarradorSound(8);
+                            break;
+                    }
+                }
+                break;
+            case 2:
+                switch(currentZoneDayTime)
+                {
+                    case DayTime.MORNING:
+                        switch (newZone)
+                        {
+                            case "casa":
+                                audio.PlayNarradorSound(21);
+                                break;
+                            case "emporio":
+                                audio.PlayNarradorSound(22);
+                                break;
+                            case "plaza":
+                                audio.PlayNarradorSound(23);
+                                break;
+                        }
+                        break;
+                    case DayTime.AFTERNOON:
+                        switch (newZone)
+                        {
+                            case "casa":
+                                audio.PlayNarradorSound(16);
+                                break;
+                            case "iglesia":
+                                audio.PlayNarradorSound(18);
+                                break;
+                            case "plaza":
+                                audio.PlayNarradorSound(20);
+                                break;
+                        }
+                        break;
+                    case DayTime.NIGHT:
+                        switch (newZone)
+                        {
+                            case "bosque":
+                                audio.PlayNarradorSound(9);
+                                break;
+                            case "taberna":
+                                audio.PlayNarradorSound(14);
+                                break;
+                        }
+                        break;
+                }
+
+                break;
+        }
     }
 
     public void ChangeZoneCallback()
