@@ -5,9 +5,14 @@ using UnityEngine;
 public class Bosque3rdNight : MonoBehaviour
 {
     public GameObject Lepanto;
-    public GameObject Salida;
+
     private void OnEnable()
     {
-
+        Lepanto.SetActive(true);
+        if (TimeManager.Instance.getCurrentDay() == 2) 
+        {
+            if (!GameManager.Instance.GetInventory().CheckItem("LANZALLAMAS") && !GameManager.Instance.GetInventory().CheckItem("GENOCIDIO"))
+                Lepanto.SetActive(false);
+        }
     }
 }

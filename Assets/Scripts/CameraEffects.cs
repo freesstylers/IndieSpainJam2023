@@ -36,6 +36,11 @@ public class CameraEffects : MonoBehaviour
 
     public void FadeToBlack(float t, Callback callback)
     {
+        if (black_ == null)
+        {
+            if (callback != null) callback();
+            return;
+        }
         if(fadeEffectCoroutine != null)
         {
             StopCoroutine(fadeEffectCoroutine);
@@ -46,6 +51,12 @@ public class CameraEffects : MonoBehaviour
 
     public void FadeFromBlack(float t, Callback callback)
     {
+        if (black_ == null)
+        {
+            if(callback!=null) callback();
+
+            return;
+        }
         if (fadeEffectCoroutine != null)
         {
             StopCoroutine(fadeEffectCoroutine);

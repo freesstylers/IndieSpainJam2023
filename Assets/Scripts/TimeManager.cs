@@ -34,6 +34,11 @@ public class TimeManager : MonoBehaviour
             GetComponentInChildren<Animator>().SetTrigger("Play");
         }
     }
+
+    private void Start()
+    {
+        
+    }
     public int getCurrentDay()
     {
         return currentGameDay;
@@ -54,18 +59,18 @@ public class TimeManager : MonoBehaviour
             currentGameDay++;
             currentDayTime = DayTime.MORNING;
 
-            dayNumber.text = (currentGameDay + 1).ToString();
+            //dayNumber.text = (currentGameDay + 1).ToString();
 
-            GetComponent<Animator>().SetTrigger("Play");
+            //GetComponent<Animator>().SetTrigger("Play");
         }
         //recargar zona con el tiempo actualizado
-        Debug.Log("Día: " + currentGameDay + " " + currentDayTime.ToString());
+        Debug.Log("Día: " + currentGameDay+1 + " " + currentDayTime.ToString());
 
         ZoneController.Instance.ChangeZone(ZoneController.Instance.startingZone);
 
         Debug.Log("FALTA AUDIO DE DIA");
 
 
-        clockAnim.SetTrigger(currentDayTime.ToString());
+        //clockAnim.SetTrigger(currentDayTime.ToString());
     }
 }

@@ -43,6 +43,8 @@ public class ZoneController : MonoBehaviour
         public GameObject zoneNight;
 
         public EnabledObjects[] EnabledObjectsByDay;
+        public EnabledObjects[] DisabledObjectsByDay;
+        
     }
     private void Awake()
     {
@@ -78,23 +80,44 @@ public class ZoneController : MonoBehaviour
         {
             case DayTime.MORNING:
                 z.zoneDay.SetActive(active);
-                foreach (GameObject o in z.EnabledObjectsByDay[day].Morning)
+                if (active)
                 {
-                    o.SetActive(active);
+                    foreach (GameObject o in z.EnabledObjectsByDay[day].Morning)
+                    {
+                        o.SetActive(true);
+                    }
+                    foreach (GameObject o in z.DisabledObjectsByDay[day].Morning)
+                    {
+                        o.SetActive(false);
+                    }
                 }
                 break;
             case DayTime.AFTERNOON:
                 z.zoneDay.SetActive(active);
-                foreach (GameObject o in z.EnabledObjectsByDay[day].Afternoon)
+                if (active)
                 {
-                    o.SetActive(active);
+                    foreach (GameObject o in z.EnabledObjectsByDay[day].Afternoon)
+                    {
+                        o.SetActive(true);
+                    }
+                    foreach (GameObject o in z.DisabledObjectsByDay[day].Afternoon)
+                    {
+                        o.SetActive(false);
+                    }
                 }
                 break;
             case DayTime.NIGHT:
                 z.zoneNight.SetActive(active);
-                foreach (GameObject o in z.EnabledObjectsByDay[day].Night)
+                if (active)
                 {
-                    o.SetActive(active);
+                    foreach (GameObject o in z.EnabledObjectsByDay[day].Night)
+                    {
+                        o.SetActive(true);
+                    }
+                    foreach (GameObject o in z.DisabledObjectsByDay[day].Night)
+                    {
+                        o.SetActive(false);
+                    }
                 }
                 break;
         }
@@ -107,8 +130,15 @@ public class ZoneController : MonoBehaviour
     }
     public void ChangeZone(string newZone)
     {
-        nextZone = newZone;
-        Camera.main.GetComponent<CameraEffects>().FadeToBlack(fadeOutTime, ChangeZoneCallback);
+        if (zoneDic.ContainsKey(newZone))
+        {
+            nextZone = newZone;
+            if (Camera.main != null && Camera.main.GetComponent<CameraEffects>() != null)
+            {
+                Camera.main.GetComponent<CameraEffects>().FadeToBlack(fadeOutTime, ChangeZoneCallback);
+            }
+        }
+        else Debug.Log("Zona no válida, asignar ToZone");
     }
 
     public void ChangeZoneCallback()
@@ -117,7 +147,8 @@ public class ZoneController : MonoBehaviour
         
         SetActiveZone(nextZone, TimeManager.Instance.currentGameDay, TimeManager.Instance.currentDayTime, true);
 
-        Camera.main.GetComponent<CameraEffects>().FadeFromBlack(fadeInTime, null);
+        CameraEffects cm = Camera.main.GetComponent<CameraEffects>();
+        cm.FadeFromBlack(fadeInTime, null);
     }
 
 }
