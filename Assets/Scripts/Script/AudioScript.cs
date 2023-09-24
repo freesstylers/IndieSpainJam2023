@@ -174,6 +174,87 @@ namespace FMODUnity
             StartCoroutine(CambiarVariableLocalización(initNew, destNew, initOld, destOld));
         }
 
+        //Mismo metodo pero en strings que es mas comodo
+        public void CambiarEscenario(string previousEscenario, string nextEscenario)
+        {
+            float initNew = 0; float destNew = 0; float initOld = 0; float destOld = 0;
+
+            switch (previousEscenario)
+            {
+                case "taberna":
+                    initOld = 1;
+                    destOld = 0;
+                    break;
+                case "bosque":
+                    initOld = 5;
+                    destOld = 4;
+                    break;
+                case "iglesia":
+                    initOld = 3;
+                    destOld = 2;
+                    break;
+                case "plaza":
+                    initOld = 0;
+                    destOld = 0;
+                    break;
+                case "emporio":
+                    initOld = 2;
+                    destOld = 1;
+                    break;
+                case "tension":
+                    initOld = 2;
+                    destOld = 1;
+                    break;
+                case "casa":
+                    initOld = 4;
+                    destOld = 3;
+                    break;
+
+                default:
+
+                    break;
+            }
+
+            switch (nextEscenario)
+            {
+
+                case "taberna":
+                    initNew = 0;
+                    destNew = 1;
+                    break;
+                case "bosque":
+                    initNew = 4;
+                    destNew = 5;
+                    break;
+                case "iglesia":
+                    initNew = 2;
+                    destNew = 3;
+                    break;
+                case "plaza":
+                    initNew = 0;
+                    destNew = 0;
+                    break;
+                case "emporio":
+                    initNew = 1;
+                    destNew = 2;
+                    break;
+                case "tension":
+                    initOld = 1;
+                    destOld = 2;
+                    break;
+                case "casa":
+                    initNew = 3;
+                    destNew = 4;
+                    break;
+
+                default:
+
+                    break;
+            }
+
+            StartCoroutine(CambiarVariableLocalización(initNew, destNew, initOld, destOld));
+        }
+
         #endregion
         #region Utilidades
 

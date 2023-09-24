@@ -51,9 +51,9 @@ public class TimeManager : MonoBehaviour
 
     public void AdvanceTime()
     {
-        if (currentDayTime != DayTime.NIGHT)
+        if (currentDayTime != DayTime.NIGHT) {
             currentDayTime++;
-
+        }
         else if (currentGameDay < maxDays)
         {
             currentGameDay++;
@@ -63,6 +63,16 @@ public class TimeManager : MonoBehaviour
 
             GetComponentInChildren<Animator>().SetTrigger("Play");
         }
+
+        if (currentDayTime != DayTime.NIGHT)
+        {
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayMusic(FMODUnity.AudioScript.HORARIO.DIA);
+        }
+        else
+        {
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayMusic(FMODUnity.AudioScript.HORARIO.NOCHE);
+        }
+
         //recargar zona con el tiempo actualizado
         Debug.Log("Día: " + currentGameDay+1 + " " + currentDayTime.ToString());
 

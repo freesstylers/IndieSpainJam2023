@@ -71,6 +71,7 @@ public class ZoneController : MonoBehaviour
             zoneDic.Add(z.zoneName, z);
         }
 
+        GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayMusic(FMODUnity.AudioScript.HORARIO.DIA);
         ChangeZone(currentZone);
     }
 
@@ -134,6 +135,7 @@ public class ZoneController : MonoBehaviour
     {
         if (zoneDic.ContainsKey(newZone))
         {
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().CambiarEscenario(newZone, newZone);
             nextZone = newZone;
             if (Camera.main != null && Camera.main.GetComponent<CameraEffects>() != null)
             {

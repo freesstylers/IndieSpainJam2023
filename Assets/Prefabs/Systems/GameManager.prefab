@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1390873487854510411}
   - component: {fileID: 3127998613150831983}
   - component: {fileID: 7215305121711336980}
+  - component: {fileID: 3055225496273466979}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -100,6 +101,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxitems: 6
+--- !u!114 &3055225496273466979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391849654859360615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6004d63422e9612429362c946cbfebb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicaDia_Ref:
+    Guid:
+      Data1: -1767069148
+      Data2: 1086265884
+      Data3: -41876562
+      Data4: -1453469273
+    Path: event:/Musica/Dia
+  MusicaNoche_Ref:
+    Guid:
+      Data1: -2104003005
+      Data2: 1318959812
+      Data3: -1709164619
+      Data4: 251666450
+    Path: event:/Musica/Noche
+  Escribir:
+    Guid:
+      Data1: 1559503303
+      Data2: 1092097390
+      Data3: 926741906
+      Data4: -142775184
+    Path: event:/Efectos/Escribir
+  AbrirPuerta:
+    Guid:
+      Data1: -1881705709
+      Data2: 1301762080
+      Data3: 1126932413
+      Data4: -1261579044
+    Path: event:/Efectos/AbrirPuerta
+  CerrarPuerta:
+    Guid:
+      Data1: 823688803
+      Data2: 1176553805
+      Data3: 1035415475
+      Data4: -1840246681
+    Path: event:/Efectos/CerrarPuerta
+  Caminar:
+    Guid:
+      Data1: 2085229541
+      Data2: 1136505363
+      Data3: -1559298901
+      Data4: -52148876
+    Path: event:/Efectos/Caminar
+  NaradorTal:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  horarioActual: 0
 --- !u!1001 &5492781868850381848
 PrefabInstance:
   m_ObjectHideFlags: 0
