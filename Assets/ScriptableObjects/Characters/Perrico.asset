@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Perrico
   m_EditorClassIdentifier: 
   charName: Perrico
-  sprite: {fileID: 0}
+  sprite1: {fileID: 21300000, guid: ae2b40f05cca165438137a38949b395f, type: 3}
+  sprite2: {fileID: 21300000, guid: 0a33ccf7c677fb94289239835db4c022, type: 3}

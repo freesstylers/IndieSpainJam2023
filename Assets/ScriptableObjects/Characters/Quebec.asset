@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e724a01572743f479ebac8aae552c64, type: 3}
   m_Name: Quebec
   m_EditorClassIdentifier: 
-  charName: Quebec
-  sprite: {fileID: 21300000, guid: 97318a418f40fae43b45acaf7e55ac42, type: 3}
+  charName: Quevec
+  sprite1: {fileID: 21300000, guid: 39478e5cfd6c4a44898da20b5c52197b, type: 3}
+  sprite2: {fileID: 21300000, guid: 6f07f0d8654b4934c8e9dc0787956015, type: 3}
