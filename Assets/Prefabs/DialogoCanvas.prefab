@@ -241,7 +241,7 @@ MonoBehaviour:
   img: {fileID: 2763695980345489415}
   sprite1: {fileID: 0}
   sprite2: {fileID: 0}
-  timeBetweenFrames: 0.1
+  timeBetweenFrames: 0.3
 --- !u!1 &2289052699358149601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,7 +1675,7 @@ MonoBehaviour:
   img: {fileID: 1397715088337893832}
   sprite1: {fileID: 0}
   sprite2: {fileID: 0}
-  timeBetweenFrames: 0.1
+  timeBetweenFrames: 0.3
 --- !u!1 &7308948726420466176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,7 +1858,7 @@ MonoBehaviour:
   img: {fileID: 2481356578680116116}
   sprite1: {fileID: 0}
   sprite2: {fileID: 0}
-  timeBetweenFrames: 0.1
+  timeBetweenFrames: 0.3
 --- !u!1 &8831992121876584046
 GameObject:
   m_ObjectHideFlags: 0
