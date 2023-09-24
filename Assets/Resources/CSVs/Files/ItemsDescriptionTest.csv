@@ -37,8 +37,8 @@ CAÑA_SIN_n	Caña de pescar sin anzuelo
 CAÑA_SIN_d	¿Qué esperas hacer con esto? Es obvio que le falta algo.					
 CAÑA_CEBO_n	Caña de pescar con cebo					
 CAÑA_CEBO_d	La caña de pescar definitiva. Con esto podrías incluso sustituir a Messié. Pero no sabes donde hay peces. Seguro que puede cazar otros animales. Incluso alados.					
-CAÑA_ANZUELO_n	Caña de pescar con anzuelo					
-CAÑA_ANZUELO_d	Una caña de pescar, con un anzuelo un tanto solitario. Si tan solo tuviera un compañero animal...					
+CAÑA_ANZUELO_n	Caña de pescar					
+CAÑA_ANZUELO_d	Una caña de pescar, con un anzuelo un tanto solitario que te has sacado del bolsillo. Si tan solo tuviera un compañero animal...					
 CALABAZA_n	Calabaza 					
 CALABAZA_d	Yo no me la llevaría a la boca, pero sus cavidades canalizan el sonido de manera envidiable.					
 BIRIMBAO_COMP_n	Birimbao 					
@@ -47,7 +47,7 @@ ALAMBRE_n	Alambre
 ALAMBRE_d	Metal resistente en forma de cuerda, seguro que suena bien en concierto.					
 PALO_n	Palo de lujo					
 PALO_d	Nunca has visto un palo de tan alta calidad. Este palo es tan perfecto que debería estar en un museo.					
-ANZUELO_n	Anzuelo					
-ANZUELO_d	Está un poco doblado, parece que alguien ha mordido el anzuelo...					
 BIRIMBAO_n	Fémur con alambre					
 BIRIMBAO_d	Ya casi está, mi creación... Pero falta algo. Quizá una verdura enorme, para amplificar la resonancia...					
+CUCHILLO_n	Cuchillo					
+CUCHILLO_d	Largo y afilado. Qué más puedes pedir.					

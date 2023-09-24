@@ -70,6 +70,8 @@ public class ZoneController : MonoBehaviour
         {
             zoneDic.Add(z.zoneName, z);
         }
+
+        ChangeZone(currentZone);
     }
 
     public void SetActiveZone(string zone, int day, DayTime dayTime, bool active)
