@@ -56,12 +56,12 @@ MonoBehaviour:
   - key: PEDOS
     sprite: {fileID: 21300000, guid: 0c043dfd83eed564f98b30dbcf6fd880, type: 3}
   - key: GAITA
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 73547ac96a40e1f44ba89ef6e4cd5ea6, type: 3}
   - key: GAITA_PEDOS
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 0e5656c7486ae87468147a23a7a347a0, type: 3}
   - key: GAITA_LICOR
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 09a15736e6a9c8445a3c15cf8f4e97ce, type: 3}
   - key: LANZALLAMAS
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 6173f2c7fb035734ebbf3d9abb9649c6, type: 3}
   - key: CUCHILLO
-    sprite: {fileID: 21300000, guid: 64b495afcc939d540b3085e6e447c426, type: 3}
+    sprite: {fileID: 21300000, guid: 29226ca69a21f2e4eaca90a27a029bf0, type: 3}

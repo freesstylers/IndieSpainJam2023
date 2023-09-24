@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44651437, g: 0.496435, b: 0.57483196, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3540,8 +3540,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 0
   outline: {fileID: 547097475}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
   characterInfo: {fileID: 0}
@@ -3663,8 +3661,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 0
   outline: {fileID: 547097475}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: plaza
@@ -4716,7 +4712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -4736,7 +4732,7 @@ Canvas:
   m_GameObject: {fileID: 1460876905}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -4748,7 +4744,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 500
   m_TargetDisplay: 0
 --- !u!224 &1460876909
 RectTransform:
@@ -4848,8 +4844,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 1
   outline: {fileID: 1510120725}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 4
   toZone: plaza

@@ -24,12 +24,10 @@ public class ItemMenuController : MonoBehaviour
     }
 
     private void OnEnable()
-    {
-        AddItems();
+    { 
         GameObject player = DialogueManager.instance_.player;
         player.GetComponent<Player.PlayerMovement>().SetInteracting(true);
         RebuildItems();
-
     }
 
     private void OnDisable()

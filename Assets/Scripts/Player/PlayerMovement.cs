@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
 
 namespace Player
 {
@@ -41,7 +42,7 @@ namespace Player
                     Ray ray = cam.ScreenPointToRay(Input.mousePosition);
                     RaycastHit hitPoint;
 
-                    if (Physics.Raycast(ray, out hitPoint))
+                    if (!CheckUIHit() && Physics.Raycast(ray, out hitPoint))
                     {
                         player.SetDestination(hitPoint.point);
                         timeCount = 0.0f;
@@ -52,6 +53,13 @@ namespace Player
             }
 
             Animation();
+        }
+
+        bool CheckUIHit()
+        {
+            var pointerEventData = new PointerEventData(EventSystem.current);
+            
+            return pointerEventData.selectedObject != null;
         }
 
         private void Animation()
