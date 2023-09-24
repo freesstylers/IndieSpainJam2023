@@ -84,23 +84,31 @@ public class Inventory: MonoBehaviour
         if (!gm.itemsData.itemsList.ContainsKey(_itemID1))
         {
             Debug.Log("Inexistent item ID: " + _itemID1);
+
+            Debug.Log("METER SONIDO!!!!");
             return;
         }
         if (!gm.itemsData.itemsList.ContainsKey(_itemID2))
         {
             Debug.Log("Inexistent item ID: " + _itemID2);
+
+            Debug.Log("METER SONIDO!!!!");
             return;
         }
         if (!gm.itemsData.itemsList[_itemID1].combinable)
         {
             //DialogueManager.NewDialogue(ItemNotCombinable(_itemID1));
             Debug.Log("objeto " + gm.itemsData.itemsList[_itemID1].name + "no combinable");
+
+            Debug.Log("METER SONIDO!!!!");
             return;
         }
         if (!gm.itemsData.itemsList[_itemID2].combinable)
         {
             //DialogueManager.NewDialogue(ItemNotCombinable(_itemID2));
             Debug.Log("objeto " + gm.itemsData.itemsList[_itemID2].name + "no combinable");
+
+            Debug.Log("METER SONIDO!!!!");
             return;
         }
         if (gm.itemsData.combinationTable[_itemID1].ContainsKey(_itemID2) && items.ContainsKey(_itemID1) && items.ContainsKey(_itemID2))

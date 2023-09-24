@@ -387,7 +387,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -435,6 +435,7 @@ MonoBehaviour:
   rightSprite: {fileID: 1397715088337893832}
   centerSprite: {fileID: 2481356578680116116}
   unfocusedTint: {r: 0.6, g: 0.6, b: 0.6, a: 0.9019608}
+  audioScript: {fileID: 0}
   currentBranch:
     dialogue: []
     leftSprite: {fileID: 0}
@@ -638,10 +639,10 @@ RectTransform:
   - {fileID: 5654335010754008080}
   m_Father: {fileID: 4508534967117350751}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 4.8046}
-  m_SizeDelta: {x: 866.9843, y: 519.7861}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 4.804596}
+  m_SizeDelta: {x: -169.13281, y: -75.603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4994556868715364148
 CanvasRenderer:
@@ -1968,12 +1969,12 @@ PrefabInstance:
     - target: {fileID: 971319694526267261, guid: 4329f3911c629c843a1236c1286925c3,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 478.4
+      value: 421.4
       objectReference: {fileID: 0}
     - target: {fileID: 971319694526267261, guid: 4329f3911c629c843a1236c1286925c3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 245.9
+      value: 218.8
       objectReference: {fileID: 0}
     - target: {fileID: 971319694526267261, guid: 4329f3911c629c843a1236c1286925c3,
         type: 3}

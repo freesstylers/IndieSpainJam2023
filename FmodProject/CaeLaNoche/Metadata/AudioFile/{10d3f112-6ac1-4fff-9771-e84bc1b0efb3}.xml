@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{10d3f112-6ac1-4fff-9771-e84bc1b0efb3}">
+		<property name="assetPath">
+			<value>Noche 1 Taberna.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>84.297142857142859</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f10affdf-8f93-439e-be14-8c7d6603b201}</destination>
+		</relationship>
+	</object>
+</objects>

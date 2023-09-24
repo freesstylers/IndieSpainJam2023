@@ -1255,6 +1255,13 @@ MonoBehaviour:
       Data3: -1559298901
       Data4: -52148876
     Path: event:/Efectos/Caminar
+  NaradorTal:
+    Guid:
+      Data1: 73998006
+      Data2: 1301878545
+      Data3: -242721104
+      Data4: 531963636
+    Path: event:/Narrador/Noche 3 Bosque 3
   horarioActual: 0
 --- !u!1 &1829232948
 GameObject:

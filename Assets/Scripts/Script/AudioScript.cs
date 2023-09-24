@@ -19,6 +19,7 @@ namespace FMODUnity
         public EventReference AbrirPuerta;
         public EventReference CerrarPuerta;
         public EventReference Caminar;
+        public EventReference NaradorTal;
 
 
         public HORARIO horarioActual = HORARIO.DIA;

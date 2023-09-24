@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7523cb5c-8ab9-4d1e-81c6-f8b1f076fb3c}">
+		<property name="assetPath">
+			<value>Noche 2 Plaza.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>84.297142857142859</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f10affdf-8f93-439e-be14-8c7d6603b201}</destination>
+		</relationship>
+	</object>
+</objects>
