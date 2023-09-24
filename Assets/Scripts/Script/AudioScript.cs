@@ -19,7 +19,9 @@ namespace FMODUnity
         public EventReference AbrirPuerta;
         public EventReference CerrarPuerta;
         public EventReference Caminar;
-        public EventReference NaradorTal;
+
+        public EventReference[] NarradorEvents;
+        private bool[] NarradorEventsBooleans;
 
 
         public HORARIO horarioActual = HORARIO.DIA;
@@ -60,6 +62,8 @@ namespace FMODUnity
                 MusicaNoche.setVolume(0.0f);
             else MusicaDia.setVolume(0.0f);
 
+            NarradorEventsBooleans = new bool[30];
+            for (int i = 0; i < NarradorEventsBooleans.Length; i++) NarradorEventsBooleans[i] = false;
         }
         #endregion
 
@@ -93,6 +97,17 @@ namespace FMODUnity
             FMODUnity.RuntimeManager.PlayOneShot(eventSound);
 
         }
+
+        //Para hacer sonar al narrador
+        public void PlayNarradorSound(int indice)
+        {
+            if (!NarradorEventsBooleans[indice])
+            {
+                PlaySound(NarradorEvents[indice]);
+                NarradorEventsBooleans[indice] = true;
+            }
+        }
+
         //Llamar cada vez que se cambie de escenario. Previous escenario es del que vienes, next escenario al que vas
         public void CambiarEscenario(Escenario previousEscenario, Escenario nextEscenario)
         {

@@ -155,13 +155,187 @@ MonoBehaviour:
       Data3: -1559298901
       Data4: -52148876
     Path: event:/Efectos/Caminar
-  NaradorTal:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+  NarradorEvents:
+  - Guid:
+      Data1: -255482231
+      Data2: 1092407329
+      Data3: 304639369
+      Data4: -1278856481
+    Path: event:/Narrador/Noche 1 Bosque
+  - Guid:
+      Data1: -1543246210
+      Data2: 1204566275
+      Data3: -496417098
+      Data4: -136449984
+    Path: event:/Narrador/Noche 1 Iglesia
+  - Guid:
+      Data1: 2081652351
+      Data2: 1149600490
+      Data3: -676088646
+      Data4: 1124510580
+    Path: event:/Narrador/Noche 1 Plaza
+  - Guid:
+      Data1: -1733579717
+      Data2: 1169556037
+      Data3: -1834551409
+      Data4: -141857477
+    Path: event:/Narrador/Noche 1 Taberna
+  - Guid:
+      Data1: -727443260
+      Data2: 1289041754
+      Data3: -326342268
+      Data4: -1150664265
+    Path: event:/Narrador/Noche 2 Bosque
+  - Guid:
+      Data1: -1077243293
+      Data2: 1137848669
+      Data3: -678622545
+      Data4: -581798254
+    Path: event:/Narrador/Noche 2 Casa Abuela
+  - Guid:
+      Data1: -556216613
+      Data2: 1150465699
+      Data3: -100566113
+      Data4: 860190093
+    Path: event:/Narrador/Noche 2 Iglesia
+  - Guid:
+      Data1: -1807792230
+      Data2: 1267070036
+      Data3: -1283731268
+      Data4: 1855815955
+    Path: event:/Narrador/Noche 2 Plaza
+  - Guid:
+      Data1: -1564487129
+      Data2: 1175549216
+      Data3: -2031474811
+      Data4: -1224652103
+    Path: event:/Narrador/Noche 2 Taberna
+  - Guid:
+      Data1: 484600804
+      Data2: 1118534256
+      Data3: 1153751742
+      Data4: -843525966
+    Path: event:/Narrador/Noche 3 Bosque 1
+  - Guid:
+      Data1: 90644144
+      Data2: 1246035549
+      Data3: -1196749390
+      Data4: 493141590
+    Path: event:/Narrador/Noche 3 Bosque 2
+  - Guid:
+      Data1: 73998006
+      Data2: 1301878545
+      Data3: -242721104
+      Data4: 531963636
+    Path: event:/Narrador/Noche 3 Bosque 3
+  - Guid:
+      Data1: -2032335794
+      Data2: 1323321421
+      Data3: 1151676570
+      Data4: 1773676107
+    Path: event:/Narrador/Noche 3 Bosque Botella Ojos
+  - Guid:
+      Data1: -540903399
+      Data2: 1130357805
+      Data3: 956339342
+      Data4: -1772355805
+    Path: event:/Narrador/Noche 3 Bosque Lanzallamas
+  - Guid:
+      Data1: 1637612649
+      Data2: 1155598754
+      Data3: -1359189850
+      Data4: -1927466901
+    Path: event:/Narrador/Noche 3 Taberna
+  - Guid:
+      Data1: 151812290
+      Data2: 1298589218
+      Data3: 1934120122
+      Data4: 1976805759
+    Path: event:/Narrador/Noche 3 Taberna Botella Ojos
+  - Guid:
+      Data1: -1202165596
+      Data2: 1075622700
+      Data3: -953751371
+      Data4: -1173968838
+    Path: event:/Narrador/Tarde 3 Casa Abuela
+  - Guid:
+      Data1: -1424260017
+      Data2: 1217626962
+      Data3: 471227071
+      Data4: 1063713381
+    Path: event:/Narrador/Tarde 3 Casa Abuela Botella Ojos
+  - Guid:
+      Data1: 1367549730
+      Data2: 1277160115
+      Data3: 781355905
+      Data4: 607771207
+    Path: event:/Narrador/Tarde 3 Iglesia
+  - Guid:
+      Data1: -1001242183
+      Data2: 1331235682
+      Data3: 478837677
+      Data4: 1474588813
+    Path: event:/Narrador/Tarde 3 Iglesia Botella Ojos
+  - Guid:
+      Data1: 1823316274
+      Data2: 1131330316
+      Data3: -714332533
+      Data4: -1390665138
+    Path: event:/Narrador/Tarde 3 Plaza
+  - Guid:
+      Data1: 1515446573
+      Data2: 1145874152
+      Data3: -969280366
+      Data4: -386117376
+    Path: event:/Narrador/Dia 3 Casa Abuela
+  - Guid:
+      Data1: 1606278732
+      Data2: 1097898062
+      Data3: -117164865
+      Data4: -1492027543
+    Path: event:/Narrador/Dia 3 Emporio
+  - Guid:
+      Data1: -957713366
+      Data2: 1329224044
+      Data3: 1379609472
+      Data4: -720745233
+    Path: event:/Narrador/Dia 3 Plaza
+  - Guid:
+      Data1: -568142368
+      Data2: 1250261403
+      Data3: 1302819468
+      Data4: 559661519
+    Path: event:/Narrador/Dia 3 Plaza Perrico
+  - Guid:
+      Data1: -1279953652
+      Data2: 1189524547
+      Data3: 1978521754
+      Data4: -1484803417
+    Path: event:/Narrador/Muerte Lepanto
+  - Guid:
+      Data1: 1354830291
+      Data2: 1324448812
+      Data3: -1145566283
+      Data4: -1557995777
+    Path: event:/Narrador/Final 1
+  - Guid:
+      Data1: -380440899
+      Data2: 1212351748
+      Data3: -667849337
+      Data4: 1372943165
+    Path: event:/Narrador/Final 2
+  - Guid:
+      Data1: -1556924012
+      Data2: 1126461538
+      Data3: -2044198506
+      Data4: -1245695585
+    Path: event:/Narrador/Final 3
+  - Guid:
+      Data1: -1297603464
+      Data2: 1181163327
+      Data3: -1257841246
+      Data4: 1746030461
+    Path: event:/Narrador/Final 4
   horarioActual: 0
 --- !u!1001 &5492781868850381848
 PrefabInstance:
