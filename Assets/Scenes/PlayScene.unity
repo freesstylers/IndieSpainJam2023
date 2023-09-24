@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -269,12 +269,137 @@ PrefabInstance:
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.size
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Night.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Night.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Night.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Night.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Night.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Night.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Night.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Night.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Night.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Night.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Night.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Night.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Morning.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Morning.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Morning.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
@@ -303,6 +428,21 @@ PrefabInstance:
       objectReference: {fileID: 518535737}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Morning.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Morning.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Morning.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
       propertyPath: ZoneList.Array.data[1].EnabledObjectsByDay.Array.data[0].Night.Array.data[0]
       value: 
       objectReference: {fileID: 982726872}
@@ -319,7 +459,17 @@ PrefabInstance:
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Morning.Array.size
-      value: 1
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Morning.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Morning.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
@@ -348,9 +498,54 @@ PrefabInstance:
       objectReference: {fileID: 848331206}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Morning.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Morning.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Morning.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
       propertyPath: ZoneList.Array.data[4].EnabledObjectsByDay.Array.data[1].Night.Array.data[0]
       value: 
       objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.size
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[0].Night.Array.data[0]
@@ -403,6 +598,561 @@ PrefabInstance:
       objectReference: {fileID: 273305408}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 518535738}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 988057020}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 518535739}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 518535739}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 518535738}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 982726874}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 982726873}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 982726872}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 982726872}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 982726874}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 982726873}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 848331208}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 848331210}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 848331209}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 848331210}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 848331209}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 848331208}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 3985133471929092441}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 3985133471929092440}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 3985133471929092439}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 3985133471929092438}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 3985133471929092437}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Night.Array.data[5]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 3985133471929092441}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 3985133471929092440}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 3985133471929092439}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 3985133471929092438}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 3985133471929092437}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Night.Array.data[5]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 3985133471929092441}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 3985133471929092440}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 3985133471929092439}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 3985133471929092438}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 3985133471929092437}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Night.Array.data[5]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 281979320867885984}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 281979320867885983}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 281979320867885982}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 281979320867885981}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 281979320867885980}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[5]
+      value: 
+      objectReference: {fileID: 281979320867885979}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[6]
+      value: 
+      objectReference: {fileID: 281979320867885978}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[7]
+      value: 
+      objectReference: {fileID: 231994370}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[8]
+      value: 
+      objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[9]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 281979320867885984}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 281979320867885983}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 281979320867885982}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 281979320867885981}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 281979320867885980}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[5]
+      value: 
+      objectReference: {fileID: 281979320867885979}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[6]
+      value: 
+      objectReference: {fileID: 281979320867885978}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[7]
+      value: 
+      objectReference: {fileID: 231994370}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[8]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[9]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 281979320867885984}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 281979320867885983}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 281979320867885982}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 281979320867885981}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 281979320867885980}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[5]
+      value: 
+      objectReference: {fileID: 281979320867885979}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[6]
+      value: 
+      objectReference: {fileID: 281979320867885978}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[7]
+      value: 
+      objectReference: {fileID: 231994370}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[8]
+      value: 
+      objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[9]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735227850}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735227849}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 1735227848}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 1735227847}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 1735227846}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[5]
+      value: 
+      objectReference: {fileID: 1822288903}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[6]
+      value: 
+      objectReference: {fileID: 1822288902}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[7]
+      value: 
+      objectReference: {fileID: 1822288901}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[8]
+      value: 
+      objectReference: {fileID: 1822288900}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[9]
+      value: 
+      objectReference: {fileID: 1822288899}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735227850}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735227849}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 1735227848}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 1735227847}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 1735227846}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[5]
+      value: 
+      objectReference: {fileID: 1735227845}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[6]
+      value: 
+      objectReference: {fileID: 1735227844}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[7]
+      value: 
+      objectReference: {fileID: 1735227843}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[8]
+      value: 
+      objectReference: {fileID: 1822288903}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[9]
+      value: 
+      objectReference: {fileID: 1822288902}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735227850}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735227849}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[2]
+      value: 
+      objectReference: {fileID: 1735227848}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[3]
+      value: 
+      objectReference: {fileID: 1735227847}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[4]
+      value: 
+      objectReference: {fileID: 1735227846}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[5]
+      value: 
+      objectReference: {fileID: 1735227845}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[6]
+      value: 
+      objectReference: {fileID: 1735227844}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[7]
+      value: 
+      objectReference: {fileID: 1735227843}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[8]
+      value: 
+      objectReference: {fileID: 1822288903}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[9]
+      value: 
+      objectReference: {fileID: 1822288902}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Afternoon.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Afternoon.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Afternoon.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[0].Morning.Array.data[0]
       value: 
       objectReference: {fileID: 988057018}
@@ -426,6 +1176,21 @@ PrefabInstance:
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[2].Morning.Array.data[0]
       value: 
       objectReference: {fileID: 518535737}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Afternoon.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Afternoon.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].EnabledObjectsByDay.Array.data[0].Morning.Array.data[0]
@@ -453,6 +1218,36 @@ PrefabInstance:
       objectReference: {fileID: 544553091}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Afternoon.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Afternoon.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Afternoon.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Afternoon.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Afternoon.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Afternoon.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
       propertyPath: ZoneList.Array.data[3].EnabledObjectsByDay.Array.data[0].Morning.Array.data[0]
       value: 
       objectReference: {fileID: 3985133471929092441}
@@ -466,6 +1261,36 @@ PrefabInstance:
       propertyPath: ZoneList.Array.data[3].EnabledObjectsByDay.Array.data[2].Morning.Array.data[0]
       value: 
       objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Night.Array.data[10]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Night.Array.data[10]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Night.Array.data[10]
+      value: 
+      objectReference: {fileID: 231994367}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[4].EnabledObjectsByDay.Array.data[0].Morning.Array.data[0]
@@ -498,6 +1323,171 @@ PrefabInstance:
       objectReference: {fileID: 231994368}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.size
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[10]
+      value: 
+      objectReference: {fileID: 1822288898}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[11]
+      value: 
+      objectReference: {fileID: 1822288897}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[12]
+      value: 
+      objectReference: {fileID: 1822288896}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[13]
+      value: 
+      objectReference: {fileID: 273305411}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[14]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[15]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[16]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[17]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[18]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[19]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.size
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[10]
+      value: 
+      objectReference: {fileID: 1822288901}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[11]
+      value: 
+      objectReference: {fileID: 1822288900}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[12]
+      value: 
+      objectReference: {fileID: 1822288899}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[13]
+      value: 
+      objectReference: {fileID: 273305411}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[14]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[15]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[16]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[17]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[18]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[19]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[10]
+      value: 
+      objectReference: {fileID: 1822288901}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[11]
+      value: 
+      objectReference: {fileID: 1822288900}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[12]
+      value: 
+      objectReference: {fileID: 1822288899}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[13]
+      value: 
+      objectReference: {fileID: 1822288898}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[14]
+      value: 
+      objectReference: {fileID: 1822288897}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[15]
+      value: 
+      objectReference: {fileID: 1822288896}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[16]
+      value: 
+      objectReference: {fileID: 273305411}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[17]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[18]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[19]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[0].Morning.Array.data[0]
       value: 
       objectReference: {fileID: 1735227850}
@@ -526,6 +1516,551 @@ PrefabInstance:
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[1].Morning.Array.data[2]
       value: 
       objectReference: {fileID: 1822288901}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 988057020}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 988057018}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 988057018}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 988057020}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 544553093}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 544553092}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 544553091}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 544553095}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 544553094}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 544553091}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 544553095}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 544553094}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 544553093}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 544553092}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 848331210}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 848331209}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 848331208}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 848331210}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 848331209}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 848331208}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 848331210}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 848331209}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 848331208}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 3985133471929092440}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 3985133471929092439}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 3985133471929092438}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 3985133471929092437}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 3985133471929092441}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 3985133471929092440}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 3985133471929092439}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 3985133471929092437}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 3985133471929092441}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 3985133471929092440}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 3985133471929092439}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 3985133471929092438}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 3985133471929092437}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 281979320867885982}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 281979320867885981}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 281979320867885980}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 281979320867885979}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 281979320867885978}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 231994370}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[6]
+      value: 
+      objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[7]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[8]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[9]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 281979320867885984}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 281979320867885983}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 281979320867885982}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 281979320867885981}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 231994370}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[6]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[7]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[8]
+      value: 
+      objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[9]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 281979320867885984}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 281979320867885983}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 281979320867885982}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 281979320867885981}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 281979320867885980}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 281979320867885979}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[6]
+      value: 
+      objectReference: {fileID: 281979320867885978}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[7]
+      value: 
+      objectReference: {fileID: 231994370}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[8]
+      value: 
+      objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[9]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735227847}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735227846}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 1735227845}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 1735227844}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 1735227843}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 1822288903}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[6]
+      value: 
+      objectReference: {fileID: 1822288902}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[7]
+      value: 
+      objectReference: {fileID: 1822288901}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[8]
+      value: 
+      objectReference: {fileID: 1822288900}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[9]
+      value: 
+      objectReference: {fileID: 1822288899}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735227850}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735227849}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 1735227848}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 1735227847}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 1735227846}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 1735227845}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[6]
+      value: 
+      objectReference: {fileID: 1735227844}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[7]
+      value: 
+      objectReference: {fileID: 1735227843}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[8]
+      value: 
+      objectReference: {fileID: 1822288900}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[9]
+      value: 
+      objectReference: {fileID: 1822288899}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735227850}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735227849}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 1735227848}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 1735227847}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 1735227846}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 1735227845}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[6]
+      value: 
+      objectReference: {fileID: 1735227844}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[7]
+      value: 
+      objectReference: {fileID: 1735227843}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[8]
+      value: 
+      objectReference: {fileID: 1822288903}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[9]
+      value: 
+      objectReference: {fileID: 1822288902}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
@@ -603,6 +2138,26 @@ PrefabInstance:
       objectReference: {fileID: 3985133471929092437}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[10]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Morning.Array.data[11]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Morning.Array.data[10]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Morning.Array.data[10]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
       propertyPath: ZoneList.Array.data[4].EnabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
       value: 
       objectReference: {fileID: 281979320867885982}
@@ -623,6 +2178,156 @@ PrefabInstance:
       objectReference: {fileID: 231994367}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[10]
+      value: 
+      objectReference: {fileID: 1822288898}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[11]
+      value: 
+      objectReference: {fileID: 1822288897}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[12]
+      value: 
+      objectReference: {fileID: 1822288896}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[13]
+      value: 
+      objectReference: {fileID: 273305411}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[14]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[15]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[16]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[17]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[18]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Morning.Array.data[19]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[10]
+      value: 
+      objectReference: {fileID: 1822288898}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[11]
+      value: 
+      objectReference: {fileID: 1822288897}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[12]
+      value: 
+      objectReference: {fileID: 1822288896}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[13]
+      value: 
+      objectReference: {fileID: 273305411}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[14]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[15]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[16]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[17]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[18]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[19]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[10]
+      value: 
+      objectReference: {fileID: 1822288901}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[11]
+      value: 
+      objectReference: {fileID: 1822288900}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[12]
+      value: 
+      objectReference: {fileID: 1822288899}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[13]
+      value: 
+      objectReference: {fileID: 1822288898}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[14]
+      value: 
+      objectReference: {fileID: 1822288897}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[15]
+      value: 
+      objectReference: {fileID: 1822288896}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[16]
+      value: 
+      objectReference: {fileID: 273305411}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[17]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[18]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[19]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
       value: 
       objectReference: {fileID: 1735227847}
@@ -641,6 +2346,756 @@ PrefabInstance:
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[1].Afternoon.Array.data[1]
       value: 
       objectReference: {fileID: 1822288899}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1964603546}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1964603545}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1964603547}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1964603545}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1964603547}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1964603546}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1006080940}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1006080939}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 1006080943}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 1006080942}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 1006080941}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1006080938}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1006080943}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 1006080942}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 1006080941}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 1006080941}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1006080940}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1006080939}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 1006080938}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 1006080942}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 1006080941}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 848331210}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 848331209}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 848331208}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 848331210}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 848331209}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 848331208}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 848331210}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 848331209}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 848331208}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 848331207}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 848331206}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 3985133471929092441}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 3985133471929092438}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 3985133471929092437}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 3985133471929092441}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 3985133471929092440}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 3985133471929092439}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 3985133471929092438}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 3985133471929092441}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 3985133471929092440}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 3985133471929092439}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 3985133471929092438}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 3985133471929092437}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[3].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 3985133471929092436}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 281979320867885984}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 281979320867885983}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 281979320867885980}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 281979320867885979}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 281979320867885978}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 231994370}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[6]
+      value: 
+      objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[7]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[8]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[9]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 281979320867885984}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 281979320867885983}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 281979320867885982}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 281979320867885981}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 281979320867885980}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 281979320867885979}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[6]
+      value: 
+      objectReference: {fileID: 281979320867885978}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[7]
+      value: 
+      objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[8]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[9]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 281979320867885984}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 281979320867885983}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 281979320867885982}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 281979320867885981}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 281979320867885980}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 281979320867885979}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[6]
+      value: 
+      objectReference: {fileID: 281979320867885978}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[7]
+      value: 
+      objectReference: {fileID: 231994370}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[8]
+      value: 
+      objectReference: {fileID: 231994369}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[9]
+      value: 
+      objectReference: {fileID: 231994368}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735227850}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735227849}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 1735227848}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 1735227845}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 1735227844}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 1735227843}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[6]
+      value: 
+      objectReference: {fileID: 1822288903}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[7]
+      value: 
+      objectReference: {fileID: 1822288902}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[8]
+      value: 
+      objectReference: {fileID: 1822288901}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[9]
+      value: 
+      objectReference: {fileID: 1822288900}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735227850}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735227849}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 1735227848}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 1735227847}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 1735227846}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 1735227845}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[6]
+      value: 
+      objectReference: {fileID: 1735227844}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[7]
+      value: 
+      objectReference: {fileID: 1735227843}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[8]
+      value: 
+      objectReference: {fileID: 1822288903}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[9]
+      value: 
+      objectReference: {fileID: 1822288902}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 1735227850}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735227849}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[2]
+      value: 
+      objectReference: {fileID: 1735227848}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[3]
+      value: 
+      objectReference: {fileID: 1735227847}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[4]
+      value: 
+      objectReference: {fileID: 1735227846}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[5]
+      value: 
+      objectReference: {fileID: 1735227845}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[6]
+      value: 
+      objectReference: {fileID: 1735227844}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[7]
+      value: 
+      objectReference: {fileID: 1735227843}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[8]
+      value: 
+      objectReference: {fileID: 1822288903}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[9]
+      value: 
+      objectReference: {fileID: 1822288902}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[10]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[10]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[4].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[10]
+      value: 
+      objectReference: {fileID: 231994367}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[10]
+      value: 
+      objectReference: {fileID: 1822288899}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[11]
+      value: 
+      objectReference: {fileID: 1822288898}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[12]
+      value: 
+      objectReference: {fileID: 1822288897}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[13]
+      value: 
+      objectReference: {fileID: 1822288896}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[14]
+      value: 
+      objectReference: {fileID: 273305411}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[15]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[16]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[17]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[18]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[19]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[10]
+      value: 
+      objectReference: {fileID: 1822288901}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[11]
+      value: 
+      objectReference: {fileID: 1822288898}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[12]
+      value: 
+      objectReference: {fileID: 1822288897}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[13]
+      value: 
+      objectReference: {fileID: 1822288896}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[14]
+      value: 
+      objectReference: {fileID: 273305411}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[15]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[16]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[17]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[18]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[19]
+      value: 
+      objectReference: {fileID: 273305408}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[10]
+      value: 
+      objectReference: {fileID: 1822288901}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[11]
+      value: 
+      objectReference: {fileID: 1822288900}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[12]
+      value: 
+      objectReference: {fileID: 1822288899}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[13]
+      value: 
+      objectReference: {fileID: 1822288898}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[14]
+      value: 
+      objectReference: {fileID: 1822288897}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[15]
+      value: 
+      objectReference: {fileID: 1822288896}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[16]
+      value: 
+      objectReference: {fileID: 273305411}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[17]
+      value: 
+      objectReference: {fileID: 273305410}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[18]
+      value: 
+      objectReference: {fileID: 273305409}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[19]
+      value: 
+      objectReference: {fileID: 273305408}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -712,6 +3167,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5484713218575947026, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
     type: 3}
   m_PrefabInstance: {fileID: 1735227841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &320721398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2878698837278233313, guid: b3087ab44d8db9e4bb9c5e6370b3dbfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 988057017}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &518535736
 PrefabInstance:
