@@ -18,7 +18,13 @@ MonoBehaviour:
     dialogueTree:
       dialogue:
       - key: PER_DIA1M_1
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: fd329fa42171e674b9c8688a2a9fd538, type: 2}
@@ -28,17 +34,26 @@ MonoBehaviour:
         endDialogue: 0
         branchToJumpTo: 1
         itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
   - branchName: 1
     dialogueTree:
       dialogue:
       - key: PER_DIA1M_3
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
       - key: PER_DIA1M_4
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: fd329fa42171e674b9c8688a2a9fd538, type: 2}
@@ -48,25 +63,37 @@ MonoBehaviour:
         endDialogue: 0
         branchToJumpTo: 2
         itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
   - branchName: 2
     dialogueTree:
       dialogue:
       - key: PER_DIA1M_6
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
       - key: PER_DIA1M_7
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: PER_DIA1M_38
-        audioToPlay: {fileID: 0}
+      - key: PER_DIA1M_8
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: fd329fa42171e674b9c8688a2a9fd538, type: 2}
       rightSprite: {fileID: 0}
       options: []
-  eventsAfterDialogueOver:
-    m_PersistentCalls:
-      m_Calls: []
