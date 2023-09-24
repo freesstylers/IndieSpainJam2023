@@ -9,6 +9,12 @@ MUSICA	SONIDO
 AGRADECIMIENTOS	AGRADECIMIENTOS					
 BACK	Volver					
 DEDICACION	Este juego queda dedicado a \n <b><i><size=150%>John Riccitiello</size> \n <size=80%>CEO Unity Technologies (24/10/14 - ¿25/09/23?)</size></i></b> \n por conseguir lo que nunca antes nadie logró... \n  \n Que nos planteemos usar Godot \n  \n - FreeStylers Studio	We dedicate this game to \n <b><i><size=150%>John Riccitiello</size> \n <size=80%>CEO Unity Technologies (24/10/14 - 25/09/23?)</size></i></b> \n for achieveing what we thought impossible... \n  \n Make us consider using Godot \n  \n - FreeStylers Studio				
+DIA	DÍA					
+CONTROLES	CONTROLES					
+ALT	ALT - Resaltar objetos interactuables					
+MOUSE	RATÓN - Todo lo demás					
+TITULO	Una voz en Cancedo					
+INVENTARIO_CRAFT	Arrastra un objeto sobre otro para (intentar) unirlos					
 PER_DIA1M_1	(Perrico, un buen perrete, aunque huele a cadáver húmedo… Parece famélico como siempre, aunque eso no hace que deje de mover la cola).					
 PER_DIA1M_2	Acariciar al perrete					
 PER_DIA1M_3	(Acaricias al perrete con miedo a que una pulga descomunal te arranque un dedo).					
@@ -229,7 +235,7 @@ LEP_DIA1N_6	Solo unos pegotes de tinta más para que mi obra cale en las mentes 
 MES_DIA2M_1	(Un cadáver parece haber sido mordisqueado por alguna especie de criatura).					
 MES_DIA2M_2	(Mirando más de cerca… Parece ser Messié…)					
 MES_DIA2M_3	(Algo la habrá atacado por la noche… Quizás uno de sus peces abominables se habrá tomado la venganza…)					
-MES_DIA2M_4	(Parece que los gusanos que usaba como cebo han comenzado a devorar sus restos).					
+MES_DIA2M_4	(Parece que los ratones que usaba como cebo han comenzado a devorar sus restos).					
 MES_DIA2M_5	(Quizás puedan ser reutilizados como cebo más adelante).					
 PER_DIA2M_1	(Perrico parece estar tranquilo y contento como siempre… Aunque parece estar entero manchado de sangre)					
 PER_DIA2M_2	Acercarse a Perrico					
@@ -299,3 +305,391 @@ MOL_DIA2M_24	Antiguamente usaba un Urogallo para espiar a la gente.
 MOL_DIA2M_25	Es una antigua técnica milenaria de hechicería en la que un mago incrusta sus ojos sobre otro animal.					
 MOL_DIA2M_26	Si mis instintos no me fallan… Hay alguien haciendo lo mismo…					
 MOL_DIA2M_27	Córcholis… Se me ha vuelto a caer otra pieza…					
+SUS_DIA2M_1	(Suspinicius parece estar apuntando el inventario que tiene para hoy).					
+SUS_DIA2M_2	(Hay un montón de objetos extraños… Desde pijamas para viejos a… ¿un sarcófago?)					
+SUS_DIA2M_3	El Negocio					
+SUS_DIA2M_4	Je… Parece que alguien ha cazado a Messié durante la noche… Era alguien importante para mi negocio.					
+SUS_DIA2M_5	No me puedo permitir pérdidas por estupideces como esta…					
+SUS_DIA2M_6	Supongo que podré aprovechar su carne para vendérsela a algún viejo desdichado, je, je, je…					
+SUS_DIA2M_7	De todos modos… Últimamente ando falto de objetos interesantes para vender.					
+SUS_DIA2M_8	Pero… Qué le voy a pedir a alguien tan pequeño como tú.					
+SUS_DIA2M_9	Bueno… Pensándolo bien… Acepto trueque.					
+SUS_DIA2M_10	Si tienes algún objeto exótico e interesante, no dudes en traérmelo…					
+SUS_DIA2M_11	Intercambiar Birimbao					
+SUS_DIA2M_12	¿Eh, qué es eso?					
+SUS_DIA2M_13	Qué objeto más extraño… Me interesa…					
+SUS_DIA2M_14	¿Estás dispuesto a intercambiarlo? je, je, je…					
+SUS_DIA2M_15	Déjame mirar qué tengo por aquí…					
+SUS_DIA2M_16	Uh, esto no… Dudo que alguien como tú quisiese una desbrozadora…					
+SUS_DIA2M_17	…					
+SUS_DIA2M_18	¡Je, je, je, sí, esto te puede gustar…!					
+SUS_DIA2M_19	Unas gafas especiales, parecen estar hechas de un cristal entintado.					
+SUS_DIA2M_20	Se… Las tomé prestadas a Visara… No te molestará el sol con ellas.					
+SUS_DIA2M_21	¡Aquí tienes!					
+SUS_DIA2M_22	Je, je, je… Es un placer hacer negocios contigo…					
+NEL_DIA2M_1	(Nel parece estar murmurando algo hacia sus adentros…)					
+NEL_DIA2M_2	(Su grave voz reverbera por lo bajo, como si un leve aullido de monstruo se desplazase a ras del suelo).					
+NEL_DIA2M_3	(Parece estar preparando tumbas nuevas…)					
+NEL_DIA2M_4	Las tumbas					
+NEL_DIA2M_5	Cavar y cavar…					
+NEL_DIA2M_6	No es asunto para alguien tan crío como tú.					
+NEL_DIA2M_7	La muerte nos acecha más que nunca, y el Señor parece estar preocupado.					
+NEL_DIA2M_8	…					
+NEL_DIA2M_9	Ugh… si la muerte viene a por mí…					
+NEL_DIA2M_10	Que se prepare.					
+NEL_DIA2M_11	Tú deberías protegerte también.					
+NEL_DIA2M_12	Los muertos ansían a sus nuevos compañeros.					
+NEL_DIA2M_13	Supongo que hasta en el otro lado hay gente que se siente sola.					
+NEL_DIA2M_14	Toma, el mal que nos observa parece que ha dado sus primeros pasos.					
+NEL_DIA2M_15	Es una vela consagrada, su llama nunca deja de arder, como la presencia de la muerte sobre nuestras cabezas…					
+BAS_DIA2M_1	(Es Basajaun.)					
+BAS_DIA2M_2	Sobre esta noche					
+BAS_DIA2M_3	No estuve atento.					
+BAS_DIA2M_4	No estuve atento.					
+BAS_DIA2M_5	No estuve atento.					
+QUE_DIA2T_1	(Quebec parece emocionado por algo…)					
+QUE_DIA2T_2	(Parece estar canturreando algo por lo bajo mientras da pasos de alegría).					
+QUE_DIA2T_3	Qué ocurre					
+QUE_DIA2T_4	CAYÓ LA NOCHE-EEEE.					
+QUE_DIA2T_5	…					
+QUE_DIA2T_6	Perdona, no suelo pegar gritos al aire					
+QUE_DIA2T_7	Solo estaba ensayando para los conciertos y marcando unos pasos de baile.					
+QUE_DIA2T_8	¿Cómo? ¿Que no te has enterado?					
+QUE_DIA2T_9	Sí, sí, como lo oyes, mañana mi hermana y yo vamos a dar nuestro primer temardo.					
+QUE_DIA2T_10	Por la tarde en la plaza, y por la noche en la taberna.					
+QUE_DIA2T_11	Hay que traer un poco de alegría después de tanto golpe a la entrepierna.					
+PER_DIA2T_1	(Perrico parece oler incluso peor que antes…)					
+PER_DIA2T_2	(Aunque… Por una vez… no parece estar mendigando por comida.)					
+PER_DIA2T_3	Observar					
+PER_DIA2T_4	(Sigue inquieto, pero ahora parece más de angustia que otra cosa.)					
+PER_DIA2T_5	(Te está poniendo ojitos.)					
+PER_DIA2T_6	(Menudo tunante está hecho.)					
+PER_DIA2T_7	(Se cree que da pena después de lo que le hizo a Messié).					
+MOL_DIA2T_1	(Molino parece estar sacudiendo una botella vacía mientras se toma un carajillo…)					
+MOL_DIA2T_2	(Se le ve melancólico ahora que su compañero de desventuras no está más por aquí…)					
+MOL_DIA2T_3	Dar ánimos					
+MOL_DIA2T_4	Gracias, pequeño saltamontes… Pero no te preocupes, este viejo molino ha visto pasar muchas vidas.					
+MOL_DIA2T_5	Aunque no lo aparente por mi tersa piel… tengo aproximadamente 333 años, si no llevo mal la cuenta del numerín…					
+MOL_DIA2T_6	Dos muertes han ocurrido hoy… Yo como mago debería haber hecho algo…					
+MOL_DIA2T_7	Pero bueno, he recogido la esencia de Venancio en esta botella.					
+MOL_DIA2T_8	La botella					
+MOL_DIA2T_9	Los magos tenemos la tradición de capturar el alma de nuestros seres queridos.					
+MOL_DIA2T_10	La mayor concentración de alma de una persona se encuentra concentrada en una bola dentro del ano de una persona.					
+MOL_DIA2T_11	He introducido esta botella por el ano del cadáver de Venancio, para que así podamos disfrutar de su compañía para siempre.					
+MOL_DIA2T_12	Puedes quedártela por ahora…					
+MOL_DIA2T_13	También parte del alma se almacena en el corazón de las personas…					
+MOL_DIA2T_14	Y yo llevaré parte de Venancio siempre conmigo…					
+MOL_DIA2T_15	Al menos siempre y cuando esté tomando alcohol…					
+MOL_DIA2T_16	(Recibes la Botella de pedos de Venancio.)					
+VIS_DIA2T_1	(Visara parece estar ocultándose del sol como siempre…)					
+VIS_DIA2T_2	(Creo que es hora de que alguien la ayude con su problema…)					
+VIS_DIA2T_3	Darle gafas de sol					
+VIS_DIA2T_4	Eh… ¿Eso son mis gafas de sol?					
+VIS_DIA2T_5	Pensaba que las había perdido hace mucho… Eh, je…					
+VIS_DIA2T_6	La verdad es que sin ellas… Me va un poco mal…					
+VIS_DIA2T_7	No sé qué decir… Eh… Je…					
+VIS_DIA2T_8	Hacía mucho que nadie me trataba bien…					
+VIS_DIA2T_9	Deja… Déjame ver qué tengo en el trastero…					
+VIS_DIA2T_10	Me gustaría compensarte con algo, pero… Eh, je… No puedo compensarte con alcohol como hago con el resto de clientes…					
+VIS_DIA2T_11	…					
+VIS_DIA2T_12	Ah, sí, esto me ocupa mucho espacio y nunca supe darle uso…					
+VIS_DIA2T_13	Verás… Hacen falta muchos pulmones, y fumar pipa no me hace bien…					
+VIS_DIA2T_14	Es una gaita, era de mi tío… Intenté tocarla hace bastante, pero… Bueno, yo soy más de instrumentos de cuerda.					
+VIS_DIA2T_15	Puedes quedártela… Eh, je… Trátala bien…					
+VIS_DIA2T_16	Despedirte					
+VIS_DIA2T_17	Bueno, pues hasta luego supongo...					
+VIT_DIA2T_1	(Doña Vita sigue sentada igual que siempre haciendo punto…)					
+VIT_DIA2T_2	(Parece menos estresada que por la mañana, aunque parece estar hablando consigo misma…)					
+VIT_DIA2T_3	Escuchar					
+VIT_DIA2T_4	Sí… Entiendo… Sí…					
+VIT_DIA2T_5	Solo debo hacer como con mi marido en su día, que en paz descanse el asqueroso…					
+VIT_DIA2T_6	Meter, sacar, meter, sacar…					
+VIT_DIA2T_7	Punto a punto… Sin miedo… un bonito traje para él…					
+VIT_DIA2T_8	No temas, cariño, solo dolerá… Un poco…					
+VIT_DIA2T_9	¿Qué, que lo una por ese lado?					
+VIT_DIA2T_10	Es verdad que ha quedado un poco suelto…					
+VIT_DIA2T_11	Deja que una este brazo como toca…					
+VIT_DIA2T_12	Eullín… Pásame la cabeza de caballo…					
+VIT_DIA2T_13	(Recibes la Botella de Patxaran con ojos de lechuza)					
+SUS_DIA2T_1	(Suspinicius sigue como siempre, organizando su inventario…)					
+SUS_DIA2T_2	(Parece estar quejándose en voz alta…)					
+SUS_DIA2T_3	Escuchar quejas					
+SUS_DIA2T_4	No aguanto más en este pueblo…					
+SUS_DIA2T_5	Miro a un lado y solo veo a uno ingiriendo hogaza con confitura...					
+SUS_DIA2T_6	Observo al otro lado, repostería con detestable café.					
+SUS_DIA2T_7	Observo al otro lado, vientre, vientre, vientre…					
+SUS_DIA2T_8	¡Misérrimo, misérrimo, misérrimo!					
+SUS_DIA2T_9	¡Diantres! ¡No puedo prolongar mi estancia en este lugar!					
+SUS_DIA2T_10	Intercambiar Birimbao					
+SUS_DIA2T_11	¿Eh, qué es eso?					
+SUS_DIA2T_12	Qué objeto más extraño… Me interesa…					
+SUS_DIA2T_13	¿Estás dispuesto a intercambiarlo? je, je, je…					
+SUS_DIA2T_14	Déjame mirar qué tengo por aquí…					
+SUS_DIA2T_15	Uh, esto no… Dudo que alguien como tú quisiese una desbrozadora…					
+SUS_DIA2T_16	…					
+SUS_DIA2T_17	¡Je, je, je, sí, esto te puede gustar…!					
+SUS_DIA2T_18	Unas gafas especiales, parecen estar hechas de un cristal entintado.					
+SUS_DIA2T_19	Se… Las tomé prestadas a Visara… No te molestará el sol con ellas.					
+SUS_DIA2T_20	¡Aquí tienes! (Obtienes un Birimbao)					
+SUS_DIA2T_21	Je, je, je… Es un placer hacer negocios contigo…					
+BAS_DIA2T_1	(Es Basajaun.)					
+BAS_DIA2T_2	Hablar con el Basajaun					
+BAS_DIA2T_3	Mil amigos son demasiadamente poco.					
+BAS_DIA2T_4	Un enemigo es demasiadamente mucho.					
+BAS_DIA2T_5	La sabiduría viene dada por el desarrollo de nuestro intelecto, no por el paso de los años.					
+BAS_DIA2T_6	Somos tan viejos como nosotros nos sintamos.					
+BAS_DIA2T_7	Aquel que siempre va con cuidado, será más propenso a sufrir accidentes.					
+BAS_DIA2T_8	Ten cuidado, esta noche…					
+BAS_DIA2T_9	No podré cubriros a todos…					
+PER_DIA2N_1	(Perrico parece estar igual de confundido que en la noche anterior…)					
+PER_DIA2N_2	(Parece estar ladrando al aire y revolcándose…)					
+PER_DIA2N_3	Observar					
+PER_DIA2N_4	Perrico se está arañando la cabeza y golpeándola contra la pared, como si algo le estuviese carcomiendo la cabeza por dentro).					
+PER_DIA2N_5	(Alguna vez he oído que la carne humana podría tener efectos sobre los cánidos, pero parece ser algo diferente…)					
+PER_DIA2N_6	(Sea lo que sea… Parece estar dentro de su cabeza…)					
+BAS_DIA2N_1	(Es Basajaun.)					
+BAS_DIA2N_2	¿Escuchar otro proverbio?					
+BAS_DIA2N_3	Muertos sobre muertos apilados.					
+BAS_DIA2N_4	Eso es lo mismo que llover sobre mojado.					
+BAS_DIA2N_5	¿Quién habla desde las sombras?					
+BAS_DIA2N_6	Un destino inefable me canta…					
+QUE_DIA2N_1	(Quebec parece estar atendiendo la barra como cada noche).					
+QUE_DIA2N_2	(Se le ve canturreando como siempre, el aire parece estar más animado esta noche).					
+QUE_DIA2N_3	Asomarse					
+QUE_DIA2N_4	¿Qué haces tú por aquí a estas horas?					
+QUE_DIA2N_5	Ahora ya solo quedan los que se dedican a hacer camorras.					
+QUE_DIA2N_6	Parece que hoy Molino es quien decide llevar la fiesta.					
+QUE_DIA2N_7	Una buena conmemoración de nuestro borracho de conducta molesta.					
+QUE_DIA2N_8	Por suerte… Parece que hoy mi mente está más creativa.					
+QUE_DIA2N_9	Puedo escuchar voces cantar de forma efusiva.					
+QUE_DIA2N_10	Solo he de seguir el son, ¿verdad?					
+QUE_DIA2N_11	Que estos versos se hagan realidad…					
+MOL_DIA2N_1	(Molino parece estar disfrutando esta noche como nunca).					
+MOL_DIA2N_2	(Ahora que Venancio no está, supongo que le toca sustituirle…)					
+MOL_DIA2N_3	Verle disfrutar					
+MOL_DIA2N_4	En ausencia de Venancio, tendré que suplir su papel.					
+MOL_DIA2N_5	Yo no pagaré en dientes, pagaré en trigo recién molido.					
+MOL_DIA2N_6	Pero tendré que adoptar las costumbres de un experto en la materia.					
+MOL_DIA2N_7	¡JEFE!					
+MOL_DIA2N_8	¡PÓNGAME OTRA JARRA QUE ESTA TIENE UN AGUJERO!					
+VIT_DIA2N_1	(Doña Vita está actuando extraño…)					
+VIT_DIA2N_2	(Está teniéndose los dedos de los pies… Y uniéndolos a su espalda…)					
+VIT_DIA2N_3	Punto contorsionista					
+VIT_DIA2N_4	Puedo… Sentir la flexibilidad de nuevo…					
+VIT_DIA2N_5	Se siente bien… Punzar entre los dedos…					
+VIT_DIA2N_6	Ah… Cada pinchazo es como si me rascase la cuscusilla…					
+VIT_DIA2N_7	¿Qué dices, cariño?					
+VIT_DIA2N_8	Ahora voy…					
+VIT_DIA2N_9	(Doña Vita introduce lentamente el alfiler en su globo ocular y lo saca por la nariz…)					
+VIT_DIA2N_10	¿Así, está bien?					
+VIT_DIA2N_11	Creo que este jersey le quedará bien a Eullín…					
+VIT_DIA2N_12	Debería hacerlo más grande.					
+VIT_DIA2N_13	(Doña Vita comienza a unir su rodilla con su barbilla, poco a poco, sacando los hilos por la parte inferior de la boca…)					
+NEL_DIA2N_1	(Nel cava en la oscuridad junto las nuevas tumbas que ha cavado para hoy).					
+NEL_DIA2N_2	(Tiene la mirada perdida y parece susurrar para sus adentros).					
+NEL_DIA2N_3	Escuchar sigilosamente					
+NEL_DIA2N_4	¿Es el día, verdad?					
+NEL_DIA2N_5	Oh, Señor, tú que guías mis actos… Si usted lo ordena…					
+NEL_DIA2N_6	(Nel continúa cavando a su alrededor, desenterrando algún cadáver).					
+NEL_DIA2N_7	Que los huesos no me tuerzan… Que la carne no me detenga…					
+NEL_DIA2N_8	Cavar y cavar.					
+NEL_DIA2N_9	La tierra me llama y a la Tierra acudo…					
+NEL_DIA2N_10	Nos vemos en el infierno, insolentes…					
+LEC_DIA2N_1	(Una lechuza te observa desde las sombras…)					
+LEC_DIA2N_2	(Parece estar cautivada por tu presencia…)					
+LEC_DIA2N_3	Atraer con la caña					
+LEC_DIA2N_4	(Esta lechuza parece haberte estado observando desde hace varios días…)					
+LEC_DIA2N_5	(Molino afirma que es el familiar de algún mago).					
+LEC_DIA2N_6	(Pero… ¿Son las palabras de Molino lo suficientemente fiables?)					
+LEC_DIA2N_7	(Al sacar la caña, la lechuza parece estar interesada en el ratón de cebo…)					
+LEC_DIA2N_8	(Rápidamente se abalanza sobre ellos… La atrapas y…)					
+LEC_DIA2N_9	(...)					
+LEC_DIA2N_10	(La degollas.)					
+LEC_DIA2N_11	(Obtienes ojos de lechuza)					
+LEC_DIA2N_12	Dejarla en paz					
+LEC_DIA2N_13	(Te marchas sin hacer ningún ruido)					
+						
+BAS_DIA3M_1	(Es Basajaun.)					
+BAS_DIA3M_2	...					
+BAS_DIA3M_3	Soy el único que está aquí.					
+BAS_DIA3M_4	Domingo de carnaval, mucho vino y poco pan.					
+BAS_DIA3M_5	Para mí ni vino ni pan.					
+BAS_DIA3M_6	Matar a Basajaun					
+BAS_DIA3M_7	Está bien.					
+BAS_DIA3M_8	Supongo que tengo que aceptar mi destino.					
+BAS_DIA3M_9	Adiós.					
+MOL_DIA3M_1	(Molino está triste. No tiene a nadie con quien jugar al dominó. Hoy no sopla el viento.)					
+MOL_DIA3M_2	Está llorando por Doña Vita					
+MOL_DIA3M_3	¿Por qué molestarse?					
+MOL_DIA3M_4	¿Por qué denegarle los últimos años de su mortal y solitaria vida?					
+MOL_DIA3M_5	Sólo queda llorar, y esperar lo inevitable.					
+MOL_DIA3M_6	Porque sé que a mí, en mi viaje, también me llegará.					
+MOL_DIA3M_7	Matar a Molino					
+MOL_DIA3M_8	Siempre supe que algún día mi poder no sería suficiente.					
+MOL_DIA3M_9	Un mago nunca llega tarde.					
+MOL_DIA3M_10	Pero ahora es mi momento de marchar.					
+MOL_DIA3M_11	Espero reencontrarme con Doña Vita allá donde vaya.					
+MOL_DIA3M_12	Y con suerte ganarle alguna partida de dominó.					
+SUS_DIA3M_1	(Suspinicius no deja de contar el dinero de la caja y frotarse las manos. Te mira con aires de superioridad)					
+SUS_DIA3M_2	Avaricia					
+SUS_DIA3M_3	¿Pero eres siervo o noble?					
+SUS_DIA3M_4	Yo solo hago caso a nobles, si no, tu consejo no me sirve.					
+SUS_DIA3M_5	Entiendenlo, el vivo vive del siervo, y el siervo, de su labor.					
+SUS_DIA3M_6	¿Cómo es posible que en el año 1633 aún haya gente que no quiere ser noble?					
+SUS_DIA3M_7	Mentalidad de depredador.					
+SUS_DIA3M_8	¿Has leído Padre rico y Padre pobre?					
+SUS_DIA3M_9	Yo tampoco, no se leer.					
+SUS_DIA3M_10	Pero ahora intento juntarme solo con nobles para así ser yo el próximo noble.					
+SUS_DIA3M_11	Yo soy un visionario y tu una sucia hormiga trabajadora.					
+SUS_DIA3M_12	El futuro está en los bulbos de tulipanes y la seda.					
+SUS_DIA3M_13	Matar a Suspinicius Jr.					
+SUS_DIA3M_14	Al final no ha sido una crisis lo que ha acabado con mi negocio.					
+SUS_DIA3M_15	Si no tú, pequeña cucaracha.					
+SUS_DIA3M_16	Hazlo rápido, pero sobre todo no me cobres por ello.					
+QUE_DIA3T_1	(Quebec lo está dando todo en el concierto.)					
+QUE_DIA3T_2	(No se le entienden la mitad de las palabras pero le está poniendo todo su esfuerzo y dedicación)					
+QUE_DIA3T_3	Intentar averiguar qué dice la letra					
+QUE_DIA3T_4	Ya se acabó el día.					
+QUE_DIA3T_5	Las mozas se bajaron del carromato, ahora toca pecar.					
+QUE_DIA3T_6	Hace que no sabe de mí.					
+QUE_DIA3T_7	…					
+QUE_DIA3T_8	Este es mi nuevo tema, remixeando el debut del Grande y Legendario Papito Daddy					
+QUE_DIA3T_9	Baila, sigue, la corriente… Con el flow de mi gente…					
+QUE_DIA3T_10	Matar a Quebec					
+QUE_DIA3T_11	Creía que ibas a quedarte conmigo					
+QUE_DIA3T_12	Pero al final me has tocado el punto G, el punto de la Garganta en el que me has clavado el cuchillo.					
+QUE_DIA3T_13	¡Ños, chacho! No me puedes dejar hecho un fisco así como así…					
+VIS_DIA3T_1	(Visara está muy entretenida tirando platos de cerámica al suelo al ritmo de la música)					
+VIS_DIA3T_2	Intentar disfrutar del espectáculo					
+VIS_DIA3T_3	¡Visara a los platos!					
+VIS_DIA3T_4	La verdad es que esto de hacer canciones tirando platos al suelo y rompiéndolos es muy satisfactorio.					
+VIS_DIA3T_5	Seguro que en el futuro inventan sonidos más originales.					
+VIS_DIA3T_6	Además, me sirve como terapia frente al trabajo de la taberna					
+VIS_DIA3T_7	Pedir su gaita					
+VIS_DIA3T_8	¿Cómo? ¿Que quieres mi gaita?					
+VIS_DIA3T_9	Mmmmm ahora que lo dices, esas lentes oscuras parecen la solución a todos mis problemas.					
+VIS_DIA3T_10	Está bien, toma la gaita. Aunque se trata de una gaita especial.					
+VIS_DIA3T_11	¿Ves los agujeros de la parte superior?					
+VIS_DIA3T_12	Puedes ponerle lo que quieras, botellas, licores, velas…					
+VIS_DIA3T_13	Y la combinación de todas ellas seguro que tiene capacidades increíbles					
+VIS_DIA3T_14	(Obtienes la Gaita de Visara)					
+VIS_DIA3T_15	Matar a Visara					
+VIS_DIA3T_16	Que mala rola.					
+VIS_DIA3T_17	Esto es peor que mi última sesión de canto.					
+VIS_DIA3T_18	Supongo que mi ritmo acaba aquí…					
+SUS_DIA3T_1	(La joroba parece tener vida propia fruto de los improperios que está soltando Suspinicius entre murmullos)					
+SUS_DIA3T_2	Saludar efusivamente a tu amigo					
+SUS_DIA3T_3	Justo quién me faltaba por ver.					
+SUS_DIA3T_4	El sucio ciempiés que no deja de atosigarme.					
+SUS_DIA3T_5	Sí, debería haber montado un puesto de venta y haber aprovechado el tirón del concierto.					
+SUS_DIA3T_6	Sí, debería haber dejado de lado el mínimo de moral que me queda teniendo en cuenta los trágicos sucesos acaecidos en el pueblo.					
+SUS_DIA3T_7	Además, ni siquiera me gusta la música que están tocando.					
+SUS_DIA3T_8	Me gustaba más Quebec cuando se metía con Góngora.					
+SUS_DIA3T_9	Matar a Suspinicius Jr.					
+SUS_DIA3T_10	Al final no ha sido una crisis lo que ha acabado con mi negocio.					
+SUS_DIA3T_11	Si no tu, pequeña cucaracha.					
+SUS_DIA3T_12	Hazlo rápido, pero sobre todo no me cobres por ello.					
+MOL_DIA3T_1	(Molino sigue en casa de Doña Vita, guardando respeto, sus pertenencias, y mucho silencio.)					
+MOL_DIA3T_2	(Silencio que se ve interrumpido por el barullo de la plaza.)					
+MOL_DIA3T_3	El escándalo de fuera					
+MOL_DIA3T_4	Demasiado ruido ahí fuera.					
+MOL_DIA3T_5	Si en mi mano estuviera, los callaba a todos de un plumazo.					
+MOL_DIA3T_6	Si al menos respetaran a los que ya no están…					
+MOL_DIA3T_7	Ojalá alguien los callara.					
+MOL_DIA3T_8	Ojalá.					
+MOL_DIA3T_9	Para siempre.					
+MOL_DIA3T_10	Matar a Molino					
+MOL_DIA3T_11	Siempre supe que algún día mi poder no sería suficiente.					
+MOL_DIA3T_12	Un mago nunca llega tarde.					
+MOL_DIA3T_13	Pero ahora es mi momento de marchar.					
+MOL_DIA3T_14	Espero reencontrarme con Doña Vita allá donde vaya.					
+MOL_DIA3T_15	Y con suerte ganarle alguna partida de dominó.					
+BAS_DIA3T_1	(Es Basajaun.)					
+BAS_DIA3T_2	¿Estás disfrutando?					
+BAS_DIA3T_3	Quien canta, sus males espanta.					
+BAS_DIA3T_4	Pero cantando así atraen más que espantan.					
+BAS_DIA3T_5	Matar a Basajaun					
+BAS_DIA3T_6	Está bien.					
+BAS_DIA3T_7	Supongo que tengo que aceptar mi destino.					
+BAS_DIA3T_8	Adiós.					
+QUE_DIA3N_1	(Es Quebec, cantando a viva voz, haciendo retumbar cada uno de los tablones del suelo del local.)					
+QUE_DIA3N_2	Escuchar					
+QUE_DIA3N_3	No se marche, que las madrugadas sin vos me causan dolor.					
+QUE_DIA3N_4	Mi cabeza aún recuerda todas las posiciones y todos los versos. Yo ya no deseo nada que sea sin veros.					
+QUE_DIA3N_5	(El bardo prosigue su canción más solicitada por el gentío. Su hermana Visara está acompañando a su voz con varios instrumentos.)					
+QUE_DIA3N_6	(¿Cómo puede ser que estos dos extraños parientes tengan tanto éxito todavía?)					
+QUE_DIA3N_7	Matar a Quebec					
+QUE_DIA3N_8	Creía que ibas a quedarte conmigo					
+QUE_DIA3N_9	Pero al final me has tocado el punto G, el punto de la Garganta en el que me has clavado el cuchillo.					
+QUE_DIA3N_10	¡Ños, chacho! No me puedes dejar hecho un fisco así como así					
+VIS_DIA3N_1	(Visara está tocando la bandurria, la pandereta y el triángulo a la vez para complementar los gritos de Quebec al ritmo)					
+VIS_DIA3N_2	Otra vez la misma canción					
+VIS_DIA3N_3	¡Visara a los platos!					
+VIS_DIA3N_4	La verdad es que ya estoy un poco harta de que siempre cante la misma canción.					
+VIS_DIA3N_5	Encima no sabe entonar.					
+VIS_DIA3N_6	Y ya es cargante.					
+VIS_DIA3N_7	Al menos tengo un aspecto interesante para los curiosos.					
+VIS_DIA3N_8	Matar a Visara					
+VIS_DIA3N_9	Que mala rola.					
+VIS_DIA3N_10	Esto es peor que mi última sesión de canto.					
+VIS_DIA3N_11	Supongo que mi ritmo acaba aquí.					
+SUS_DIA3N_1	(Suspinicius está intentando relajarse tomandose una jarra de un brebaje extraño)					
+SUS_DIA3N_2	Nunca le has visto tan… sereno					
+SUS_DIA3N_3	Hola de nuevo pequeño saltamontes.					
+SUS_DIA3N_4	Me estoy dando por vencido.					
+SUS_DIA3N_5	No estoy siendo capaz de construir mi imperio de emporios.					
+SUS_DIA3N_6	En el concierto lo he visto claro.					
+SUS_DIA3N_7	Y viendo lo que ha sucedido en el pueblo, temo ser yo la siguiente víctima.					
+SUS_DIA3N_8	¿Cómo?					
+SUS_DIA3N_9	¿Que si te dejo algo en herencia?					
+SUS_DIA3N_10	¿Pero qué te has creído?					
+SUS_DIA3N_11	Largo de aquí.					
+SUS_DIA3N_12	Matar a Suspinicius Jr.					
+SUS_DIA3N_13	Al final no ha sido una crisis lo que ha acabado con mi negocio.					
+SUS_DIA3N_14	Si no tú, pequeña cucaracha.					
+SUS_DIA3N_15	Hazlo rápido, pero sobre todo no me cobres por ello.					
+MOL_DIA3N_1	(Molino está bebiendo de manera lenta y melancólica. Lo cual no impide que lleve más cantidad de la que debería.)					
+MOL_DIA3N_2	Opinión sobre el concierto					
+MOL_DIA3N_3	Al final he tenido que ceder. ¿Qué más dará, al fin y al cabo?					
+MOL_DIA3N_4	Algunos lloran, otros ríen. La mayoría están en silencio.					
+MOL_DIA3N_5	Tal vez lleven razón. Es una tontería sentir pena o arrepentimiento por algo sobre lo que no has tenido ningún control.					
+MOL_DIA3N_6	Cada uno lo lleva como puede, pero al menos algo me alegra ver a gente que ignora todo lo ocurrido.					
+MOL_DIA3N_7	En algún lugar, aún queda esperanza.					
+MOL_DIA3N_8	Matar a Molino					
+MOL_DIA3N_9	Siempre supe que algún día mi poder no sería suficiente.					
+MOL_DIA3N_10	Un mago nunca llega tarde.					
+MOL_DIA3N_11	Pero ahora es mi momento de marchar.					
+MOL_DIA3N_12	Espero reencontrarme con Doña Vita allá donde vaya.					
+MOL_DIA3N_13	Y con suerte ganar alguna partida de dominó.					
+BAS_DIA3N_1	(Es Basajaun.)					
+BAS_DIA3N_2	Hola, Basajaun					
+BAS_DIA3N_3	El fin se acerca.					
+BAS_DIA3N_4	A mortandad no valen hierbas.					
+BAS_DIA3N_5	El final nos pone a todos por igual.					
+BAS_DIA3N_6	Matar a Basajaun					
+BAS_DIA3N_7	Está bien.					
+BAS_DIA3N_8	Es lo que debes hacer.					
+BAS_DIA3N_9	Adiós.					
+LEP_DIA3N_1	(Aquí está Lepanto, el escritor.)					
+LEP_DIA3N_2	Está ahí					
+LEP_DIA3N_3	¿Vais a hacer algo?					
+LEP_DIA3N_4	¿O vais a quedaros mirando como si nada hubiese ocurrido en estos tres días?					
+LEP_DIA3N_5	Adelante, lo estáis deseando. Liberaos. Liberadme.					
+LEP_DIA3N_6	Acuchillar a Lepanto					
+LEP_DIA3N_7	Y así termina el cuento, las voces se apagan y la luz se atenúa.					
+LEP_DIA3N_8	Sin embargo, sé que es culpa mía.					
+LEP_DIA3N_9	Debí suponer que os comportaríais de esta manera.					
+LEP_DIA3N_10	La curiosidad acabó matándome a mí.					
+LEP_DIA3N_11	¿Por qué esforzarse en vivir en el tedio y la mediocridad?					
+LEP_DIA3N_12	¿Por qué conformarse con la vida recluida en tres escenarios marcados por las mismas calles que llevo viviendo años?					
+LEP_DIA3N_13	Las mismas caras, la misma ropa, los mismos pliegues del papel.					
+LEP_DIA3N_14	Y ahora qué, ¿os habéis divertido? ¿Habéis evitado vuestra muerte?					
+LEP_DIA3N_15	¿Habéis pensado acaso en que a veces la existencia eterna a la que estamos condenados es peor que la muerte a la que habéis sometido a tantos?					
+LEP_DIA3N_16	Poco os importa, lo habéis hecho sin pensar. Ni os habéis parado a reflexionar sobre vuestros actos.					
+LEP_DIA3N_17	Es más, diría que no habéis tenido opción. Como si no fuerais consciente de lo que habéis hecho.					
+LEP_DIA3N_18	Si hubieses sido vos, habríais al menos dudado de acabar con la vida de aquellos a los que habéis cogido cariño.					
+LEP_DIA3N_19	Pero no ha sido así, así que debo suponer que…					
+LEP_DIA3N_20	No sois vos.					
+LEP_DIA3N_21	Quemar vivo a Lepanto					
+BOS_DIA3N_22	Seguir la voz					
+BOS_DIA3N_23	Ignorar la voz 					
