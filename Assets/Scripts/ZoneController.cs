@@ -79,7 +79,6 @@ public class ZoneController : MonoBehaviour
         switch (dayTime)
         {
             case DayTime.MORNING:
-                z.zoneDay.SetActive(active);
                 if (active)
                 {
                     foreach (GameObject o in z.EnabledObjectsByDay[day].Morning)
@@ -91,9 +90,9 @@ public class ZoneController : MonoBehaviour
                         o.SetActive(false);
                     }
                 }
+                z.zoneDay.SetActive(active);
                 break;
             case DayTime.AFTERNOON:
-                z.zoneDay.SetActive(active);
                 if (active)
                 {
                     foreach (GameObject o in z.EnabledObjectsByDay[day].Afternoon)
@@ -105,9 +104,9 @@ public class ZoneController : MonoBehaviour
                         o.SetActive(false);
                     }
                 }
+                z.zoneDay.SetActive(active);
                 break;
             case DayTime.NIGHT:
-                z.zoneNight.SetActive(active);
                 if (active)
                 {
                     foreach (GameObject o in z.EnabledObjectsByDay[day].Night)
@@ -119,6 +118,7 @@ public class ZoneController : MonoBehaviour
                         o.SetActive(false);
                     }
                 }
+                z.zoneNight.SetActive(active);
                 break;
         }
         if (active)

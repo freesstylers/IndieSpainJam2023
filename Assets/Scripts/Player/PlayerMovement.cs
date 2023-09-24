@@ -16,6 +16,8 @@ namespace Player
         private bool isMoving = false;
         private bool isInteracting = false;
 
+        public Transform initPosition;
+
         void Start()
         {
             cam = Camera.main;
@@ -23,7 +25,10 @@ namespace Player
             playerAnim = GetComponent<Animator>();
             player.updateRotation = false;
         }
-
+        private void OnEnable()
+        {
+            ResetPosition();
+        }
         void Update()
         {
             if (!isInteracting && canMove && !isMoving)
@@ -108,6 +113,13 @@ namespace Player
         private void OnMouseExit()
         {
             canMove = true;
+        }
+
+        public void ResetPosition()
+        {
+            player.isStopped = true;
+            this.transform.position = initPosition.position;
+            player.isStopped = false;
         }
     }
 }
