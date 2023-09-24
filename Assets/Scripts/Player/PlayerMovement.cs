@@ -118,8 +118,11 @@ namespace Player
         public void ResetPosition()
         {
             player.isStopped = true;
-            this.transform.position = initPosition.position;
+            if(initPosition!=null)
+                this.transform.position = initPosition.position;
+            isMoving = false;
             player.isStopped = false;
+
         }
     }
 }
