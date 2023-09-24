@@ -44,15 +44,17 @@ MonoBehaviour:
   - key: "CA\xD1A_CEBO"
     sprite: {fileID: 21300000, guid: bd7fca845ae37cb4485dc28d30145cb5, type: 3}
   - key: LENTES
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 8ac562b36bfd71b459ed1fa3f7d8e6ee, type: 3}
   - key: CALABAZA
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 1a02de2fcbf837f4d85f3b867e9dd241, type: 3}
   - key: BIRIMBAO
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 6c65ad93d5e715644988ceccf485250b, type: 3}
+  - key: BIRIMBAO_COMP
+    sprite: {fileID: 21300000, guid: 68cffc8fc30286e4a84016dab3dcc9da, type: 3}
   - key: VELA
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
-  - key: LICOR_PEDOS
-    sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+    sprite: {fileID: 21300000, guid: 9bbf82ff37653b049a34247351305486, type: 3}
+  - key: PEDOS
+    sprite: {fileID: 21300000, guid: 0c043dfd83eed564f98b30dbcf6fd880, type: 3}
   - key: GAITA
     sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
   - key: GAITA_PEDOS

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PlayerMovementToggler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void EnableMove()
     {
-        
+        GameObject player = DialogueManager.instance_.player;
+        player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DisableMove()
     {
-        
+        GameObject player = DialogueManager.instance_.player;
+        player.GetComponent<Player.PlayerMovement>().SetInteracting(true);
     }
 }
