@@ -63,3 +63,5 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
   - key: LANZALLAMAS
     sprite: {fileID: 21300000, guid: e4699b4dac1d27b4cb4c9363aa69c227, type: 3}
+  - key: CUCHILLO
+    sprite: {fileID: 21300000, guid: 64b495afcc939d540b3085e6e447c426, type: 3}
