@@ -6,7 +6,7 @@ public class Inventory: MonoBehaviour
 {
  
     public int maxitems = 6;
-    private Dictionary<string, int> items;
+    public Dictionary<string, int> items { get; private set; }
     private List<string> selectedItems;
     private GameManager gm;
     public ItemsData itemsData;
@@ -29,7 +29,7 @@ public class Inventory: MonoBehaviour
         //itemsData.itemsList.Add("Poronga", it);
     }
 
-    public void AddItem(string _newItemID, int _quantity)
+    public void AddItem(string _newItemID, int _quantity = 1)
     {
         if (!gm.itemsData.itemsList.ContainsKey(_newItemID))
         {

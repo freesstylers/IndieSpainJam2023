@@ -7,6 +7,7 @@ public class ItemMenuController : MonoBehaviour
 {
 
     public TMPro.TextMeshProUGUI itemDesc;
+    public TMPro.TextMeshProUGUI itemName;
     public UnityEngine.UI.Image itemSprite;
     
 
@@ -15,27 +16,48 @@ public class ItemMenuController : MonoBehaviour
     [SerializeField]
     private Inventory canvasInventory;
 
-    private void Start()
-    { 
+    private List<GameObject> itemMenus;
 
+    private void Start()
+    {
+        //GameObject player = GameObject.FindGameObjectWithTag("Player");
+        //canvasInventory = player.GetComponent<Inventory>();
+        //canvasInventory.AddItem("goku");
+        //canvasInventory.AddItem("vegeta");
     }
 
     private void OnEnable()
     {
-        GameObject gObj = Instantiate(itemMenuPref, transform);
-        AutoBuildItemMenu a = gObj.GetComponent<AutoBuildItemMenu>();
-        a.fi = FillFullItem;
+        if (GameManager.Instance == null)
+            return;
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        canvasInventory = player.GetComponent<Inventory>();
+
+        if (canvasInventory.items == null)
+            return;
+        ItemsData data = GameManager.Instance.itemsData;
+        itemMenus = new List<GameObject>();
+        foreach (KeyValuePair<string, int> item in canvasInventory.items)
+        {
+            GameObject gObj = Instantiate(itemMenuPref, transform);
+            AutoBuildItemMenu a = gObj.GetComponent<AutoBuildItemMenu>();
+            a.Fill(data.itemsList[item.Key]);
+            itemMenus.Add(gObj);
+            a.fi = FillFullItem;
+        }        
     }
 
-
-    void Update()
+    private void OnDisable()
     {
-
+        itemMenus?.ForEach(x => Destroy(x));
+        itemMenus = null;
     }
 
-    public void FillFullItem(string desc, Sprite sprite)
+    public void FillFullItem(string desc, string name, Sprite sprite)
     {
         itemDesc.text = desc;
+        itemName.text = name;
         itemSprite.sprite = sprite;
     }
 
