@@ -276,7 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: MainMenu
-  t: 10
+  t: 4
 --- !u!114 &270647646
 MonoBehaviour:
   m_ObjectHideFlags: 0
