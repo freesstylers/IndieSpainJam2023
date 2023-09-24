@@ -27,7 +27,7 @@ public class DialogueManager : MonoBehaviour
     private AudioSource aSourceTypingEffect;
     private Coroutine displayLineCoroutine;
 
-    private GameObject player;
+    public GameObject player;
     // Start is called before the first frame update
 
     public GameObject optionContainer;
@@ -46,7 +46,7 @@ public class DialogueManager : MonoBehaviour
 
     void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        //player = GameObject.FindGameObjectWithTag("Player");
         
         if (container != null)
             container.SetActive(false);

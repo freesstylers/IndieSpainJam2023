@@ -26,16 +26,16 @@ public class ItemMenuController : MonoBehaviour
     private void OnEnable()
     {
         AddItems();
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
+        GameObject player = DialogueManager.instance_.player;
+        player.GetComponent<Player.PlayerMovement>().SetInteracting(true);
         RebuildItems();
 
     }
 
     private void OnDisable()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        player.GetComponent<Player.PlayerMovement>().SetMove(true);
+        GameObject player = DialogueManager.instance_.player;
+        player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
     }
 
     public void FillFullItem(string desc, string name, Sprite sprite)

@@ -12,13 +12,16 @@ namespace Player
         private NavMeshAgent player;
         private Animator playerAnim;
 
+        [SerializeField]
         private bool canMove = true;
+        [SerializeField]
         private bool isMoving = false;
+        [SerializeField]
         private bool isInteracting = false;
 
         public Transform initPosition;
 
-        void Start()
+        void Awake()
         {
             cam = Camera.main;
             player = GetComponent<NavMeshAgent>();
@@ -125,6 +128,8 @@ namespace Player
             if (player != null)
                 player.isStopped = false;
 
+
+            DialogueManager.instance_.player = this.gameObject;
         }
     }
 }
