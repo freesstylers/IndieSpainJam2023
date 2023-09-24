@@ -9,8 +9,8 @@ public class InteractableObject : MonoBehaviour
 
     public Outline outline;
 
-    public float MouseHighlightOutline;
-    public float KeyHighlightOutline;
+    protected float MouseHighlightOutline = 25;
+    protected float KeyHighlightOutline = 20;
 
     public bool HighlightKeyOn = false;
 

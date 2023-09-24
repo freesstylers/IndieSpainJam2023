@@ -28,6 +28,12 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 3790444205552985300, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: characterInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: d4cabd408a413f540807032038241de0,
+        type: 2}
     - target: {fileID: 3872151124060948746, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -104,6 +110,12 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 46bfbc2ccb89c394fb6eba86f97a553a,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
