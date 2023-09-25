@@ -1069,7 +1069,7 @@ Transform:
   m_GameObject: {fileID: 8146797379991030360}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.3037006, z: 0, w: 0.9527676}
-  m_LocalPosition: {x: 21.74, y: 15.58, z: -34.4}
+  m_LocalPosition: {x: 21.74, y: 12.11, z: -34.4}
   m_LocalScale: {x: 2.79, y: 7.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1178,8 +1178,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 1
   outline: {fileID: 365769848669084182}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 4
   toZone: plaza
@@ -1195,7 +1193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 308
 --- !u!1 &9151086972928100066
 GameObject:
   m_ObjectHideFlags: 0

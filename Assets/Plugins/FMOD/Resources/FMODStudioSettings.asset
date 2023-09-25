@@ -280,8 +280,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: FmodProject/CaeLaNoche/CaeLaNoche.fspro
-  sourceBankPath: FmodProject/CaeLaNoche/Build
+  sourceProjectPath: 
+  sourceBankPath: 
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -303,8 +303,7 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Music
+  MasterBanks: []
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
@@ -331,7 +330,7 @@ MonoBehaviour:
   - {fileID: 6572282149052087440}
   - {fileID: 7938352337963845411}
   - {fileID: 8429948472576909039}
-  MigratedPlatforms: 0c000000150000000b0000000a00000009000000120000000800000005000000060000000200000001000000
+  MigratedPlatforms: 0900000012000000150000000b000000060000000c0000000a00000005000000080000000200000001000000
 --- !u!114 &1475443763250478927
 MonoBehaviour:
   m_ObjectHideFlags: 0

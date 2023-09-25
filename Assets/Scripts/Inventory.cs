@@ -42,6 +42,7 @@ public class Inventory: MonoBehaviour
         }
         else if (items.Count < maxitems)
         {
+            InventoryNewItemWarning.Instance.NewItemAlert();
             items.Add(_newItemID, _quantity);
             Debug.Log("Added " + gm.itemsData.itemsList[_newItemID].name + "." + gm.itemsData.itemsList[_newItemID].description);
         }

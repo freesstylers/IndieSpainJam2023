@@ -142,7 +142,7 @@ MonoBehaviour:
   outline: {fileID: 1553227268165462011}
   HighlightKeyOn: 0
   interactDistance: 2
-  toZone: 
+  toZone: casa
 --- !u!114 &9177266974086346081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 308
 --- !u!1 &705083510453807279
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,7 +722,7 @@ MonoBehaviour:
   outline: {fileID: 9070677343724213565}
   HighlightKeyOn: 0
   interactDistance: 2
-  toZone: 
+  toZone: emporio
 --- !u!114 &8928953459968418392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,7 +735,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 308
 --- !u!1 &3277054390493526337
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,7 +982,7 @@ MonoBehaviour:
   outline: {fileID: 6187623267100706859}
   HighlightKeyOn: 0
   interactDistance: 2
-  toZone: 
+  toZone: taberna
 --- !u!114 &8987918623398275801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -997,7 +995,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 308
 --- !u!1 &3758065247990594598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,7 +1473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 308
 --- !u!1 &7748816667893128890
 GameObject:
   m_ObjectHideFlags: 0
