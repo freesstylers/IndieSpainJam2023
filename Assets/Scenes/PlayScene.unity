@@ -3418,6 +3418,12 @@ PrefabInstance:
       propertyPath: toZone
       value: taberna
       objectReference: {fileID: 0}
+    - target: {fileID: 5861248839046047497, guid: 211602bbbda7f0941b27bd97398aff5f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 21be553a66db37444b886ebb669cad9c,
+        type: 3}
     - target: {fileID: 6975593616704172010, guid: 211602bbbda7f0941b27bd97398aff5f,
         type: 3}
       propertyPath: m_LocalPosition.x
