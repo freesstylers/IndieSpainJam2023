@@ -8,7 +8,8 @@ namespace FMODUnity
     public class AudioScript : MonoBehaviour
     {
         #region Variables 
-
+        [FMODUnity.BankRef]
+        public List<string> Banks = new List<string>();
         public EventInstance MusicaDia;
         public EventInstance MusicaNoche;
 
@@ -54,6 +55,8 @@ namespace FMODUnity
 
         private void Start()
         {
+            LoadGameAsync();
+
             MusicaDia = RuntimeManager.CreateInstance("event:/Musica/Dia");
             MusicaNoche = RuntimeManager.CreateInstance("event:/Musica/Noche");
             MusicaDia.start();
@@ -272,7 +275,19 @@ namespace FMODUnity
         #endregion
         #region Utilidades
 
+        void LoadGameAsync()
+        {
+            // Start an asynchronous operation to load the scene
+      
 
+            // Iterate all the Studio Banks and start them loading in the background
+            // including the audio sample data
+            foreach (var bank in Banks)
+            {
+                FMODUnity.RuntimeManager.LoadBank(bank, true);
+            }
+
+        }
         private IEnumerator CambiarVariableLocalización(float initNew, float destNew, float initOld, float destOld)
         {
             if (!fading)

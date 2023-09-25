@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44651437, g: 0.496435, b: 0.57483196, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1213,12 +1213,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6004d63422e9612429362c946cbfebb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Banks:
+  - Music
   MusicaDia_Ref:
     Guid:
-      Data1: -1767069148
-      Data2: 1086265884
-      Data3: -41876562
-      Data4: -1453469273
+      Data1: -909093575
+      Data2: 1252260818
+      Data3: 1772345484
+      Data4: -1033988155
     Path: event:/Musica/Dia
   MusicaNoche_Ref:
     Guid:
@@ -1255,13 +1257,7 @@ MonoBehaviour:
       Data3: -1559298901
       Data4: -52148876
     Path: event:/Efectos/Caminar
-  NaradorTal:
-    Guid:
-      Data1: 73998006
-      Data2: 1301878545
-      Data3: -242721104
-      Data4: 531963636
-    Path: event:/Narrador/Noche 3 Bosque 3
+  NarradorEvents: []
   horarioActual: 0
 --- !u!1 &1829232948
 GameObject:
