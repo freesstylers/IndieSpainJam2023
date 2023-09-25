@@ -55,18 +55,7 @@ namespace FMODUnity
 
         private void Start()
         {
-            LoadGameAsync();
-
-            MusicaDia = RuntimeManager.CreateInstance("event:/Musica/Dia");
-            MusicaNoche = RuntimeManager.CreateInstance("event:/Musica/Noche");
-            MusicaDia.start();
-            MusicaNoche.start();
-            if (horarioActual == HORARIO.DIA)
-                MusicaNoche.setVolume(0.0f);
-            else MusicaDia.setVolume(0.0f);
-
-            NarradorEventsBooleans = new bool[30];
-            for (int i = 0; i < NarradorEventsBooleans.Length; i++) NarradorEventsBooleans[i] = false;
+            StartCoroutine(LoadGameAsync());
         }
         #endregion
 
@@ -275,18 +264,30 @@ namespace FMODUnity
         #endregion
         #region Utilidades
 
-        void LoadGameAsync()
+        IEnumerator LoadGameAsync()
         {
-            // Start an asynchronous operation to load the scene
-      
-
-            // Iterate all the Studio Banks and start them loading in the background
-            // including the audio sample data
             foreach (var bank in Banks)
             {
                 FMODUnity.RuntimeManager.LoadBank(bank, true);
             }
 
+            while (!FMODUnity.RuntimeManager.HaveAllBanksLoaded)
+            {
+                yield return null;
+            }
+
+            MusicaDia = RuntimeManager.CreateInstance("event:/Musica/Dia");
+            MusicaNoche = RuntimeManager.CreateInstance("event:/Musica/Noche");
+            MusicaDia.start();
+            MusicaNoche.start();
+            if (horarioActual == HORARIO.DIA)
+                MusicaNoche.setVolume(0.0f);
+            else MusicaDia.setVolume(0.0f);
+
+            NarradorEventsBooleans = new bool[30];
+            
+            for (int i = 0; i < NarradorEventsBooleans.Length; i++) 
+                NarradorEventsBooleans[i] = false;
         }
         private IEnumerator CambiarVariableLocalización(float initNew, float destNew, float initOld, float destOld)
         {

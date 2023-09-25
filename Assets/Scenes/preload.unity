@@ -548,6 +548,41 @@ PrefabInstance:
       propertyPath: horarioActual
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: Banks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: Banks.Array.data[0]
+      value: Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: Banks.Array.data[1]
+      value: Music.strings
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: MusicaDia_Ref.Guid.Data1
+      value: -909093575
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: MusicaDia_Ref.Guid.Data2
+      value: 1252260818
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: MusicaDia_Ref.Guid.Data3
+      value: 1772345484
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: MusicaDia_Ref.Guid.Data4
+      value: -1033988155
+      objectReference: {fileID: 0}
     - target: {fileID: 3127998613150831983, guid: 9fb42a51ad97741499fbf73b6085e445,
         type: 3}
       propertyPath: language
