@@ -71,7 +71,6 @@ public class ZoneController : MonoBehaviour
             zoneDic.Add(z.zoneName, z);
         }
 
-        GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayMusic(FMODUnity.AudioScript.HORARIO.DIA);
         ChangeZone(currentZone);
     }
 
@@ -152,6 +151,7 @@ public class ZoneController : MonoBehaviour
     private void PlayNarradorSoundChangeZone(string newZone)
     {
         FMODUnity.AudioScript audio = GameManager.Instance.GetComponent<FMODUnity.AudioScript>();
+        Debug.Log("Sound narrador " + newZone + " " + currentZoneDay + " " + currentZoneDayTime);
         switch (currentZoneDay){
             case 0:
                 if (currentZoneDayTime == DayTime.NIGHT)
