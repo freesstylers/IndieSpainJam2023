@@ -345,6 +345,7 @@ GameObject:
   - component: {fileID: 6201838974194712247}
   - component: {fileID: 4343677157046853497}
   - component: {fileID: 1175863408515923185}
+  - component: {fileID: 4993295880211591508}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -369,7 +370,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -32.3166, y: -5.8472}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4343677157046853497
 CanvasRenderer:
@@ -408,8 +409,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -426,10 +427,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 39.15
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -468,6 +469,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4993295880211591508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6114590737645046148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a39d959466a94304faee082ca5af2a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: PASAR_TIEMPO
 --- !u!1 &6773867208868289279
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,11 +528,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameDay: 0
-  maxDays: 3
+  maxDays: 2
   currentDayTime: 0
   clockAnim: {fileID: 7063155729183771293}
   newDayCanvas: {fileID: 3660778533637194657}
   dayNumber: {fileID: 6355259123028401661}
+  timeChanger: {fileID: 0}
 --- !u!1 &6861384174537849223
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,7 +923,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.574, g: 0.23476602, b: 0.24393454, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

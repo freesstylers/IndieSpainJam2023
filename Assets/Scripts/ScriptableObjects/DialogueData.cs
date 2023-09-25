@@ -45,6 +45,7 @@ public class DialogueData : ScriptableObject
         public string key;
         [Header("")]
         public bool endDialogue;
+        public bool hideOptionIfUnable;
 
         [Header("")]
         public string branchToJumpTo;

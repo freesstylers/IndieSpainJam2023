@@ -32,24 +32,9 @@ MonoBehaviour:
       options:
       - key: LEP_DIA3N_2
         endDialogue: 0
+        hideOptionIfUnable: 0
         branchToJumpTo: "Est\xE1 ah\xED"
         itemNeeded: []
-      - key: LEP_DIA3N_6
-        endDialogue: 0
-        branchToJumpTo: Genocida
-        itemNeeded:
-        - CUCHILLO
-        - GENOCIDIO
-      - key: LEP_DIA3N_7
-        endDialogue: 0
-        branchToJumpTo: Lanzallamas
-        itemNeeded:
-        - LANZALLAMAS
-      - key: LEP_DIA3N_8
-        endDialogue: 0
-        branchToJumpTo: Mostrar Curuxa
-        itemNeeded:
-        - PATXARAN_OJOS
   - branchName: "Est\xE1 ah\xED"
     dialogueTree:
       dialogue:
@@ -86,17 +71,20 @@ MonoBehaviour:
       options:
       - key: LEP_DIA3N_6
         endDialogue: 0
+        hideOptionIfUnable: 1
         branchToJumpTo: Genocida
         itemNeeded:
         - CUCHILLO
         - GENOCIDIO
       - key: LEP_DIA3N_7
         endDialogue: 0
+        hideOptionIfUnable: 1
         branchToJumpTo: Lanzallamas
         itemNeeded:
         - LANZALLAMAS
       - key: LEP_DIA3N_8
         endDialogue: 0
+        hideOptionIfUnable: 1
         branchToJumpTo: MostrarCuruxa
         itemNeeded:
         - PATXARAN_OJOS

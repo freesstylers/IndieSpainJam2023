@@ -15,6 +15,8 @@ ALT	SHIFT - Resaltar objetos interactuables
 MOUSE	RATÓN - Todo lo demás					
 TITULO	Una voz en Cancedo					
 INVENTARIO_CRAFT	Arrastra un objeto sobre otro para (intentar) unirlos					
+PASAR_TIEMPO	Tomarse un descanso					
+MUY_TARDE	Es demasiado tarde					
 PER_DIA1M_1	(Perrico, un buen perrete, aunque huele a cadáver húmedo… Parece famélico como siempre, aunque eso no hace que deje de mover la cola).					
 PER_DIA1M_2	Acariciar al perrete					
 PER_DIA1M_3	(Acaricias al perrete con miedo a que una pulga descomunal te arranque un dedo).					
@@ -430,7 +432,7 @@ SUS_DIA2T_16	…
 SUS_DIA2T_17	¡Je, je, je, sí, esto te puede gustar…!					
 SUS_DIA2T_18	Unas gafas especiales, parecen estar hechas de un cristal entintado.					
 SUS_DIA2T_19	Se… Las tomé prestadas a Visara… No te molestará el sol con ellas.					
-SUS_DIA2T_20	¡Aquí tienes! (Obtienes un Birimbao)					
+SUS_DIA2T_20	¡Aquí tienes! (Obtienes Lentes Oscuras)					
 SUS_DIA2T_21	Je, je, je… Es un placer hacer negocios contigo…					
 BAS_DIA2T_1	(Es Basajaun.)					
 BAS_DIA2T_2	Hablar con el Basajaun					
@@ -676,20 +678,47 @@ LEP_DIA3N_3	¿Vais a hacer algo?
 LEP_DIA3N_4	¿O vais a quedaros mirando como si nada hubiese ocurrido en estos tres días?					
 LEP_DIA3N_5	Adelante, lo estáis deseando. Liberaos. Liberadme.					
 LEP_DIA3N_6	Acuchillar a Lepanto					
-LEP_DIA3N_7	Y así termina el cuento, las voces se apagan y la luz se atenúa.					
-LEP_DIA3N_8	Sin embargo, sé que es culpa mía.					
-LEP_DIA3N_9	Debí suponer que os comportaríais de esta manera.					
-LEP_DIA3N_10	La curiosidad acabó matándome a mí.					
-LEP_DIA3N_11	¿Por qué esforzarse en vivir en el tedio y la mediocridad?					
-LEP_DIA3N_12	¿Por qué conformarse con la vida recluida en tres escenarios marcados por las mismas calles que llevo viviendo años?					
-LEP_DIA3N_13	Las mismas caras, la misma ropa, los mismos pliegues del papel.					
-LEP_DIA3N_14	Y ahora qué, ¿os habéis divertido? ¿Habéis evitado vuestra muerte?					
-LEP_DIA3N_15	¿Habéis pensado acaso en que a veces la existencia eterna a la que estamos condenados es peor que la muerte a la que habéis sometido a tantos?					
-LEP_DIA3N_16	Poco os importa, lo habéis hecho sin pensar. Ni os habéis parado a reflexionar sobre vuestros actos.					
-LEP_DIA3N_17	Es más, diría que no habéis tenido opción. Como si no fuerais consciente de lo que habéis hecho.					
-LEP_DIA3N_18	Si hubieses sido vos, habríais al menos dudado de acabar con la vida de aquellos a los que habéis cogido cariño.					
-LEP_DIA3N_19	Pero no ha sido así, así que debo suponer que…					
-LEP_DIA3N_20	No sois vos.					
-LEP_DIA3N_21	Quemar vivo a Lepanto					
-BOS_DIA3N_22	Seguir la voz					
-BOS_DIA3N_23	Ignorar la voz 					
+LEP_DIA3N_7	Quemar vivo a Lepanto					
+LEP_DIA3N_8	Mostrar la botella de patxarán con dos ojos					
+BOS_DIA3N_1	Seguir la voz					
+FIN1_1	Lamentablemente, la historia pone a cada uno en su lugar.					
+FIN1_2	Y tu, infante, no has destacado lo suficiente.					
+FIN1_3	Sigue caminando por el bosque.					
+FIN1_4	Sigue adelante.					
+FIN1_5	Gira a la izquierda.					
+FIN1_6	Salta esa rama.					
+FIN1_7	No pises ese montón de abono.					
+FIN1_8	Esquiva esa ardilla.					
+FIN1_9	[GRITO VACÍO]					
+FIN1_10	Ups…					
+FIN1_11	Se me pasó avisarte del acantilado…					
+FIN1_12	Espero que tengas más suerte la próxima vez…					
+FIN2_1	Vaya vaya, veo que has elegido el camino de la magia y el misticismo.					
+FIN2_2	Lo cierto es que la presencia de Molino en el pueblo no ha dado más que problemas.					
+FIN2_3	Y ahora que le has superado, me veo obligado a rendirme ante ti.					
+FIN2_4	Soy incapaz de ver al portador de los ojos de lechuza, por lo que no podré alcanzarte y darte muerte.					
+FIN2_5	Quedamos en paz, como iguales.					
+FIN2_6	Tú te marchas y abandonas a tus congéneres.					
+FIN2_7	Yo me quedo y acabo con ellos.					
+FIN2_8	Pero tanto tú como yo seguimos nuestro camino.					
+FIN3_1	La senda de la violencia no conduce a nada.					
+FIN3_2	Excepto en mi caso, que casi he logrado liberar a este mi pueblo de sus ingratos habitantes.					
+FIN3_3	Pero tú has querido en todo momento salirte con la tuya.					
+FIN3_4	Enhorabuena, acaba conmigo y elige a donde ir.					
+FIN3_5	Vuelve al pueblo y haz que resurja de sus cenizas, o huye en busca de una vida más amable.					
+FIN3_6	Te has ganado el derecho a elegir.					
+FIN3_7	[Grito agónico de quemarse vivo]					
+FIN4_1	Y así termina el cuento, las voces se apagan y la luz se atenúa.					
+FIN4_2	Sin embargo, sé que es culpa mía.					
+FIN4_3	Debí suponer que os comportaríais de esta manera.					
+FIN4_4	La curiosidad acabó matándome a mí.					
+FIN4_5	¿Por qué esforzarse en vivir en el tedio y la mediocridad?					
+FIN4_6	¿Por qué conformarse con la vida recluida en tres escenarios marcados por las mismas calles que llevo viviendo años?					
+FIN4_7	Las mismas caras, la misma ropa, los mismos pliegues del papel.					
+FIN4_8	Y ahora qué, ¿os habéis divertido? ¿Habéis evitado vuestra muerte?					
+FIN4_9	¿Habéis pensado acaso en que a veces la existencia eterna a la que estamos condenados es peor que la muerte a la que habéis sometido a tantos?					
+FIN4_10	Poco os importa, lo habéis hecho sin pensar. Ni os habéis parado a reflexionar sobre vuestros actos.					
+FIN4_11	Es más, diría que no habéis tenido opción. Como si no fuerais consciente de lo que habéis hecho.					
+FIN4_12	Si hubieses sido vos, habríais al menos dudado de acabar con la vida de aquellos a los que habéis cogido cariño.					
+FIN4_13	Pero no ha sido así, así que debo suponer que…					
+FIN4_14	No sois vos.					
