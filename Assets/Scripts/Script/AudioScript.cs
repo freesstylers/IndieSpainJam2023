@@ -33,7 +33,7 @@ namespace FMODUnity
         private float fmodParam = 0;
         private bool fading = false;
 
-        private float volumeMusic = 1f;
+        private float volumeMusic = 0.5f;
 
         public enum Escenario
         {
@@ -438,7 +438,7 @@ namespace FMODUnity
 
                 // Update volumes for both instances.
                 _out.setVolume(Mathf.Lerp(startVolumeFadeOut, 0f, fraction));
-                _in.setVolume(Mathf.Lerp(startVolumeFadeIn, 1f, fraction));
+                _in.setVolume(Mathf.Lerp(startVolumeFadeIn, 0.5f, fraction));
 
                 yield return null;
             }
