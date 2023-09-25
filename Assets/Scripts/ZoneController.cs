@@ -1,3 +1,4 @@
+using Player;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -133,6 +134,11 @@ public class ZoneController : MonoBehaviour
     }
     public void ChangeZone(string newZone)
     {
+        if(DialogueManager.instance_.player.GetComponent<PlayerMovement>().isInteracting)
+        {
+            return;
+        }
+
         if (zoneDic.ContainsKey(newZone))
         {
             GameManager.Instance.GetComponent<FMODUnity.AudioScript>().CambiarEscenario(newZone, newZone);

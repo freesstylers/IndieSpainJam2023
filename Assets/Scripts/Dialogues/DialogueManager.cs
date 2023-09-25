@@ -68,18 +68,18 @@ public class DialogueManager : MonoBehaviour
 
     int index = 0;
 
-    public void StartDialogue(DialogueData data, Dictionary<string, UnityEvent> eventDict)
+    public void StartDialogue(DialogueData data, Dictionary<string, UnityEvent> eventDict, string overrideName = "")
     {
         dialogueOver = false;
         currentTree = data.GetDialogueTree();
         events = new Dictionary<string, UnityEvent>(eventDict);
 
-        StartBranch(data.dialogueTreeStart);
+        StartBranch(data.dialogueTreeStart, overrideName);
     }
 
     string currentBranchName;
 
-    public void StartBranch(string branch)
+    public void StartBranch(string branch, string overrideName = "")
     {
         CleanOptions();
         currentBranch = currentTree[branch];
@@ -125,8 +125,8 @@ public class DialogueManager : MonoBehaviour
         centerSprite.gameObject.SetActive(currentBranch.centerSprite != null);
         rightSprite.gameObject.SetActive(currentBranch.rightSprite != null);
 
-        charNameContainer.GetComponentInChildren<TextMeshProUGUI>().text = "";
-        charNameContainer.SetActive(false);
+        charNameContainer.GetComponentInChildren<TextMeshProUGUI>().text = overrideName;
+        charNameContainer.SetActive(overrideName != "");
 
 
         DisplayNextSentence();

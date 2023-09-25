@@ -8,6 +8,7 @@ using static DialogueData;
 
 public class GameEventHandler : MonoBehaviour
 {
+    public string overrideName;
 
     [HideInInspector]
     public int timesTriggered = -1;
@@ -49,7 +50,7 @@ public class GameEventHandler : MonoBehaviour
             }
         }
 
-        DialogueManager.instance_.StartDialogue(data, eventsDictionary);
+        DialogueManager.instance_.StartDialogue(data, eventsDictionary, overrideName);
         timesTriggered++;
     }
 
@@ -73,7 +74,8 @@ public class GameEventHandler : MonoBehaviour
         GameObject[] ch = GameObject.FindGameObjectsWithTag(name);
         foreach(var c in ch)
         {
-            
+            c.transform.GetChild(0).gameObject.SetActive(false);
+            c.transform.GetChild(1).gameObject.SetActive(true);
         }
     }
 }

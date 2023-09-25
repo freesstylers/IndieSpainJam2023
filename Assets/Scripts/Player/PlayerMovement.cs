@@ -18,7 +18,7 @@ namespace Player
         [SerializeField]
         private bool isMoving = false;
         [SerializeField]
-        private bool isInteracting = false;
+        public bool isInteracting = false;
 
         public Vector3 initPosition;
         public bool initPosSet = false;

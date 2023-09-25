@@ -147,7 +147,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5585005d8e24c34b8aad2c7be657cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initPosition: {fileID: 0}
+  canMove: 1
+  isMoving: 0
+  isInteracting: 0
+  initPosition: {x: 0, y: 0, z: 0}
+  initPosSet: 0
   timeCount: 0
   MaxAngleDeflection: 10
   SpeedOfPendulum: 20

@@ -8,6 +8,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1612166434016707650, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: overrideName
+      value: Visara
+      objectReference: {fileID: 0}
     - target: {fileID: 3070929336867866965, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
