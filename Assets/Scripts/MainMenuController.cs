@@ -29,7 +29,7 @@ public class MainMenuController : MonoBehaviour
 
     public void GameJam()
     {
-        Application.OpenURL("https://itch.io/jam/gift-jam-2021");
+        Application.OpenURL("https://itch.io/jam/indie-spain-jam-23");
     }
 
     public void ItchIO()
