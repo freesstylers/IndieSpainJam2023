@@ -667,7 +667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1103089771016897609
 Transform:
   m_ObjectHideFlags: 0
@@ -1979,17 +1979,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: c7adf1557da42304685eaa1e622b2ed0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.232
+      value: -2.392
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c7adf1557da42304685eaa1e622b2ed0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.208
+      value: 2.6909997
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c7adf1557da42304685eaa1e622b2ed0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.38
+      value: -16.6
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: c7adf1557da42304685eaa1e622b2ed0,
         type: 3}
@@ -2034,7 +2034,7 @@ PrefabInstance:
     - target: {fileID: 8385651634113060007, guid: c7adf1557da42304685eaa1e622b2ed0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2295,17 +2295,17 @@ PrefabInstance:
     - target: {fileID: 8385651634113060000, guid: 7475dbe7c29921b44931c5b875d7c931,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.232
+      value: -2.392
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7475dbe7c29921b44931c5b875d7c931,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.208
+      value: 2.691
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7475dbe7c29921b44931c5b875d7c931,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.4
+      value: -16.6
       objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: 7475dbe7c29921b44931c5b875d7c931,
         type: 3}
@@ -2350,7 +2350,7 @@ PrefabInstance:
     - target: {fileID: 8385651634113060007, guid: 7475dbe7c29921b44931c5b875d7c931,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
