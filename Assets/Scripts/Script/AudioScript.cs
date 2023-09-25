@@ -79,7 +79,7 @@ namespace FMODUnity
             }
             else
             {
-                Crossfade(3, MusicaDia, MusicaDia);    
+                Crossfade(3, MusicaDia, MusicaNoche);    
             }
         }
 
