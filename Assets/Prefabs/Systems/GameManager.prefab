@@ -114,6 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6004d63422e9612429362c946cbfebb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Banks: []
   MusicaDia_Ref:
     Guid:
       Data1: -1767069148
