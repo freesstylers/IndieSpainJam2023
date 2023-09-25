@@ -22,10 +22,10 @@ MonoBehaviour:
       rightSprite: {fileID: 0}
       options:
       - key: BOS_DIA3N_1
-        endDialogue: 0
-        branchToJumpTo: Ignorar Voz
-        itemNeeded:
-        - PATXARAN_OJOS
+        endDialogue: 1
+        hideOptionIfUnable: 0
+        branchToJumpTo: Seguir Voz
+        itemNeeded: []
   - branchName: Seguir Voz
     dialogueTree:
       dialogue: []

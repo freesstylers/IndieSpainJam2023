@@ -334,7 +334,7 @@ PrefabInstance:
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[2].DisabledObjectsByDay.Array.data[0].Night.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
@@ -3673,7 +3673,24 @@ MonoBehaviour:
         - m_Target: {fileID: -5950008907097136138, guid: 9fb42a51ad97741499fbf73b6085e445,
             type: 3}
           m_TargetAssemblyTypeName: EndingManager, Assembly-CSharp
-          m_MethodName: PochilloEnding
+          m_MethodName: PlayPochilloEnding
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - branchName: start
+    events:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: -5950008907097136138, guid: 9fb42a51ad97741499fbf73b6085e445,
+            type: 3}
+          m_TargetAssemblyTypeName: EndingManager, Assembly-CSharp
+          m_MethodName: PlayPochilloEnding
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4025,12 +4042,12 @@ PrefabInstance:
     - target: {fileID: 6119596223992346764, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}
       propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LanzallamasEnding
+      value: PlayLanzallamasEnding
       objectReference: {fileID: 0}
     - target: {fileID: 6119596223992346764, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}
       propertyPath: eventList.Array.data[1].events.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BarcelonaEnding
+      value: PlayBarcelonaEnding
       objectReference: {fileID: 0}
     - target: {fileID: 6119596223992346764, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}
@@ -4040,7 +4057,7 @@ PrefabInstance:
     - target: {fileID: 6119596223992346764, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}
       propertyPath: eventList.Array.data[2].events.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CuruxaEnding
+      value: PlayCuruxaEnding
       objectReference: {fileID: 0}
     - target: {fileID: 6119596223992346764, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}

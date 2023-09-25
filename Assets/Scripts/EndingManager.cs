@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndingManager : MonoBehaviour
 {
@@ -12,20 +13,42 @@ public class EndingManager : MonoBehaviour
     private DialogueData CuruxaEndingData;
     [SerializeField]
     private DialogueData PochilloEndingData;
+
+    public UnityEngine.Events.UnityEvent event_;
+
     public void PlayLanzallamasEnding()
     {
+        Dictionary<string, UnityEngine.Events.UnityEvent> dict = new Dictionary<string, UnityEngine.Events.UnityEvent>();
+        dict.Add("start", event_);
 
+        DialogueManager.instance_.StartDialogue(LanzallamasEndingData, dict);
     }
     public void PlayBarcelonaEnding()
     {
+        Dictionary<string, UnityEngine.Events.UnityEvent> dict = new Dictionary<string, UnityEngine.Events.UnityEvent>();
+        dict.Add("start", event_);
 
+        DialogueManager.instance_.StartDialogue(BarcelonaEndingData, dict);
     }
     public void PlayCuruxaEnding()
     {
+        Dictionary<string, UnityEngine.Events.UnityEvent> dict = new Dictionary<string, UnityEngine.Events.UnityEvent>();
+        dict.Add("start", event_);
 
+        DialogueManager.instance_.StartDialogue(CuruxaEndingData, dict);
     }
     public void PlayPochilloEnding()
     {
+        //Unity Event
 
+        Dictionary<string, UnityEngine.Events.UnityEvent> dict = new Dictionary<string, UnityEngine.Events.UnityEvent>();
+        dict["start"] =  event_;
+
+        DialogueManager.instance_.StartDialogue(PochilloEndingData, dict);
+    }
+
+    public void ToMainMenu()
+    {
+        SceneManager.LoadScene("preload");
     }
 }

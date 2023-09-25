@@ -88,6 +88,11 @@ MonoBehaviour:
         branchToJumpTo: MostrarCuruxa
         itemNeeded:
         - PATXARAN_OJOS
+      - key: QUE_DIA1T_7
+        endDialogue: 1
+        hideOptionIfUnable: 0
+        branchToJumpTo: 
+        itemNeeded: []
   - branchName: Genocida
     dialogueTree:
       dialogue: []

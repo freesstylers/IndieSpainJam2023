@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b537a1f13ae4bbc45b4b2964a5d9b83c, type: 3}
-  m_Name: CURUXA
+  m_Name: MUERTE
   m_EditorClassIdentifier: 
   dialogueTreeStart: start
   dialogueTreeList:
   - branchName: start
     dialogueTree:
       dialogue:
-      - key: FIN2_1
+      - key: FIN1_1
         eventReference:
           Guid:
             Data1: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
             Data4: 0
           Path: 
         focusOnSide: 0
-      - key: FIN2_2
+      - key: FIN1_2
         eventReference:
           Guid:
             Data1: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
             Data4: 0
           Path: 
         focusOnSide: 0
-      - key: FIN2_3
+      - key: FIN1_3
         eventReference:
           Guid:
             Data1: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
             Data4: 0
           Path: 
         focusOnSide: 0
-      - key: FIN2_4
+      - key: FIN1_4
         eventReference:
           Guid:
             Data1: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
             Data4: 0
           Path: 
         focusOnSide: 0
-      - key: FIN2_5
+      - key: FIN1_5
         eventReference:
           Guid:
             Data1: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
             Data4: 0
           Path: 
         focusOnSide: 0
-      - key: FIN2_6
+      - key: FIN1_6
         eventReference:
           Guid:
             Data1: 0
@@ -71,7 +71,7 @@ MonoBehaviour:
             Data4: 0
           Path: 
         focusOnSide: 0
-      - key: FIN2_7
+      - key: FIN1_7
         eventReference:
           Guid:
             Data1: 0
@@ -80,7 +80,43 @@ MonoBehaviour:
             Data4: 0
           Path: 
         focusOnSide: 0
-      - key: FIN2_8
+      - key: FIN1_8
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN1_9
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN1_10
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN1_11
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN1_12
         eventReference:
           Guid:
             Data1: 0
