@@ -78,8 +78,12 @@ public class GameManager : MonoBehaviour
             if (currentItemEntry[(int)ItemsInfoColumns.COMBINABLE] == "1") it.combinable = true;
             else it.combinable = false;
 
+            Debug.LogError("UN OBJETO QUE SE CRAFTEA? NOMBRE: " + itemID + "   COSAS " + itemsInfodic.ContainsKey(currentItemEntry[(int)ItemsInfoColumns.ELEMENT1]) + " Y TAMBIEN " + itemsInfodic.ContainsKey(currentItemEntry[(int)ItemsInfoColumns.ELEMENT2]));
+
             if (itemsInfodic.ContainsKey(currentItemEntry[(int)ItemsInfoColumns.ELEMENT1]) && itemsInfodic.ContainsKey(currentItemEntry[(int)ItemsInfoColumns.ELEMENT2]))
             {
+                Debug.LogError("CREANDO CRAFTEABLE!!!");
+
                 string element1 = currentItemEntry[(int)ItemsInfoColumns.ELEMENT1], element2 = currentItemEntry[(int)ItemsInfoColumns.ELEMENT2];
 
                 if (!itemsData.combinationTable.ContainsKey(element1))
