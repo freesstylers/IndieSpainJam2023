@@ -298,6 +298,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
+      propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[0].Night.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[1].Night.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[2].Night.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
       propertyPath: ZoneList.Array.data[2].EnabledObjectsByDay.Array.data[2].Night.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -393,6 +408,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
+      propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[0].Morning.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[1].Morning.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[2].Morning.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[0].Morning.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -430,12 +460,12 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[1].Night.Array.data[1]
       value: 
-      objectReference: {fileID: 1964603544}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[2].Night.Array.data[0]
       value: 
-      objectReference: {fileID: 518535737}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Morning.Array.size
@@ -656,6 +686,21 @@ PrefabInstance:
       propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[2].Night.Array.data[2]
       value: 
       objectReference: {fileID: 320721398}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[0].Afternoon.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[1].Afternoon.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[2].Afternoon.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Night.Array.data[0]
@@ -1190,12 +1235,12 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[1].Morning.Array.data[1]
       value: 
-      objectReference: {fileID: 1964603544}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[2].Morning.Array.data[0]
       value: 
-      objectReference: {fileID: 518535737}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].DisabledObjectsByDay.Array.data[0].Afternoon.Array.size
@@ -2100,7 +2145,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[1].Afternoon.Array.data[1]
       value: 
-      objectReference: {fileID: 1964603544}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[2].Afternoon.Array.data[0]
@@ -2110,7 +2155,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[0].EnabledObjectsByDay.Array.data[2].Afternoon.Array.data[1]
       value: 
-      objectReference: {fileID: 518535737}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[1].EnabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
@@ -3299,7 +3344,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2143589805}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3685409410213683517, guid: 9e148153c528ef548819756c1b453a33, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2808638313937913499, guid: 9e148153c528ef548819756c1b453a33,
         type: 3}
@@ -3307,12 +3353,6 @@ PrefabInstance:
       addedObject: {fileID: 1510120721}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e148153c528ef548819756c1b453a33, type: 3}
---- !u!1 &518535737 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3685409410213683517, guid: 9e148153c528ef548819756c1b453a33,
-    type: 3}
-  m_PrefabInstance: {fileID: 518535736}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &518535738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6104298553681633286, guid: 9e148153c528ef548819756c1b453a33,
@@ -3664,6 +3704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d9de5df2a71e3047884cd595d670d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  overrideName: 
   timesTriggered: -1
   eventList:
   - branchName: Seguir Voz
@@ -4390,7 +4431,7 @@ PrefabInstance:
     - target: {fileID: 2352619918785955687, guid: b3087ab44d8db9e4bb9c5e6370b3dbfc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2808638313937913498, guid: b3087ab44d8db9e4bb9c5e6370b3dbfc,
         type: 3}
@@ -5602,7 +5643,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2966387883290956504, guid: ee8497c0784886943b800832a7d22ac9, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2808638313396667731, guid: ee8497c0784886943b800832a7d22ac9,
@@ -5613,12 +5655,6 @@ PrefabInstance:
 --- !u!1 &1964603543 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2808638313937913498, guid: ee8497c0784886943b800832a7d22ac9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1964603542}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1964603544 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2966387883290956504, guid: ee8497c0784886943b800832a7d22ac9,
     type: 3}
   m_PrefabInstance: {fileID: 1964603542}
   m_PrefabAsset: {fileID: 0}
