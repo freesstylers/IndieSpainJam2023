@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3127998613150831983}
   - component: {fileID: 7215305121711336980}
   - component: {fileID: 3055225496273466979}
+  - component: {fileID: -5950008907097136138}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -337,6 +338,24 @@ MonoBehaviour:
       Data4: 1746030461
     Path: event:/Narrador/Final 4
   horarioActual: 0
+--- !u!114 &-5950008907097136138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391849654859360615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79340c8e12cd67c48a678b121078d25e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LanzallamasEndingData: {fileID: 11400000, guid: 591dd3f5a5e1bd04395253a1b9ad0b9f,
+    type: 2}
+  BarcelonaEndingData: {fileID: 11400000, guid: 14e8951e407a38841a9094bf7537730b,
+    type: 2}
+  CuruxaEndingData: {fileID: 11400000, guid: 7ccb41f1a5b6a1c4b8f71d78a1f22056, type: 2}
+  PochilloEndingData: {fileID: 11400000, guid: 5d973427c3629724ea627d609c3bdbc6, type: 2}
 --- !u!1001 &5492781868850381848
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -11,7 +11,9 @@ public class Bosque3rdNight : MonoBehaviour
         Lepanto.SetActive(true);
         if (TimeManager.Instance.getCurrentDay() == 2) 
         {
-            if (!GameManager.Instance.GetInventory().CheckItem("LANZALLAMAS") && !GameManager.Instance.GetInventory().CheckItem("GENOCIDIO"))
+            if (!GameManager.Instance.GetInventory().CheckItem("LANZALLAMAS") 
+                && !GameManager.Instance.GetInventory().CheckItem("GENOCIDIO")
+                && !GameManager.Instance.GetInventory().CheckItem("PATXARAN_OJOS"))
                 Lepanto.SetActive(false);
         }
     }

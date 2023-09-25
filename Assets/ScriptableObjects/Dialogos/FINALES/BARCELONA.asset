@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b537a1f13ae4bbc45b4b2964a5d9b83c, type: 3}
+  m_Name: BARCELONA
+  m_EditorClassIdentifier: 
+  dialogueTreeStart: start
+  dialogueTreeList:
+  - branchName: start
+    dialogueTree:
+      dialogue:
+      - key: FIN4_1
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_2
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_3
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_4
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_5
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_6
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_7
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_8
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_9
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_10
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_11
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_12
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_13
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN4_14
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      leftSprite: {fileID: 0}
+      centerSprite: {fileID: 0}
+      rightSprite: {fileID: 0}
+      options: []
