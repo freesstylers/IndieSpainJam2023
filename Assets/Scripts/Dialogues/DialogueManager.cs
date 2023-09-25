@@ -240,6 +240,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            optionContainer.transform.parent.gameObject.SetActive(true);
             foreach (DialogueOption o in currentBranch.options)
             {
                 bool active = true;
@@ -274,7 +275,8 @@ public class DialogueManager : MonoBehaviour
 
     public void CleanOptions()
     {
-        foreach(Transform c in optionContainer.transform)
+        optionContainer.transform.parent.gameObject.SetActive(false);
+        foreach (Transform c in optionContainer.transform)
             Destroy(c.gameObject);
     }
 
