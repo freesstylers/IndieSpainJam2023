@@ -143,6 +143,8 @@ namespace Player
             isMoving = false;
             if (player != null)
                 player.isStopped = false;
+
+            DialogueManager.instance_.player = gameObject;
         }
     }
 }
