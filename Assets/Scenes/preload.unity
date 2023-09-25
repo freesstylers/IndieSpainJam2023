@@ -600,6 +600,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
         type: 3}
+      propertyPath: CraftPuedes.Path
+      value: event:/Efectos/Crafting
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: CraftPringao.Path
+      value: event:/Efectos/NoCrafting
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
       propertyPath: Banks.Array.data[0]
       value: Music
       objectReference: {fileID: 0}
@@ -607,6 +617,46 @@ PrefabInstance:
         type: 3}
       propertyPath: Banks.Array.data[1]
       value: Music.strings
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: CraftPuedes.Guid.Data1
+      value: -814724837
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: CraftPuedes.Guid.Data2
+      value: 1183762676
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: CraftPuedes.Guid.Data3
+      value: 336735663
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: CraftPuedes.Guid.Data4
+      value: 194037840
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: CraftPringao.Guid.Data1
+      value: -1563301663
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: CraftPringao.Guid.Data2
+      value: 1340977672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: CraftPringao.Guid.Data3
+      value: 1805942188
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: CraftPringao.Guid.Data4
+      value: -917307219
       objectReference: {fileID: 0}
     - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
         type: 3}
@@ -636,6 +686,16 @@ PrefabInstance:
     - target: {fileID: 3308219071027853610, guid: 9fb42a51ad97741499fbf73b6085e445,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431309577263939913, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.8045654
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695158008549808766, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6812707274788119455, guid: 9fb42a51ad97741499fbf73b6085e445,

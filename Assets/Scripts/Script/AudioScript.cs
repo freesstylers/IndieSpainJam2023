@@ -20,6 +20,8 @@ namespace FMODUnity
         public EventReference AbrirPuerta;
         public EventReference CerrarPuerta;
         public EventReference Caminar;
+        public EventReference CraftPuedes;
+        public EventReference CraftPringao;
 
         public EventInstance[] NarradorEvents;
         private bool[] NarradorEventsBooleans;

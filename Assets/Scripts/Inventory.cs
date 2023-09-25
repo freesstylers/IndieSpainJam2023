@@ -101,14 +101,14 @@ public class Inventory: MonoBehaviour
         {
             Debug.Log("Inexistent item ID: " + _itemID1);
 
-            Debug.Log("METER SONIDO!!!!");
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlaySound(GameManager.Instance.GetComponent<FMODUnity.AudioScript>().CraftPringao);
             return;
         }
         if (!gm.itemsData.itemsList.ContainsKey(_itemID2))
         {
             Debug.Log("Inexistent item ID: " + _itemID2);
 
-            Debug.Log("METER SONIDO!!!!");
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlaySound(GameManager.Instance.GetComponent<FMODUnity.AudioScript>().CraftPringao);
             return;
         }
         if (!gm.itemsData.itemsList[_itemID1].combinable)
@@ -116,7 +116,7 @@ public class Inventory: MonoBehaviour
             //DialogueManager.NewDialogue(ItemNotCombinable(_itemID1));
             Debug.Log("objeto " + gm.itemsData.itemsList[_itemID1].name + "no combinable");
 
-            Debug.Log("METER SONIDO!!!!");
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlaySound(GameManager.Instance.GetComponent<FMODUnity.AudioScript>().CraftPringao);
             return;
         }
         if (!gm.itemsData.itemsList[_itemID2].combinable)
@@ -124,7 +124,7 @@ public class Inventory: MonoBehaviour
             //DialogueManager.NewDialogue(ItemNotCombinable(_itemID2));
             Debug.Log("objeto " + gm.itemsData.itemsList[_itemID2].name + "no combinable");
 
-            Debug.Log("METER SONIDO!!!!");
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlaySound(GameManager.Instance.GetComponent<FMODUnity.AudioScript>().CraftPringao);
             return;
         }
 
@@ -133,6 +133,8 @@ public class Inventory: MonoBehaviour
             RemoveItem(_itemID1);
             RemoveItem(_itemID2);
             AddItem(gm.itemsData.combinationTable[_itemID1][_itemID2], 1);
+
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlaySound(GameManager.Instance.GetComponent<FMODUnity.AudioScript>().CraftPuedes);
         }
     }
         
