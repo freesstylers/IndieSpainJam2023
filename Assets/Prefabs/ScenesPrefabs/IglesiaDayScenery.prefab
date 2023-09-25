@@ -155,7 +155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 308
 --- !u!1 &1821189863494193621
 GameObject:
   m_ObjectHideFlags: 0
@@ -2112,6 +2111,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2808638313937913499}
     m_Modifications:
+    - target: {fileID: 178182980403089437, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 178182980403089437, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 178182980403089437, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1a02de2fcbf837f4d85f3b867e9dd241,
+        type: 3}
+    - target: {fileID: 178182980403089437, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745439997387742463, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745439997387742463, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745439997387742463, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745439997387742463, guid: f8de49f0eb54966449614c77b6c02aba,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8385651634113060000, guid: f8de49f0eb54966449614c77b6c02aba,
         type: 3}
       propertyPath: m_LocalPosition.x
