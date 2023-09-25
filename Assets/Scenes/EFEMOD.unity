@@ -1217,11 +1217,11 @@ MonoBehaviour:
   - Music
   MusicaDia_Ref:
     Guid:
-      Data1: -909093575
-      Data2: 1252260818
-      Data3: 1772345484
-      Data4: -1033988155
-    Path: event:/Musica/Dia
+      Data1: 1515446573
+      Data2: 1145874152
+      Data3: -969280366
+      Data4: -386117376
+    Path: event:/Narrador/Dia 3 Casa Abuela
   MusicaNoche_Ref:
     Guid:
       Data1: -2104003005
@@ -1257,7 +1257,6 @@ MonoBehaviour:
       Data3: -1559298901
       Data4: -52148876
     Path: event:/Efectos/Caminar
-  NarradorEvents: []
   horarioActual: 0
 --- !u!1 &1829232948
 GameObject:

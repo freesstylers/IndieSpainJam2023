@@ -21,7 +21,7 @@ namespace FMODUnity
         public EventReference CerrarPuerta;
         public EventReference Caminar;
 
-        public EventReference[] NarradorEvents;
+        public EventInstance[] NarradorEvents;
         private bool[] NarradorEventsBooleans;
 
 
@@ -94,9 +94,30 @@ namespace FMODUnity
         {
             if (!NarradorEventsBooleans[indice])
             {
-                PlaySound(NarradorEvents[indice]);
+                NarradorEvents[indice].start();
                 NarradorEventsBooleans[indice] = true;
             }
+        }
+
+        public void PauseNarradorSound(int indice)
+        {
+            if (NarradorEventsBooleans[indice])
+            {
+                NarradorEvents[indice].stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                
+            }
+        }
+
+        public bool IsNarradorSound(int indice)
+        {
+            if (NarradorEventsBooleans[indice])
+            {
+                FMOD.Studio.PLAYBACK_STATE state;
+                NarradorEvents[indice].getPlaybackState(out state);
+
+                return state != FMOD.Studio.PLAYBACK_STATE.STOPPED;
+            }
+            else return false;
         }
 
         //Llamar cada vez que se cambie de escenario. Previous escenario es del que vienes, next escenario al que vas
@@ -284,10 +305,47 @@ namespace FMODUnity
             else MusicaDia.setVolume(0.0f);
 
             NarradorEventsBooleans = new bool[30];
-            
+            NarradorEvents = new EventInstance[30];
+            LoadNarrador();
+
             for (int i = 0; i < NarradorEventsBooleans.Length; i++) 
                 NarradorEventsBooleans[i] = false;
         }
+
+        void LoadNarrador() 
+        {
+            NarradorEvents[0] = RuntimeManager.CreateInstance("event:/Narrador/Noche 1 Bosque");
+            NarradorEvents[1] = RuntimeManager.CreateInstance("event:/Narrador/Noche 1 Iglesia");
+            NarradorEvents[2] = RuntimeManager.CreateInstance("event:/Narrador/Noche 1 Plaza");
+            NarradorEvents[3] = RuntimeManager.CreateInstance("event:/Narrador/Noche 1 Taberna");
+            NarradorEvents[4] = RuntimeManager.CreateInstance("event:/Narrador/Noche 2 Bosque");
+            NarradorEvents[5] = RuntimeManager.CreateInstance("event:/Narrador/Noche 2 Casa Abuela");
+            NarradorEvents[6] = RuntimeManager.CreateInstance("event:/Narrador/Noche 2 Iglesia");
+            NarradorEvents[7] = RuntimeManager.CreateInstance("event:/Narrador/Noche 2 Plaza");
+            NarradorEvents[8] = RuntimeManager.CreateInstance("event:/Narrador/Noche 2 Taberna");
+            NarradorEvents[9] = RuntimeManager.CreateInstance("event:/Narrador/Noche 3 Bosque 1");
+            NarradorEvents[10] = RuntimeManager.CreateInstance("event:/Narrador/Noche 3 Bosque 2");
+            NarradorEvents[11] = RuntimeManager.CreateInstance("event:/Narrador/Noche 3 Bosque 3");
+            NarradorEvents[12] = RuntimeManager.CreateInstance("event:/Narrador/Noche 3 Bosque Botella Ojos");
+            NarradorEvents[13] = RuntimeManager.CreateInstance("event:/Narrador/Noche 3 Bosque Lanzallamas");
+            NarradorEvents[14] = RuntimeManager.CreateInstance("event:/Narrador/Noche 3 Taberna");
+            NarradorEvents[15] = RuntimeManager.CreateInstance("event:/Narrador/Noche 3 Taberna Botella Ojos");
+            NarradorEvents[16] = RuntimeManager.CreateInstance("event:/Narrador/Tarde 3 Casa Abuela");
+            NarradorEvents[17] = RuntimeManager.CreateInstance("event:/Narrador/Tarde 3 Casa Abuela Botella Ojos");
+            NarradorEvents[18] = RuntimeManager.CreateInstance("event:/Narrador/Tarde 3 Iglesia");
+            NarradorEvents[19] = RuntimeManager.CreateInstance("event:/Narrador/Tarde 3 Iglesia Botella Ojos");
+            NarradorEvents[20] = RuntimeManager.CreateInstance("event:/Narrador/Tarde 3 Plaza");
+            NarradorEvents[21] = RuntimeManager.CreateInstance("event:/Narrador/Dia 3 Casa Abuela");
+            NarradorEvents[22] = RuntimeManager.CreateInstance("event:/Narrador/Dia 3 Emporio");
+            NarradorEvents[23] = RuntimeManager.CreateInstance("event:/Narrador/Dia 3 Plaza");
+            NarradorEvents[24] = RuntimeManager.CreateInstance("event:/Narrador/Dia 3 Plaza Perrico");
+            NarradorEvents[25] = RuntimeManager.CreateInstance("event:/Narrador/Muerte Lepanto");
+            NarradorEvents[26] = RuntimeManager.CreateInstance("event:/Narrador/Final 1");
+            NarradorEvents[27] = RuntimeManager.CreateInstance("event:/Narrador/Final 2");
+            NarradorEvents[28] = RuntimeManager.CreateInstance("event:/Narrador/Final 3");
+            NarradorEvents[29] = RuntimeManager.CreateInstance("event:/Narrador/Final 4");
+
+        } 
         private IEnumerator CambiarVariableLocalización(float initNew, float destNew, float initOld, float destOld)
         {
             if (!fading)
@@ -374,17 +432,17 @@ namespace FMODUnity
 
         public void testPlaySound()
         {
-            PlaySound(Escribir);
+            PlayNarradorSound(5);
 
         }
         public void testPlayMusic()
         {
-            if (!dia)
-                PlayMusic(HORARIO.DIA);
+            if (IsNarradorSound(5)) { 
+                PauseNarradorSound(5); 
+            }
             else
-                PlayMusic(HORARIO.NOCHE);
-
-            dia = !dia;
+                UnityEngine.Debug.Log("nosuenatio");
+               
         }
         public void testCambiarEscenario()
         {
