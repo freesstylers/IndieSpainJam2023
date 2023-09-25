@@ -78,7 +78,6 @@ public class GameEventHandler : MonoBehaviour
             c.transform.GetChild(1).gameObject.SetActive(true);
         }
 
-
         GameManager.Instance.GetInventory().AddItem("GENOCIDA");
     }
 }

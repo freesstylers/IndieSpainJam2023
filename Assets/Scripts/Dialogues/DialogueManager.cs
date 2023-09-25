@@ -1,3 +1,4 @@
+using Player;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -70,6 +71,11 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueData data, Dictionary<string, UnityEvent> eventDict, string overrideName = "")
     {
+        if (player.GetComponent<PlayerMovement>().isInteracting)
+        {
+            return;
+        }
+
         dialogueOver = false;
         currentTree = data.GetDialogueTree();
         events = new Dictionary<string, UnityEvent>(eventDict);
