@@ -11,7 +11,7 @@ BACK	Volver
 DEDICACION	Este juego queda dedicado a \n <b><i><size=150%>John Riccitiello</size> \n <size=80%>CEO Unity Technologies (24/10/14 - ¿25/09/23?)</size></i></b> \n por conseguir lo que nunca antes nadie logró... \n  \n Que nos planteemos usar Godot \n  \n - FreeStylers Studio	We dedicate this game to \n <b><i><size=150%>John Riccitiello</size> \n <size=80%>CEO Unity Technologies (24/10/14 - 25/09/23?)</size></i></b> \n for achieveing what we thought impossible... \n  \n Make us consider using Godot \n  \n - FreeStylers Studio				
 DIA	DÍA					
 CONTROLES	CONTROLES					
-ALT	ALT - Resaltar objetos interactuables					
+ALT	SHIFT - Resaltar objetos interactuables					
 MOUSE	RATÓN - Todo lo demás					
 TITULO	Una voz en Cancedo					
 INVENTARIO_CRAFT	Arrastra un objeto sobre otro para (intentar) unirlos					

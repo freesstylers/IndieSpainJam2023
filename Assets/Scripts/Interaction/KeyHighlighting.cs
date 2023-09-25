@@ -7,18 +7,29 @@ using UnityEngine;
 
 public class KeyHighlighting : MonoBehaviour
 {
-    public KeyCode key = KeyCode.LeftAlt;
+    KeyCode key = KeyCode.LeftShift;
+    
+    bool highlight = false;
 
     void Update()
     {
-        if (Input.GetKeyDown(key))
+        if (!highlight && Input.GetKeyDown(key))
             HighlightAll(true);
-        else if (Input.GetKeyUp(key))
+
+        if (highlight && Input.GetKeyUp(key))
             HighlightAll(false);
+
+        if (Input.GetKeyDown(key))
+            Debug.Log("PRESS");
+
+        if (highlight && Input.GetKeyUp(key))
+            Debug.Log("UNPRESS");
     }
 
     void HighlightAll(bool state)
     {
+        highlight = state;
+
         InteractableObject[] go = FindObjectsOfType<InteractableObject>();
 
         foreach (InteractableObject obj in go)

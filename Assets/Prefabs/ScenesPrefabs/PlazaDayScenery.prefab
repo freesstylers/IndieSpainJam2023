@@ -140,8 +140,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 0
   outline: {fileID: 1553227268165462011}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
@@ -723,8 +721,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 0
   outline: {fileID: 9070677343724213565}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
@@ -986,8 +982,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 0
   outline: {fileID: 6187623267100706859}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: 
@@ -1467,8 +1461,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 0
   outline: {fileID: 8959801696789131466}
-  MouseHighlightOutline: 0
-  KeyHighlightOutline: 0
   HighlightKeyOn: 0
   interactDistance: 2
   toZone: iglesia
@@ -1646,7 +1638,6 @@ GameObject:
   - component: {fileID: 8157107658295755856}
   - component: {fileID: 562404473003826673}
   - component: {fileID: 2186039819665145084}
-  - component: {fileID: 3799158432179848516}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -1663,7 +1654,7 @@ Transform:
   m_GameObject: {fileID: 8215496386868203882}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.27, z: 0}
+  m_LocalPosition: {x: -0, y: 0.27, z: -0.08}
   m_LocalScale: {x: 1, y: 0.52, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1719,29 +1710,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &3799158432179848516
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8215496386868203882}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8228262882687452984
 GameObject:
   m_ObjectHideFlags: 0
