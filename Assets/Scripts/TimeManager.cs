@@ -53,11 +53,6 @@ public class TimeManager : MonoBehaviour
 
     public void AdvanceTime()
     {
-        if(currentGameDay == maxDays && timeChanger.interactable)
-        {
-            timeChanger.interactable = false;
-            timeChanger.GetComponentInChildren<UseCSV>().Refesh("MUY_TARDE");
-        }
 
         if (currentDayTime != DayTime.NIGHT) {
             currentDayTime++;
@@ -70,6 +65,12 @@ public class TimeManager : MonoBehaviour
             dayNumber.text = (currentGameDay + 1).ToString();
 
             GetComponentInChildren<Animator>().SetTrigger("Play");
+        }
+        else if (currentGameDay == maxDays && timeChanger.interactable)
+        {
+            timeChanger.interactable = false;
+            timeChanger.GetComponentInChildren<UseCSV>().Refesh("MUY_TARDE");
+            return;
         }
 
         if (currentDayTime != DayTime.NIGHT)
@@ -92,5 +93,15 @@ public class TimeManager : MonoBehaviour
     public void UpdateClock()
     {
         clockAnim.SetTrigger(currentDayTime.ToString());
+    }
+
+    public void HideClock()
+    {
+        timeChanger.gameObject.SetActive(false);
+    }
+
+    public void ShowClock()
+    {
+        timeChanger.gameObject.SetActive(true);
     }
 }

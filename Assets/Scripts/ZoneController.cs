@@ -141,6 +141,7 @@ public class ZoneController : MonoBehaviour
             nextZone = newZone;
             if (Camera.main != null && Camera.main.GetComponent<CameraEffects>() != null)
             {
+                TimeManager.Instance.HideClock();
                 Camera.main.GetComponent<CameraEffects>().FadeToBlack(fadeOutTime, ChangeZoneCallback);
             }
         }
@@ -253,6 +254,6 @@ public class ZoneController : MonoBehaviour
         TimeManager.Instance.UpdateClock();
 
         CameraEffects cm = Camera.main.GetComponent<CameraEffects>();
-        cm.FadeFromBlack(fadeInTime, null);
+        cm.FadeFromBlack(fadeInTime, TimeManager.Instance.ShowClock);
     }
 }
