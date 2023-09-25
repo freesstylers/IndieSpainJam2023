@@ -61,11 +61,6 @@ public class GameEventHandler : MonoBehaviour
         GameManager.Instance.GetInventory().RemoveItem(key);
     }
 
-    public void KillCharacter(GameObject character)
-    {
-        Destroy(character);
-    }
-
     public void DestroyCharacterObject(GameObject character)
     {
         Destroy(character);
