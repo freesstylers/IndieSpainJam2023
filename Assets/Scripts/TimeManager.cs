@@ -73,7 +73,7 @@ public class TimeManager : MonoBehaviour
             return;
         }
 
-        if (currentDayTime != DayTime.NIGHT)
+        if (currentDayTime == DayTime.MORNING || currentDayTime == DayTime.AFTERNOON)
         {
             GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayMusic(FMODUnity.AudioScript.HORARIO.DIA);
         }

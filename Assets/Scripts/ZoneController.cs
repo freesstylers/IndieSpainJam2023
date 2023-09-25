@@ -152,10 +152,11 @@ public class ZoneController : MonoBehaviour
     private void PlayNarradorSoundChangeZone(string newZone)
     {
         FMODUnity.AudioScript audio = GameManager.Instance.GetComponent<FMODUnity.AudioScript>();
-        Debug.Log("Sound narrador " + newZone + " " + currentZoneDay + " " + currentZoneDayTime);
+
+        Debug.Log("Sound narrador " + newZone + " " + currentZoneDay + " " + TimeManager.Instance.currentDayTime);
         switch (currentZoneDay){
             case 0:
-                if (currentZoneDayTime == DayTime.NIGHT)
+                if (TimeManager.Instance.currentDayTime == DayTime.NIGHT)
                 {
                     switch (newZone)
                     {
@@ -176,7 +177,7 @@ public class ZoneController : MonoBehaviour
                 break;
                     
             case 1:
-                if (currentZoneDayTime == DayTime.NIGHT)
+                if (TimeManager.Instance.currentDayTime == DayTime.NIGHT)
                 {
                     switch (newZone)
                     {
@@ -199,7 +200,7 @@ public class ZoneController : MonoBehaviour
                 }
                 break;
             case 2:
-                switch(currentZoneDayTime)
+                switch(TimeManager.Instance.currentDayTime)
                 {
                     case DayTime.MORNING:
                         switch (newZone)

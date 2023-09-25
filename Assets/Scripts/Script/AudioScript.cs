@@ -70,17 +70,16 @@ namespace FMODUnity
         //Llamar a esto cada vez que se transicione de noche a dia o de dia a noche
         public void PlayMusic(HORARIO hora)
         {
+            horarioActual = hora;
+
             if (horarioActual == HORARIO.NOCHE)
             {
-                Crossfade(3, MusicaDia, MusicaNoche);
+                Crossfade(3, MusicaNoche, MusicaDia);
             }
             else
             {
-                Crossfade(3, MusicaNoche, MusicaDia);
-                
+                Crossfade(3, MusicaDia, MusicaDia);    
             }
-
-            horarioActual = hora;
         }
 
         //Llamar a esto cuando se quiera hacer play de un unico sonido
