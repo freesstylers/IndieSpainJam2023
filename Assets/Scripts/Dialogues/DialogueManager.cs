@@ -264,7 +264,9 @@ public class DialogueManager : MonoBehaviour
         CleanOptions();
         container.SetActive(false);
         player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
-        events[currentBranchName].Invoke();
+
+        if(events.ContainsKey(currentBranchName))
+            events[currentBranchName].Invoke();
     }
 
     public void CleanOptions()
