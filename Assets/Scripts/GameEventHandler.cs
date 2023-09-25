@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using static DialogueData;
@@ -50,49 +51,13 @@ public class GameEventHandler : MonoBehaviour
         timesTriggered++;
     }
 
-    /// <summary>
-    /// Despues de mirar si tienes los items, activa para poder saltar el evento success
-    /// si no, salta el evento fail
-    /// </summary>
-    /// <param name="inv"> Inventario del jugador </param>
-    /// <returns> true si tiene todos los items necesarios </returns>
-    public bool CanTriggerEvent(Inventory inv)
+    public void AddItem(string key)
     {
-        bool hasAll = true;
-
-        //if (inv == null)
-        //    hasAll = false;
-
-        //foreach (string item in nItems)
-        //{
-        //    hasAll = inv.CheckItem(item) && hasAll;
-        //}
-
-        //TriggerEvent(hasAll);
-
-        return hasAll;
+        GameManager.Instance.GetInventory().AddItem(key);
     }
 
-    /// <summary>
-    /// Despues de mirar si tienes los items, activa para poder saltar el evento success
-    /// si no, salta el evento fail
-    /// </summary>
-    /// <param name="inv"> Inventario del jugador </param>
-    /// <returns> true si tiene todos los items necesarios </returns>
-    public bool CanTriggerEvent(List<string> lItems)
+    public void RemoveItem(string key)
     {
-        bool hasAll = true;
-
-        //if (lItems == null)
-        //    hasAll = false;
-
-        //foreach (string item in nItems)
-        //{
-        //    hasAll = lItems.Contains(item) && hasAll;
-        //}
-
-        //TriggerEvent(hasAll);
-
-        return hasAll;
+        GameManager.Instance.GetInventory().RemoveItem(key);
     }
 }

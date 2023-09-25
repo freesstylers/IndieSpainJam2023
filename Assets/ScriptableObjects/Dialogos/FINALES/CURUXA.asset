@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b537a1f13ae4bbc45b4b2964a5d9b83c, type: 3}
-  m_Name: LECHUZA
+  m_Name: CURUXA
   m_EditorClassIdentifier: 
   dialogueTreeStart: start
   dialogueTreeList:
   - branchName: start
     dialogueTree:
       dialogue:
-      - key: LEC_DIA2N_1
+      - key: FIN2_1
         eventReference:
           Guid:
             Data1: 0
@@ -25,8 +25,62 @@ MonoBehaviour:
             Data3: 0
             Data4: 0
           Path: 
-        focusOnSide: 3
-      - key: NEL_DIA2N_2
+        focusOnSide: 0
+      - key: FIN2_2
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN2_3
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN2_4
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN2_5
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN2_6
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN2_7
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 0
+      - key: FIN2_8
         eventReference:
           Guid:
             Data1: 0
@@ -36,110 +90,6 @@ MonoBehaviour:
           Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
-      centerSprite: {fileID: 11400000, guid: aea3289abf0598b4e979f72eb1086c76, type: 2}
-      rightSprite: {fileID: 0}
-      options:
-      - key: LEC_DIA2N_3
-        endDialogue: 0
-        branchToJumpTo: 1
-        itemNeeded:
-        - "CA\xD1A_ANZUELO"
-      - key: LEC_DIA2N_12
-        endDialogue: 0
-        branchToJumpTo: 2
-        itemNeeded: []
-  - branchName: 1
-    dialogueTree:
-      dialogue:
-      - key: LEC_DIA2N_4
-        eventReference:
-          Guid:
-            Data1: 0
-            Data2: 0
-            Data3: 0
-            Data4: 0
-          Path: 
-        focusOnSide: 0
-      - key: LEC_DIA2N_5
-        eventReference:
-          Guid:
-            Data1: 0
-            Data2: 0
-            Data3: 0
-            Data4: 0
-          Path: 
-        focusOnSide: 0
-      - key: LEC_DIA2N_6
-        eventReference:
-          Guid:
-            Data1: 0
-            Data2: 0
-            Data3: 0
-            Data4: 0
-          Path: 
-        focusOnSide: 0
-      - key: LEC_DIA2N_7
-        eventReference:
-          Guid:
-            Data1: 0
-            Data2: 0
-            Data3: 0
-            Data4: 0
-          Path: 
-        focusOnSide: 0
-      - key: LEC_DIA2N_8
-        eventReference:
-          Guid:
-            Data1: 0
-            Data2: 0
-            Data3: 0
-            Data4: 0
-          Path: 
-        focusOnSide: 0
-      - key: LEC_DIA2N_9
-        eventReference:
-          Guid:
-            Data1: 0
-            Data2: 0
-            Data3: 0
-            Data4: 0
-          Path: 
-        focusOnSide: 0
-      - key: LEC_DIA2N_10
-        eventReference:
-          Guid:
-            Data1: 0
-            Data2: 0
-            Data3: 0
-            Data4: 0
-          Path: 
-        focusOnSide: 0
-      - key: LEC_DIA2N_11
-        eventReference:
-          Guid:
-            Data1: 0
-            Data2: 0
-            Data3: 0
-            Data4: 0
-          Path: 
-        focusOnSide: 0
-      leftSprite: {fileID: 0}
-      centerSprite: {fileID: 11400000, guid: aea3289abf0598b4e979f72eb1086c76, type: 2}
-      rightSprite: {fileID: 0}
-      options: []
-  - branchName: 2
-    dialogueTree:
-      dialogue:
-      - key: LEC_DIA2N_13
-        eventReference:
-          Guid:
-            Data1: 0
-            Data2: 0
-            Data3: 0
-            Data4: 0
-          Path: 
-        focusOnSide: 0
-      leftSprite: {fileID: 0}
-      centerSprite: {fileID: 11400000, guid: aea3289abf0598b4e979f72eb1086c76, type: 2}
+      centerSprite: {fileID: 0}
       rightSprite: {fileID: 0}
       options: []

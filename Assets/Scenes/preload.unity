@@ -543,6 +543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3055225496273466979, guid: 9fb42a51ad97741499fbf73b6085e445,
+        type: 3}
+      propertyPath: horarioActual
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3127998613150831983, guid: 9fb42a51ad97741499fbf73b6085e445,
         type: 3}
       propertyPath: language

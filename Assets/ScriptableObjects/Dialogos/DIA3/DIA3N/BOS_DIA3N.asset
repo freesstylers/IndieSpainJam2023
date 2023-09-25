@@ -21,23 +21,12 @@ MonoBehaviour:
       centerSprite: {fileID: 0}
       rightSprite: {fileID: 0}
       options:
-      - key: BOS_DIA3N_22
-        endDialogue: 0
-        branchToJumpTo: Seguir Voz
-        itemNeeded: []
-      - key: BOS_DIA3N_23
+      - key: BOS_DIA3N_1
         endDialogue: 0
         branchToJumpTo: Ignorar Voz
         itemNeeded:
         - PATXARAN_OJOS
   - branchName: Seguir Voz
-    dialogueTree:
-      dialogue: []
-      leftSprite: {fileID: 0}
-      centerSprite: {fileID: 0}
-      rightSprite: {fileID: 0}
-      options: []
-  - branchName: Ignorar Voz
     dialogueTree:
       dialogue: []
       leftSprite: {fileID: 0}

@@ -116,8 +116,60 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 994c6bdee7d784c44aac92bb46c18469,
         type: 2}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2976539011757151105}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameEventHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3a67476ebf68bc4f8b8f2bfd0c10296, type: 3}
+--- !u!114 &2976539011757151105 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+    type: 3}
+  m_PrefabInstance: {fileID: 4747767443990238634}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9de5df2a71e3047884cd595d670d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -4,23 +4,28 @@ using UnityEngine;
 
 public class EndingManager : MonoBehaviour
 {
-    public string[] EndingText;
-
-    public void DisplayEnding1()
-    {
-        Debug.Log(EndingText[0]);
-    }
-    public void DisplayEnding2()
-    {
-        Debug.Log(EndingText[1]);
-    }
-    public void DisplayEnding3()
-    {
-        Debug.Log(EndingText[2]);
-    }
-    public void DisplayEnding4()
+    [SerializeField]
+    private DialogueData LanzallamasEndingData;
+    [SerializeField]
+    private DialogueData BarcelonaEndingData;
+    [SerializeField]
+    private DialogueData CuruxaEndingData;
+    [SerializeField]
+    private DialogueData PochilloEndingData;
+    public void PlayLanzallamasEnding()
     {
 
-        Debug.Log(EndingText[3]);
+    }
+    public void PlayBarcelonaEnding()
+    {
+
+    }
+    public void PlayCuruxaEnding()
+    {
+
+    }
+    public void PlayPochilloEnding()
+    {
+
     }
 }
