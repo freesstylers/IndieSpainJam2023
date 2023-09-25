@@ -1,0 +1,45 @@
+{e3fe6162-be4d-4289-b3f1-3369ace36986} bank:/Music
+{7be341b6-cf36-0ecb-35b8-b9975d106f1e} bank:/Music.strings
+{b1d07fcd-5003-4c59-8911-c7de38eb415a} bus:/
+{280d5b01-a212-4195-8cf0-c90a923d78ef} bus:/Reverb
+{8fd77313-5020-4d97-bd9f-2b43dcd4cdb4} event:/Efectos/AbrirPuerta
+{afc4a81e-eacf-40f4-a306-7cd9b9c53680} event:/Efectos/CambiarDia
+{ab75b6bb-26df-4aa4-ab4f-250c9bf07ef0} event:/Efectos/CambiarNoche
+{53977eb5-ce16-43e4-8e45-66f57bb9d4bd} event:/Efectos/CambiarTarde
+{7c4a13e5-b213-43bd-abfc-0ea37445e4fc} event:/Efectos/Caminar
+{31187e63-c94d-4620-b32f-b73d67105092} event:/Efectos/CerrarPuerta
+{5cf421c7-156e-4118-92f5-3c37706c7df7} event:/Efectos/Escribir
+{c9d05539-fbd2-4aa3-8cd8-a369c5975ec2} event:/Musica/Dia
+{82977643-bac4-4e9d-b537-209a1220000f} event:/Musica/Noche
+{5a53e12d-a6e8-444c-92f4-39c60051fce8} event:/Narrador/Dia 3 Casa Abuela
+{5fbdde4c-984e-4170-bf34-04f9697711a7} event:/Narrador/Dia 3 Emporio
+{c6ea742a-596c-4f3a-802b-3b52ef4c0ad5} event:/Narrador/Dia 3 Plaza
+{de22d5e0-799b-4a85-8c72-a74dcfc15b21} event:/Narrador/Dia 3 Plaza Perrico
+{50c111d3-7c2c-4ef1-b50b-b8bbffde22a3} event:/Narrador/Final 1
+{e952eebd-0504-4843-876d-31d83d73d551} event:/Narrador/Final 2
+{a3333994-7062-4324-9601-28869f31c0b5} event:/Narrador/Final 3
+{b2a82478-1f3f-4667-a2dd-06b57d4f1268} event:/Narrador/Final 4
+{b3b5750c-b443-46e6-9ad8-ed75a7b27fa7} event:/Narrador/Muerte Lepanto
+{f0c5a689-d021-411c-896d-2812df32c6b3} event:/Narrador/Noche 1 Bosque
+{a403ee7e-3903-47cc-b646-69e240f0ddf7} event:/Narrador/Noche 1 Iglesia
+{7c137e7f-82ea-4485-bab4-b3d774ab0643} event:/Narrador/Noche 1 Plaza
+{98abac3b-0245-45b6-8ff7-a6923b6d8bf7} event:/Narrador/Noche 1 Taberna
+{d4a418c4-375a-4cd5-8469-8cecb7416abb} event:/Narrador/Noche 2 Bosque
+{bfca9263-315d-43d2-af0a-8dd7927652dd} event:/Narrador/Noche 2 Casa Abuela
+{ded8cedb-b6a3-4492-9f7b-01fa8d754533} event:/Narrador/Noche 2 Iglesia
+{943f479a-f454-4b85-bcd0-7bb313819d6e} event:/Narrador/Noche 2 Plaza
+{a2bfd227-7520-4611-8527-ea86b94a01b7} event:/Narrador/Noche 2 Taberna
+{1ce26be4-7a70-42ab-beda-c444b2d0b8cd} event:/Narrador/Noche 3 Bosque 1
+{05671eb0-fe5d-4a44-b20d-abb856be641d} event:/Narrador/Noche 3 Bosque 2
+{04691eb6-1711-4d99-b05e-88f1f41eb51f} event:/Narrador/Noche 3 Bosque 3
+{86dd044e-484d-4ee0-9a30-a5444b26b869} event:/Narrador/Noche 3 Bosque Botella Ojos
+{dfc27819-e42d-435f-8e94-003923ff5b96} event:/Narrador/Noche 3 Bosque Lanzallamas
+{619bfc69-09a2-44e1-a668-fcae6b301d8d} event:/Narrador/Noche 3 Taberna
+{090c78c2-e622-4d66-ba54-48737fa9d375} event:/Narrador/Noche 3 Taberna Botella Ojos
+{b85868a4-b32c-401c-b5e8-26c73aa806ba} event:/Narrador/Tarde 3 Casa Abuela
+{ab1b844f-8352-4893-bf5a-161c65fa663f} event:/Narrador/Tarde 3 Casa Abuela Botella Ojos
+{51832722-eab3-4c1f-818b-922e47da3924} event:/Narrador/Tarde 3 Iglesia
+{c45241b9-0b62-4f59-ad7b-8a1c8d70e457} event:/Narrador/Tarde 3 Iglesia Botella Ojos
+{6cad9932-bb0c-436e-8b26-6cd54e221cad} event:/Narrador/Tarde 3 Plaza
+{f3fe4f6c-50ef-414b-82a9-ccd2d8e3b716} event:/Prueba/No
+{61d06752-b85b-481a-aea6-305e754353eb} parameter:/Loc
