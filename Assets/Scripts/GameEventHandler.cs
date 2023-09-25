@@ -60,4 +60,24 @@ public class GameEventHandler : MonoBehaviour
     {
         GameManager.Instance.GetInventory().RemoveItem(key);
     }
+
+    public void KillCharacter(GameObject character)
+    {
+        Destroy(character);
+    }
+
+    public void DestroyCharacterObject(GameObject character)
+    {
+        Destroy(character);
+    }
+
+    public void KillCharacter(string name)
+    {
+        GameObject ch = GameObject.Find(name);
+        while(ch != null)
+        {
+            Destroy(ch);
+            ch = GameObject.Find(name);
+        }
+    }
 }
