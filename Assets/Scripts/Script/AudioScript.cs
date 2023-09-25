@@ -24,6 +24,7 @@ namespace FMODUnity
         public EventInstance[] NarradorEvents;
         private bool[] NarradorEventsBooleans;
 
+        private bool narradorTalking = false;
 
         public HORARIO horarioActual = HORARIO.DIA;
 
@@ -92,10 +93,11 @@ namespace FMODUnity
         //Para hacer sonar al narrador
         public void PlayNarradorSound(int indice)
         {
-            if (!NarradorEventsBooleans[indice])
+            if (!NarradorEventsBooleans[indice] && !narradorTalking)
             {
                 NarradorEvents[indice].start();
                 NarradorEventsBooleans[indice] = true;
+                narradorTalking = true;
             }
         }
 
@@ -104,7 +106,6 @@ namespace FMODUnity
             if (NarradorEventsBooleans[indice])
             {
                 NarradorEvents[indice].stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-                
             }
         }
 
@@ -118,6 +119,20 @@ namespace FMODUnity
                 return state != FMOD.Studio.PLAYBACK_STATE.STOPPED;
             }
             else return false;
+        }
+
+        public bool IsAnyNarradorSound()
+        {
+            for(int i = 0; i < NarradorEvents.Length; i++)
+            {
+                if (IsNarradorSound(i)) return true;
+            }
+            return false;
+        }
+
+        public void CheckNarradorTalking()
+        {
+            narradorTalking = IsAnyNarradorSound();
         }
 
         //Llamar cada vez que se cambie de escenario. Previous escenario es del que vienes, next escenario al que vas

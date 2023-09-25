@@ -153,7 +153,8 @@ public class ZoneController : MonoBehaviour
     {
         FMODUnity.AudioScript audio = GameManager.Instance.GetComponent<FMODUnity.AudioScript>();
 
-        Debug.Log("Sound narrador " + newZone + " " + currentZoneDay + " " + TimeManager.Instance.currentDayTime);
+        audio.CheckNarradorTalking();
+
         switch (currentZoneDay){
             case 0:
                 if (TimeManager.Instance.currentDayTime == DayTime.NIGHT)
