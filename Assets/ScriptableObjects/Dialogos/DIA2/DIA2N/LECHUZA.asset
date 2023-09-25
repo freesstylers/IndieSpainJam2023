@@ -18,56 +18,110 @@ MonoBehaviour:
     dialogueTree:
       dialogue:
       - key: LEC_DIA2N_1
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
       - key: NEL_DIA2N_2
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: aea3289abf0598b4e979f72eb1086c76, type: 2}
       rightSprite: {fileID: 0}
       options:
-      - key: NEL_DIA2N_3
+      - key: LEC_DIA2N_3
         endDialogue: 0
         branchToJumpTo: 1
         itemNeeded:
         - "CA\xD1A_ANZUELO"
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
-      - key: NEL_DIA2N_12
+      - key: LEC_DIA2N_12
         endDialogue: 0
         branchToJumpTo: 2
         itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
   - branchName: 1
     dialogueTree:
       dialogue:
-      - key: NEL_DIA2N_4
-        audioToPlay: {fileID: 0}
+      - key: LEC_DIA2N_4
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NEL_DIA2N_5
-        audioToPlay: {fileID: 0}
+      - key: LEC_DIA2N_5
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NEL_DIA2N_6
-        audioToPlay: {fileID: 0}
+      - key: LEC_DIA2N_6
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NEL_DIA2N_7
-        audioToPlay: {fileID: 0}
+      - key: LEC_DIA2N_7
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NEL_DIA2N_8
-        audioToPlay: {fileID: 0}
+      - key: LEC_DIA2N_8
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NEL_DIA2N_9
-        audioToPlay: {fileID: 0}
+      - key: LEC_DIA2N_9
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NEL_DIA2N_10
-        audioToPlay: {fileID: 0}
+      - key: LEC_DIA2N_10
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NEL_DIA2N_11
-        audioToPlay: {fileID: 0}
+      - key: LEC_DIA2N_11
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: aea3289abf0598b4e979f72eb1086c76, type: 2}
@@ -76,13 +130,16 @@ MonoBehaviour:
   - branchName: 2
     dialogueTree:
       dialogue:
-      - key: NEL_DIA2N_13
-        audioToPlay: {fileID: 0}
+      - key: LEC_DIA2N_13
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: aea3289abf0598b4e979f72eb1086c76, type: 2}
       rightSprite: {fileID: 0}
       options: []
-  eventsAfterDialogueOver:
-    m_PersistentCalls:
-      m_Calls: []
