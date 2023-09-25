@@ -17,66 +17,145 @@ MonoBehaviour:
   - branchName: start
     dialogueTree:
       dialogue:
-      - key: NUL_DIA2M_1
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_1
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 1
-      - key: NUL_DIA2M_2
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_2
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_3
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_3
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: f50240232c09e3c4f919789b24c3f3d2, type: 2}
       rightSprite: {fileID: 0}
       options:
-      - key: NUL_DIA2M_4
+      - key: NEL_DIA2M_4
         endDialogue: 0
+        hideOptionIfUnable: 0
         branchToJumpTo: 1
         itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
   - branchName: 1
     dialogueTree:
       dialogue:
-      - key: NUL_DIA2M_5
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_5
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
-      - key: NUL_DIA2M_6
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_6
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_7
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_7
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_8
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_8
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_9
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_9
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_10
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_10
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_11
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_11
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_12
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_12
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_13
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_13
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_14
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_14
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: NUL_DIA2M_15
-        audioToPlay: {fileID: 0}
+      - key: NEL_DIA2M_15
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: f50240232c09e3c4f919789b24c3f3d2, type: 2}
       rightSprite: {fileID: 0}
       options: []
-  eventsAfterDialogueOver:
-    m_PersistentCalls:
-      m_Calls: []
