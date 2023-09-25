@@ -79,8 +79,10 @@ public class TimeManager : MonoBehaviour
         ZoneController.Instance.ChangeZone(ZoneController.Instance.startingZone);
 
         Debug.Log("FALTA AUDIO DE DIA");
+    }
 
-
+    public void UpdateClock()
+    {
         clockAnim.SetTrigger(currentDayTime.ToString());
     }
 }

@@ -250,6 +250,7 @@ public class ZoneController : MonoBehaviour
         SetActiveZone(currentZone, currentZoneDay, currentZoneDayTime, false);
         
         SetActiveZone(nextZone, TimeManager.Instance.currentGameDay, TimeManager.Instance.currentDayTime, true);
+        TimeManager.Instance.UpdateClock();
 
         CameraEffects cm = Camera.main.GetComponent<CameraEffects>();
         cm.FadeFromBlack(fadeInTime, null);

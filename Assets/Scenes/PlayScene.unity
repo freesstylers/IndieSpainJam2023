@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44648308, g: 0.49629945, b: 0.5746961, a: 1}
+  m_IndirectSpecularColor: {r: 0.44651437, g: 0.496435, b: 0.57483196, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -385,6 +385,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.size
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[0].Morning.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
@@ -1000,7 +1005,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[2]
       value: 
-      objectReference: {fileID: 1735227848}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[3]
@@ -1050,7 +1055,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[2]
       value: 
-      objectReference: {fileID: 1735227848}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Night.Array.data[3]
@@ -1100,7 +1105,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[2]
       value: 
-      objectReference: {fileID: 1735227848}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[3]
@@ -1136,6 +1141,11 @@ PrefabInstance:
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Night.Array.data[9]
       value: 
       objectReference: {fileID: 1822288902}
+    - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
+        type: 3}
+      propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[0].Afternoon.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[0].DisabledObjectsByDay.Array.data[0].Afternoon.Array.size
@@ -1500,7 +1510,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[0].Morning.Array.data[2]
       value: 
-      objectReference: {fileID: 1735227848}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[1].Morning.Array.data[0]
@@ -1975,7 +1985,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[2]
       value: 
-      objectReference: {fileID: 1735227848}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Morning.Array.data[3]
@@ -2025,7 +2035,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[2]
       value: 
-      objectReference: {fileID: 1735227848}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Morning.Array.data[3]
@@ -2330,12 +2340,12 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[0].Afternoon.Array.data[0]
       value: 
-      objectReference: {fileID: 1735227847}
+      objectReference: {fileID: 1735227846}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[0].Afternoon.Array.data[1]
       value: 
-      objectReference: {fileID: 1735227846}
+      objectReference: {fileID: 1735227847}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].EnabledObjectsByDay.Array.data[1].Afternoon.Array.data[0]
@@ -2805,7 +2815,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[2]
       value: 
-      objectReference: {fileID: 1735227848}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Afternoon.Array.data[3]
@@ -2855,7 +2865,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[2]
       value: 
-      objectReference: {fileID: 1735227848}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[1].Afternoon.Array.data[3]
@@ -2905,7 +2915,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[2]
       value: 
-      objectReference: {fileID: 1735227848}
+      objectReference: {fileID: 0}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[2].Afternoon.Array.data[3]
@@ -3285,11 +3295,7 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1510120721}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8688273440765154916, guid: 9e148153c528ef548819756c1b453a33,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 518535741}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e148153c528ef548819756c1b453a33, type: 3}
 --- !u!1 &518535737 stripped
 GameObject:
@@ -3309,25 +3315,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 518535736}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &518535740 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8688273440765154916, guid: 9e148153c528ef548819756c1b453a33,
-    type: 3}
-  m_PrefabInstance: {fileID: 518535736}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &518535741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518535740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 308
 --- !u!1001 &544553089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4752,25 +4739,6 @@ MonoBehaviour:
   black_: {fileID: 2143589805}
   shakeDuration: 0
   shakeAmount: 3.7
---- !u!1 &1231213300 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 858557160031933755, guid: ee8497c0784886943b800832a7d22ac9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1964603542}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1231213301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1231213300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 308
 --- !u!1 &1454164976 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3587685746741210994, guid: 211602bbbda7f0941b27bd97398aff5f,
@@ -5312,6 +5280,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6105524203087185369, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
+        type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 5817133dbf15daf42ab3eb340f5c3484,
+        type: 2}
     - target: {fileID: 6112787713522677849, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
         type: 3}
       propertyPath: m_IsActive
@@ -5419,12 +5393,6 @@ GameObject:
 --- !u!1 &1735227847 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7082229071605859317, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1735227841}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1735227848 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 696428623146830591, guid: 461ac2d2aab89e84e8bd1441da13f7d2,
     type: 3}
   m_PrefabInstance: {fileID: 1735227841}
   m_PrefabAsset: {fileID: 0}
@@ -5665,10 +5633,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2061357057}
-    - targetCorrespondingSourceObject: {fileID: 858557160031933755, guid: ee8497c0784886943b800832a7d22ac9,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1231213301}
   m_SourcePrefab: {fileID: 100100000, guid: ee8497c0784886943b800832a7d22ac9, type: 3}
 --- !u!1 &1964603543 stripped
 GameObject:
@@ -6376,6 +6340,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6565609790090915124, guid: 773da04fb2cee6348a5e88094df13d8c,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 501
+      objectReference: {fileID: 0}
     - target: {fileID: 6773867208868289279, guid: 773da04fb2cee6348a5e88094df13d8c,
         type: 3}
       propertyPath: m_Name

@@ -18,7 +18,13 @@ MonoBehaviour:
     dialogueTree:
       dialogue:
       - key: QUE_DIA1T_1
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
@@ -28,39 +34,75 @@ MonoBehaviour:
         endDialogue: 0
         branchToJumpTo: 1
         itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
       - key: QUE_DIA1T_10
         endDialogue: 0
         branchToJumpTo: 2
         itemNeeded: []
-        eventsToTrigger:
-          m_PersistentCalls:
-            m_Calls: []
   - branchName: 1
     dialogueTree:
       dialogue:
       - key: QUE_DIA1T_3
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 3
       - key: QUE_DIA1T_4
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_5
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_6
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_7
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_8
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
-      - key: QUE_DIA1T_19
-        audioToPlay: {fileID: 0}
+      - key: QUE_DIA1T_9
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
@@ -70,33 +112,78 @@ MonoBehaviour:
     dialogueTree:
       dialogue:
       - key: QUE_DIA1T_11
-        audioToPlay: {fileID: 0}
-        focusOnSide: 0
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
+        focusOnSide: 3
       - key: QUE_DIA1T_12
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_13
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_14
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_15
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_16
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_17
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       - key: QUE_DIA1T_18
-        audioToPlay: {fileID: 0}
+        eventReference:
+          Guid:
+            Data1: 0
+            Data2: 0
+            Data3: 0
+            Data4: 0
+          Path: 
         focusOnSide: 0
       leftSprite: {fileID: 0}
       centerSprite: {fileID: 11400000, guid: 70bfbd279ccece8448960247eab791ad, type: 2}
       rightSprite: {fileID: 0}
       options: []
-  eventsAfterDialogueOver:
-    m_PersistentCalls:
-      m_Calls: []
