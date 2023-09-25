@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Basajaun
+  - Vita
+  - Lepanto
+  - Messie
+  - Molino
+  - Nel
+  - Perrico
+  - Quebec
+  - Suspinicius
+  - Venancio
+  - Visara
   layers:
   - Default
   - TransparentFX

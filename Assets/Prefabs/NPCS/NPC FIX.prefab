@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3872151124060948745}
   m_Layer: 0
   m_Name: NPC FIX
-  m_TagString: Untagged
+  m_TagString: Basajaun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3872151124060948749}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.28, y: 1.2900001, z: -1.59}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.3}
   m_ConstrainProportionsScale: 0
@@ -124,15 +124,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9eea4bd90c702b54d904f8c925c02fd0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c5f0068f9862cf248ab072515d2775e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 8.29, y: 12.28}
+  m_Size: {x: 15, y: 15}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &4663557567077552662
@@ -165,7 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b762b98d385207d4bab083950727f4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 308
 --- !u!114 &3790444205552985300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,12 +179,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canInteract: 0
   outline: {fileID: 4663557567077552662}
-  MouseHighlightOutline: 20
-  KeyHighlightOutline: 15
   HighlightKeyOn: 0
   interactDistance: 2
-  characterInfo: {fileID: 0}
-  dialogueManager: {fileID: 0}
+  characterInfo: {fileID: 11400000, guid: 1ec5d89e886110e4bb52afb81762e11b, type: 2}
   ev: {fileID: 7542895095357589035}
 --- !u!114 &7542895095357589035
 MonoBehaviour:
@@ -201,7 +197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timesTriggered: -1
   eventList: []
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: 5485da9f0dec8964fa28d61f8b9fa15a, type: 2}
 --- !u!60 &3070929336867866965
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -238,8 +234,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.29, y: 12.28}
-    newSize: {x: 8.29, y: 12.28}
+    oldSize: {x: 15, y: 15}
+    newSize: {x: 15, y: 15}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

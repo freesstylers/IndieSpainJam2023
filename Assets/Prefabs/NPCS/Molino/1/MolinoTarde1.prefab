@@ -89,6 +89,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MolinoTarde1
       objectReference: {fileID: 0}
+    - target: {fileID: 3872151124060948749, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: m_TagString
+      value: Molino
+      objectReference: {fileID: 0}
     - target: {fileID: 4871343591609435575, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
         type: 3}
       propertyPath: m_Size.x

@@ -23,6 +23,8 @@ public class GameEventHandler : MonoBehaviour
     [SerializeField]
     private List<Events> eventList;
 
+    public Dictionary<String,String> muertosConTag;
+
     private Dictionary<string, UnityEvent> eventsDictionary = null;
 
 
@@ -73,11 +75,10 @@ public class GameEventHandler : MonoBehaviour
 
     public void KillCharacter(string name)
     {
-        GameObject ch = GameObject.Find(name);
-        while(ch != null)
+        GameObject[] ch = GameObject.FindGameObjectsWithTag(name);
+        foreach(var c in ch)
         {
-            Destroy(ch);
-            ch = GameObject.Find(name);
+            
         }
     }
 }
