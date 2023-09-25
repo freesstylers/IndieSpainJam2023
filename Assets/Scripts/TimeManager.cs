@@ -73,6 +73,8 @@ public class TimeManager : MonoBehaviour
             return;
         }
 
+        if (currentGameDay == 2) GameManager.Instance.GetInventory().AddItem("CUCHILLO");
+
         if (currentDayTime == DayTime.MORNING || currentDayTime == DayTime.AFTERNOON)
         {
             GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayMusic(FMODUnity.AudioScript.HORARIO.DIA);
