@@ -17,16 +17,6 @@ public class Inventory: MonoBehaviour
 
         //Todo esto por probar, la itemsdata se deberia de generar en otro sitio leyendo del csv
         itemsData = new ItemsData();
-
-        //Resources.Load<Sprite>("ItemSprites/test");
-
-        //itemsData.itemsList = new Dictionary<string, Item>();
-        //itemsData.combinationTable = new Dictionary<string, Dictionary<string, string>>();
-        //Item it = new Item();
-        //it.name = "Cock";
-        //it.id = "Poronga";
-        //it.description = "Very nice cock";
-        //itemsData.itemsList.Add("Poronga", it);
     }
 
     public void AddItem(string _newItemID, int _quantity = 1)
@@ -112,6 +102,7 @@ public class Inventory: MonoBehaviour
             Debug.Log("METER SONIDO!!!!");
             return;
         }
+
         if (gm.itemsData.combinationTable[_itemID1].ContainsKey(_itemID2) && items.ContainsKey(_itemID1) && items.ContainsKey(_itemID2))
         {
             RemoveItem(_itemID1);

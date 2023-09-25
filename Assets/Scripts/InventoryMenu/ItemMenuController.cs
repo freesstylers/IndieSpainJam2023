@@ -40,6 +40,7 @@ public class ItemMenuController : MonoBehaviour
     {
         itemDesc.text = desc;
         itemName.text = name;
+        itemSprite.gameObject.SetActive(true);
         itemSprite.sprite = sprite;
 
         if (sprite == null)
