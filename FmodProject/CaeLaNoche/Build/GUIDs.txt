@@ -8,7 +8,9 @@
 {53977eb5-ce16-43e4-8e45-66f57bb9d4bd} event:/Efectos/CambiarTarde
 {7c4a13e5-b213-43bd-abfc-0ea37445e4fc} event:/Efectos/Caminar
 {31187e63-c94d-4620-b32f-b73d67105092} event:/Efectos/CerrarPuerta
+{cf70491b-c8f4-468e-af2d-121450c8900b} event:/Efectos/Crafting
 {5cf421c7-156e-4118-92f5-3c37706c7df7} event:/Efectos/Escribir
+{a2d1e8e1-b208-4fed-ac7d-a46bad0053c9} event:/Efectos/NoCrafting
 {c9d05539-fbd2-4aa3-8cd8-a369c5975ec2} event:/Musica/Dia
 {82977643-bac4-4e9d-b537-209a1220000f} event:/Musica/Noche
 {5a53e12d-a6e8-444c-92f4-39c60051fce8} event:/Narrador/Dia 3 Casa Abuela
