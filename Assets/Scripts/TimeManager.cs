@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum DayTime { MORNING, AFTERNOON, NIGHT};
 public class TimeManager : MonoBehaviour
@@ -14,6 +15,7 @@ public class TimeManager : MonoBehaviour
     public Animator clockAnim;
     public GameObject newDayCanvas;
     public TextMeshProUGUI dayNumber;
+    public Button timeChanger;
 
     private void Awake()
     {
@@ -51,6 +53,12 @@ public class TimeManager : MonoBehaviour
 
     public void AdvanceTime()
     {
+        if(currentGameDay == maxDays && timeChanger.interactable)
+        {
+            timeChanger.interactable = false;
+            timeChanger.GetComponentInChildren<UseCSV>().Refesh("MUY_TARDE");
+        }
+
         if (currentDayTime != DayTime.NIGHT) {
             currentDayTime++;
         }

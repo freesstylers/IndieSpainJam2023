@@ -9,6 +9,12 @@ public class UseCSV : MonoBehaviour
 
     private void Awake()
     {
+        Refesh(key);
+    }
+
+    public void Refesh(string newKey)
+    {
+        key = newKey;
         GetComponent<TextMeshProUGUI>().text = DialogueKeyHandler.Instance.GetText(key);
     }
 }

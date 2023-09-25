@@ -242,9 +242,7 @@ public class DialogueManager : MonoBehaviour
         {
             foreach (DialogueOption o in currentBranch.options)
             {
-                GameObject g = Instantiate(optionPrefab, optionContainer.transform);
-
-                bool active = true; //player.GetComponent<Inventory>().CheckSelectedItems(o.itemNeeded);
+                bool active = true;
 
                 foreach (string i in o.itemNeeded)
                 {
@@ -253,6 +251,11 @@ public class DialogueManager : MonoBehaviour
                     if (!active)
                         break;
                 }
+
+                if (!active && o.hideOptionIfUnable)
+                    continue;
+
+                GameObject g = Instantiate(optionPrefab, optionContainer.transform);
 
                 g.GetComponent<DialogueOptionButton>().Init(o, active);
             }
