@@ -79,6 +79,23 @@ public class DialogueManager : MonoBehaviour
         dialogueOver = false;
         currentTree = data.GetDialogueTree();
         events = new Dictionary<string, UnityEvent>(eventDict);
+        quitGame = false;
+
+
+        StartBranch(data.dialogueTreeStart, overrideName);
+    }
+
+    public void StartDialogue(DialogueData data, string overrideName = "")
+    {
+        if (player.GetComponent<PlayerMovement>().isInteracting)
+        {
+            return;
+        }
+
+        dialogueOver = false;
+        currentTree = data.GetDialogueTree();
+        events = null;
+        quitGame = true;
 
         StartBranch(data.dialogueTreeStart, overrideName);
     }
@@ -269,11 +286,19 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    bool quitGame = false;
+
     public void EndDialogue()
     {
         CleanOptions();
         container.SetActive(false);
         player.GetComponent<Player.PlayerMovement>().SetInteracting(false);
+
+        if (quitGame)
+        {
+            Application.Quit();
+            return;
+        }
 
         if(events.ContainsKey(currentBranchName))
             events[currentBranchName].Invoke();

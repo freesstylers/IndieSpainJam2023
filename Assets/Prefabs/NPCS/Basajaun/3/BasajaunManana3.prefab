@@ -13,6 +13,21 @@ PrefabInstance:
       propertyPath: overrideName
       value: Basajaun
       objectReference: {fileID: 0}
+    - target: {fileID: 1612166434016707650, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1612166434016707650, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].branchName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1612166434016707650, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3070929336867866965, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -121,6 +136,56 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 91fd55efcdad8b247ad972ac4ae2529b,
         type: 2}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].branchName
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6322180320836456936}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: KillCharacter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameEventHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Basajaun
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542895095357589035, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+        type: 3}
+      propertyPath: eventList.Array.data[0].events.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8523068761039508792, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -136,3 +201,15 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3a67476ebf68bc4f8b8f2bfd0c10296, type: 3}
+--- !u!114 &6322180320836456936 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1612166434016707650, guid: c3a67476ebf68bc4f8b8f2bfd0c10296,
+    type: 3}
+  m_PrefabInstance: {fileID: 4747767443990238634}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9de5df2a71e3047884cd595d670d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

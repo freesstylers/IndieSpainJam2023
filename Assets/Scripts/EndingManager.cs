@@ -14,58 +14,37 @@ public class EndingManager : MonoBehaviour
     [SerializeField]
     private DialogueData PochilloEndingData;
 
-    public UnityEngine.Events.UnityEvent event_;
-
     public void PlayLanzallamasEnding()
     {
-        Dictionary<string, UnityEngine.Events.UnityEvent> dict = new Dictionary<string, UnityEngine.Events.UnityEvent>();
-        dict.Add("start", event_);
-
         GameManager.Instance.GetComponent<FMODUnity.AudioScript>().StopNarradorSound();
         GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayNarradorSound(29);
 
-        DialogueManager.instance_.StartDialogue(LanzallamasEndingData, dict);
+        DialogueManager.instance_.StartDialogue(LanzallamasEndingData);
     }
     public void PlayBarcelonaEnding()
     {
-        Dictionary<string, UnityEngine.Events.UnityEvent> dict = new Dictionary<string, UnityEngine.Events.UnityEvent>();
-        dict.Add("start", event_);
-
         GameManager.Instance.GetComponent<FMODUnity.AudioScript>().StopNarradorSound();
         GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayNarradorSound(25);
 
-        DialogueManager.instance_.StartDialogue(BarcelonaEndingData, dict);
+        DialogueManager.instance_.StartDialogue(BarcelonaEndingData);
     }
     public void PlayCuruxaEnding()
     {
-        Dictionary<string, UnityEngine.Events.UnityEvent> dict = new Dictionary<string, UnityEngine.Events.UnityEvent>();
-        dict.Add("start", event_);
-
         GameManager.Instance.GetComponent<FMODUnity.AudioScript>().StopNarradorSound();
         GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayNarradorSound(27);
 
-        DialogueManager.instance_.StartDialogue(CuruxaEndingData, dict);
+        DialogueManager.instance_.StartDialogue(CuruxaEndingData);
     }
     public void PlayPochilloEnding()
     {
-        //Unity Event
-
-        Dictionary<string, UnityEngine.Events.UnityEvent> dict = new Dictionary<string, UnityEngine.Events.UnityEvent>();
-        dict["start"] =  event_;
-
         GameManager.Instance.GetComponent<FMODUnity.AudioScript>().StopNarradorSound();
         GameManager.Instance.GetComponent<FMODUnity.AudioScript>().PlayNarradorSound(26);
 
-        /*
-         * 
-         * 
-         */
-
-        DialogueManager.instance_.StartDialogue(PochilloEndingData, dict);
+        DialogueManager.instance_.StartDialogue(PochilloEndingData);
     }
 
-    public void ToMainMenu()
+    public static void ToMainMenu()
     {
-        SceneManager.LoadScene("preload");
+        Application.Quit();
     }
 }
