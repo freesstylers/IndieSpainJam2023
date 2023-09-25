@@ -80,11 +80,12 @@ namespace FMODUnity
         {
             if (horarioActual == HORARIO.NOCHE)
             {
-                Crossfade(3, MusicaNoche, MusicaDia);
+                Crossfade(3, MusicaDia, MusicaNoche);
             }
             else
             {
-                Crossfade(3, MusicaDia, MusicaNoche);
+                Crossfade(3, MusicaNoche, MusicaDia);
+                
             }
 
             horarioActual = hora;
