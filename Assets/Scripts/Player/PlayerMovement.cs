@@ -20,9 +20,10 @@ namespace Player
         [SerializeField]
         private bool isInteracting = false;
 
-        public Transform initPosition;
+        public Vector3 initPosition;
+        public bool initPosSet = false;
 
-        void Awake()
+        void Start()
         {
             cam = Camera.main;
             player = GetComponent<NavMeshAgent>();
@@ -128,16 +129,22 @@ namespace Player
 
         public void ResetPosition()
         {
-            if(player!=null)
+            if(player !=null)
                 player.isStopped = true;
-            if(initPosition!=null)
-                this.transform.position = initPosition.position;
+
+            if (initPosSet)
+                transform.position = initPosition;
+            else
+            {
+                initPosition = transform.position;
+                initPosSet = true;
+            }
+
             isMoving = false;
             if (player != null)
                 player.isStopped = false;
 
-
-            DialogueManager.instance_.player = this.gameObject;
+            DialogueManager.instance_.player = gameObject;
         }
     }
 }

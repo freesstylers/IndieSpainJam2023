@@ -109,6 +109,14 @@ namespace FMODUnity
             }
         }
 
+        public void StopNarradorSound()
+        {
+            for (int i = 0; i < NarradorEventsBooleans.Length; i++)
+            {
+                NarradorEvents[i].stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            }
+        }
+
         public bool IsNarradorSound(int indice)
         {
             if (NarradorEventsBooleans[indice])

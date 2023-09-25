@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static ZoneController;
 
 public class ZoneController : MonoBehaviour
 {
@@ -138,10 +139,14 @@ public class ZoneController : MonoBehaviour
 
             PlayNarradorSoundChangeZone(newZone);
 
+            foreach(var p in GetComponents<Player.PlayerMovement>())
+                p.SetInteracting(true);
+
             nextZone = newZone;
             if (Camera.main != null && Camera.main.GetComponent<CameraEffects>() != null)
             {
                 TimeManager.Instance.HideClock();
+
                 Camera.main.GetComponent<CameraEffects>().FadeToBlack(fadeOutTime, ChangeZoneCallback);
             }
         }
@@ -257,5 +262,9 @@ public class ZoneController : MonoBehaviour
 
         CameraEffects cm = Camera.main.GetComponent<CameraEffects>();
         cm.FadeFromBlack(fadeInTime, TimeManager.Instance.ShowClock);
+
+
+        foreach (var p in GetComponents<Player.PlayerMovement>())
+            p.SetInteracting(false);
     }
 }

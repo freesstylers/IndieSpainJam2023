@@ -65,6 +65,8 @@ public class TimeManager : MonoBehaviour
             dayNumber.text = (currentGameDay + 1).ToString();
 
             GetComponentInChildren<Animator>().SetTrigger("Play");
+
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().StopNarradorSound();
         }
         else if (currentGameDay == maxDays && timeChanger.interactable)
         {
@@ -72,6 +74,8 @@ public class TimeManager : MonoBehaviour
             timeChanger.GetComponentInChildren<UseCSV>().Refesh("MUY_TARDE");
             return;
         }
+
+        if (currentGameDay == maxDays) GameManager.Instance.GetInventory().AddItem("CUCHILLO");
 
         if (currentDayTime == DayTime.MORNING || currentDayTime == DayTime.AFTERNOON)
         {
