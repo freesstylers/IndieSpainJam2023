@@ -41,6 +41,29 @@ public class Inventory: MonoBehaviour
         //DialogueManager.NewDialogue(ReplaceItemEvent(_newItemID, _newItemQuantity, _replacedItemID)) //o algo así
     }
 
+    public void AddItem(string _newItemID)
+    {
+        if (!gm.itemsData.itemsList.ContainsKey(_newItemID))
+        {
+            Debug.Log("Inexistent item ID: " + _newItemID);
+            return;
+        }
+        if (items.ContainsKey(_newItemID))
+        {
+            items[_newItemID] += 1;
+            Debug.Log("Added " + gm.itemsData.itemsList[_newItemID].name);
+        }
+        else if (items.Count < maxitems)
+        {
+            InventoryNewItemWarning.Instance.NewItemAlert();
+            items.Add(_newItemID, 1);
+            Debug.Log("Added " + gm.itemsData.itemsList[_newItemID].name + "." + gm.itemsData.itemsList[_newItemID].description);
+        }
+        //en else disparar opción de intercambiar un objeto por otro con algún manager que permite disparar eventos de diálogo
+        //else
+        //DialogueManager.NewDialogue(ReplaceItemEvent(_newItemID, _newItemQuantity, _replacedItemID)) //o algo así
+    }
+
     public void ReplaceItem(string _newItemID, int _newItemQuantity, string _replacedItemID)
     {
         if (!gm.itemsData.itemsList.ContainsKey(_newItemID))
@@ -69,6 +92,8 @@ public class Inventory: MonoBehaviour
         if(items[_itemID]<=0)
             items.Remove(_itemID);
     }
+
+
 
     public void TryCombineItems(string _itemID1, string _itemID2)
     {

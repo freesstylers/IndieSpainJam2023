@@ -85,7 +85,7 @@ MonoBehaviour:
       - key: LEP_DIA3N_8
         endDialogue: 0
         hideOptionIfUnable: 1
-        branchToJumpTo: MostrarCuruxa
+        branchToJumpTo: Mostrar Curuxa
         itemNeeded:
         - PATXARAN_OJOS
       - key: QUE_DIA1T_7
