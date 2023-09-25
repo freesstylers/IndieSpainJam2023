@@ -65,6 +65,8 @@ public class TimeManager : MonoBehaviour
             dayNumber.text = (currentGameDay + 1).ToString();
 
             GetComponentInChildren<Animator>().SetTrigger("Play");
+
+            GameManager.Instance.GetComponent<FMODUnity.AudioScript>().StopNarradorSound();
         }
         else if (currentGameDay == maxDays && timeChanger.interactable)
         {

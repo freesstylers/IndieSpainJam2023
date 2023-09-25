@@ -1015,17 +1015,17 @@ PrefabInstance:
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1735227847}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[3]
       value: 
-      objectReference: {fileID: 1735227847}
+      objectReference: {fileID: 1735227846}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[4]
       value: 
-      objectReference: {fileID: 1735227846}
+      objectReference: {fileID: 1735227845}
     - target: {fileID: 8693486951101903546, guid: 301309aeabfa3134ca2fbe9064393361,
         type: 3}
       propertyPath: ZoneList.Array.data[5].DisabledObjectsByDay.Array.data[0].Night.Array.data[5]
@@ -4085,6 +4085,16 @@ PrefabInstance:
     - target: {fileID: 6143379626882149895, guid: 30aab1ad152414d4c9a5228c06d2b38c,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8830790380487909689, guid: 30aab1ad152414d4c9a5228c06d2b38c,
+        type: 3}
+      propertyPath: m_RendererIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8830790380487909689, guid: 30aab1ad152414d4c9a5228c06d2b38c,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
