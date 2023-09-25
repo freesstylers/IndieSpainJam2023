@@ -115,6 +115,8 @@ namespace FMODUnity
             {
                 NarradorEvents[i].stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             }
+
+            narradorTalking = false;
         }
 
         public bool IsNarradorSound(int indice)

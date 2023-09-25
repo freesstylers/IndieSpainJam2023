@@ -75,7 +75,7 @@ MonoBehaviour:
         branchToJumpTo: Genocida
         itemNeeded:
         - CUCHILLO
-        - GENOCIDIO
+        - GENOCIDA
       - key: LEP_DIA3N_7
         endDialogue: 0
         hideOptionIfUnable: 1
