@@ -83,13 +83,13 @@ public class GameManager : MonoBehaviour
                 string element1 = currentItemEntry[(int)ItemsInfoColumns.ELEMENT1], element2 = currentItemEntry[(int)ItemsInfoColumns.ELEMENT2];
 
                 if (!itemsData.combinationTable.ContainsKey(element1))
-                    itemsData.combinationTable.Add(element1, new Dictionary<string, string>());
+                    itemsData.combinationTable[element1] = new Dictionary<string, string>();
 
                 if (!itemsData.combinationTable.ContainsKey(element2))
-                    itemsData.combinationTable.Add(element2, new Dictionary<string, string>());
+                    itemsData.combinationTable[element2] = new Dictionary<string, string>();
 
-                itemsData.combinationTable[element1].Add(element2, itemID);
-                itemsData.combinationTable[element2].Add(element1, itemID);
+                itemsData.combinationTable[element1][element2] = itemID;
+                itemsData.combinationTable[element2][element1] = itemID;
             }
             itemsData.itemsList.Add(itemID, it);
         }
